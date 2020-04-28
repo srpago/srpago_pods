@@ -1,0 +1,11 @@
+framework module SrPagoSDK {
+  umbrella header "SrPagoSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SrPagoSDK.Swift {
+    header "SrPagoSDK-Swift.h"
+    requires objc
+}

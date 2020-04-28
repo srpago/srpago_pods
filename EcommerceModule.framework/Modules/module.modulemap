@@ -1,0 +1,11 @@
+framework module EcommerceModule {
+  umbrella header "EcommerceModule.h"
+
+  export *
+  module * { export * }
+}
+
+module EcommerceModule.Swift {
+    header "EcommerceModule-Swift.h"
+    requires objc
+}
