@@ -242,10 +242,16 @@ SWIFT_CLASS("_TtC9SrPagoSDK9SrPagoSDK")
 @interface SrPagoSDK : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SrPagoSDK * _Nonnull shared;)
 + (SrPagoSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL sandbox;)
++ (BOOL)sandbox SWIFT_WARN_UNUSED_RESULT;
++ (void)setSandbox:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
++ (BOOL)showLogs SWIFT_WARN_UNUSED_RESULT;
++ (void)setShowLogs:(BOOL)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
-- (void)authWithCredentialsWithToken:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret debug:(BOOL)debug;
+- (void)authWithCredentialsWithKey:(NSString * _Nonnull)key secret:(NSString * _Nonnull)secret;
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -496,10 +502,16 @@ SWIFT_CLASS("_TtC9SrPagoSDK9SrPagoSDK")
 @interface SrPagoSDK : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SrPagoSDK * _Nonnull shared;)
 + (SrPagoSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL sandbox;)
++ (BOOL)sandbox SWIFT_WARN_UNUSED_RESULT;
++ (void)setSandbox:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
++ (BOOL)showLogs SWIFT_WARN_UNUSED_RESULT;
++ (void)setShowLogs:(BOOL)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
-- (void)authWithCredentialsWithToken:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret debug:(BOOL)debug;
+- (void)authWithCredentialsWithKey:(NSString * _Nonnull)key secret:(NSString * _Nonnull)secret;
 @end
 
 #if __has_attribute(external_source_symbol)
