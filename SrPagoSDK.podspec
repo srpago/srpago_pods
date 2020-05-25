@@ -24,7 +24,7 @@ Pod::Spec.new do |sdk|
 
     sdk.subspec 'Ecommerce' do |ecommerce|
         ecommerce.vendored_frameworks = "EcommerceModule.framework"
-        reader.dependency 'SrPagoSDK/Core'
+        ecommerce.dependency 'SrPagoSDK/Core'
     end
     
     sdk.subspec 'Reader' do |reader|
