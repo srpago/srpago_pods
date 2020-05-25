@@ -2,7 +2,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "0.0.3"
+  sdk.version      = "0.0.4"
   sdk.summary      = "SDK de Señor pago"
   sdk.description  = <<-DESC
     SDK de Señor pago para iOS
@@ -15,7 +15,7 @@ Pod::Spec.new do |sdk|
   sdk.author             = { "Ricardo Hernandez" => "rhernandez@srpago.com" }
   sdk.platform     = :ios, "9.0"
 
-  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => 'v0.0.3'}
+  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => 'v0.0.4'}
   sdk.default_subspec = 'Core'
   
     sdk.subspec 'Core' do |core|
@@ -24,11 +24,11 @@ Pod::Spec.new do |sdk|
 
     sdk.subspec 'Ecommerce' do |ecommerce|
         ecommerce.vendored_frameworks = "EcommerceModule.framework"
+        reader.dependency 'SrPagoSDK/Core'
     end
     
     sdk.subspec 'Reader' do |reader|
         reader.vendored_frameworks = "ReaderModule.framework"
-        reader.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
         reader.dependency 'SrPagoSDK/Core'
     end
     
