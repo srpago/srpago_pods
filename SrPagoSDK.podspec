@@ -2,7 +2,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "0.0.7"
+  sdk.version      = "0.0.8"
   sdk.summary      = "SDK de Señor pago"
   sdk.description  = <<-DESC
     SDK de Señor pago para iOS
@@ -11,14 +11,14 @@ Pod::Spec.new do |sdk|
   sdk.homepage     = "https://srpago.com"
 
   sdk.license      = { :type => "MIT", :text => "© 2020 SrPago" }
-  
+
   sdk.authors      =  { 'Ricardo Hernandez' => 'rhernandez@srpago.com',
                  'Fernando Bustos'     => 'fbustosr@srpago.com' }
   sdk.platform     = :ios, "9.0"
 
-  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => 'v0.0.7'}
+  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => 'v0.0.8'}
   sdk.default_subspec = 'Core'
-  
+
     sdk.subspec 'Core' do |core|
         core.vendored_frameworks = "SrPagoSDK.framework"
     end
@@ -27,11 +27,11 @@ Pod::Spec.new do |sdk|
         ecommerce.vendored_frameworks = "EcommerceModule.framework"
         ecommerce.dependency 'SrPagoSDK/Core'
     end
-    
+
     sdk.subspec 'Reader' do |reader|
         reader.vendored_frameworks = "ReaderModule.framework"
         reader.dependency 'SrPagoSDK/Core'
     end
-    
+
 
 end
