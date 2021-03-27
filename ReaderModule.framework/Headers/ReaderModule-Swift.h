@@ -328,6 +328,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 + (void)setSandboxEnvironmentWithSandbox:(BOOL)sandbox;
 - (void)searchBluetoothReadersWithDevices:(void (^ _Nonnull)(NSArray<CBPeripheral *> * _Nonnull))devices error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)connectWithDevice:(CBPeripheral * _Nonnull)device;
+- (void)connectWithFakeWithDeviceName:(NSString * _Nonnull)deviceName;
 - (void)connectAudioWithVersion:(enum ReaderType)version;
 - (void)readerStateDidChangeWithCompletion:(void (^ _Nullable)(enum ReaderSate))completion error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)requestReaderInfoWithInfo:(void (^ _Nonnull)(ReaderInfo * _Nonnull))info;
@@ -370,6 +371,7 @@ typedef SWIFT_ENUM(NSInteger, ReaderType, closed) {
   ReaderTypeBbposBluetooth = 3,
   ReaderTypeBbposAudio = 4,
   ReaderTypePax = 5,
+  ReaderTypeFake = 6,
 };
 
 @class NSBundle;
@@ -731,6 +733,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 + (void)setSandboxEnvironmentWithSandbox:(BOOL)sandbox;
 - (void)searchBluetoothReadersWithDevices:(void (^ _Nonnull)(NSArray<CBPeripheral *> * _Nonnull))devices error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)connectWithDevice:(CBPeripheral * _Nonnull)device;
+- (void)connectWithFakeWithDeviceName:(NSString * _Nonnull)deviceName;
 - (void)connectAudioWithVersion:(enum ReaderType)version;
 - (void)readerStateDidChangeWithCompletion:(void (^ _Nullable)(enum ReaderSate))completion error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)requestReaderInfoWithInfo:(void (^ _Nonnull)(ReaderInfo * _Nonnull))info;
@@ -773,6 +776,7 @@ typedef SWIFT_ENUM(NSInteger, ReaderType, closed) {
   ReaderTypeBbposBluetooth = 3,
   ReaderTypeBbposAudio = 4,
   ReaderTypePax = 5,
+  ReaderTypeFake = 6,
 };
 
 @class NSBundle;

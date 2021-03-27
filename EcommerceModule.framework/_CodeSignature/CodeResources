@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		HB93mGVmpSu/z1pmQHGU75KIz4E=
+		F4iia/34tIB7ZrrlvbczSU5+ZKs=
 		</data>
 		<key>Headers/EcommerceModule-Swift.h</key>
 		<data>
-		KhARQ7pmHIUgmMpiBdzS/w8NvRY=
+		B3/frQ1SS1Jg+IxU+TOZXdGDP5g=
 		</data>
 		<key>Headers/EcommerceModule.h</key>
 		<data>
@@ -18,67 +18,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KzS0sq60u4TXHJZaoD4uQx6jTb0=
+		qEKoK0tj6iOgwdN2qfbkotfNgZw=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		iOGu0sGuXYhuV77CCYeq4dIOJ/A=
+		yiezN8WKj65BQyr4d2fny8JxJuc=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		hJ7zdu1GrUSWVCDsFscD/Q565GA=
+		wzPKK0P7WrhquVqBE+2V0CUN3Qc=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		hJ7zdu1GrUSWVCDsFscD/Q565GA=
+		wzPKK0P7WrhquVqBE+2V0CUN3Qc=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		iOGu0sGuXYhuV77CCYeq4dIOJ/A=
+		yiezN8WKj65BQyr4d2fny8JxJuc=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		iOGu0sGuXYhuV77CCYeq4dIOJ/A=
+		yiezN8WKj65BQyr4d2fny8JxJuc=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm.swiftdoc</key>
 		<data>
-		gpqMZV505WazHBYHhSa9uNLN2r0=
+		ZGxEwOWFga/PN1K4xeU5T/CfgBw=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm.swiftmodule</key>
 		<data>
-		WVpq7cIai1owVwsq3nj7hn5V62U=
+		QyQnIG+TftOihXydG/DYoDi10HQ=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		o1xAYMYKayxuUf6i0qV10jHl6BA=
+		kiBE0hrhmeLm7lj4X3CpwydOU+A=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OgGIfPlxUnAI39mNYhzGbdxNzYc=
+		NQGl4gtzdLC+O9jmBhQVS0BRJVA=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		o1xAYMYKayxuUf6i0qV10jHl6BA=
+		kiBE0hrhmeLm7lj4X3CpwydOU+A=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		OgGIfPlxUnAI39mNYhzGbdxNzYc=
+		NQGl4gtzdLC+O9jmBhQVS0BRJVA=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		gpqMZV505WazHBYHhSa9uNLN2r0=
+		ZGxEwOWFga/PN1K4xeU5T/CfgBw=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		WVpq7cIai1owVwsq3nj7hn5V62U=
+		QyQnIG+TftOihXydG/DYoDi10HQ=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		gpqMZV505WazHBYHhSa9uNLN2r0=
+		ZGxEwOWFga/PN1K4xeU5T/CfgBw=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		WVpq7cIai1owVwsq3nj7hn5V62U=
+		QyQnIG+TftOihXydG/DYoDi10HQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,22 +95,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HB93mGVmpSu/z1pmQHGU75KIz4E=
+			F4iia/34tIB7ZrrlvbczSU5+ZKs=
 			</data>
 			<key>hash2</key>
 			<data>
-			+dM+MJ/3JfKcxQth72g+EYA+7qrkaV6xM1QjmN+D6kI=
+			XuDSYthIljr9+y2c7QRWRKrlJv48h5iFzZr3zTJlmiY=
 			</data>
 		</dict>
 		<key>Headers/EcommerceModule-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KhARQ7pmHIUgmMpiBdzS/w8NvRY=
+			B3/frQ1SS1Jg+IxU+TOZXdGDP5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			DxPyBRjluqig0xLVKuov90oh/RiR5s+mnlkdA04lhxk=
+			VykS8GUvcNTG+Im+lS8DzvM62sW0KyH52ugh10I4v3s=
 			</data>
 		</dict>
 		<key>Headers/EcommerceModule.h</key>
@@ -128,165 +128,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iOGu0sGuXYhuV77CCYeq4dIOJ/A=
+			yiezN8WKj65BQyr4d2fny8JxJuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			iA6O1hGRFV5aCZ21r29K+sE5uzc4rV4kGLrZXr0Rjuc=
+			eGUxTzwXqTmtBz+8chhu9KnkEZ3ICCyHIyDhBeJ6088=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hJ7zdu1GrUSWVCDsFscD/Q565GA=
+			wzPKK0P7WrhquVqBE+2V0CUN3Qc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QJUUsPwdgmoXyxSUyAer6kCKA/EKvw/xE8IaV2E6KgY=
+			XzUqeTyoHIFdcHaIYv1n1zq62amaWrj3fbu/5TGy7DE=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hJ7zdu1GrUSWVCDsFscD/Q565GA=
+			wzPKK0P7WrhquVqBE+2V0CUN3Qc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QJUUsPwdgmoXyxSUyAer6kCKA/EKvw/xE8IaV2E6KgY=
+			XzUqeTyoHIFdcHaIYv1n1zq62amaWrj3fbu/5TGy7DE=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iOGu0sGuXYhuV77CCYeq4dIOJ/A=
+			yiezN8WKj65BQyr4d2fny8JxJuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			iA6O1hGRFV5aCZ21r29K+sE5uzc4rV4kGLrZXr0Rjuc=
+			eGUxTzwXqTmtBz+8chhu9KnkEZ3ICCyHIyDhBeJ6088=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iOGu0sGuXYhuV77CCYeq4dIOJ/A=
+			yiezN8WKj65BQyr4d2fny8JxJuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			iA6O1hGRFV5aCZ21r29K+sE5uzc4rV4kGLrZXr0Rjuc=
+			eGUxTzwXqTmtBz+8chhu9KnkEZ3ICCyHIyDhBeJ6088=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gpqMZV505WazHBYHhSa9uNLN2r0=
+			ZGxEwOWFga/PN1K4xeU5T/CfgBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			BkokmGOYJe9DIDlVhs4B+P30ftw21xJvs8393RtPAQ0=
+			2RYXqYRjJg+x1Up9fA1kLkio3oL9q8G61ShDYWzww6A=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WVpq7cIai1owVwsq3nj7hn5V62U=
+			QyQnIG+TftOihXydG/DYoDi10HQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qNBE9rkNuLmMMhk6gOkOmu5peM1C8dQ+ZE8q1lsxfNA=
+			b8S09Mkmv9q/Q00hPwemiWKlAphZoxzrScZGqNTH8Ao=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o1xAYMYKayxuUf6i0qV10jHl6BA=
+			kiBE0hrhmeLm7lj4X3CpwydOU+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			uP80p4W6FzkfsrG5yBzRN6Vr1rbPgabPnd7IYm/ckSg=
+			jBUWV8nCoOpj8JtwLbpD3smWz2WtWtronjV4cuGhFME=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OgGIfPlxUnAI39mNYhzGbdxNzYc=
+			NQGl4gtzdLC+O9jmBhQVS0BRJVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yDsv1/+HhJ9JMisKwtETwWokz726rJCO6ZsjNZ0Bceo=
+			uy3wNx2HiND6WVMOnF6VIT9W//cr7tefHQrz5bE0Y0s=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o1xAYMYKayxuUf6i0qV10jHl6BA=
+			kiBE0hrhmeLm7lj4X3CpwydOU+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			uP80p4W6FzkfsrG5yBzRN6Vr1rbPgabPnd7IYm/ckSg=
+			jBUWV8nCoOpj8JtwLbpD3smWz2WtWtronjV4cuGhFME=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OgGIfPlxUnAI39mNYhzGbdxNzYc=
+			NQGl4gtzdLC+O9jmBhQVS0BRJVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yDsv1/+HhJ9JMisKwtETwWokz726rJCO6ZsjNZ0Bceo=
+			uy3wNx2HiND6WVMOnF6VIT9W//cr7tefHQrz5bE0Y0s=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gpqMZV505WazHBYHhSa9uNLN2r0=
+			ZGxEwOWFga/PN1K4xeU5T/CfgBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			BkokmGOYJe9DIDlVhs4B+P30ftw21xJvs8393RtPAQ0=
+			2RYXqYRjJg+x1Up9fA1kLkio3oL9q8G61ShDYWzww6A=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WVpq7cIai1owVwsq3nj7hn5V62U=
+			QyQnIG+TftOihXydG/DYoDi10HQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qNBE9rkNuLmMMhk6gOkOmu5peM1C8dQ+ZE8q1lsxfNA=
+			b8S09Mkmv9q/Q00hPwemiWKlAphZoxzrScZGqNTH8Ao=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gpqMZV505WazHBYHhSa9uNLN2r0=
+			ZGxEwOWFga/PN1K4xeU5T/CfgBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			BkokmGOYJe9DIDlVhs4B+P30ftw21xJvs8393RtPAQ0=
+			2RYXqYRjJg+x1Up9fA1kLkio3oL9q8G61ShDYWzww6A=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WVpq7cIai1owVwsq3nj7hn5V62U=
+			QyQnIG+TftOihXydG/DYoDi10HQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qNBE9rkNuLmMMhk6gOkOmu5peM1C8dQ+ZE8q1lsxfNA=
+			b8S09Mkmv9q/Q00hPwemiWKlAphZoxzrScZGqNTH8Ao=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
