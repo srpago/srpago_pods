@@ -253,8 +253,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
-- (void)authWithCredentialsWithKey:(NSString * _Nonnull)key secret:(NSString * _Nonnull)secret;
+- (void)config;
 @end
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -516,8 +517,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
-- (void)authWithCredentialsWithKey:(NSString * _Nonnull)key secret:(NSString * _Nonnull)secret;
+- (void)config;
 @end
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
