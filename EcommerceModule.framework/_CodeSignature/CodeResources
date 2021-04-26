@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kMUistaFjN58dYP1tERkZNTUc0Y=
+		F4iia/34tIB7ZrrlvbczSU5+ZKs=
 		</data>
 		<key>Headers/EcommerceModule-Swift.h</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		dHO+5mM55QZVc5P4AShq/RqaJdg=
+		+0uCpjaNbdO5FnCfwMsSRqS7xJM=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		h7UNUmecUJ1GFWkrPsXFBLY0iFg=
+		pbSCtS6R5rw57R0Fr1t0J8uVBkY=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		h7UNUmecUJ1GFWkrPsXFBLY0iFg=
+		pbSCtS6R5rw57R0Fr1t0J8uVBkY=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		dHO+5mM55QZVc5P4AShq/RqaJdg=
+		+0uCpjaNbdO5FnCfwMsSRqS7xJM=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		dHO+5mM55QZVc5P4AShq/RqaJdg=
+		+0uCpjaNbdO5FnCfwMsSRqS7xJM=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm.swiftmodule</key>
 		<data>
-		z7SKa0mmd0r4r2Akmk612QEbN0A=
+		wCkqJd18VdnyqDs2qMMfbVtnFK4=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lOUuAg2J9gl2bN3UAlHv3OJv/5M=
+		yHIDEPtDnr6TvIBKSI09psT5P9Y=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		lOUuAg2J9gl2bN3UAlHv3OJv/5M=
+		yHIDEPtDnr6TvIBKSI09psT5P9Y=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		z7SKa0mmd0r4r2Akmk612QEbN0A=
+		wCkqJd18VdnyqDs2qMMfbVtnFK4=
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/EcommerceModule.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		z7SKa0mmd0r4r2Akmk612QEbN0A=
+		wCkqJd18VdnyqDs2qMMfbVtnFK4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kMUistaFjN58dYP1tERkZNTUc0Y=
+			F4iia/34tIB7ZrrlvbczSU5+ZKs=
 			</data>
 			<key>hash2</key>
 			<data>
-			oqdJHpi6oEHqkMgJqydJtJPzeUtBkmpXuhZTzNF8Zz4=
+			XuDSYthIljr9+y2c7QRWRKrlJv48h5iFzZr3zTJlmiY=
 			</data>
 		</dict>
 		<key>Headers/EcommerceModule-Swift.h</key>
@@ -128,55 +128,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dHO+5mM55QZVc5P4AShq/RqaJdg=
+			+0uCpjaNbdO5FnCfwMsSRqS7xJM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6r29+g7LH0mj49moZ+nmpWwIZTG+jzQyvfnAJiCOKKM=
+			4fjcxRnXbty+BIVKlRP+JvY5UOqX3420IxVOFrp4kcU=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h7UNUmecUJ1GFWkrPsXFBLY0iFg=
+			pbSCtS6R5rw57R0Fr1t0J8uVBkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			uv0v5OM6Sw4tt9rVAO1vpyMWgZC06Tro4xdtLdk2gjM=
+			8cTsULjR7ThQhYFSl2xw/vAy0ryLKlFGdir5jvJIhI4=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h7UNUmecUJ1GFWkrPsXFBLY0iFg=
+			pbSCtS6R5rw57R0Fr1t0J8uVBkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			uv0v5OM6Sw4tt9rVAO1vpyMWgZC06Tro4xdtLdk2gjM=
+			8cTsULjR7ThQhYFSl2xw/vAy0ryLKlFGdir5jvJIhI4=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dHO+5mM55QZVc5P4AShq/RqaJdg=
+			+0uCpjaNbdO5FnCfwMsSRqS7xJM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6r29+g7LH0mj49moZ+nmpWwIZTG+jzQyvfnAJiCOKKM=
+			4fjcxRnXbty+BIVKlRP+JvY5UOqX3420IxVOFrp4kcU=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dHO+5mM55QZVc5P4AShq/RqaJdg=
+			+0uCpjaNbdO5FnCfwMsSRqS7xJM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6r29+g7LH0mj49moZ+nmpWwIZTG+jzQyvfnAJiCOKKM=
+			4fjcxRnXbty+BIVKlRP+JvY5UOqX3420IxVOFrp4kcU=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm.swiftdoc</key>
@@ -194,11 +194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z7SKa0mmd0r4r2Akmk612QEbN0A=
+			wCkqJd18VdnyqDs2qMMfbVtnFK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8ZACLpdociKoAxss5fG98IKfijZEyG7e7Rgca6kNf54=
+			EDrvKODqydMFsdOpTYj3zdRDokEyM5ql80JxiIH32VQ=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -216,11 +216,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lOUuAg2J9gl2bN3UAlHv3OJv/5M=
+			yHIDEPtDnr6TvIBKSI09psT5P9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			eRpw05uw6Rewmigp6GDN5Ogq89QBiZu/3o0yZPa1pM0=
+			+8vYjVw3VsmNbG2vuCKfCNwdCEAYjnYFvpAL8zsdx+M=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/arm64.swiftdoc</key>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lOUuAg2J9gl2bN3UAlHv3OJv/5M=
+			yHIDEPtDnr6TvIBKSI09psT5P9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			eRpw05uw6Rewmigp6GDN5Ogq89QBiZu/3o0yZPa1pM0=
+			+8vYjVw3VsmNbG2vuCKfCNwdCEAYjnYFvpAL8zsdx+M=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -260,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z7SKa0mmd0r4r2Akmk612QEbN0A=
+			wCkqJd18VdnyqDs2qMMfbVtnFK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8ZACLpdociKoAxss5fG98IKfijZEyG7e7Rgca6kNf54=
+			EDrvKODqydMFsdOpTYj3zdRDokEyM5ql80JxiIH32VQ=
 			</data>
 		</dict>
 		<key>Modules/EcommerceModule.swiftmodule/armv7.swiftdoc</key>
@@ -282,11 +282,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z7SKa0mmd0r4r2Akmk612QEbN0A=
+			wCkqJd18VdnyqDs2qMMfbVtnFK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8ZACLpdociKoAxss5fG98IKfijZEyG7e7Rgca6kNf54=
+			EDrvKODqydMFsdOpTYj3zdRDokEyM5ql80JxiIH32VQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
