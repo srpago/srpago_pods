@@ -254,7 +254,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
 - (void)authWithCredentialsWithKey:(NSString * _Nonnull)key secret:(NSString * _Nonnull)secret;
-- (void)authUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password;
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -518,7 +517,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
 - (void)authWithCredentialsWithKey:(NSString * _Nonnull)key secret:(NSString * _Nonnull)secret;
-- (void)authUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password;
 @end
 
 #if __has_attribute(external_source_symbol)
