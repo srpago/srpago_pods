@@ -3,7 +3,7 @@ Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
   sdk.version      = "1.0.3"
-  sdk.summary      = "SDK de Señor pago"
+  sdk.summary      = "SDK de Sr.pago"
   sdk.description  = <<-DESC
     SDK de Señor pago para iOS
                    DESC
