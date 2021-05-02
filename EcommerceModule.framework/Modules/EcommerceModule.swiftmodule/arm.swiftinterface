@@ -1,0 +1,79 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target armv7-apple-ios8.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name EcommerceModule
+import CoreLocation
+import CoreTelephony
+@_exported import EcommerceModule
+import EcommercePrivate
+import Foundation
+import Lottie
+import Swift
+import SystemConfiguration
+import UIKit
+@_hasMissingDesignatedInitializers @objc public class ServerTransaction : ObjectiveC.NSObject, Swift.Decodable {
+  required public convenience init(from decoder: Swift.Decoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum Cardtype : Swift.String {
+  case mast
+  case visa
+  case amex
+  case carnet
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class EcommerceCard : ObjectiveC.NSObject {
+  public init(_ type: EcommerceModule.Cardtype, name: Swift.String, number: Swift.String, expDate: Swift.String, cvv: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias CompletionResponse = (Foundation.Data) -> ()
+public typealias CompletionError = (Swift.Error) -> ()
+public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
+public typealias locationError = (Swift.Error) -> ()
+public enum HTTPMethods : Swift.String {
+  case options
+  case get
+  case head
+  case post
+  case put
+  case patch
+  case delete
+  case trace
+  case connect
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class ConnectionRequest : ObjectiveC.NSObject {
+  public var headers: [Swift.String : Swift.String]
+  public var timeOut: Swift.Int
+  public init(url: Swift.String, type: EcommerceModule.HTTPMethods, body: Any?, urlParams: [Swift.String : Swift.String]?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Connection : ObjectiveC.NSObject {
+  public static func makeConnection<expectedObj>(request: EcommerceModule.ConnectionRequest, responseJSON: expectedObj.Type, completion: @escaping (expectedObj) -> (), connectionError: @escaping (Swift.Error) -> ()) where expectedObj : Swift.Decodable
+  public static func makeConnection(request: EcommerceModule.ConnectionRequest, jsonResponse: @escaping ([Swift.String : Any]) -> (), connectionError: @escaping (Swift.Error) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class EcommercePayment : ObjectiveC.NSObject {
+  @objc public init(amount: Swift.Float, reference: Swift.String, tip: Swift.Float, user: Swift.String, totalFee: Swift.Float)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(EcommerceModule) public class EcommerceModule : ObjectiveC.NSObject {
+  @objc public static var shared: EcommerceModule.EcommerceModule
+  @objc override dynamic public init()
+  @objc public func getTokenFromCard(_ card: EcommerceModule.EcommerceCard, token: @escaping (Swift.String) -> (), error: @escaping (Swift.Error) -> ())
+  @objc public func payWithToken(_ token: Swift.String, payment: EcommerceModule.EcommercePayment, success: @escaping (EcommerceModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> ())
+  @objc public func showPaymentController(_ from: UIKit.UIViewController, payment: EcommerceModule.EcommercePayment, success: @escaping (EcommerceModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> ())
+  @objc deinit
+}
