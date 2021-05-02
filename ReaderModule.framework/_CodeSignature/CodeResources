@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		TC1P4xxOMNv3GyGqqmrQZ0SRq/4=
+		</data>
 		<key>Assets.car</key>
 		<data>
 		Nkjbs/vOnfUM1I6KfCIKHKAn9lA=
+		</data>
+		<key>Frameworks/module.modulemap</key>
+		<data>
+		hOI8NAPG1bxBG27XCkSd8b5tyBM=
 		</data>
 		<key>Gotham-Bold.ttf</key>
 		<data>
@@ -176,6 +184,17 @@
 			<key>hash2</key>
 			<data>
 			cpHyU07rysKwI4pSKMscekOqlM0hc9+hTYVk4Q7n97k=
+			</data>
+		</dict>
+		<key>Frameworks/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hOI8NAPG1bxBG27XCkSd8b5tyBM=
+			</data>
+			<key>hash2</key>
+			<data>
+			c2FIEpWGZetr5LfA4bz58OJ7ISxXWvMO7MOxbjNgZec=
 			</data>
 		</dict>
 		<key>Gotham-Bold.ttf</key>

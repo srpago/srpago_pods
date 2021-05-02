@@ -1,0 +1,21 @@
+
+
+
+module ReadersPrivate {
+    //header "PaxReader.h"
+    
+    header "RSA.h"
+    header "NSData+Encryption.h"
+    header "PPSSignatureView.h"
+    header "JNKeychain.h"
+    header "SPUtilities.h"
+    
+    header "QPOSService.h"
+    header "QPOSUtil.h"
+    header "BTDeviceFinder.h"
+    header "BBDeviceController.h"
+    header "PaxEasyLinkController.h"
+    //header "SPPAXTransDataTag.h"
+    
+    export *
+}
