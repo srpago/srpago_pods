@@ -4,17 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		TC1P4xxOMNv3GyGqqmrQZ0SRq/4=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		Nkjbs/vOnfUM1I6KfCIKHKAn9lA=
-		</data>
-		<key>Frameworks/module.modulemap</key>
-		<data>
-		hOI8NAPG1bxBG27XCkSd8b5tyBM=
+		c97I1E2ZzldG4IzZ52rVZqrTfgk=
 		</data>
 		<key>Gotham-Bold.ttf</key>
 		<data>
@@ -30,7 +22,7 @@
 		</data>
 		<key>Headers/ReaderModule-Swift.h</key>
 		<data>
-		GOZqDOdQg2mRfg437h/cVelo1+k=
+		oW7IsDv2MOdboqurXf8RCvSEX60=
 		</data>
 		<key>Headers/ReaderModule.h</key>
 		<data>
@@ -38,87 +30,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XVSv3dt24ymOEarsayE7qaVMkQc=
+		d0lQJeeGTjK6rduLeSOjbSL/ZCE=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		70moYxCeZ9y+jSI4PM/55Ut8BTQ=
+		PLqKKkxRxiqOx9cBomZ1RxNz5pw=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		m4lWqmWg1QpcHK+ZBfFGOyds4dk=
+		PLqKKkxRxiqOx9cBomZ1RxNz5pw=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		m4lWqmWg1QpcHK+ZBfFGOyds4dk=
+		iFBhIDLqdoNxW+jxPWm7LWTYN8w=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		70moYxCeZ9y+jSI4PM/55Ut8BTQ=
+		LE0nBZ67iiYqrUbrDLn74oclx0w=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		70moYxCeZ9y+jSI4PM/55Ut8BTQ=
+		PG3heTEnYr4ST4V3V1NbxVralMs=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		lyJuNxVRxF5TDP5B488oCnR7s+g=
+		iFBhIDLqdoNxW+jxPWm7LWTYN8w=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm.swiftinterface</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		JF/lVYaeAldYHj0+7iB4ho0aBHk=
+		LE0nBZ67iiYqrUbrDLn74oclx0w=
 		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MV71VXin0/bhgcUwJYqy8+veEVk=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		2inGkjqPek+aXxM3zhBFOvmax2Y=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		ust+VeTRJtqTFQJE93Nvk0u87wA=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		7sovPJKs/K6D1Vs7u12TO5taidk=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		2inGkjqPek+aXxM3zhBFOvmax2Y=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		ust+VeTRJtqTFQJE93Nvk0u87wA=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		7sovPJKs/K6D1Vs7u12TO5taidk=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		lyJuNxVRxF5TDP5B488oCnR7s+g=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<data>
-		JF/lVYaeAldYHj0+7iB4ho0aBHk=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		MV71VXin0/bhgcUwJYqy8+veEVk=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		lyJuNxVRxF5TDP5B488oCnR7s+g=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/armv7.swiftinterface</key>
-		<data>
-		JF/lVYaeAldYHj0+7iB4ho0aBHk=
-		</data>
-		<key>Modules/ReaderModule.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		MV71VXin0/bhgcUwJYqy8+veEVk=
+		PG3heTEnYr4ST4V3V1NbxVralMs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -179,22 +123,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nkjbs/vOnfUM1I6KfCIKHKAn9lA=
+			c97I1E2ZzldG4IzZ52rVZqrTfgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			cpHyU07rysKwI4pSKMscekOqlM0hc9+hTYVk4Q7n97k=
-			</data>
-		</dict>
-		<key>Frameworks/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hOI8NAPG1bxBG27XCkSd8b5tyBM=
-			</data>
-			<key>hash2</key>
-			<data>
-			c2FIEpWGZetr5LfA4bz58OJ7ISxXWvMO7MOxbjNgZec=
+			4He63w8Q5RsYCyXTETYuXbV3ZnR2/m1mLZHx8K2IHmA=
 			</data>
 		</dict>
 		<key>Gotham-Bold.ttf</key>
@@ -234,11 +167,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GOZqDOdQg2mRfg437h/cVelo1+k=
+			oW7IsDv2MOdboqurXf8RCvSEX60=
 			</data>
 			<key>hash2</key>
 			<data>
-			wx90GS9YjsLxx7wcldNVY7NhLKerk4Ah3lnO2Nvuwo8=
+			el06BAV+U6Hs1lvl/1anZIPv8hMLv2a7V3XLdh8fh4U=
 			</data>
 		</dict>
 		<key>Headers/ReaderModule.h</key>
@@ -252,224 +185,92 @@
 			6UcynpyXhFvKIDnc3XxvSIlAEDvw2N88Lr+zgLv5x2c=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			70moYxCeZ9y+jSI4PM/55Ut8BTQ=
+			PLqKKkxRxiqOx9cBomZ1RxNz5pw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8DaiyJbxZXW+fI7PhPy+aJITMJusjrdJ8iRkFhwnFJM=
+			lU7yu6yfR80+BsfNJOzbxyrqEno++fBBxr37KVsgviY=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m4lWqmWg1QpcHK+ZBfFGOyds4dk=
+			PLqKKkxRxiqOx9cBomZ1RxNz5pw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QFDQO+XI0muChjosFm5kXTctsKqeMUMbJE1GIOlbMzU=
+			lU7yu6yfR80+BsfNJOzbxyrqEno++fBBxr37KVsgviY=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m4lWqmWg1QpcHK+ZBfFGOyds4dk=
+			iFBhIDLqdoNxW+jxPWm7LWTYN8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			QFDQO+XI0muChjosFm5kXTctsKqeMUMbJE1GIOlbMzU=
+			9KzJssNALTgH/+A2sZXmlA6bvj5C9iB828zUsfUVSd8=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			70moYxCeZ9y+jSI4PM/55Ut8BTQ=
+			LE0nBZ67iiYqrUbrDLn74oclx0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			8DaiyJbxZXW+fI7PhPy+aJITMJusjrdJ8iRkFhwnFJM=
+			V9ujY4yKkv3ZdRFr3IVmFL6o9l4Q5mCBuMXsL7iqNP8=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			70moYxCeZ9y+jSI4PM/55Ut8BTQ=
+			PG3heTEnYr4ST4V3V1NbxVralMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			8DaiyJbxZXW+fI7PhPy+aJITMJusjrdJ8iRkFhwnFJM=
+			6vEAIubqANRw0xnR0UfLHjKU53RTMFuSWUX2zp3/D/E=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lyJuNxVRxF5TDP5B488oCnR7s+g=
+			iFBhIDLqdoNxW+jxPWm7LWTYN8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			KdqahU4cSlghGnmE34P8KvWrwpD6Tz00fDq0EI9IrmI=
+			9KzJssNALTgH/+A2sZXmlA6bvj5C9iB828zUsfUVSd8=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm.swiftinterface</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JF/lVYaeAldYHj0+7iB4ho0aBHk=
+			LE0nBZ67iiYqrUbrDLn74oclx0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			godVpafToEFUwkNKjLIHVzbGlJYXfqR1+TM2uq7Ni+Y=
+			V9ujY4yKkv3ZdRFr3IVmFL6o9l4Q5mCBuMXsL7iqNP8=
 			</data>
 		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/ReaderModule.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MV71VXin0/bhgcUwJYqy8+veEVk=
+			PG3heTEnYr4ST4V3V1NbxVralMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			y0Eo71bfQ4rbRN5oTqgZStGrxbsdeUw2oN0i5G2sgqo=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2inGkjqPek+aXxM3zhBFOvmax2Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			2z86CewkwscYAYsGJznoXq10/GKF8Sp/+CQkHFsuDNs=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ust+VeTRJtqTFQJE93Nvk0u87wA=
-			</data>
-			<key>hash2</key>
-			<data>
-			tHDli0GWrnurUtmjqeD1zTk3XuPBwn4ISlGLZJ4ZR0o=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7sovPJKs/K6D1Vs7u12TO5taidk=
-			</data>
-			<key>hash2</key>
-			<data>
-			rKjbKzUC8WxD+WrYwpM2yEn7AamZRJb0a8aXRYz8zg0=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2inGkjqPek+aXxM3zhBFOvmax2Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			2z86CewkwscYAYsGJznoXq10/GKF8Sp/+CQkHFsuDNs=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ust+VeTRJtqTFQJE93Nvk0u87wA=
-			</data>
-			<key>hash2</key>
-			<data>
-			tHDli0GWrnurUtmjqeD1zTk3XuPBwn4ISlGLZJ4ZR0o=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7sovPJKs/K6D1Vs7u12TO5taidk=
-			</data>
-			<key>hash2</key>
-			<data>
-			rKjbKzUC8WxD+WrYwpM2yEn7AamZRJb0a8aXRYz8zg0=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lyJuNxVRxF5TDP5B488oCnR7s+g=
-			</data>
-			<key>hash2</key>
-			<data>
-			KdqahU4cSlghGnmE34P8KvWrwpD6Tz00fDq0EI9IrmI=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JF/lVYaeAldYHj0+7iB4ho0aBHk=
-			</data>
-			<key>hash2</key>
-			<data>
-			godVpafToEFUwkNKjLIHVzbGlJYXfqR1+TM2uq7Ni+Y=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MV71VXin0/bhgcUwJYqy8+veEVk=
-			</data>
-			<key>hash2</key>
-			<data>
-			y0Eo71bfQ4rbRN5oTqgZStGrxbsdeUw2oN0i5G2sgqo=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lyJuNxVRxF5TDP5B488oCnR7s+g=
-			</data>
-			<key>hash2</key>
-			<data>
-			KdqahU4cSlghGnmE34P8KvWrwpD6Tz00fDq0EI9IrmI=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/armv7.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JF/lVYaeAldYHj0+7iB4ho0aBHk=
-			</data>
-			<key>hash2</key>
-			<data>
-			godVpafToEFUwkNKjLIHVzbGlJYXfqR1+TM2uq7Ni+Y=
-			</data>
-		</dict>
-		<key>Modules/ReaderModule.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MV71VXin0/bhgcUwJYqy8+veEVk=
-			</data>
-			<key>hash2</key>
-			<data>
-			y0Eo71bfQ4rbRN5oTqgZStGrxbsdeUw2oN0i5G2sgqo=
+			6vEAIubqANRw0xnR0UfLHjKU53RTMFuSWUX2zp3/D/E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
