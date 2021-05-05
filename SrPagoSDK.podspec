@@ -13,7 +13,7 @@ Pod::Spec.new do |sdk|
   sdk.license      = { :type => "MIT", :text => "© 2021 SrPago" }
 
   sdk.authors      = { 'Ricardo Hernandez' => 'rhernandez@srpago.com', 'Fernando Bustos' => 'fbustosr@srpago.com' }
-  sdk.platform     = :ios, "10.0"
+  sdk.platform     = :ios, "9.0"
 
   sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => '1.0.8'}
   sdk.default_subspec = 'Core'
