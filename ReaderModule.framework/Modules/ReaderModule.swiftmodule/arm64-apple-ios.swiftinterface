@@ -1,0 +1,196 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ReaderModule
+import AVFoundation
+import AVKit
+import CoreBluetooth
+import CoreLocation
+import CoreTelephony
+import Foundation
+import Lottie
+import PrinterModule
+@_exported import ReaderModule
+import ReadersPrivate
+import Swift
+import SystemConfiguration
+import UIKit
+@_hasMissingDesignatedInitializers @objc public class MonthlyPayment : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
+public typealias locationError = (Swift.Error) -> ()
+@objc public class ReaderInfo : ObjectiveC.NSObject, Swift.Decodable {
+  @objc final public let readerType: Swift.Int
+  @objc final public let batteryPercentage: Swift.Int
+  @objc final public let firmwareVersion: Swift.String
+  @objc final public let hardwareVersion: Swift.String
+  @objc final public let uid: Swift.String?
+  @objc final public let serialNumber: Swift.String?
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+}
+public typealias CompletionResponse = (Foundation.Data) -> ()
+public typealias CompletionError = (Swift.Error) -> ()
+@objc public class NewRelicLogger : ObjectiveC.NSObject {
+  public static var insertKey: Swift.String
+  @objc public init(options: ReaderModule.NewRelicLoggerOptions)
+  @objc public class func configure(insertKey: Swift.String)
+  @objc public func logLoginEvent(userEmail: Swift.String)
+  @objc public func logLoginEvent(productToken: Swift.String)
+  @objc public func logTransactionEvent(amount: Swift.Float, cardType: ReaderModule.NewRelicLogger.CardType, commision: Swift.Float, currency: ReaderModule.NewRelicLogger.Currency, latitude: Swift.Float, longitude: Swift.Float, makePaymentFailReason: Swift.String, msi: Swift.Int, readerBatteryPercentage: Swift.Int, readerFirmware: Swift.String, readerHardware: Swift.String, readerIsCharging: Swift.Bool, readerType: ReaderModule.NewRelicLogger.ReaderTypes, readerAppOsName: Swift.String? = nil, readerOsVersion: Swift.String? = nil, reference: Swift.String, status: Swift.String, tip: Swift.Float, total: Swift.Float, transactionTime: Swift.String?, serverResponseTime: Swift.String?, deviceConnectionTime: Swift.String?, user: Swift.String, TLVsTags: [Swift.String : Any]? = nil, bin: Swift.String?, transactionId: Swift.String? = nil, entryMode: Swift.String?)
+  @objc public func addUserData(user: Swift.String, commission: Swift.Float)
+  @objc public func addLocationData(latitude: Swift.Float, longitude: Swift.Float)
+  @objc public func addMSIData(msi: Swift.Int)
+  @objc public func addPaymentData(reference: Swift.String, total: Swift.Float, tip: Swift.Float, amount: Swift.Float, currency: Swift.String)
+  @objc public func addCardData(cardType: Swift.String)
+  @objc public func addCardReaderData(readerType: ReaderModule.NewRelicLogger.ReaderTypes, firmware: Swift.String, batteryPercentage: Swift.Int, serialNumber: Swift.String, isCharging: Swift.Bool, appOSName: Swift.String? = nil, osVersion: Swift.String? = nil)
+  @objc public func closeTransaction(status: Swift.String, makePaymentFailReason: Swift.String? = "")
+  @objc public func startTransactionTime()
+  @objc public func stopTransactionTime()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class NewRelicLoggerOptions : ObjectiveC.NSObject {
+  @objc public init(sdkBuild: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension NewRelicLogger {
+  @objc public enum ReaderTypes : Swift.Int {
+    case UNKNOW
+    case QPOSBluetooth
+    case QPOSAudio
+    case BBPOSBluetooth
+    case BBPOSAudio
+    case PAX
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public enum CardType : Swift.Int {
+    case MasterCard
+    case Visa
+    case AmericanExpress
+    case Carnet
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public enum Currency : Swift.Int {
+    case MXN
+    case USD
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+@_inheritsConvenienceInitializers @objc public class SelectionViewController : UIKit.UIViewController {
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension SelectionViewController : CoreBluetooth.CBCentralManagerDelegate {
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+}
+@objc public enum ReaderSate : Swift.Int {
+  case connecting = 0
+  case connected = 1
+  case disconnected = 2
+  case waitingCard = 3
+  case cardDetected = 4
+  case setPin = 5
+  case removeCard = 6
+  case cardRemoved = 7
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ReaderType : Swift.Int {
+  case unknow
+  case qposBluetooth
+  case qposAudio
+  case bbposBluetooth
+  case bbposAudio
+  case pax
+  case fake
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ReaderModule) public class ReaderModule : ObjectiveC.NSObject {
+  @objc public static var shared: ReaderModule.ReaderModule
+  @objc public static func setSandboxEnvironment(sandbox: Swift.Bool)
+  @objc public func searchBluetoothReaders(devices: @escaping (([CoreBluetooth.CBPeripheral]) -> ()), error: @escaping ((Swift.Error) -> ()))
+  @objc public func connectWith(device: CoreBluetooth.CBPeripheral)
+  @objc public func connectWithFake(deviceName: Swift.String)
+  @objc public func connectAudio(version: ReaderModule.ReaderType)
+  @objc public func readerStateDidChange(completion: ((ReaderModule.ReaderSate) -> ())?, error: @escaping (Swift.Error) -> ())
+  @objc public func requestReaderInfo(info: @escaping (ReaderModule.ReaderInfo) -> ())
+  @objc public func getCachedReaderInfo() -> ReaderModule.ReaderInfo
+  @objc public func connectLastPaired()
+  @objc public func removeLastPaired()
+  @objc public func isReaderPaired() -> Swift.Bool
+  @objc public func isConnected() -> Swift.Bool
+  @objc public func cancelTransaction()
+  @objc public func createPayment(payment: ReaderModule.ReaderPayment, processing: @escaping (Swift.Bool) -> (), msiPromos: @escaping ([ReaderModule.MonthlyPayment]) -> (), result: @escaping (ReaderModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> (), vc: UIKit.UIViewController? = nil)
+  @objc public func showPaymentController(_ from: UIKit.UIViewController, payment: ReaderModule.ReaderPayment, success: @escaping (ReaderModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> ())
+  @objc public func paymentAddMSI(monthlyPayment: ReaderModule.MonthlyPayment?)
+  @objc public func sendtTicket(operationID: Swift.String, mail: Swift.String?, phone: Swift.String?, success: @escaping () -> (), error: @escaping (Swift.Error) -> ())
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class ServerTransaction : ObjectiveC.NSObject, Swift.Decodable {
+  required public convenience init(from decoder: Swift.Decoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class ReaderPayment : ObjectiveC.NSObject {
+  @objc public init(amount: Swift.Float, reference: Swift.String, tip: Swift.Float)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum HTTPMethods : Swift.String {
+  case options
+  case get
+  case head
+  case post
+  case put
+  case patch
+  case delete
+  case trace
+  case connect
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class ConnectionRequest : ObjectiveC.NSObject {
+  public var headers: [Swift.String : Swift.String]
+  public var timeOut: Swift.Int
+  public init(url: Swift.String, type: ReaderModule.HTTPMethods, body: Any?, urlParams: [Swift.String : Swift.String]?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Connection : ObjectiveC.NSObject {
+  public static func makeConnection<expectedObj>(request: ReaderModule.ConnectionRequest, responseJSON: expectedObj.Type, completion: @escaping (expectedObj) -> (), connectionError: @escaping (Swift.Error) -> ()) where expectedObj : Swift.Decodable
+  public static func makeConnection(request: ReaderModule.ConnectionRequest, jsonResponse: @escaping ([Swift.String : Any]) -> (), connectionError: @escaping (Swift.Error) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationService : ObjectiveC.NSObject {
+  public static var shared: ReaderModule.LocationService
+  public func getLocation(location: @escaping ReaderModule.updateLocationCompletion, error: @escaping ReaderModule.locationError)
+  @objc deinit
+}
