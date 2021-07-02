@@ -32,6 +32,8 @@ public typealias locationError = (Swift.Error) -> ()
 }
 public typealias CompletionResponse = (Foundation.Data) -> ()
 public typealias CompletionError = (Swift.Error) -> ()
+public func print(_ items: Swift.String..., filename: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, separator: Swift.String = " ", terminator: Swift.String = "\n")
+public func print(_ items: Any..., separator: Swift.String = " ", terminator: Swift.String = "\n")
 @objc public class NewRelicLogger : ObjectiveC.NSObject {
   public static var insertKey: Swift.String
   @objc public init(options: ReaderModule.NewRelicLoggerOptions)
