@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ReaderModule
 import AVFoundation
 import AVKit
@@ -32,6 +32,11 @@ public typealias locationError = (Swift.Error) -> ()
 }
 public typealias CompletionResponse = (Foundation.Data) -> ()
 public typealias CompletionError = (Swift.Error) -> ()
+@_inheritsConvenienceInitializers @objc(BrandCardManager) public class BrandCardManager : ObjectiveC.NSObject {
+  @objc public func isMasterCard(brand: Swift.String) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
 public func print(_ items: Swift.String..., filename: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, separator: Swift.String = " ", terminator: Swift.String = "\n")
 public func print(_ items: Any..., separator: Swift.String = " ", terminator: Swift.String = "\n")
 @objc public class NewRelicLogger : ObjectiveC.NSObject {
