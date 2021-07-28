@@ -20,14 +20,41 @@ import UIKit
 }
 public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
 public typealias locationError = (Swift.Error) -> ()
-@objc public class ReaderInfo : ObjectiveC.NSObject, Swift.Decodable {
+@objc public class ReaderInfo : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let readerType: Swift.Int
   @objc final public let batteryPercentage: Swift.Int
   @objc final public let firmwareVersion: Swift.String
   @objc final public let hardwareVersion: Swift.String
   @objc final public let uid: Swift.String?
   @objc final public let serialNumber: Swift.String?
+  @objc final public let emvKeyProfileID: Swift.String?
+  @objc final public let defaultLanguage: Swift.String?
+  @objc final public let pinKeyProfileID: Swift.String?
+  @objc final public let firmwareID: Swift.String?
+  @objc final public let bootloaderVersion: Swift.String?
+  @objc final public let terminalSettingVersion: Swift.String?
+  @objc final public let vendorID: Swift.String?
+  @objc final public let bID: Swift.String?
+  @objc final public let macKeyProfileID: Swift.String?
+  @objc final public let pinKsn: Swift.String?
+  @objc final public let macKsn: Swift.String?
+  @objc final public let supportedLanguages: Swift.String?
+  @objc final public let batteryLevel: Swift.String?
+  @objc final public let deviceSettingVersion: Swift.String?
+  @objc final public let sdkVersion: Swift.String?
+  @objc final public let trackKeyProfileID: Swift.String?
+  @objc final public let emvKsn: Swift.String?
+  @objc final public let formatID: Swift.String?
+  @objc final public let trackKsn: Swift.String?
+  @objc final public let productID: Swift.String?
+  public var isSupportedTrack1: Swift.Bool?
+  public var isSupportedTrack2: Swift.Bool?
+  public var isSupportedTrack3: Swift.Bool?
+  public var isSupportedNfc: Swift.Bool?
+  public var isUsbConnected: Swift.Bool?
+  public var isCharging: Swift.Bool?
   @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
 public typealias CompletionResponse = (Foundation.Data) -> ()

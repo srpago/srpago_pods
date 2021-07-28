@@ -281,6 +281,8 @@ SWIFT_CLASS("_TtC12ReaderModule14NewRelicLogger")
 @end
 
 
+
+
 @interface NewRelicLogger (SWIFT_EXTENSION(ReaderModule))
 @end
 
@@ -306,7 +308,6 @@ typedef SWIFT_ENUM(NSInteger, Currency, open) {
 };
 
 
-
 SWIFT_CLASS("_TtC12ReaderModule21NewRelicLoggerOptions")
 @interface NewRelicLoggerOptions : NSObject
 - (nonnull instancetype)initWithSdkBuild:(NSString * _Nonnull)sdkBuild OBJC_DESIGNATED_INITIALIZER;
@@ -323,6 +324,26 @@ SWIFT_CLASS("_TtC12ReaderModule10ReaderInfo")
 @property (nonatomic, readonly, copy) NSString * _Nonnull hardwareVersion;
 @property (nonatomic, readonly, copy) NSString * _Nullable uid;
 @property (nonatomic, readonly, copy) NSString * _Nullable serialNumber;
+@property (nonatomic, readonly, copy) NSString * _Nullable emvKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable defaultLanguage;
+@property (nonatomic, readonly, copy) NSString * _Nullable pinKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable firmwareID;
+@property (nonatomic, readonly, copy) NSString * _Nullable bootloaderVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable terminalSettingVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable vendorID;
+@property (nonatomic, readonly, copy) NSString * _Nullable bID;
+@property (nonatomic, readonly, copy) NSString * _Nullable macKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable pinKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable macKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable supportedLanguages;
+@property (nonatomic, readonly, copy) NSString * _Nullable batteryLevel;
+@property (nonatomic, readonly, copy) NSString * _Nullable deviceSettingVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable sdkVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable trackKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable emvKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable formatID;
+@property (nonatomic, readonly, copy) NSString * _Nullable trackKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable productID;
 @end
 
 @class CBPeripheral;
@@ -699,6 +720,8 @@ SWIFT_CLASS("_TtC12ReaderModule14NewRelicLogger")
 @end
 
 
+
+
 @interface NewRelicLogger (SWIFT_EXTENSION(ReaderModule))
 @end
 
@@ -724,7 +747,6 @@ typedef SWIFT_ENUM(NSInteger, Currency, open) {
 };
 
 
-
 SWIFT_CLASS("_TtC12ReaderModule21NewRelicLoggerOptions")
 @interface NewRelicLoggerOptions : NSObject
 - (nonnull instancetype)initWithSdkBuild:(NSString * _Nonnull)sdkBuild OBJC_DESIGNATED_INITIALIZER;
@@ -741,6 +763,26 @@ SWIFT_CLASS("_TtC12ReaderModule10ReaderInfo")
 @property (nonatomic, readonly, copy) NSString * _Nonnull hardwareVersion;
 @property (nonatomic, readonly, copy) NSString * _Nullable uid;
 @property (nonatomic, readonly, copy) NSString * _Nullable serialNumber;
+@property (nonatomic, readonly, copy) NSString * _Nullable emvKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable defaultLanguage;
+@property (nonatomic, readonly, copy) NSString * _Nullable pinKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable firmwareID;
+@property (nonatomic, readonly, copy) NSString * _Nullable bootloaderVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable terminalSettingVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable vendorID;
+@property (nonatomic, readonly, copy) NSString * _Nullable bID;
+@property (nonatomic, readonly, copy) NSString * _Nullable macKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable pinKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable macKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable supportedLanguages;
+@property (nonatomic, readonly, copy) NSString * _Nullable batteryLevel;
+@property (nonatomic, readonly, copy) NSString * _Nullable deviceSettingVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable sdkVersion;
+@property (nonatomic, readonly, copy) NSString * _Nullable trackKeyProfileID;
+@property (nonatomic, readonly, copy) NSString * _Nullable emvKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable formatID;
+@property (nonatomic, readonly, copy) NSString * _Nullable trackKsn;
+@property (nonatomic, readonly, copy) NSString * _Nullable productID;
 @end
 
 @class CBPeripheral;
