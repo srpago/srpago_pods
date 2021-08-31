@@ -190,7 +190,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreBluetooth;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -257,6 +256,7 @@ SWIFT_CLASS("_TtC12ReaderModule14MonthlyPayment")
 
 @class NewRelicLoggerOptions;
 enum CardType : NSInteger;
+enum CardBrand : NSInteger;
 enum Currency : NSInteger;
 enum ReaderTypes : NSInteger;
 
@@ -266,7 +266,7 @@ SWIFT_CLASS("_TtC12ReaderModule14NewRelicLogger")
 + (void)configureWithInsertKey:(NSString * _Nonnull)insertKey;
 - (void)logLoginEventWithUserEmail:(NSString * _Nonnull)userEmail;
 - (void)logLoginEventWithProductToken:(NSString * _Nonnull)productToken;
-- (void)logTransactionEventWithAmount:(float)amount cardType:(enum CardType)cardType commision:(float)commision currency:(enum Currency)currency latitude:(float)latitude longitude:(float)longitude makePaymentFailReason:(NSString * _Nonnull)makePaymentFailReason msi:(NSInteger)msi readerBatteryPercentage:(NSInteger)readerBatteryPercentage readerFirmware:(NSString * _Nonnull)readerFirmware readerHardware:(NSString * _Nonnull)readerHardware readerIsCharging:(BOOL)readerIsCharging readerType:(enum ReaderTypes)readerType readerAppOsName:(NSString * _Nullable)readerAppOsName readerOsVersion:(NSString * _Nullable)readerOsVersion reference:(NSString * _Nonnull)reference status:(NSString * _Nonnull)status tip:(float)tip total:(float)total transactionTime:(NSString * _Nullable)transactionTime serverResponseTime:(NSString * _Nullable)serverResponseTime deviceConnectionTime:(NSString * _Nullable)deviceConnectionTime user:(NSString * _Nonnull)user TLVsTags:(NSDictionary<NSString *, id> * _Nullable)TLVsTags bin:(NSString * _Nullable)bin transactionId:(NSString * _Nullable)transactionId entryMode:(NSString * _Nullable)entryMode;
+- (void)logTransactionEventWithAmount:(float)amount cardType:(enum CardType)cardType cardBrand:(enum CardBrand)cardBrand commision:(float)commision currency:(enum Currency)currency latitude:(float)latitude longitude:(float)longitude makePaymentFailReason:(NSString * _Nonnull)makePaymentFailReason msi:(NSInteger)msi readerBatteryPercentage:(NSInteger)readerBatteryPercentage readerFirmware:(NSString * _Nonnull)readerFirmware readerHardware:(NSString * _Nonnull)readerHardware readerIsCharging:(BOOL)readerIsCharging readerType:(enum ReaderTypes)readerType readerAppOsName:(NSString * _Nullable)readerAppOsName readerOsVersion:(NSString * _Nullable)readerOsVersion reference:(NSString * _Nonnull)reference status:(NSString * _Nonnull)status tip:(float)tip total:(float)total transactionTime:(NSString * _Nullable)transactionTime serverResponseTime:(NSString * _Nullable)serverResponseTime deviceConnectionTime:(NSString * _Nullable)deviceConnectionTime user:(NSString * _Nonnull)user TLVsTags:(NSDictionary<NSString *, id> * _Nullable)TLVsTags bin:(NSString * _Nullable)bin transactionId:(NSString * _Nullable)transactionId entryMode:(NSString * _Nullable)entryMode;
 - (void)addUserDataWithUser:(NSString * _Nonnull)user commission:(float)commission;
 - (void)addLocationDataWithLatitude:(float)latitude longitude:(float)longitude;
 - (void)addMSIDataWithMsi:(NSInteger)msi;
@@ -288,23 +288,29 @@ SWIFT_CLASS("_TtC12ReaderModule14NewRelicLogger")
 
 typedef SWIFT_ENUM(NSInteger, ReaderTypes, open) {
   ReaderTypesUNKNOW = 0,
-  ReaderTypesQPOSBluetooth = 1,
-  ReaderTypesQPOSAudio = 2,
-  ReaderTypesBBPOSBluetooth = 3,
-  ReaderTypesBBPOSAudio = 4,
-  ReaderTypesPAX = 5,
+  ReaderTypesBBPOSBluetooth = 1,
+  ReaderTypesPAX = 2,
 };
 
 typedef SWIFT_ENUM(NSInteger, CardType, open) {
-  CardTypeMasterCard = 0,
-  CardTypeVisa = 1,
-  CardTypeAmericanExpress = 2,
-  CardTypeCarnet = 3,
+  CardTypeChip = 0,
+  CardTypeSwipe = 1,
+  CardTypeContactless = 2,
+  CardTypeContactless_msg = 3,
+  CardTypeUndetermined = 4,
 };
 
 typedef SWIFT_ENUM(NSInteger, Currency, open) {
   CurrencyMXN = 0,
   CurrencyUSD = 1,
+};
+
+typedef SWIFT_ENUM(NSInteger, CardBrand, open) {
+  CardBrandMasterCard = 0,
+  CardBrandVisa = 1,
+  CardBrandAmericanExpress = 2,
+  CardBrandCarnet = 3,
+  CardBrandUnknown = 4,
 };
 
 
@@ -347,7 +353,6 @@ SWIFT_CLASS("_TtC12ReaderModule10ReaderInfo")
 @end
 
 @class CBPeripheral;
-enum ReaderType : NSInteger;
 enum ReaderSate : NSInteger;
 @class ReaderPayment;
 @class ServerTransaction;
@@ -363,13 +368,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 - (void)searchBluetoothReadersWithDevices:(void (^ _Nonnull)(NSArray<CBPeripheral *> * _Nonnull))devices error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)connectWithDevice:(CBPeripheral * _Nonnull)device;
 - (void)connectWithFakeWithDeviceName:(NSString * _Nonnull)deviceName;
-- (void)connectAudioWithVersion:(enum ReaderType)version;
 - (void)readerStateDidChangeWithCompletion:(void (^ _Nullable)(enum ReaderSate))completion error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)requestReaderInfoWithInfo:(void (^ _Nonnull)(ReaderInfo * _Nonnull))info;
 - (ReaderInfo * _Nonnull)getCachedReaderInfo SWIFT_WARN_UNUSED_RESULT;
 - (void)connectLastPaired;
 - (void)removeLastPaired;
 - (BOOL)isReaderPaired SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isDeviceDeprecated SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isConnected SWIFT_WARN_UNUSED_RESULT;
 - (void)cancelTransaction;
 - (void)createPaymentWithPayment:(ReaderPayment * _Nonnull)payment processing:(void (^ _Nonnull)(BOOL))processing msiPromos:(void (^ _Nonnull)(NSArray<MonthlyPayment *> * _Nonnull))msiPromos result:(void (^ _Nonnull)(ServerTransaction * _Nonnull))result error:(void (^ _Nonnull)(NSError * _Nonnull))error vc:(UIViewController * _Nullable)vc;
@@ -408,21 +413,53 @@ typedef SWIFT_ENUM(NSInteger, ReaderType, open) {
   ReaderTypeFake = 6,
 };
 
+typedef SWIFT_ENUM(NSInteger, ReadersDeprecated, open) {
+  ReadersDeprecatedQposBluetooth = 1,
+  ReadersDeprecatedQposAudio = 2,
+  ReadersDeprecatedBbposAudio = 4,
+};
+
+
+SWIFT_CLASS("_TtC12ReaderModule7Receipt")
+@interface Receipt : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC12ReaderModule13RecipeAddress")
+@interface RecipeAddress : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC12ReaderModule11RecipeModel")
+@interface RecipeModel : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC12ReaderModule11RecipePhone")
+@interface RecipePhone : NSObject
+@end
+
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC12ReaderModule23SelectionViewController")
-@interface SelectionViewController : UIViewController
+SWIFT_CLASS("_TtC12ReaderModule22SearchReaderController")
+@interface SearchReaderController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
 
-@class CBCentralManager;
-
-@interface SelectionViewController (SWIFT_EXTENSION(ReaderModule)) <CBCentralManagerDelegate>
-- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
+@interface SearchReaderController (SWIFT_EXTENSION(ReaderModule)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 
@@ -431,6 +468,14 @@ SWIFT_CLASS("_TtC12ReaderModule17ServerTransaction")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_CLASS("_TtC12ReaderModule11SrUtilities")
+@interface SrUtilities : NSObject
++ (NSString * _Nonnull)getDeviceName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -629,7 +674,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreBluetooth;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -696,6 +740,7 @@ SWIFT_CLASS("_TtC12ReaderModule14MonthlyPayment")
 
 @class NewRelicLoggerOptions;
 enum CardType : NSInteger;
+enum CardBrand : NSInteger;
 enum Currency : NSInteger;
 enum ReaderTypes : NSInteger;
 
@@ -705,7 +750,7 @@ SWIFT_CLASS("_TtC12ReaderModule14NewRelicLogger")
 + (void)configureWithInsertKey:(NSString * _Nonnull)insertKey;
 - (void)logLoginEventWithUserEmail:(NSString * _Nonnull)userEmail;
 - (void)logLoginEventWithProductToken:(NSString * _Nonnull)productToken;
-- (void)logTransactionEventWithAmount:(float)amount cardType:(enum CardType)cardType commision:(float)commision currency:(enum Currency)currency latitude:(float)latitude longitude:(float)longitude makePaymentFailReason:(NSString * _Nonnull)makePaymentFailReason msi:(NSInteger)msi readerBatteryPercentage:(NSInteger)readerBatteryPercentage readerFirmware:(NSString * _Nonnull)readerFirmware readerHardware:(NSString * _Nonnull)readerHardware readerIsCharging:(BOOL)readerIsCharging readerType:(enum ReaderTypes)readerType readerAppOsName:(NSString * _Nullable)readerAppOsName readerOsVersion:(NSString * _Nullable)readerOsVersion reference:(NSString * _Nonnull)reference status:(NSString * _Nonnull)status tip:(float)tip total:(float)total transactionTime:(NSString * _Nullable)transactionTime serverResponseTime:(NSString * _Nullable)serverResponseTime deviceConnectionTime:(NSString * _Nullable)deviceConnectionTime user:(NSString * _Nonnull)user TLVsTags:(NSDictionary<NSString *, id> * _Nullable)TLVsTags bin:(NSString * _Nullable)bin transactionId:(NSString * _Nullable)transactionId entryMode:(NSString * _Nullable)entryMode;
+- (void)logTransactionEventWithAmount:(float)amount cardType:(enum CardType)cardType cardBrand:(enum CardBrand)cardBrand commision:(float)commision currency:(enum Currency)currency latitude:(float)latitude longitude:(float)longitude makePaymentFailReason:(NSString * _Nonnull)makePaymentFailReason msi:(NSInteger)msi readerBatteryPercentage:(NSInteger)readerBatteryPercentage readerFirmware:(NSString * _Nonnull)readerFirmware readerHardware:(NSString * _Nonnull)readerHardware readerIsCharging:(BOOL)readerIsCharging readerType:(enum ReaderTypes)readerType readerAppOsName:(NSString * _Nullable)readerAppOsName readerOsVersion:(NSString * _Nullable)readerOsVersion reference:(NSString * _Nonnull)reference status:(NSString * _Nonnull)status tip:(float)tip total:(float)total transactionTime:(NSString * _Nullable)transactionTime serverResponseTime:(NSString * _Nullable)serverResponseTime deviceConnectionTime:(NSString * _Nullable)deviceConnectionTime user:(NSString * _Nonnull)user TLVsTags:(NSDictionary<NSString *, id> * _Nullable)TLVsTags bin:(NSString * _Nullable)bin transactionId:(NSString * _Nullable)transactionId entryMode:(NSString * _Nullable)entryMode;
 - (void)addUserDataWithUser:(NSString * _Nonnull)user commission:(float)commission;
 - (void)addLocationDataWithLatitude:(float)latitude longitude:(float)longitude;
 - (void)addMSIDataWithMsi:(NSInteger)msi;
@@ -727,23 +772,29 @@ SWIFT_CLASS("_TtC12ReaderModule14NewRelicLogger")
 
 typedef SWIFT_ENUM(NSInteger, ReaderTypes, open) {
   ReaderTypesUNKNOW = 0,
-  ReaderTypesQPOSBluetooth = 1,
-  ReaderTypesQPOSAudio = 2,
-  ReaderTypesBBPOSBluetooth = 3,
-  ReaderTypesBBPOSAudio = 4,
-  ReaderTypesPAX = 5,
+  ReaderTypesBBPOSBluetooth = 1,
+  ReaderTypesPAX = 2,
 };
 
 typedef SWIFT_ENUM(NSInteger, CardType, open) {
-  CardTypeMasterCard = 0,
-  CardTypeVisa = 1,
-  CardTypeAmericanExpress = 2,
-  CardTypeCarnet = 3,
+  CardTypeChip = 0,
+  CardTypeSwipe = 1,
+  CardTypeContactless = 2,
+  CardTypeContactless_msg = 3,
+  CardTypeUndetermined = 4,
 };
 
 typedef SWIFT_ENUM(NSInteger, Currency, open) {
   CurrencyMXN = 0,
   CurrencyUSD = 1,
+};
+
+typedef SWIFT_ENUM(NSInteger, CardBrand, open) {
+  CardBrandMasterCard = 0,
+  CardBrandVisa = 1,
+  CardBrandAmericanExpress = 2,
+  CardBrandCarnet = 3,
+  CardBrandUnknown = 4,
 };
 
 
@@ -786,7 +837,6 @@ SWIFT_CLASS("_TtC12ReaderModule10ReaderInfo")
 @end
 
 @class CBPeripheral;
-enum ReaderType : NSInteger;
 enum ReaderSate : NSInteger;
 @class ReaderPayment;
 @class ServerTransaction;
@@ -802,13 +852,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 - (void)searchBluetoothReadersWithDevices:(void (^ _Nonnull)(NSArray<CBPeripheral *> * _Nonnull))devices error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)connectWithDevice:(CBPeripheral * _Nonnull)device;
 - (void)connectWithFakeWithDeviceName:(NSString * _Nonnull)deviceName;
-- (void)connectAudioWithVersion:(enum ReaderType)version;
 - (void)readerStateDidChangeWithCompletion:(void (^ _Nullable)(enum ReaderSate))completion error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)requestReaderInfoWithInfo:(void (^ _Nonnull)(ReaderInfo * _Nonnull))info;
 - (ReaderInfo * _Nonnull)getCachedReaderInfo SWIFT_WARN_UNUSED_RESULT;
 - (void)connectLastPaired;
 - (void)removeLastPaired;
 - (BOOL)isReaderPaired SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isDeviceDeprecated SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isConnected SWIFT_WARN_UNUSED_RESULT;
 - (void)cancelTransaction;
 - (void)createPaymentWithPayment:(ReaderPayment * _Nonnull)payment processing:(void (^ _Nonnull)(BOOL))processing msiPromos:(void (^ _Nonnull)(NSArray<MonthlyPayment *> * _Nonnull))msiPromos result:(void (^ _Nonnull)(ServerTransaction * _Nonnull))result error:(void (^ _Nonnull)(NSError * _Nonnull))error vc:(UIViewController * _Nullable)vc;
@@ -847,21 +897,53 @@ typedef SWIFT_ENUM(NSInteger, ReaderType, open) {
   ReaderTypeFake = 6,
 };
 
+typedef SWIFT_ENUM(NSInteger, ReadersDeprecated, open) {
+  ReadersDeprecatedQposBluetooth = 1,
+  ReadersDeprecatedQposAudio = 2,
+  ReadersDeprecatedBbposAudio = 4,
+};
+
+
+SWIFT_CLASS("_TtC12ReaderModule7Receipt")
+@interface Receipt : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC12ReaderModule13RecipeAddress")
+@interface RecipeAddress : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC12ReaderModule11RecipeModel")
+@interface RecipeModel : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC12ReaderModule11RecipePhone")
+@interface RecipePhone : NSObject
+@end
+
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC12ReaderModule23SelectionViewController")
-@interface SelectionViewController : UIViewController
+SWIFT_CLASS("_TtC12ReaderModule22SearchReaderController")
+@interface SearchReaderController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
 
-@class CBCentralManager;
-
-@interface SelectionViewController (SWIFT_EXTENSION(ReaderModule)) <CBCentralManagerDelegate>
-- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
+@interface SearchReaderController (SWIFT_EXTENSION(ReaderModule)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 
@@ -870,6 +952,14 @@ SWIFT_CLASS("_TtC12ReaderModule17ServerTransaction")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_CLASS("_TtC12ReaderModule11SrUtilities")
+@interface SrUtilities : NSObject
++ (NSString * _Nonnull)getDeviceName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
