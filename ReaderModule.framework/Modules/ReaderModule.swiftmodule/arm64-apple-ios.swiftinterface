@@ -14,6 +14,20 @@ import ReadersPrivate
 import Swift
 import SystemConfiguration
 import UIKit
+@_inheritsConvenienceInitializers @objc public class SearchReaderController : UIKit.UIViewController {
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension SearchReaderController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
 @_hasMissingDesignatedInitializers @objc public class MonthlyPayment : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
@@ -72,7 +86,7 @@ public func print(_ items: Any..., separator: Swift.String = " ", terminator: Sw
   @objc public class func configure(insertKey: Swift.String)
   @objc public func logLoginEvent(userEmail: Swift.String)
   @objc public func logLoginEvent(productToken: Swift.String)
-  @objc public func logTransactionEvent(amount: Swift.Float, cardType: ReaderModule.NewRelicLogger.CardType, commision: Swift.Float, currency: ReaderModule.NewRelicLogger.Currency, latitude: Swift.Float, longitude: Swift.Float, makePaymentFailReason: Swift.String, msi: Swift.Int, readerBatteryPercentage: Swift.Int, readerFirmware: Swift.String, readerHardware: Swift.String, readerIsCharging: Swift.Bool, readerType: ReaderModule.NewRelicLogger.ReaderTypes, readerAppOsName: Swift.String? = nil, readerOsVersion: Swift.String? = nil, reference: Swift.String, status: Swift.String, tip: Swift.Float, total: Swift.Float, transactionTime: Swift.String?, serverResponseTime: Swift.String?, deviceConnectionTime: Swift.String?, user: Swift.String, TLVsTags: [Swift.String : Any]? = nil, bin: Swift.String?, transactionId: Swift.String? = nil, entryMode: Swift.String?)
+  @objc public func logTransactionEvent(amount: Swift.Float, cardType: ReaderModule.NewRelicLogger.CardType, cardBrand: ReaderModule.NewRelicLogger.CardBrand, commision: Swift.Float, currency: ReaderModule.NewRelicLogger.Currency, latitude: Swift.Float, longitude: Swift.Float, makePaymentFailReason: Swift.String, msi: Swift.Int, readerBatteryPercentage: Swift.Int, readerFirmware: Swift.String, readerHardware: Swift.String, readerIsCharging: Swift.Bool, readerType: ReaderModule.NewRelicLogger.ReaderTypes, readerAppOsName: Swift.String? = nil, readerOsVersion: Swift.String? = nil, reference: Swift.String, status: Swift.String, tip: Swift.Float, total: Swift.Float, transactionTime: Swift.String?, serverResponseTime: Swift.String?, deviceConnectionTime: Swift.String?, user: Swift.String, TLVsTags: [Swift.String : Any]? = nil, bin: Swift.String?, transactionId: Swift.String? = nil, entryMode: Swift.String?)
   @objc public func addUserData(user: Swift.String, commission: Swift.Float)
   @objc public func addLocationData(latitude: Swift.Float, longitude: Swift.Float)
   @objc public func addMSIData(msi: Swift.Int)
@@ -93,10 +107,7 @@ public func print(_ items: Any..., separator: Swift.String = " ", terminator: Sw
 extension NewRelicLogger {
   @objc public enum ReaderTypes : Swift.Int {
     case UNKNOW
-    case QPOSBluetooth
-    case QPOSAudio
     case BBPOSBluetooth
-    case BBPOSAudio
     case PAX
     public init?(rawValue: Swift.Int)
     public typealias RawValue = Swift.Int
@@ -105,10 +116,11 @@ extension NewRelicLogger {
     }
   }
   @objc public enum CardType : Swift.Int {
-    case MasterCard
-    case Visa
-    case AmericanExpress
-    case Carnet
+    case chip
+    case swipe
+    case contactless
+    case contactless_msg
+    case undetermined
     public init?(rawValue: Swift.Int)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
@@ -124,15 +136,18 @@ extension NewRelicLogger {
       get
     }
   }
-}
-@_inheritsConvenienceInitializers @objc public class SelectionViewController : UIKit.UIViewController {
-  @objc override dynamic public func viewDidLoad()
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-extension SelectionViewController : CoreBluetooth.CBCentralManagerDelegate {
-  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+  @objc public enum CardBrand : Swift.Int {
+    case MasterCard
+    case Visa
+    case AmericanExpress
+    case Carnet
+    case Unknown
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
 }
 @objc public enum ReaderSate : Swift.Int {
   case connecting = 0
@@ -150,13 +165,23 @@ extension SelectionViewController : CoreBluetooth.CBCentralManagerDelegate {
   }
 }
 @objc public enum ReaderType : Swift.Int {
-  case unknow
-  case qposBluetooth
-  case qposAudio
-  case bbposBluetooth
-  case bbposAudio
-  case pax
-  case fake
+  case unknow = 0
+  case qposBluetooth = 1
+  case qposAudio = 2
+  case bbposBluetooth = 3
+  case bbposAudio = 4
+  case pax = 5
+  case fake = 6
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ReadersDeprecated : Swift.Int {
+  case qposBluetooth = 1
+  case qposAudio = 2
+  case bbposAudio = 4
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -169,13 +194,13 @@ extension SelectionViewController : CoreBluetooth.CBCentralManagerDelegate {
   @objc public func searchBluetoothReaders(devices: @escaping (([CoreBluetooth.CBPeripheral]) -> ()), error: @escaping ((Swift.Error) -> ()))
   @objc public func connectWith(device: CoreBluetooth.CBPeripheral)
   @objc public func connectWithFake(deviceName: Swift.String)
-  @objc public func connectAudio(version: ReaderModule.ReaderType)
   @objc public func readerStateDidChange(completion: ((ReaderModule.ReaderSate) -> ())?, error: @escaping (Swift.Error) -> ())
   @objc public func requestReaderInfo(info: @escaping (ReaderModule.ReaderInfo) -> ())
   @objc public func getCachedReaderInfo() -> ReaderModule.ReaderInfo
   @objc public func connectLastPaired()
   @objc public func removeLastPaired()
   @objc public func isReaderPaired() -> Swift.Bool
+  @objc public func isDeviceDeprecated() -> Swift.Bool
   @objc public func isConnected() -> Swift.Bool
   @objc public func cancelTransaction()
   @objc public func createPayment(payment: ReaderModule.ReaderPayment, processing: @escaping (Swift.Bool) -> (), msiPromos: @escaping ([ReaderModule.MonthlyPayment]) -> (), result: @escaping (ReaderModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> (), vc: UIKit.UIViewController? = nil)
@@ -183,6 +208,26 @@ extension SelectionViewController : CoreBluetooth.CBCentralManagerDelegate {
   @objc public func paymentAddMSI(monthlyPayment: ReaderModule.MonthlyPayment?)
   @objc public func sendtTicket(operationID: Swift.String, mail: Swift.String?, phone: Swift.String?, success: @escaping () -> (), error: @escaping (Swift.Error) -> ())
   @objc deinit
+}
+@objc public class RecipeModel : ObjectiveC.NSObject, Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class Receipt : ObjectiveC.NSObject, Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class RecipePhone : ObjectiveC.NSObject, Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class RecipeAddress : ObjectiveC.NSObject, Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class ServerTransaction : ObjectiveC.NSObject, Swift.Decodable {
   required public convenience init(from decoder: Swift.Decoder) throws
@@ -220,6 +265,11 @@ public enum HTTPMethods : Swift.String {
 @objc @_inheritsConvenienceInitializers public class Connection : ObjectiveC.NSObject {
   public static func makeConnection<expectedObj>(request: ReaderModule.ConnectionRequest, responseJSON: expectedObj.Type, completion: @escaping (expectedObj) -> (), connectionError: @escaping (Swift.Error) -> ()) where expectedObj : Swift.Decodable
   public static func makeConnection(request: ReaderModule.ConnectionRequest, jsonResponse: @escaping ([Swift.String : Any]) -> (), connectionError: @escaping (Swift.Error) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class SrUtilities : ObjectiveC.NSObject {
+  @objc public static func getDeviceName() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
