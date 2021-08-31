@@ -13,7 +13,7 @@ Pod::Spec.new do |sdk|
 
   sdk.authors      = {
     'Fernando Bustos' => 'fbustosr@srpago.com',
-    'Jorge Mejia' => 'jmejiah@srpago.com'
+    'Jorge Mejia' => 'jmejiah@srpago.com',
     'Genaro Arvizu' => 'lgarvizuv@srpago.com',
     'Martín Gonzales' => 'mgonzaleze@srpago.com'
    }
