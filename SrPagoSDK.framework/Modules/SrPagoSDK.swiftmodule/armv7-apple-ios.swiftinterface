@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
-// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SrPagoSDK
+// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SrPagoSDK
 import CoreLocation
 import CoreTelephony
 import EcommerceModule
@@ -18,11 +18,12 @@ public typealias CompletionError = (Swift.Error) -> ()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class SrPagoSDK : ObjectiveC.NSObject {
-  @objc public static var shared: SrPagoSDK.SrPagoSDK
+  @objc public static let shared: SrPagoSDK.SrPagoSDK
   @objc public static var sandbox: Swift.Bool
   @objc public static var showLogs: Swift.Bool
   @objc public func makePayment(_ from: UIKit.UIViewController, payment: SrPagoSDK.Payment, successful: @escaping (Swift.Bool) -> ())
   @objc public func config()
+  @objc public func makeRefund(transactionId: Swift.String, completion: @escaping (Swift.String) -> (), error: @escaping (Swift.Error) -> ())
   @objc deinit
 }
 @objc public class Payment : ObjectiveC.NSObject {
@@ -33,7 +34,7 @@ public typealias CompletionError = (Swift.Error) -> ()
 public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
 public typealias locationError = (Swift.Error) -> ()
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationService : ObjectiveC.NSObject {
-  public static var shared: SrPagoSDK.LocationService
+  public static let shared: SrPagoSDK.LocationService
   public func getLocation(location: @escaping SrPagoSDK.updateLocationCompletion, error: @escaping SrPagoSDK.locationError)
   @objc deinit
 }
@@ -66,3 +67,6 @@ public enum HTTPMethods : Swift.String {
   @objc override dynamic public init()
   @objc deinit
 }
+extension SrPagoSDK.HTTPMethods : Swift.Equatable {}
+extension SrPagoSDK.HTTPMethods : Swift.Hashable {}
+extension SrPagoSDK.HTTPMethods : Swift.RawRepresentable {}

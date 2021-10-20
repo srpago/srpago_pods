@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
-// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ReaderModule
+// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ReaderModule
 import AVFoundation
 import AVKit
 import CoreBluetooth
@@ -34,6 +34,11 @@ extension SearchReaderController : UIKit.UITableViewDelegate, UIKit.UITableViewD
 }
 public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
 public typealias locationError = (Swift.Error) -> ()
+@objc @_inheritsConvenienceInitializers public class ReaderModuleServices : ObjectiveC.NSObject {
+  public static func getAgentHeaders() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public class ReaderInfo : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let readerType: Swift.Int
   @objc final public let batteryPercentage: Swift.Int
@@ -189,7 +194,7 @@ extension NewRelicLogger {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ReaderModule) public class ReaderModule : ObjectiveC.NSObject {
-  @objc public static var shared: ReaderModule.ReaderModule
+  @objc public static let shared: ReaderModule.ReaderModule
   @objc public static func setSandboxEnvironment(sandbox: Swift.Bool)
   @objc public func searchBluetoothReaders(devices: @escaping (([CoreBluetooth.CBPeripheral]) -> ()), error: @escaping ((Swift.Error) -> ()))
   @objc public func connectWith(device: CoreBluetooth.CBPeripheral)
@@ -209,28 +214,30 @@ extension NewRelicLogger {
   @objc public func sendtTicket(operationID: Swift.String, mail: Swift.String?, phone: Swift.String?, success: @escaping () -> (), error: @escaping (Swift.Error) -> ())
   @objc deinit
 }
-@objc public class RecipeModel : ObjectiveC.NSObject, Swift.Codable {
+@objc public class ReceiptModel : ObjectiveC.NSObject, Swift.Codable {
+  required public init(from decoder: Swift.Decoder) throws
+  @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
 }
 @objc public class Receipt : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@objc public class RecipePhone : ObjectiveC.NSObject, Swift.Codable {
+@objc public class ReceiptPhone : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@objc public class RecipeAddress : ObjectiveC.NSObject, Swift.Codable {
+@objc public class ReceiptAddress : ObjectiveC.NSObject, Swift.Codable {
+  required public init(from decoder: Swift.Decoder) throws
+  @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class ServerTransaction : ObjectiveC.NSObject, Swift.Decodable {
-  required public convenience init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: Swift.Decoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -274,7 +281,31 @@ public enum HTTPMethods : Swift.String {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationService : ObjectiveC.NSObject {
-  public static var shared: ReaderModule.LocationService
+  public static let shared: ReaderModule.LocationService
   public func getLocation(location: @escaping ReaderModule.updateLocationCompletion, error: @escaping ReaderModule.locationError)
   @objc deinit
 }
+extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.RawRepresentable {}
+extension ReaderModule.NewRelicLogger.CardType : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.CardType : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.CardType : Swift.RawRepresentable {}
+extension ReaderModule.NewRelicLogger.Currency : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.Currency : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.Currency : Swift.RawRepresentable {}
+extension ReaderModule.NewRelicLogger.CardBrand : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.CardBrand : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.CardBrand : Swift.RawRepresentable {}
+extension ReaderModule.ReaderSate : Swift.Equatable {}
+extension ReaderModule.ReaderSate : Swift.Hashable {}
+extension ReaderModule.ReaderSate : Swift.RawRepresentable {}
+extension ReaderModule.ReaderType : Swift.Equatable {}
+extension ReaderModule.ReaderType : Swift.Hashable {}
+extension ReaderModule.ReaderType : Swift.RawRepresentable {}
+extension ReaderModule.ReadersDeprecated : Swift.Equatable {}
+extension ReaderModule.ReadersDeprecated : Swift.Hashable {}
+extension ReaderModule.ReadersDeprecated : Swift.RawRepresentable {}
+extension ReaderModule.HTTPMethods : Swift.Equatable {}
+extension ReaderModule.HTTPMethods : Swift.Hashable {}
+extension ReaderModule.HTTPMethods : Swift.RawRepresentable {}

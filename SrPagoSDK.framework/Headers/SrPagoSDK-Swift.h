@@ -256,6 +256,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
 - (void)config;
+- (void)makeRefundWithTransactionId:(NSString * _Nonnull)transactionId completion:(void (^ _Nonnull)(NSString * _Nonnull))completion error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 @end
 
 
@@ -529,6 +530,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showLogs;)
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)makePayment:(UIViewController * _Nonnull)from payment:(Payment * _Nonnull)payment successful:(void (^ _Nonnull)(BOOL))successful;
 - (void)config;
+- (void)makeRefundWithTransactionId:(NSString * _Nonnull)transactionId completion:(void (^ _Nonnull)(NSString * _Nonnull))completion error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 @end
 
 
