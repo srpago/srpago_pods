@@ -385,6 +385,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 
 
 
+SWIFT_CLASS("_TtC12ReaderModule20ReaderModuleServices")
+@interface ReaderModuleServices : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC12ReaderModule13ReaderPayment")
 @interface ReaderPayment : NSObject
 - (nonnull instancetype)initWithAmount:(float)amount reference:(NSString * _Nonnull)reference tip:(float)tip OBJC_DESIGNATED_INITIALIZER;
@@ -425,18 +431,22 @@ SWIFT_CLASS("_TtC12ReaderModule7Receipt")
 @end
 
 
-SWIFT_CLASS("_TtC12ReaderModule13RecipeAddress")
-@interface RecipeAddress : NSObject
+SWIFT_CLASS("_TtC12ReaderModule14ReceiptAddress")
+@interface ReceiptAddress : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC12ReaderModule11RecipeModel")
-@interface RecipeModel : NSObject
+SWIFT_CLASS("_TtC12ReaderModule12ReceiptModel")
+@interface ReceiptModel : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC12ReaderModule11RecipePhone")
-@interface RecipePhone : NSObject
+SWIFT_CLASS("_TtC12ReaderModule12ReceiptPhone")
+@interface ReceiptPhone : NSObject
 @end
 
 @class NSBundle;
@@ -869,6 +879,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 
 
 
+SWIFT_CLASS("_TtC12ReaderModule20ReaderModuleServices")
+@interface ReaderModuleServices : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC12ReaderModule13ReaderPayment")
 @interface ReaderPayment : NSObject
 - (nonnull instancetype)initWithAmount:(float)amount reference:(NSString * _Nonnull)reference tip:(float)tip OBJC_DESIGNATED_INITIALIZER;
@@ -909,18 +925,22 @@ SWIFT_CLASS("_TtC12ReaderModule7Receipt")
 @end
 
 
-SWIFT_CLASS("_TtC12ReaderModule13RecipeAddress")
-@interface RecipeAddress : NSObject
+SWIFT_CLASS("_TtC12ReaderModule14ReceiptAddress")
+@interface ReceiptAddress : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC12ReaderModule11RecipeModel")
-@interface RecipeModel : NSObject
+SWIFT_CLASS("_TtC12ReaderModule12ReceiptModel")
+@interface ReceiptModel : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC12ReaderModule11RecipePhone")
-@interface RecipePhone : NSObject
+SWIFT_CLASS("_TtC12ReaderModule12ReceiptPhone")
+@interface ReceiptPhone : NSObject
 @end
 
 @class NSBundle;

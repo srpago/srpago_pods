@@ -21,6 +21,21 @@ Modules:
 
 # ChangeLog
 
+## [1.1.8] 2021-09-11
+
+### Added
+- Adding MSI value on Receipt
+- Refound consume service
+
+### Changed
+- Brand card BBPOSManager
+- Update headers according to environment
+- Reader time transaction was changed from 120 seconds to 30 from BBPOS Reader
+
+### Fixed
+- Logging the 'SUCCESS' status on transacation
+- Null value crash in PAX print
+- Validating empty fields of address to avoid show wrong string address
 
 ## [1.1.7] 2021-08-31
 
