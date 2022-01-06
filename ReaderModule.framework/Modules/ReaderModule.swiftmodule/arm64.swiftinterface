@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ReaderModule
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ReaderModule
 import AVFoundation
 import AVKit
 import CoreBluetooth
@@ -14,22 +14,22 @@ import ReadersPrivate
 import Swift
 import SystemConfiguration
 import UIKit
-@_inheritsConvenienceInitializers @objc public class SearchReaderController : UIKit.UIViewController {
-  @objc override dynamic public func viewDidLoad()
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+import _Concurrency
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class SearchReaderController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-extension SearchReaderController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+extension ReaderModule.SearchReaderController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 @_hasMissingDesignatedInitializers @objc public class MonthlyPayment : ObjectiveC.NSObject {
-  @objc override dynamic public init()
   @objc deinit
 }
 public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
@@ -101,15 +101,13 @@ public func print(_ items: Any..., separator: Swift.String = " ", terminator: Sw
   @objc public func closeTransaction(status: Swift.String, makePaymentFailReason: Swift.String? = "")
   @objc public func startTransactionTime()
   @objc public func stopTransactionTime()
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class NewRelicLoggerOptions : ObjectiveC.NSObject {
   @objc public init(sdkBuild: Swift.String)
-  @objc override dynamic public init()
   @objc deinit
 }
-extension NewRelicLogger {
+extension ReaderModule.NewRelicLogger {
   @objc public enum ReaderTypes : Swift.Int {
     case UNKNOW
     case BBPOSBluetooth
@@ -194,7 +192,7 @@ extension NewRelicLogger {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ReaderModule) public class ReaderModule : ObjectiveC.NSObject {
-  @objc public static let shared: ReaderModule.ReaderModule
+  @objc public static var shared: ReaderModule.ReaderModule
   @objc public static func setSandboxEnvironment(sandbox: Swift.Bool)
   @objc public func searchBluetoothReaders(devices: @escaping (([CoreBluetooth.CBPeripheral]) -> ()), error: @escaping ((Swift.Error) -> ()))
   @objc public func connectWith(device: CoreBluetooth.CBPeripheral)
@@ -216,7 +214,6 @@ extension NewRelicLogger {
 }
 @objc public class ReceiptModel : ObjectiveC.NSObject, Swift.Codable {
   required public init(from decoder: Swift.Decoder) throws
-  @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
@@ -232,18 +229,15 @@ extension NewRelicLogger {
 }
 @objc public class ReceiptAddress : ObjectiveC.NSObject, Swift.Codable {
   required public init(from decoder: Swift.Decoder) throws
-  @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class ServerTransaction : ObjectiveC.NSObject, Swift.Decodable {
-  required convenience public init(from decoder: Swift.Decoder) throws
-  @objc override dynamic public init()
+  required public convenience init(from decoder: Swift.Decoder) throws
   @objc deinit
 }
 @objc public class ReaderPayment : ObjectiveC.NSObject {
   @objc public init(amount: Swift.Float, reference: Swift.String, tip: Swift.Float)
-  @objc override dynamic public init()
   @objc deinit
 }
 public enum HTTPMethods : Swift.String {
@@ -266,7 +260,6 @@ public enum HTTPMethods : Swift.String {
   public var headers: [Swift.String : Swift.String]
   public var timeOut: Swift.Int
   public init(url: Swift.String, type: ReaderModule.HTTPMethods, body: Any?, urlParams: [Swift.String : Swift.String]?)
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class Connection : ObjectiveC.NSObject {
@@ -281,31 +274,7 @@ public enum HTTPMethods : Swift.String {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationService : ObjectiveC.NSObject {
-  public static let shared: ReaderModule.LocationService
+  public static var shared: ReaderModule.LocationService
   public func getLocation(location: @escaping ReaderModule.updateLocationCompletion, error: @escaping ReaderModule.locationError)
   @objc deinit
 }
-extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.Equatable {}
-extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.Hashable {}
-extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.RawRepresentable {}
-extension ReaderModule.NewRelicLogger.CardType : Swift.Equatable {}
-extension ReaderModule.NewRelicLogger.CardType : Swift.Hashable {}
-extension ReaderModule.NewRelicLogger.CardType : Swift.RawRepresentable {}
-extension ReaderModule.NewRelicLogger.Currency : Swift.Equatable {}
-extension ReaderModule.NewRelicLogger.Currency : Swift.Hashable {}
-extension ReaderModule.NewRelicLogger.Currency : Swift.RawRepresentable {}
-extension ReaderModule.NewRelicLogger.CardBrand : Swift.Equatable {}
-extension ReaderModule.NewRelicLogger.CardBrand : Swift.Hashable {}
-extension ReaderModule.NewRelicLogger.CardBrand : Swift.RawRepresentable {}
-extension ReaderModule.ReaderSate : Swift.Equatable {}
-extension ReaderModule.ReaderSate : Swift.Hashable {}
-extension ReaderModule.ReaderSate : Swift.RawRepresentable {}
-extension ReaderModule.ReaderType : Swift.Equatable {}
-extension ReaderModule.ReaderType : Swift.Hashable {}
-extension ReaderModule.ReaderType : Swift.RawRepresentable {}
-extension ReaderModule.ReadersDeprecated : Swift.Equatable {}
-extension ReaderModule.ReadersDeprecated : Swift.Hashable {}
-extension ReaderModule.ReadersDeprecated : Swift.RawRepresentable {}
-extension ReaderModule.HTTPMethods : Swift.Equatable {}
-extension ReaderModule.HTTPMethods : Swift.Hashable {}
-extension ReaderModule.HTTPMethods : Swift.RawRepresentable {}
