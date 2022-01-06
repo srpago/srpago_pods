@@ -9,7 +9,7 @@ Modules:
 
 - Xcode 12.5
 - Swift 5
-- Minimum iOS 9 version supported
+- Minimum iOS 11 version supported
 - Cocoapods
 - iPhones and iPads supported
 
@@ -20,6 +20,15 @@ Modules:
 | lottie-ios            | 3.2.3   |
 
 # ChangeLog
+
+## [1.1.9] 2022-01-06
+
+### Added
+- PAX vinculated info was improved
+
+### Changed
+- Support for Xcode 13 and iOS 15
+- Minimum iOS version was changed to 11
 
 ## [1.1.8] 2021-09-11
 
