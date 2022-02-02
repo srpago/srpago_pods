@@ -22,6 +22,7 @@ public typealias CompletionError = (Swift.Error) -> ()
   @objc public static var shared: SrPagoSDK.SrPagoSDK
   @objc public static var sandbox: Swift.Bool
   @objc public static var showLogs: Swift.Bool
+  @objc public static var environment: SrPagoSDK.SDKModulesEnvironment
   @objc public func makePayment(_ from: UIKit.UIViewController, payment: SrPagoSDK.Payment, successful: @escaping (Swift.Bool) -> ())
   @objc public func config()
   @objc public func makeRefund(transactionId: Swift.String, completion: @escaping (Swift.String) -> (), error: @escaping (Swift.Error) -> ())
@@ -30,6 +31,19 @@ public typealias CompletionError = (Swift.Error) -> ()
 @objc public class Payment : ObjectiveC.NSObject {
   @objc public init(amount: Swift.Float, reference: Swift.String)
   @objc deinit
+}
+@objc public enum SDKModulesEnvironment : Swift.Int {
+  case DEVELOP
+  case SANDBOX
+  case CERTIFICATION
+  case PRODUCTION
+  case FIMEENV
+  case STAGGING
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
 public typealias locationError = (Swift.Error) -> ()
