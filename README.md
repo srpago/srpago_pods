@@ -21,6 +21,12 @@ Modules:
 
 # ChangeLog
 
+## [1.2.0] 2022-02-01
+
+## Added
+- New environments support
+- Battery report was improved
+
 ## [1.1.9] 2022-01-06
 
 ### Added
