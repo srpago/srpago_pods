@@ -1,25 +1,23 @@
 # SrPago-SDK
 
 Modules:
- - EcommerceModule
- - ReaderModule
- - SrPagoSDK
+ - KNPaymentFramework
 
 ## Requirements
 
 - Xcode 12.5
 - Swift 5
-- Minimum iOS 11 version supported
+- Minimum iOS 13 version supported
 - Cocoapods
 - iPhones and iPads supported
 
-## Frameworks
-
-| Pod name              | Version |
-| --------------------- | ------- |
-| lottie-ios            | 3.2.3   |
-
 # ChangeLog
+
+## [2.0.0] 2022-02-02
+
+## Added
+- New Framework version
+- Simulator support
 
 ## [1.2.0] 2022-02-01
 

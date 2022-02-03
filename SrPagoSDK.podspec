@@ -12,29 +12,14 @@ Pod::Spec.new do |sdk|
   sdk.license      = { :type => "MIT", :text => "© 2022 SrPago" }
 
   sdk.authors      = {
-    'Fernando Bustos' => 'fbustosr@srpago.com',
+    'Fernando Bustos' => 'luis.bustos@konfio.mx',
     'Jorge Mejia' => 'jmejiah@srpago.com',
     'Genaro Arvizu' => 'lgarvizuv@srpago.com',
     'Martín Gonzales' => 'mgonzaleze@srpago.com'
    }
   sdk.platform     = :ios, "11.0"
 
-  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => '1.2.0'}
-  sdk.default_subspec = 'Core'
-
-    sdk.subspec 'Core' do |core|
-        core.vendored_frameworks = "SrPagoSDK.framework"
-    end
-
-    sdk.subspec 'Ecommerce' do |ecommerce|
-        ecommerce.vendored_frameworks = "EcommerceModule.framework"
-        ecommerce.dependency 'SrPagoSDK/Core'
-    end
-
-    sdk.subspec 'Reader' do |reader|
-        reader.vendored_frameworks = "ReaderModule.framework"
-        reader.dependency 'SrPagoSDK/Core'
-    end
-
-
+  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git", :branch => 'feature/PaymentsV2'}
+  #sdk.vendored_frameworks = 'KNPaymentFramework.xcframework'
+  sdk.frameworks = 'KNPaymentFramework'
 end
