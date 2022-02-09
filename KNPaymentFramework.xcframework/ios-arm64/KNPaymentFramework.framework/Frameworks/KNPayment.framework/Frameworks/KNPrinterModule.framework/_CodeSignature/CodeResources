@@ -8,18 +8,6 @@
 		<data>
 		RxRIybBiKnkCqGrVDMOdCLwcss4=
 		</data>
-		<key>Frameworks/KNBluetoothModule.framework/Info.plist</key>
-		<data>
-		UYEDoRFiSIruIaBs4AsCnGIJINI=
-		</data>
-		<key>Frameworks/KNBluetoothModule.framework/KNBluetoothModule</key>
-		<data>
-		kFrirWe/pOIJwe8VybDqY+gcID4=
-		</data>
-		<key>Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
-		<data>
-		L//N/UpSjS+sfKt+cXC6VT3OAA8=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		ftbjAWXaYcl4pJRO/4JsvbQMQAw=
@@ -32,27 +20,6 @@
 			<key>hash2</key>
 			<data>
 			uOv0rWwZ3bbqPoY21k8Fc00sS2vqzNkKJ7phPaXx2jc=
-			</data>
-		</dict>
-		<key>Frameworks/KNBluetoothModule.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hWPqutjWvsRugi5eXu0HNCQ2ypSS2hcGo8b+/SGEnQA=
-			</data>
-		</dict>
-		<key>Frameworks/KNBluetoothModule.framework/KNBluetoothModule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rhYHzBtOwV3CfMbUStl3RPBBmiqn8fCNHqCnwMq+ETo=
-			</data>
-		</dict>
-		<key>Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			40P4ndKIXd6iVzRb+e65+jAwt7YWZUY0FxOBp9nBUCk=
 			</data>
 		</dict>
 	</dict>

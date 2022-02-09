@@ -1,0 +1,11 @@
+framework module KNCore {
+  umbrella header "KNCore.h"
+
+  export *
+  module * { export * }
+}
+
+module KNCore.Swift {
+    header "KNCore-Swift.h"
+    requires objc
+}
