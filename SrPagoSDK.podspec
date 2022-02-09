@@ -1,7 +1,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "2.0.0"
+  sdk.version      = "2.0.1"
   sdk.summary      = "SDK de Sr.pago"
   sdk.description  = <<-DESC
     SDK de Señor pago para iOS
@@ -17,9 +17,13 @@ Pod::Spec.new do |sdk|
     'Luis Genaro Arvizu Vega' => 'luis.arvizu@konfio.mx',
     'Martín González Escamilla' => 'martin.gonzalez@konfio.mx'
    }
-  sdk.platform     = :ios, "13.0"
 
-  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git", :tag => '2.0.0'}
-  sdk.vendored_frameworks = 'KNPaymentFramework.xcframework'
-  sdk.frameworks = 'KNPaymentFramework'
+  sdk.ios.deployment_target = '13.0'
+
+  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git", :tag => sdk.version.to_s }
+  
+  sdk.vendored_frameworks = 'KNCore.xcframework', 'KNPayment.xcframework'
+  sdk.xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
+  sdk.static_framework = true
+
 end
