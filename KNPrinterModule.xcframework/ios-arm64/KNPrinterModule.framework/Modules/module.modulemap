@@ -1,0 +1,11 @@
+framework module KNPrinterModule {
+  umbrella header "KNPrinterModule.h"
+
+  export *
+  module * { export * }
+}
+
+module KNPrinterModule.Swift {
+    header "KNPrinterModule-Swift.h"
+    requires objc
+}

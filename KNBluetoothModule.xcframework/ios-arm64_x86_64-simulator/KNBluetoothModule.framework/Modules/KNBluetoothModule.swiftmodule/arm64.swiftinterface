@@ -1,0 +1,35 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNBluetoothModule
+import CoreBluetooth
+import Foundation
+@_exported import KNBluetoothModule
+import KNCore
+import Swift
+import _Concurrency
+public class KNConnectionManager {
+  public init(delegate: KNBluetoothModule.KNBluetoothDelegate)
+  public init(delegate: KNBluetoothModule.KNBluetoothDelegate, printerDelegate: KNBluetoothModule.KNBluetoothPrinterDelegate)
+  public func bluetoothPermissionState() -> KNCore.KNBluetoothPermissionState
+  public func searchDevices(devices: [KNCore.KNConnectionReaderType]?)
+  public func searchPrinters(printers: [KNCore.KNPrinter] = [KNPrinter.defaultPrinter()])
+  public func connect(printer: KNCore.KNPrinter) -> KNCore.KNPaymentError?
+  public func printData(data: Foundation.Data) -> KNCore.KNPaymentError?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class KNBluetoothPermissionsHelper {
+  public static func verifyBluetoothAccess() -> KNCore.KNBluetoothPermissionState
+  @objc deinit
+}
+public protocol KNBluetoothPrinterDelegate : AnyObject {
+  func printer(_ printer: KNCore.KNPrinter, connected: Swift.Bool)
+}
+public protocol KNBluetoothDelegate : AnyObject {
+  func onListReadersFound(devices: [KNCore.KNBluetoothReader])
+  func onListPrintersFound(devices: [KNCore.KNPrinter])
+  func bluetooth(state: KNCore.KNBluetoothState)
+}
+extension KNBluetoothModule.KNBluetoothDelegate {
+  public func onListReadersFound(devices: [KNCore.KNBluetoothReader])
+  public func onListPrintersFound(devices: [KNCore.KNPrinter])
+}

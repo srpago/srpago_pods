@@ -1,0 +1,11 @@
+framework module KNBusinessModule {
+  umbrella header "KNBusinessModule.h"
+
+  export *
+  module * { export * }
+}
+
+module KNBusinessModule.Swift {
+    header "KNBusinessModule-Swift.h"
+    requires objc
+}

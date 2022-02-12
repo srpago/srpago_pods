@@ -1,0 +1,11 @@
+framework module KNPaymentModule {
+  umbrella header "KNPaymentModule.h"
+
+  export *
+  module * { export * }
+}
+
+module KNPaymentModule.Swift {
+    header "KNPaymentModule-Swift.h"
+    requires objc
+}

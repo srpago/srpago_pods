@@ -1,0 +1,11 @@
+framework module KNBluetoothModule {
+  umbrella header "KNBluetoothModule.h"
+
+  export *
+  module * { export * }
+}
+
+module KNBluetoothModule.Swift {
+    header "KNBluetoothModule-Swift.h"
+    requires objc
+}
