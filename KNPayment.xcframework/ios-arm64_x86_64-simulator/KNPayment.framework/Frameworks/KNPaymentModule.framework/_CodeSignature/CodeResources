@@ -6,27 +6,27 @@
 	<dict>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/Info.plist</key>
 		<data>
-		uZEC4Ia+VFTqDxjwjIiAu4vVzKo=
+		xxfgcrcza1XqaqFN6BQ/JtLuGw0=
 		</data>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
 		<data>
-		Cgh2ZUVzxL7sKAeR5ftJPJ3bQc4=
+		5R47YxKfxuoK6MYhnKj6ssC5pQ4=
 		</data>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
-		sDeNvzodBum1ymcoPiGvksHXJWs=
+		DQzH0VV/GTM/mxKYZuKxDct60mQ=
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/Info.plist</key>
 		<data>
-		rnyntU1CqYHc00RBZ3IN0dgz9HQ=
+		T1K+CrAeNUpolDMWECxX32s/2Zs=
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
 		<data>
-		chff75Y9hdKEYq4Vjj6dXpl66gE=
+		RVJfy1zgvNpNIW3xNHoIwo3KU2M=
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
 		<data>
-		fewlgyeI+xUuAjwL5Wu5DRjMByU=
+		VAPPn9clDRyWrs7BKsBiwV6HHhM=
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/en.lproj/KNNetworkError.strings</key>
 		<dict>
@@ -48,7 +48,7 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		YNVmtGG5oBQYVj2KL1AaqVPQpCI=
+		Z2RsJuNTLFjuyPYCWXKt7Z7eZRE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -57,42 +57,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8N272IOs6IbKIjpQkYZsweZrOpC0U1NW76dt/BxJhwM=
+			Gtn7zFnL/NmC8DE6tuUJaUPby/OhCn4dB53K+q50J7w=
 			</data>
 		</dict>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5l7bDiN2lvv0IKHPXBXkWZkEI8gD+Xqr9Gdf6JBxWe0=
+			TWnzoJl7qLpTAgWMD0rVZWiZfHN7qklN/zNmZfhKLiM=
 			</data>
 		</dict>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8YxKMTA6W1+pevGCaXU0HF3iA215uvDLOg5QjHG94LQ=
+			lHk3BiFxBdfj7xUw/LgK1en5UDAukJG20M73XcYxo30=
 			</data>
 		</dict>
 		<key>Frameworks/KNBusinessModule.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eYen4A9qDxEBGYLlDmRBBR6Z0BjPURXUbO8yQtYYfI4=
+			GWiodt5rAxpXUB4K9pZcsmor2U9xskjvUf6BW9qw9/k=
 			</data>
 		</dict>
 		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aMjL9bUdH66b8rcDa0J/+39XZmf/mQPq6fYeIQZNLPg=
+			IMvEmBBqqghvBNvMWUNg1MZ2KoiocRN0oEC61jdGgY8=
 			</data>
 		</dict>
 		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HWr4BNnboLkTWOVZalFEe4UhdwHsycQh9tPn4sss0PM=
+			iZfKfKjVgBnx5d07pDATxDesV+7Jp3jIPHV0p0MfMEs=
 			</data>
 		</dict>
 		<key>Frameworks/KNBusinessModule.framework/en.lproj/KNNetworkError.strings</key>

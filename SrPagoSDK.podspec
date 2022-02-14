@@ -18,10 +18,10 @@ Pod::Spec.new do |sdk|
     'Martín González Escamilla' => 'martin.gonzalez@konfio.mx'
    }
 
-  sdk.ios.deployment_target = '13.0'
+  sdk.ios.deployment_target = '11.0'
 
   sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git", :tag => sdk.version.to_s }
-  
+
   sdk.vendored_frameworks = 'KNPaymentFramework.xcframework', 'KNCore.xcframework', 'KNPayment.xcframework', 'KNBluetoothModule.xcframework', 'KNBusinessModule.xcframework', 'KNPaymentFramework.xcframework', 'KNPaymentModule.xcframework', 'KNPrinterModule.xcframework', 'KNAnalyticsPaymentModule.xcframework'
   sdk.xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
   sdk.static_framework = true
