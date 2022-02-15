@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/KNCore.framework/KNCore</key>
 		<data>
-		DzVocg8FCTUL7UK8liDP/LCk5so=
+		KrfUNfv+sthTXD7kJRBGqO+dOB4=
 		</data>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNBluetoothModule.framework/KNBluetoothModule</key>
 		<data>
-		DKliutef8O5R0cNUdIpQgp/LIME=
+		EU4Si/moRL/hEDLu+XsK2vI0b6U=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
 		<data>
-		hzMQuhhMg/Ui44LutUOoW8vrDds=
+		zNWS6j3D8TSX72X2J4WxFKz18js=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -64,7 +64,7 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNCore.framework/KNCore</key>
 		<data>
-		DzVocg8FCTUL7UK8liDP/LCk5so=
+		KrfUNfv+sthTXD7kJRBGqO+dOB4=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -76,7 +76,7 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
 		<data>
-		YCUO9Gs/BOljx2V127ISFStfHrc=
+		XcKRhDL4B5eHIgvSwP98YfXdCEM=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -88,7 +88,7 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
 		<data>
-		hzMQuhhMg/Ui44LutUOoW8vrDds=
+		zNWS6j3D8TSX72X2J4WxFKz18js=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/KNPaymentModule</key>
 		<data>
-		xOa67vMyXzzB7Tb8a/PlXKlSXwQ=
+		GBnYtGCfPCa27NqqBQ26GLX0LWU=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
-		8G4pJzmix9p9DAqNw/RCEHLeSwk=
+		wtuCTqnTFKYwCPO1AZZ/RLwPvts=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPrinterModule.framework/Assets.car</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPrinterModule.framework/KNPrinterModule</key>
 		<data>
-		xBpSHwvTl0cHX6wmX7Urxw/LcF0=
+		FoAW7SZds7lQZL20q1k8+9AXtKQ=
 		</data>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/KNPayment</key>
 		<data>
-		iPds2y5jE/rfYvcALS1Qu4WDDvY=
+		Wstoisz05Wxr+lKG8G5eabYbloM=
 		</data>
 		<key>Frameworks/KNPayment.framework/_CodeSignature/CodeResources</key>
 		<data>
-		1XEttNhXomZldrQVAX7pQWbikmE=
+		bL0y+NWb/qPThz3KeAAuhBN/rb0=
 		</data>
 		<key>Headers/KNPaymentFramework.h</key>
 		<data>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a0b0ZLsx8XNu0S/H2A3A9ZS46JvX304pXOUKElJWSBk=
+			UXQxHSyQQZnZlT1e5oGPoQA7fBeRbKbYvlPSuvMrDVw=
 			</data>
 		</dict>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K3Tfu86hVlBXOVYMcyNjDcnEjMOxWIUD29oGMHl+uVc=
+			OsFYtkIQ3VU7bB4Tr2mYCg7Pv0Z8mVuacpS3f+3pPwA=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
@@ -220,7 +220,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			96ACIhE0/ITntg38w0Ki5ABgnpebthARgIYnkxCXG+k=
+			Q4CfafgWyfBqgmxiIF6F8kJe2FoPD5aqrEYTHuLkuS8=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
@@ -259,7 +259,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a0b0ZLsx8XNu0S/H2A3A9ZS46JvX304pXOUKElJWSBk=
+			UXQxHSyQQZnZlT1e5oGPoQA7fBeRbKbYvlPSuvMrDVw=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
@@ -280,7 +280,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			klZa/go/emhFjdXWz+ksbR9tdLTjmAbYphUNq25aric=
+			CZBY3L+I65OLgPFOkwQ/cXjdlbGnouJGfl3GsBRRctQ=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
@@ -301,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			96ACIhE0/ITntg38w0Ki5ABgnpebthARgIYnkxCXG+k=
+			Q4CfafgWyfBqgmxiIF6F8kJe2FoPD5aqrEYTHuLkuS8=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
@@ -340,14 +340,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cb2oV5/NcjXmy7p/a2eXjIHzflgdrOLU0Z39j5OuKCA=
+			lW34y+f0RTK0JqeVuW+rFFcMLCCgjjDst9WhYHqFa9E=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eTb/AyKCYhsVTIb59RMepJTA6qZtxG8M7ozHFSF4O/E=
+			eYhX1DDf+ScbZnayVah/X4rrxTWyXix4xAWEFPFnzsU=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPrinterModule.framework/Assets.car</key>
@@ -368,7 +368,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z4z5vXrQMwa9CzG/MDO1okaGVkyYsOHdxV1t6ZG/Ki4=
+			gAVW/Cs57HXF1HIneeaXIEXmwYhl9bqptxwyyhBMPMw=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>
@@ -389,14 +389,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wxu6kKypxIW41TOhNXADGOyx8udRXCOEhrgD4IksNf4=
+			/gFsgaXvE18G9QRtTzcNXmZ7e7IWc3iGKwrwJonmQwU=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xaogkcla+r/NACo3XWnKUxmKW7FaDyxngiXFyehLLHU=
+			xwe4ruBnMeHWISkdY6nX8cdtU50M9pQJFWv2qxZWQ0A=
 			</data>
 		</dict>
 		<key>Headers/KNPaymentFramework.h</key>

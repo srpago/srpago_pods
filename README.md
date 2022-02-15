@@ -7,7 +7,7 @@ Modules:
 
 - Xcode 12.5
 - Swift 5
-- Minimum iOS 13 version supported
+- Minimum iOS 11 version supported
 - Cocoapods
 - iPhones and iPads supported
 
