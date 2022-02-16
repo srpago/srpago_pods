@@ -4,7 +4,16 @@ Pod::Spec.new do |sdk|
   sdk.version      = "2.0.0"
   sdk.summary      = "Payments SDK for Konfio and Sr.Pago"
   sdk.description  = <<-DESC
-    SDK de Señor pago para iOS
+  Payment SDK with support for SrPago Readers:
+  - Pin Pad mini (WisePad Q),
+  - Pin Pad (PAX_D180),
+  This SDK let you:
+  - Link readers
+  - Make transactions with fisical cards and readers using EMV
+  - See previous transactions for your user or company
+  - Send tickets for your transactions
+  - See transaction's history
+  - Made refound for previous transactions
                    DESC
 
   sdk.homepage     = "https://srpago.com"

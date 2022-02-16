@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KNBluetoothModule-Swift.h</key>
 		<data>
-		01DkcPsTv4gixYFG+GkmZMOGBNw=
+		KkWZ1lOFqNcIjzoltyfjB+z9E7E=
 		</data>
 		<key>Headers/KNBluetoothModule.h</key>
 		<data>
@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3UkCDxWE+5BvDUZknJECBvSZ/io=
+		2H04iD1s/7M1Jkz51Kx2S4VV3Pk=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Yx+0boPoo638+0rh0ffTUd9J3PI=
+		hkkpI/A2rTiN7ylwvAjr7wc/rvQ=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PHZoAWu09pXnGNXP62vDD1FzMLQ=
+		pNoY+iVdGKzDf+law5eW39QH4SY=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y7BR4qgxWebb2RTIMOyMVGPy3Fg=
+		stAa5kqtabuEK2lJu3lRokJoxs8=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		Yx+0boPoo638+0rh0ffTUd9J3PI=
+		hkkpI/A2rTiN7ylwvAjr7wc/rvQ=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		PHZoAWu09pXnGNXP62vDD1FzMLQ=
+		pNoY+iVdGKzDf+law5eW39QH4SY=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		y7BR4qgxWebb2RTIMOyMVGPy3Fg=
+		stAa5kqtabuEK2lJu3lRokJoxs8=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Y6TRBJy7Po4/NOM995w3YDyHrkQ=
+		lwhInyf89M1QpbGfXEgitZ8nPNY=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mbGJ7Af7r+TU3PGXU1T5kQNwRmI=
+		/FDwNLpXsn1Ew4LCg/yVNzQEFdk=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UeC2Qf+HMRn77rudWMfHzO7E5KU=
+		GaDrMeW3ieJuwv+J+1BSE2amlvM=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Y6TRBJy7Po4/NOM995w3YDyHrkQ=
+		lwhInyf89M1QpbGfXEgitZ8nPNY=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		mbGJ7Af7r+TU3PGXU1T5kQNwRmI=
+		/FDwNLpXsn1Ew4LCg/yVNzQEFdk=
 		</data>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		UeC2Qf+HMRn77rudWMfHzO7E5KU=
+		GaDrMeW3ieJuwv+J+1BSE2amlvM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rg5xcZkrd6YbXE3uX2Go/CuSm5Ok54eSk0/TU7ONsiw=
+			Z5yXiFUn2RtS9PfVoIIaoklvo3bzEgWS/+5ounFK1Z4=
 			</data>
 		</dict>
 		<key>Headers/KNBluetoothModule.h</key>
@@ -89,84 +89,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+kvLvrfLidxzZt5nk1bybKXpr0KDjdugwg9fBlbqSw=
+			NHrkAQ9LMHCJPgjR4OwxxOulwdH+/l0PFfoDxjtAjKQ=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Tw4TvwHuUaFiK8vb//S07xI7qiibQpNfkbTxbst1fM=
+			uOBPULyxmcRz1wRv1jBjxFPatVLeTkp4b8rSXgNllc8=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V1D76VFeSUCC2H1IXMGh99dLUTl/TQxzTriEt8xGyZ0=
+			rd6V6tX8yVObDxb4naEp1UbBX+oyD7lppWuo/gWvgos=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+kvLvrfLidxzZt5nk1bybKXpr0KDjdugwg9fBlbqSw=
+			NHrkAQ9LMHCJPgjR4OwxxOulwdH+/l0PFfoDxjtAjKQ=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Tw4TvwHuUaFiK8vb//S07xI7qiibQpNfkbTxbst1fM=
+			uOBPULyxmcRz1wRv1jBjxFPatVLeTkp4b8rSXgNllc8=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V1D76VFeSUCC2H1IXMGh99dLUTl/TQxzTriEt8xGyZ0=
+			rd6V6tX8yVObDxb4naEp1UbBX+oyD7lppWuo/gWvgos=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			clOXg+Az1yRW5GyOxO3l6RKeSdathyI2uEcRM5r+reQ=
+			d1aQ+UC3omJgXWmWMx8msvDp166o3lv0gO1YQDE7q4g=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wOXVdfdlIxSU5Kd/67GYJoGz6mS+SORGtQOM2bKKEM=
+			bdNyEpzO9iHC0+8pqyjlrkJtwj9GUjQMXwvVetH05jE=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rt2S2uwIVUspWIh3oDiB0ZTjQapHafICa9nVUOu9Jzw=
+			kP4rD3Yxfmm1vbznY8g/Yulo1egNTBFf+Su5vehcFhE=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			clOXg+Az1yRW5GyOxO3l6RKeSdathyI2uEcRM5r+reQ=
+			d1aQ+UC3omJgXWmWMx8msvDp166o3lv0gO1YQDE7q4g=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wOXVdfdlIxSU5Kd/67GYJoGz6mS+SORGtQOM2bKKEM=
+			bdNyEpzO9iHC0+8pqyjlrkJtwj9GUjQMXwvVetH05jE=
 			</data>
 		</dict>
 		<key>Modules/KNBluetoothModule.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rt2S2uwIVUspWIh3oDiB0ZTjQapHafICa9nVUOu9Jzw=
+			kP4rD3Yxfmm1vbznY8g/Yulo1egNTBFf+Su5vehcFhE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
