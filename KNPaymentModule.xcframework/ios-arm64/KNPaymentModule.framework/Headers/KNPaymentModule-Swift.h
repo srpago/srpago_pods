@@ -192,6 +192,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import ObjectiveC;
 @import ReadersPrivate;
+@import ReadersSimulatorPrivate;
 @import UIKit;
 #endif
 

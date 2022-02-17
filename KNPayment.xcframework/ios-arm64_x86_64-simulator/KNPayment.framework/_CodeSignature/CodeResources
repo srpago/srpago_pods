@@ -76,7 +76,7 @@
 		</data>
 		<key>Frameworks/KNPaymentModule.framework/KNPaymentModule</key>
 		<data>
-		1DU+DIVaj9/lsQ/PNjaeE19rEqw=
+		/Ctj+nXEe9WeeKXg684i8dzm0Zs=
 		</data>
 		<key>Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -120,7 +120,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iM84KlfJJIDYMWObdI8AUDfUPYA=
+		brHRlLRYD5oVlG6S2SFmJ8LwioE=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -132,7 +132,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		iM84KlfJJIDYMWObdI8AUDfUPYA=
+		brHRlLRYD5oVlG6S2SFmJ8LwioE=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -144,7 +144,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1XE7HwZ2JQepStKvwNOV9xm7EBw=
+		r4iGsnBMH/F6LN1zEeCES/HNnNE=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -156,7 +156,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		1XE7HwZ2JQepStKvwNOV9xm7EBw=
+		r4iGsnBMH/F6LN1zEeCES/HNnNE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -278,7 +278,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x/XRfCoLzLn7tx+62O6mVPE9p9pP7X8/bgK/XOVuVtM=
+			4CXzoPoLU0K49bVXNV+noRuU3sC8e27N0991eq8FGNI=
 			</data>
 		</dict>
 		<key>Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
@@ -348,7 +348,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aqhsvsgJBb5PCfPMTiR0oFJMHwQo0B6atuYYj/grsa4=
+			bpr34nKL1uV+C2pJ5hwtrzdrrfv7fXVvEX0pYIRUjf8=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/arm64.swiftdoc</key>
@@ -369,7 +369,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aqhsvsgJBb5PCfPMTiR0oFJMHwQo0B6atuYYj/grsa4=
+			bpr34nKL1uV+C2pJ5hwtrzdrrfv7fXVvEX0pYIRUjf8=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -390,7 +390,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JMP/HBtSL3Pk6vhCKD8NHniE6AfSF/cHTRTT3oYgevs=
+			MUDoo8dIht5uYCb2k3Z4TitwkMrgJXm5m0aW/8QNUUs=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64.swiftdoc</key>
@@ -411,7 +411,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JMP/HBtSL3Pk6vhCKD8NHniE6AfSF/cHTRTT3oYgevs=
+			MUDoo8dIht5uYCb2k3Z4TitwkMrgJXm5m0aW/8QNUUs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

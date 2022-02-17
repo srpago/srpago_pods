@@ -10,6 +10,7 @@ import KNBusinessModule
 import KNCore
 @_exported import KNPaymentModule
 import ReadersPrivate
+import ReadersSimulatorPrivate
 import Swift
 import UIKit
 import _Concurrency
@@ -38,17 +39,17 @@ extension KNPaymentModule.KNBbposReader : ReadersPrivate.BBDeviceControllerDeleg
   @objc final public func onPowerDown()
   @objc final public func onBTConnectTimeout()
   @objc final public func onReturnDeviceInfo(_ deviceInfo: [Swift.AnyHashable : Any])
-  @objc final public func onError(errorType: ReadersPrivate.BBDeviceErrorType, errorMessage: Swift.String)
+  @objc final public func onError(errorType: ReadersSimulatorPrivate.BBDeviceErrorType, errorMessage: Swift.String)
   @objc final public func onRequestSetAmount()
   @objc final public func onRequestTerminalTime()
   @objc final public func onRequestSelectApplication(_ applicationArray: [Any])
   @objc final public func onRequestFinalConfirm()
-  @objc final public func onWaitingForCard(checkCardMode: ReadersPrivate.BBDeviceCheckCardMode)
+  @objc final public func onWaitingForCard(checkCardMode: ReadersSimulatorPrivate.BBDeviceCheckCardMode)
   @objc final public func onReturnCancelCheckCardResult(_ isSuccess: Swift.Bool)
-  @objc final public func onReturnCheckCardResult(result: ReadersPrivate.BBDeviceCheckCardResult, cardData: [Swift.AnyHashable : Any])
-  @objc final public func onReturnTransactionResult(result: ReadersPrivate.BBDeviceTransactionResult)
+  @objc final public func onReturnCheckCardResult(result: ReadersSimulatorPrivate.BBDeviceCheckCardResult, cardData: [Swift.AnyHashable : Any])
+  @objc final public func onReturnTransactionResult(result: ReadersSimulatorPrivate.BBDeviceTransactionResult)
   @objc final public func onRequestOnlineProcess(_ tlv: Swift.String)
-  @objc final public func onRequestPinEntry(pinEntrySource: ReadersPrivate.BBDevicePinEntrySource)
+  @objc final public func onRequestPinEntry(pinEntrySource: ReadersSimulatorPrivate.BBDevicePinEntrySource)
   @objc final public func onReturnBatchData(_ tlv: Swift.String)
   @objc final public func onReturnReversalData(_ tlv: Swift.String)
 }

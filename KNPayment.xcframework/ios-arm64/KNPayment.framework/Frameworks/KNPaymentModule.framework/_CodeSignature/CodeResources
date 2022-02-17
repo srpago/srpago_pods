@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
 		<data>
-		5DFxLcDivJg91h6qM2aDyzqtnRY=
+		gqvKNSrwkzk9OwmMAPpcXmXgPAw=
 		</data>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
 		<data>
-		w7xYPd2dV+uwvNg6HtT883usG3Q=
+		+Aypu/krRsI8hFuMhJlCER5L1pM=
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmsejniZyo4VnfTSbaqfIyNm3oZnx2SHXE+7BX5iiyo=
+			yZyD8Pif6McoOOkQr0SdrwhV7+NQPZqTVTEJMb2OT8Q=
 			</data>
 		</dict>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cffy2MJDre4XRV7E5z5U5FghUvDLXbdApk7TYNkp+VU=
+			blUPEPVSk3NIiPs04TcJwa091VVSN3OA33DxP+1NMA0=
 			</data>
 		</dict>
 		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>

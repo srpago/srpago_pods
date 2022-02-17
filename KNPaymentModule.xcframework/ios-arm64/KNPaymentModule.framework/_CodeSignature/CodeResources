@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
 		<data>
-		gOwwmUqDxaizbE4Sot4lG7QtTpY=
+		lcNXHr9rEW9YO0skQnW9+pFjowk=
 		</data>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
 		<data>
-		OJ1eHveeNr+V7I1of3XxZJevJwg=
+		CrC2MLAYo01LwCsidsgGHRQw9eY=
 		</data>
 		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -48,7 +48,7 @@
 		</dict>
 		<key>Headers/KNPaymentModule-Swift.h</key>
 		<data>
-		WLRv5pwOGthl09GaLFwnqe/JKXU=
+		FAGtvkfHarfG9BaT13wkazsdQUs=
 		</data>
 		<key>Headers/KNPaymentModule.h</key>
 		<data>
@@ -64,11 +64,11 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		PR8Jmyw/aZ2Jr+5KhCrkJK+qYBk=
+		/un5Va5mVk7tcRdmCgG0+sZtH4Q=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zhGFr58EKP0UgW2UH8hoV2Mx3fM=
+		1gcPt9dJayRPcxV/DnMLhTZIZjY=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -76,11 +76,11 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		PR8Jmyw/aZ2Jr+5KhCrkJK+qYBk=
+		/un5Va5mVk7tcRdmCgG0+sZtH4Q=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		zhGFr58EKP0UgW2UH8hoV2Mx3fM=
+		1gcPt9dJayRPcxV/DnMLhTZIZjY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o9i6yuoedyUXhCH+olfTRur9nuGCx7thtscDJFD7pYo=
+			AYYAtaI5qDFS6U5SiOnxOZCqoX76GtJbm8qf8GwwuPo=
 			</data>
 		</dict>
 		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3dtvzuFN6BwdkjBoPNBn3wfL4fXqoCPYOJlgzV+V8Nc=
+			LacLDGhdma6mc2p0mEKKYJZQgWAeSXW7RLIM+0fQlSI=
 			</data>
 		</dict>
 		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGEupzTAIH66S/W39AKoLeZpy/KUMpyK3jydapQOUZU=
+			c9KM4v9k7/1TT730TY5wRDoB5Y3ijX3wkIbMIB38QXU=
 			</data>
 		</dict>
 		<key>Headers/KNPaymentModule.h</key>
@@ -174,14 +174,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+9S5UbaLaTcW6259T/2572dT8flo8UDbFEMo/+gS90=
+			fYz55ZO6tmy6bgqkOaIdClxjzYoFtR4CTxto9UOGpLE=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kS9EP8dYzbUE4Ul+7bztCPIhCAaVMrPKpBKKXy59nBw=
+			zadaX8XIixosToNtZGbzmmGn2hWqHi16y8F1hVzNgXA=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftdoc</key>
@@ -195,14 +195,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+9S5UbaLaTcW6259T/2572dT8flo8UDbFEMo/+gS90=
+			fYz55ZO6tmy6bgqkOaIdClxjzYoFtR4CTxto9UOGpLE=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kS9EP8dYzbUE4Ul+7bztCPIhCAaVMrPKpBKKXy59nBw=
+			zadaX8XIixosToNtZGbzmmGn2hWqHi16y8F1hVzNgXA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
