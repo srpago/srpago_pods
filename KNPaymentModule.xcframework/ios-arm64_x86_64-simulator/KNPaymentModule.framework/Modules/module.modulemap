@@ -1,8 +1,44 @@
 framework module KNPaymentModule {
-  umbrella header "KNPaymentModule.h"
+    umbrella header "KNPaymentModule.h"
 
-  export *
-  module * { export * }
+    export *
+    module * { export * }
+
+    module ReadersPrivate {
+        header "RSA.h"
+        header "NSData+Encryption.h"
+        header "BTDeviceFinder.h"
+        header "BBDeviceController.h"
+        header "PaxEasyLinkController.h"
+        header "MastercardSound.h"
+        
+        header "BBDeviceVASMerchantConfig.h"
+        header "BBDeviceCAPK.h"
+        header "PaxEasyLinkConst.h"
+        header "PaxEasyLinkProtocol.h"
+        header "PaxReportResponse.h"
+        header "PaxEasyLinkStatusCode.h"
+        header "PaxKeyInfo.h"
+        header "PaxKcvInfo.h"
+        header "PaxTikInfo.h"
+        header "CAPK.h"
+        header "VASMerchantConfig.h"
+        
+        export *
+    }
+    
+    module ReadersSimulatorPrivate {
+        header "RSA.h"
+        header "NSData+Encryption.h"
+        header "BTDeviceFinder.h"
+        header "BBDeviceController.h"
+        header "MastercardSound.h"
+        
+        header "BBDeviceVASMerchantConfig.h"
+        header "BBDeviceCAPK.h"
+        
+        export *
+    }
 }
 
 module KNPaymentModule.Swift {

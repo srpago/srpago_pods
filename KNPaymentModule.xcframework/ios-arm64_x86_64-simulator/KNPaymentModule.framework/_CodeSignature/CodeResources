@@ -4,51 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/Info.plist</key>
-		<data>
-		tVJNmQcaIVcKTE66rYtYMkW5Rc0=
-		</data>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
-		<data>
-		U+bKgww8b7F1Ugf9C/sqJW4XyN0=
-		</data>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
-		<data>
-		FK+cup/ShRTL4G0BfPrbPVsIkHE=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/Info.plist</key>
-		<data>
-		UgtGuJf74N0+cwsUeqvifEBwJjk=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
-		<data>
-		Cg4qFuHEGzwncPSx1G51kb+R58k=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
-		<data>
-		yKKQd/UX6ejzViwRrcDkgmjHR3o=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/en.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hl8Pqk2woxQSPz6WXsdDpCmifbc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/es.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qPHfoCrXluP2KRqqPcwyJY02Gw8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/KNPaymentModule-Swift.h</key>
 		<data>
-		ejkj4rvyHNyVo5uh4xP2/kaS02Y=
+		G4l0U3xEWuTYzpJIZ+zWZcaM6SM=
 		</data>
 		<key>Headers/KNPaymentModule.h</key>
 		<data>
@@ -64,11 +22,11 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7aUCcgn4XqK+ZsSD87ZQtw5cCmA=
+		3f2/eCh4Rhs4hy7J7QCkj/cpSxg=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2S2IYgPIl54tUOLnr/vsNxC/iKw=
+		EtvdsnPAfFxQEQozG5WZ0ha/sLg=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -76,11 +34,11 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		7aUCcgn4XqK+ZsSD87ZQtw5cCmA=
+		3f2/eCh4Rhs4hy7J7QCkj/cpSxg=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		2S2IYgPIl54tUOLnr/vsNxC/iKw=
+		EtvdsnPAfFxQEQozG5WZ0ha/sLg=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -88,11 +46,11 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		F4YO1/GHtpUEEEc+OxLVCNIrhM8=
+		hz3QVawSjYTgYZM+yVLHwg2CrFo=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vsG2SQZ1RL0svg5LtzNCayFQvA8=
+		I65Z7MjwrHYeAVgjcpVlyPoHj2Q=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -100,84 +58,92 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		F4YO1/GHtpUEEEc+OxLVCNIrhM8=
+		hz3QVawSjYTgYZM+yVLHwg2CrFo=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		vsG2SQZ1RL0svg5LtzNCayFQvA8=
+		I65Z7MjwrHYeAVgjcpVlyPoHj2Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		qTGyPICVvAhW+6ZigdP89jcsyhM=
+		Gdy6/XqRZYxRq5HF7X+3VYjEXzE=
+		</data>
+		<key>PrivateHeaders/BBDeviceCAPK.h</key>
+		<data>
+		MtJj/ekQFIxVgueqZ7DS8W+6v24=
+		</data>
+		<key>PrivateHeaders/BBDeviceController.h</key>
+		<data>
+		UzB4ojsazRNgsOvTVhcIe+604SA=
+		</data>
+		<key>PrivateHeaders/BBDeviceVASMerchantConfig.h</key>
+		<data>
+		49dfd4h8n2IBK1x1yhL6WFKuzAM=
+		</data>
+		<key>PrivateHeaders/BTDeviceFinder.h</key>
+		<data>
+		brwDLPMsLEiaA1vxLqO6i/NDs7I=
+		</data>
+		<key>PrivateHeaders/CAPK.h</key>
+		<data>
+		+X+QECzMLkSlfnqs5UbrQTn/In8=
+		</data>
+		<key>PrivateHeaders/MastercardSound.h</key>
+		<data>
+		Nfjq2Xr0ZZRRlG+n1gXKOZJQTjI=
+		</data>
+		<key>PrivateHeaders/NSData+Encryption.h</key>
+		<data>
+		Yo/vFFF5xz41IZ6E9h6U2beeCvE=
+		</data>
+		<key>PrivateHeaders/PaxEasyLinkConst.h</key>
+		<data>
+		PIFvbNAHfVUUEi9B6KJQtzFZTvc=
+		</data>
+		<key>PrivateHeaders/PaxEasyLinkController.h</key>
+		<data>
+		zS097S6hWaS8EaTMGfoTJWEDX3w=
+		</data>
+		<key>PrivateHeaders/PaxEasyLinkProtocol.h</key>
+		<data>
+		AGMHSdN67QlPos8lUg/pwkLb6bo=
+		</data>
+		<key>PrivateHeaders/PaxEasyLinkStatusCode.h</key>
+		<data>
+		Wc+s4sE6dvUaLSELJuE89Ig+tL4=
+		</data>
+		<key>PrivateHeaders/PaxKcvInfo.h</key>
+		<data>
+		LN7bUsesYI7elfxKd6fqSOFwSkw=
+		</data>
+		<key>PrivateHeaders/PaxKeyInfo.h</key>
+		<data>
+		jOJ4CDWcJWNnZwp8XvlKNGnDIfA=
+		</data>
+		<key>PrivateHeaders/PaxReportResponse.h</key>
+		<data>
+		K/aagoR6JzU8oiwhqTj/eiQje1k=
+		</data>
+		<key>PrivateHeaders/PaxTikInfo.h</key>
+		<data>
+		++kj02JCASLxAfOcjIc4REEQ00o=
+		</data>
+		<key>PrivateHeaders/RSA.h</key>
+		<data>
+		cPSGP6G5kcMuLfAqGl6PW6ac0A8=
+		</data>
+		<key>PrivateHeaders/VASMerchantConfig.h</key>
+		<data>
+		/EIycQDYR9jpPTA244OkQqmw1v4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JqQAo3vNu/L9OiFald5sKh4qei7XZMsZfchMrqERpIw=
-			</data>
-		</dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5tjVr+984iDEiEojf9tSmya4CogrCup+J2D6jCWQIjE=
-			</data>
-		</dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			s/wbojXWVh6GlYuuWs+SbGNhN2MpXlJgID4Y/5cxFlA=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rt5qi5AMh5trwBLdi0J8uzAnLOjpzjSP79LezPG4Bdk=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SwqqLseEXmCglxr10hwMuhG3tDUtIBVxSPT0MYX1sfk=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8Z1nrLOAUBAlJVQmY0FiqiCE6Lk8zPS1PA1D+ZP1slc=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/en.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tv9c43DIDlRfBXyJsBkJjiz5/POKdQRWDbZy0k7eAws=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/es.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dR/43fR9765XLjlIJ/8yYfgptz8vyk4qZh3TYrrd6JI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/KNPaymentModule-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			re9w4FMJmvIAlF0XZ3h9EBQHf+am9NStYaZxMjy3h2w=
+			CYr/Ua2I8d3hFdl8qiSXGlenN1wonXBBq6drsgiG008=
 			</data>
 		</dict>
 		<key>Headers/KNPaymentModule.h</key>
@@ -198,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y48hHgeBgvKuiuNq8+o1jRiSMoA8hSQOzpk4CCvnOBE=
+			TdPYyGlxdDbIe7COWOkUkB0SVCQvwTUG/TY+7ukat1E=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j6BdbIEI/DJ7TlVofy9ssxqLvWkmkgYbUEL/nOHBSL4=
+			R7cCKBg8C21bk6yMWmOuOqNLyZ189zVw+24eYmll+ew=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftdoc</key>
@@ -219,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y48hHgeBgvKuiuNq8+o1jRiSMoA8hSQOzpk4CCvnOBE=
+			TdPYyGlxdDbIe7COWOkUkB0SVCQvwTUG/TY+7ukat1E=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j6BdbIEI/DJ7TlVofy9ssxqLvWkmkgYbUEL/nOHBSL4=
+			R7cCKBg8C21bk6yMWmOuOqNLyZ189zVw+24eYmll+ew=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -240,14 +206,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHGhCAhN4kNqGwl8059R0Ha+ALw17/X+WvGI2nRb368=
+			hLWrSy1QGxnV5E1+8QNnkkuS3PsrpBA0gZkEoFnAHH8=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOyWGXbhZRzUbdnxhXOmpYRTGv9zi22suydaT9qQ4LI=
+			vgYPzixbIDuM2tsZY1d+runUWrPxbiQc2tqnDD2eMZY=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftdoc</key>
@@ -261,21 +227,140 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHGhCAhN4kNqGwl8059R0Ha+ALw17/X+WvGI2nRb368=
+			hLWrSy1QGxnV5E1+8QNnkkuS3PsrpBA0gZkEoFnAHH8=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOyWGXbhZRzUbdnxhXOmpYRTGv9zi22suydaT9qQ4LI=
+			vgYPzixbIDuM2tsZY1d+runUWrPxbiQc2tqnDD2eMZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sn6a9j4fxtyk9ct0fZezVpZMtTKHAIP9llir1eWzO+w=
+			+gxqjY0X3EwkktSLn2Y3OuaZj9dtOnbSI9fnt8dLhBI=
+			</data>
+		</dict>
+		<key>PrivateHeaders/BBDeviceCAPK.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2mXaZaO1pgkALsnXyJw1tItlJTflJtAHJdOW1LGoxuI=
+			</data>
+		</dict>
+		<key>PrivateHeaders/BBDeviceController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F1tU3M3FF4DqfqCsBajeziHJS9PQGKhwD94BvB2Hzv4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/BBDeviceVASMerchantConfig.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gRdgXaOZQARK0tM5QypoKruYMPT/NcUyD7iELJKocVM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/BTDeviceFinder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yj4mlJh+v9TFIIvutPTyD/2IQv+nSVU7Ocr9BmktOd0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/CAPK.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ks+9Qeia9oCSw92sPsKRQF4V0v8ivuzncQrNwK9lwE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MastercardSound.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CrIaGg2u32xuHDtsjOMwaCI4heWSBrBi1zNqlzdvGwk=
+			</data>
+		</dict>
+		<key>PrivateHeaders/NSData+Encryption.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1Ccuaq1aasb4xVlcq3smY7gD4SMAC2bfUPUhA1NJKoE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxEasyLinkConst.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rPd8K0377+VUaBzG3jRWJdYEADFoH4p6v4ad79PV7Qw=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxEasyLinkController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ihdXReHKxvzNNKtKWPv4H/0Eu67ZtCzI92I02AFNTJI=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxEasyLinkProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/TlOCu4/Qrzdlu65NEaTQ5dCjwTN3MtG9rwWTlk+FQM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxEasyLinkStatusCode.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			B66lR+aCdCvZnftY9YcHhWYLoxDiG7iKMfMiwfw/Wf0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxKcvInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0hXe1ZKOF20WBo5X887IlIgD9uo0KD/Qy29VUDbY300=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxKeyInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CKz9UeHftYU+I2oBB7wshsa9wquu6BoTdKQcI9miNGE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxReportResponse.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y27dCRs9l/ohx+Bh6O23PUiQIGnszaHDPQy0qQIC79E=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PaxTikInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pPQhVtZrlt2g+GzPh/IWeyKjp2mnLokryPiHAPO6kMM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/RSA.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8CUMBHsbtbaUFSizAPCUsSVhgnlNDehvQAEM6dSpw0M=
+			</data>
+		</dict>
+		<key>PrivateHeaders/VASMerchantConfig.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0DVcnx3vR2WHqAGEUAjqELvEzqW7RFd/h2dJUJ8hsxw=
 			</data>
 		</dict>
 	</dict>

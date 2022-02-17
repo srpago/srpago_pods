@@ -193,10 +193,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
-@import ReadersPrivate;
-@import ReadersSimulatorPrivate;
 @import UIKit;
 #endif
+
+#import <KNPaymentModule/KNPaymentModule.h>
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -502,10 +502,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
-@import ReadersPrivate;
-@import ReadersSimulatorPrivate;
 @import UIKit;
 #endif
+
+#import <KNPaymentModule/KNPaymentModule.h>
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
