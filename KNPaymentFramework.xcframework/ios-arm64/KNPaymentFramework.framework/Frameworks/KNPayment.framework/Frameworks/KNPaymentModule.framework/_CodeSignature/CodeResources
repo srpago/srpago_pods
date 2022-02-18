@@ -4,116 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/Info.plist</key>
-		<data>
-		XYwQ6wKls/BvSKAijrFTeKk46lk=
-		</data>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
-		<data>
-		d6vAvfJzhyi0rliCqCt2goL2Dko=
-		</data>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
-		<data>
-		FGAua3W8Na6Tf39PT4Pn6s1ulDg=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/Info.plist</key>
-		<data>
-		ahsogcke1GHnQwDwpEeLV8fAwgg=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
-		<data>
-		DSKIzcnSKcEk2TTqkDlYr7RMIPo=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
-		<data>
-		zXjCmjIU199kOmJfAaSRdj5VF1Y=
-		</data>
-		<key>Frameworks/KNBusinessModule.framework/en.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hl8Pqk2woxQSPz6WXsdDpCmifbc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/es.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qPHfoCrXluP2KRqqPcwyJY02Gw8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Info.plist</key>
 		<data>
 		tYYbahSeFGGqXKG4SpPRcuH5YUE=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jUp3iSRRqSZxyIGfiuuQG/MrwU+u4EM1XhwHTi2bKYg=
-			</data>
-		</dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XZTmkUmTRLqJQlbOOrUMNbGyS7N0NenAmRp6+kE3kvU=
-			</data>
-		</dict>
-		<key>Frameworks/KNAnalyticsPaymentModule.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b79wVlGvQ2LstgzG1sVFMAzr0kmMxv21KdrnilDHsTQ=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8WYDVnQOSkEJ7pvgKn2fFOJGP3x917BC9NV05PYlh5I=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/KNBusinessModule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N/apyGAeTkd1UWC/3D7Yd3rnT/w8HiauVNAPIzW0Dcw=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SUwJC9W9JF4Odkl1urVBs9dY2wo9n77sIQDybfXblK0=
-			</data>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/en.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tv9c43DIDlRfBXyJsBkJjiz5/POKdQRWDbZy0k7eAws=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KNBusinessModule.framework/es.lproj/KNNetworkError.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dR/43fR9765XLjlIJ/8yYfgptz8vyk4qZh3TYrrd6JI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

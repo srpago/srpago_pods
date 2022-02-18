@@ -390,8 +390,9 @@ public struct KNConfigurator {
   public var appKey: Swift.String
   public var appSecret: Swift.String
   public var environment: KNCore.KNEnvironmentType
-  public init()
-  public func setEnvironment(_ environment: KNCore.KNEnvironmentType)
+  public init(environment: KNCore.KNEnvironmentType, appkey: Swift.String, appSecret: Swift.String)
+  public static func setEnvironment(_ environment: KNCore.KNEnvironmentType)
+  public static func getEnvironment() -> KNCore.KNEnvironmentType
 }
 public enum KNDateFormat : Swift.String {
   case HHmmss

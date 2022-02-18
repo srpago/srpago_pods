@@ -237,7 +237,6 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 - (void)onBTDisconnected;
 - (void)onPowerButtonPressed;
 - (void)onPowerDown;
-- (void)onBTConnectTimeout;
 - (void)onReturnDeviceInfo:(NSDictionary * _Nonnull)deviceInfo;
 - (void)onError:(BBDeviceErrorType)errorType errorMessage:(NSString * _Nonnull)errorMessage;
 - (void)onRequestSetAmount;

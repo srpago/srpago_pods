@@ -16,8 +16,10 @@ public protocol KNBluetoothReaderDelegate : AnyObject {
 }
 @_hasMissingDesignatedInitializers public class KNPayment {
   public class func shared() -> KNPayment.KNPayment
+  public func getPaymentsCoreVersion() -> Swift.String
   public func config(_ config: KNCore.KNConfigurator)
-  public func login(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func login(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
+  public func authenticateToken(completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
   public func configBluetoothReaderState(delegate: KNPayment.KNBluetoothReaderDelegate)
   public func configPrinter(delegate: KNCore.KNPrinterDelegate)
   public func searchDevices(_ devices: [KNCore.KNConnectionReaderType]?)

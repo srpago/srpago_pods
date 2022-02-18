@@ -1,25 +1,26 @@
 //
 //  BBDeviceController.h
-//  BBDeviceAPI
 //
 //  Created by Alex Wong on 2017-08-18.
-//  Copyright © 2020 BBPOS Limited. All rights reserved.
+//  Copyright © 2021 BBPOS International Limited. All rights reserved. All software, both binary and source code published by BBPOS International Limited (hereafter BBPOS) is copyrighted by BBPOS and ownership of all right, title and interest in and to the software remains with BBPOS.
 //  RESTRICTED DOCUMENT
 //
 
 #import <Foundation/Foundation.h>
-#import "CAPK.h"
-#import "VASMerchantConfig.h"
+#import "BBDeviceCAPK.h"
+#import "BBDeviceVASMerchantConfig.h"
 
-//For iOS
+#if TARGET_OS_OSX
+// macOS
+#import <AppKit/AppKit.h>
+#import <IOBluetooth/IOBluetooth.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#else
+// iOS
 #import <UIKit/UIKit.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 #import <ExternalAccessory/ExternalAccessory.h>
-
-//For macOS
-//#import <AppKit/AppKit.h>
-//#import <IOBluetooth/IOBluetooth.h>
-//#import <CoreBluetooth/CoreBluetooth.h>
+#endif
 
 typedef NS_ENUM (NSUInteger, BBDeviceControllerState) {
     BBDeviceControllerState_CommLinkUninitialized = 0,
@@ -27,13 +28,21 @@ typedef NS_ENUM (NSUInteger, BBDeviceControllerState) {
     BBDeviceControllerState_WaitingForResponse = 2,
 };
 
+typedef NS_ENUM (NSUInteger, BBDevicePowerSource) {
+    BBDevicePowerSource_USB = 0,
+    BBDevicePowerSource_Wireless = 1,
+};
+
 typedef NS_ENUM (NSUInteger, BBDeviceBatteryStatus) {
     BBDeviceBatteryStatus_Low = 0,
     BBDeviceBatteryStatus_CriticallyLow = 1,
+    BBDeviceBatteryStatus_IsCharging = 2,
+    BBDeviceBatteryStatus_NotCharging = 3,
 };
 
 typedef NS_ENUM (NSUInteger, BBDeviceConnectionMode) {
     BBDeviceConnectionMode_None = 0,
+    BBDeviceConnectionMode_Audio = 1,
     BBDeviceConnectionMode_Bluetooth = 2,
     BBDeviceConnectionMode_USB = 3,
 };
@@ -73,6 +82,11 @@ typedef NS_ENUM (NSUInteger, BBDeviceErrorType) {
     
     BBDeviceErrorType_CommLinkUninitialized = 11,
     BBDeviceErrorType_InvalidFunctionInCurrentConnectionMode = 12,
+    
+    BBDeviceErrorType_AudioFailToStart = 13,
+    BBDeviceErrorType_AudioFailToStart_OtherAudioIsPlaying = 14,
+    BBDeviceErrorType_AudioRecordingPermissionDenied = 15,
+    BBDeviceErrorType_AudioBackgroundTimeout = 16,
     
     BBDeviceErrorType_BTv4NotSupported = 17,
     BBDeviceErrorType_BTFailToStart = 18,
@@ -169,6 +183,8 @@ typedef NS_ENUM (NSUInteger, BBDeviceDisplayText) {
     BBDeviceDisplayText_CTL_APP_NOT_SUPPORTED = 35,
     BBDeviceDisplayText_CTL_TRANSACTION_LIMIT_EXCEEDED = 36,
     BBDeviceDisplayText_INVALID_INPUT = 37,
+    BBDeviceDisplayText_CARD_ERROR = 38,
+    BBDeviceDisplayText_TOO_MANY_TAPS = 39,
 };
 
 typedef NS_ENUM (NSUInteger, BBDeviceTerminalSettingStatus) {
@@ -280,6 +296,12 @@ typedef NS_ENUM (NSUInteger, BBDeviceCurrencyCharacter) {
     BBDeviceCurrencyCharacter_Rupiah = 41,
     BBDeviceCurrencyCharacter_Sol = 42,
     BBDeviceCurrencyCharacter_Peso = 43,
+    BBDeviceCurrencyCharacter_Forint = 44,
+    BBDeviceCurrencyCharacter_Krona = 45,
+    BBDeviceCurrencyCharacter_Krone = 46,
+    BBDeviceCurrencyCharacter_Lei = 47,
+    BBDeviceCurrencyCharacter_Real = 48,
+    BBDeviceCurrencyCharacter_Zloty = 49,
 };
 
 typedef NS_ENUM (NSUInteger, BBDeviceAmountInputType) {
@@ -291,9 +313,15 @@ typedef NS_ENUM (NSUInteger, BBDeviceAmountInputType) {
     BBDeviceAmountInputType_AmountAndTipsInPercentage = 5,
 };
 
+typedef NS_ENUM (NSUInteger, BBDeviceOtherAmountOption) {
+    BBDeviceOtherAmountOption_Currency = 0,
+    BBDeviceOtherAmountOption_Percentage = 1,
+};
+
 typedef NS_ENUM (NSUInteger, BBDevicePinEntrySource) {
     BBDevicePinEntrySource_Phone = 0,
     BBDevicePinEntrySource_Keypad = 1,
+    BBDevicePinEntrySource_Accessible = 2,
 };
 
 typedef NS_ENUM (NSUInteger, BBDeviceCardScheme) {
@@ -338,6 +366,13 @@ typedef NS_ENUM (NSUInteger, BBDevicePhoneEntryResult) {
     BBDevicePhoneEntryResult_WrongLength = 2,
     BBDevicePhoneEntryResult_Cancel = 3,
     BBDevicePhoneEntryResult_Bypass = 4,
+};
+
+typedef NS_ENUM (NSUInteger, BBDeviceAmountInputResult) {
+    BBDeviceAmountInputResult_Success = 0,
+    BBDeviceAmountInputResult_Cancel = 1,
+    BBDeviceAmountInputResult_Timeout = 2,
+    BBDeviceAmountInputResult_InvalidAmount = 3,
 };
 
 typedef NS_ENUM (NSUInteger, BBDeviceAccountSelectionResult) {
@@ -388,6 +423,11 @@ typedef NS_ENUM (NSUInteger, BBDeviceDisplayPromptIcon) {
     BBDeviceDisplayPromptIcon_ExclamationMark = 2,
 };
 
+typedef NS_ENUM (NSUInteger, BBDeviceDisplayPromptTone) {
+    BBDeviceDisplayPromptTone_SuccessTone = 0,
+    BBDeviceDisplayPromptTone_AlertTone = 1,
+};
+
 typedef NS_ENUM (NSUInteger, BBDeviceDisplayPromptResult) {
     BBDeviceDisplayPromptResult_ConfirmButtonPressed = 0,
     BBDeviceDisplayPromptResult_CancelButtonPressed = 1,
@@ -401,6 +441,27 @@ typedef NS_ENUM (NSUInteger, BBDeviceFunctionKey) {
     BBDeviceFunctionKey_F2 = 1,
     BBDeviceFunctionKey_F3 = 2,
     BBDeviceFunctionKey_F4 = 3,
+};
+
+typedef NS_ENUM (NSUInteger, BBDeviceDeviceResetReason) {
+    BBDeviceDeviceResetReason_Unknown = 0,
+    BBDeviceDeviceResetReason_AppResetDevice = 1,
+    BBDeviceDeviceResetReason_FirmwareSelfTest = 2,
+    BBDeviceDeviceResetReason_RecoveryAttempt = 3,
+};
+
+typedef NS_ENUM (NSUInteger, BBDeviceReadRSSIResult) {
+    BBDeviceReadRSSIResult_Success = 0,
+    BBDeviceReadRSSIResult_Error = 1,
+    BBDeviceReadRSSIResult_Stopped = 2,
+    BBDeviceReadRSSIResult_Timeout = 3,
+    BBDeviceReadRSSIResult_NoConnection = 4,
+};
+
+typedef NS_ENUM (NSUInteger, BBDeviceDebugLogType) {
+    BBDeviceDebugLogType_Function,
+    BBDeviceDebugLogType_Callback,
+    BBDeviceDebugLogType_ExtraDebugMessage,
 };
 
 // SPoC
@@ -430,10 +491,12 @@ typedef NS_ENUM (NSUInteger, BBDeviceSPoCError) {
     id <BBDeviceControllerDelegate> delegate;
     
     BOOL debugLogEnabled;
+    BOOL detectAudioDevicePlugged;
 }
 
 @property (nonatomic, weak) id <BBDeviceControllerDelegate> delegate;
 @property (nonatomic, getter=isDebugLogEnabled, setter=setDebugLogEnabled:) BOOL debugLogEnabled;
+@property (nonatomic, getter=isDetectAudioDevicePlugged, setter=setDetectAudioDevicePlugged:) BOOL detectAudioDevicePlugged;
 
 + (BBDeviceController *)sharedController;
 - (BBDeviceControllerState)getBBDeviceControllerState;
@@ -447,7 +510,13 @@ typedef NS_ENUM (NSUInteger, BBDeviceSPoCError) {
 // ----------------------------------------- Communication Channel -----------------------------------------------
 
 - (void)isDeviceHere;    //Send out a detect command to check the device is valid
+- (BOOL)isControllerSupportAudioChannel;
+- (BOOL)isAudioDevicePlugged;
 - (BBDeviceConnectionMode)getConnectionMode;
+
+// Communication Channel - Audio
+- (BOOL)startAudio;
+- (void)stopAudio;
 
 // Communication Channel - BT
 - (void)startBTScan:(NSArray *)deviceNameArray scanTimeout:(int)scanTimeout;
@@ -455,7 +524,10 @@ typedef NS_ENUM (NSUInteger, BBDeviceSPoCError) {
 - (void)connectBT:(NSObject *)device;                       //EAAccessory or CBPeripheral object
 - (void)connectBTWithUUID:(NSString *)UUID;                 //For BT4 only, not for BT2
 - (void)disconnectBT;
+- (void)readRSSI;
+- (void)stopReadRSSI;
 - (NSString *)getPeripheralUUID:(CBPeripheral *)peripheral; //For BT4 only, not for BT2
+- (NSObject *)getConnectedBTDevice;
 
 // Communication Channel - USB (For macOS, not for iOS)
 - (void)startUsb;
@@ -503,12 +575,10 @@ typedef NS_ENUM (NSUInteger, BBDeviceSPoCError) {
 
 // Request Set Amount
 - (BOOL)setAmount:(NSDictionary *)data;
-- (BOOL)setAmount:(NSString *)amount
-   cashbackAmount:(NSString *)cashbackAmount
-     currencyCode:(NSString *)currencyCode
-  transactionType:(BBDeviceTransactionType)transactionType
-currencyCharacters:(NSArray *)currencyCharacters;
 - (void)cancelSetAmount; //Cancel transaction at onRequestSetAmount
+
+// Amount Confirm
+- (void)setAmountConfirmResult:(BOOL)isConfirmed;
 
 // Waiting for card
 - (void)cancelCheckCard;
@@ -578,7 +648,7 @@ currencyCharacters:(NSArray *)currencyCharacters;
 - (void)getCAPKList;
 - (void)getCAPKDetail:(NSString *)location;
 - (void)findCAPKLocation:(NSDictionary *)data;
-- (void)updateCAPK:(CAPK *)capk;
+- (void)updateCAPK:(BBDeviceCAPK *)capk;
 - (void)removeCAPK:(NSDictionary *)data;
 - (void)getEmvReportList;
 - (void)getEmvReport:(NSString *)applicationIndex;
@@ -605,11 +675,6 @@ currencyCharacters:(NSArray *)currencyCharacters;
 - (void)enableAccountSelection:(NSDictionary *)data;
 - (void)disableAccountSelection;
 
-// ----------------------------------------- Display Prompt -----------------------------------------------
-
-- (void)displayPrompt:(NSDictionary *)data;
-- (void)cancelDisplayPrompt;
-
 // ----------------------------------------- Other -----------------------------------------------
 
 // Phone Number
@@ -620,9 +685,25 @@ currencyCharacters:(NSArray *)currencyCharacters;
 
 - (void)injectSessionKey:(NSDictionary *)data;
 
+// ----------------------------------------- Display Prompt -----------------------------------------------
+
+- (void)displayPrompt:(NSDictionary *)data;
+- (void)cancelDisplayPrompt;
+
 // ----------------------------------------- Update Display Setting -----------------------------------------------
 
+- (void)readDisplaySettings:(NSDictionary *)data;
 - (void)updateDisplaySettings:(NSDictionary *)data;
+
+// ----------------------------------------- Display String -----------------------------------------------
+
+- (void)readDisplayString:(NSString *)dataEnum;
+- (void)updateDisplayString:(NSDictionary *)data;
+
+// -------------------------------------- Hardware Functional Test --------------------------------------------
+
+- (void)startHardwareFunctionalTest:(int)itemIndex;
+- (void)stopHardwareFunctionalTest;
 
 // ----------------------------------------- SPOC -----------------------------------------------
 
@@ -641,26 +722,23 @@ currencyCharacters:(NSArray *)currencyCharacters;
 
 @optional
 
-// ----------------------------------------- Battery Warning -----------------------------------------------
-
-- (void)onBatteryLow:(BBDeviceBatteryStatus)batteryStatus NS_SWIFT_NAME(onBatteryLow(batteryStatus:));
-
 // ----------------------------------------- Error Handling -----------------------------------------------
 
 - (void)onError:(BBDeviceErrorType)errorType errorMessage:(NSString *)errorMessage NS_SWIFT_NAME(onError(errorType:errorMessage:));
 
-// ----------------------------------------- Power Button Event -----------------------------------------------
+// ----------------------------------------- Power/Battery Related -----------------------------------------------
 
+- (void)onBatteryLow:(BBDeviceBatteryStatus)batteryStatus NS_SWIFT_NAME(onBatteryLow(batteryStatus:));
 - (void)onPowerButtonPressed;
-- (void)onDeviceReset;
-
-// ----------------------------------------- Power Down Event -----------------------------------------------
-
 - (void)onPowerDown;
-
-// ----------------------------------------- Standby Mode -----------------------------------------------
-
+- (void)onPowerConnected:(BBDevicePowerSource)powerSource batteryStatus:(BBDeviceBatteryStatus)batteryStatus NS_SWIFT_NAME(onPowerConnected(powerSource:batteryStatus:));
+- (void)onPowerDisconnected:(BBDevicePowerSource)powerSource NS_SWIFT_NAME(onPowerDisconnected(powerSource:));
 - (void)onEnterStandbyMode;
+
+// ----------------------------------------- Device Reset Event -----------------------------------------------
+
+- (void)onDeviceResetAlert:(int)timeBeforeReset;
+- (void)onDeviceReset:(BOOL)isSuccess reason:(BBDeviceDeviceResetReason)reason;
 
 // ----------------------------------------- LED -----------------------------------------------
 
@@ -671,14 +749,20 @@ currencyCharacters:(NSArray *)currencyCharacters;
 // Communication Channel
 - (void)onDeviceHere:(BOOL)isHere;
 
+// Communication Channel - Audio
+- (void)onAudioDevicePlugged;
+- (void)onAudioDeviceUnplugged;
+- (void)onAudioInterrupted;
+- (void)onNoAudioDeviceDetected;
+
 // Communication Channel - BT - BT2 or BT4
 - (void)onBTScanStopped;
 - (void)onBTScanTimeout;
 - (void)onBTReturnScanResults:(NSArray *)devices;
-- (void)onBTConnectTimeout;
 - (void)onBTConnected:(NSObject *)connectedDevice;
 - (void)onBTDisconnected;
 - (void)onRequestEnableBluetoothInSettings;
+- (void)onBTReturnReadRSSIResult:(BBDeviceReadRSSIResult)result RSSI:(NSNumber *)RSSI message:(NSString *)message NS_SWIFT_NAME(onBTReturnReadRSSIResult(result:RSSI:message:));
 
 // BT 4.2
 - (void)onBTRequestPairing;
@@ -702,12 +786,14 @@ currencyCharacters:(NSArray *)currencyCharacters;
 // Start Transaction
 - (void)onRequestTerminalTime;
 - (void)onRequestSetAmount;
+- (void)onRequestOtherAmount:(BBDeviceAmountInputType)type NS_SWIFT_NAME(onRequestOtherAmount(type:));
 - (void)onRequestSelectApplication:(NSArray *)applicationArray;
 
 // Account Selection
 - (void)onRequestSelectAccountType;
 
-// Confirm Amount on device with keypad after set amount
+// Amount Confirm
+- (void)onRequestAmountConfirm:(NSDictionary *)data;
 - (void)onReturnAmountConfirmResult:(BOOL)isConfirmed;
 
 // Waiting for card
@@ -727,7 +813,7 @@ currencyCharacters:(NSArray *)currencyCharacters;
 // Set Amount on device with keypad before startEmv
 - (void)onReturnEnableInputAmountResult:(BOOL)isSuccess;
 - (void)onReturnDisableInputAmountResult:(BOOL)isSuccess;
-- (void)onReturnAmount:(NSDictionary *)data;
+- (void)onReturnAmount:(BBDeviceAmountInputResult)result data:(NSDictionary *)data NS_SWIFT_NAME(onReturnAmount(result:data:));
 
 // PIN entry on device with keypad or with PBOC firmware
 - (void)onRequestPinEntry:(BBDevicePinEntrySource)pinEntrySource NS_SWIFT_NAME(onRequestPinEntry(pinEntrySource:));
@@ -773,7 +859,7 @@ currencyCharacters:(NSArray *)currencyCharacters;
 
 // CAPK
 - (void)onReturnCAPKList:(NSArray *)capkArray;
-- (void)onReturnCAPKDetail:(CAPK *)capk;
+- (void)onReturnCAPKDetail:(BBDeviceCAPK *)capk;
 - (void)onReturnCAPKLocation:(NSString *)location;
 - (void)onReturnUpdateCAPKResult:(BOOL)isSuccess;
 - (void)onReturnRemoveCAPKResult:(BOOL)isSuccess;
@@ -807,10 +893,24 @@ currencyCharacters:(NSArray *)currencyCharacters;
 - (void)onReturnDisplayPromptResult:(BBDeviceDisplayPromptResult)result NS_SWIFT_NAME(onReturnDisplayPromptResult(result:));
 - (void)onReturnFunctionKey:(BBDeviceFunctionKey)functionKey NS_SWIFT_NAME(onReturnFunctionKey(functionKey:));
 
-// ----------------------------------------- Set Display Image -----------------------------------------------
+// ----------------------------------------- DisplaySettings -----------------------------------------------
 
+- (void)onReturnReadDisplaySettingsResult:(BOOL)isSuccess data:(NSDictionary *)data;
 - (void)onReturnUpdateDisplaySettingsProgress:(float)percentage;
 - (void)onReturnUpdateDisplaySettingsResult:(BOOL)isSuccess message:(NSString *)message;
+
+// ----------------------------------------- DisplayString -----------------------------------------------
+
+- (void)onReturnReadDisplayStringResult:(BOOL)isSuccess data:(NSDictionary *)data;
+- (void)onReturnUpdateDisplayStringResult:(BOOL)isSuccess errorMessage:(NSString *)errorMessage;
+
+// -------------------------------------- Hardware Functional Test --------------------------------------------
+
+- (void)onHardwareFunctionalTestResult:(int)result itemIndex:(int)itemIndex errorMessage:(NSString *)errorMessage;
+
+// ----------------------------------------- DebugLog -----------------------------------------------
+
+- (void)onReturnDebugLog:(NSDictionary *)data;
 
 // ----------------------------------------- Other -----------------------------------------------
 
@@ -830,7 +930,6 @@ currencyCharacters:(NSArray *)currencyCharacters;
 - (void)onSPoCAttestationInProgress;
 - (void)onSPoCAttestationRescheduled;
 - (void)onSPoCSetupSecureSessionCompleted;
-
-
+- (void)onSPoCReturnProgress:(float)percentage;
 
 @end

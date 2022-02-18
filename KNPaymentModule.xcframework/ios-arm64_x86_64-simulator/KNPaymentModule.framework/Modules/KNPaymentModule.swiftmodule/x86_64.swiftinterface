@@ -37,7 +37,7 @@ extension KNPaymentModule.KNBbposReader : KNPaymentModule.BBDeviceControllerDele
   @objc final public func onBTDisconnected()
   @objc final public func onPowerButtonPressed()
   @objc final public func onPowerDown()
-  @objc final public func onBTConnectTimeout()
+  final public func onBTConnectTimeout()
   @objc final public func onReturnDeviceInfo(_ deviceInfo: [Swift.AnyHashable : Any])
   @objc final public func onError(errorType: KNPaymentModule.BBDeviceErrorType, errorMessage: Swift.String)
   @objc final public func onRequestSetAmount()
@@ -87,7 +87,8 @@ public protocol YPSignatureDelegate : AnyObject {
   func didStart(_ view: KNPaymentModule.YPDrawSignatureView)
 }
 extension KNPaymentModule.KNPaymentManager {
-  final public func loginUser(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  final public func loginUser(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
+  final public func authenticateToken(completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
   final public func getTicketFrom(transaction: KNCore.KNPaymentResult, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   final public func getTicketFrom(operation: KNCore.KNOperation, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   final public func getOperations(offset: Swift.Int, limit: Swift.Int, completion: @escaping ([KNCore.KNOperation]?) -> Swift.Void)
