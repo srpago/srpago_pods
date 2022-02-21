@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/KNBluetoothModule.framework/KNBluetoothModule</key>
 		<data>
-		IYmLughQ+d+k1VEJVDdjn25y644=
+		dky+xKgsnnhPDyEYzqSMPsZruFQ=
 		</data>
 		<key>Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/KNCore.framework/KNCore</key>
 		<data>
-		04i7/mX54G3bKiBKu5PjUtNAIV8=
+		rnyNviqwvJo3Ar/N3jryggJvWVQ=
 		</data>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/KNPaymentModule.framework/KNPaymentModule</key>
 		<data>
-		JDVSe3kO9iLzhzZcMko7q4adwHI=
+		C1Iwynkl10esf8K7NmyhKGMSUEk=
 		</data>
 		<key>Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/KNPrinterModule.framework/KNPrinterModule</key>
 		<data>
-		DrHflaZL929K5PWnrvr5F3BUZYQ=
+		iv1hZ4C2tBgQQPOpr2NY0b4NGNE=
 		</data>
 		<key>Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -110,7 +110,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uZfsJYJGi1W0EsazJXUTAuLfk61nDim89ZX/h6aHn74=
+			RZz4H1+JJRMqfyXwGr8Zo6iW616yZwULp53qQ1T8pOQ=
 			</data>
 		</dict>
 		<key>Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
@@ -131,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5zVCY7E+zm1Y7pTi7R1IiauC4Z0VFlV9wHFpU6Idr0=
+			CBZtDVayTUuKGPqKZa1hZPU3B8K1/RoiE/EIgHuJZdo=
 			</data>
 		</dict>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNf01Bb+ao+pY7WaaBoWM2a+bxc4WXNvehiykaJJevE=
+			UjQql1skaTE2nT1DpNG3z8GecRjYycbofisBB95/Cvs=
 			</data>
 		</dict>
 		<key>Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
@@ -180,7 +180,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0TkWYilQ/ufkwKm5jPIyfUy7pLhCKU/IwadOiAIv6Qg=
+			fsDC2amneCiuuoCaNr76LDLDUdr5McGVWkJ9UUd5Ehw=
 			</data>
 		</dict>
 		<key>Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>

@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/KNBluetoothModule.framework/KNBluetoothModule</key>
 		<data>
-		dCSwde+x2/gl361qXWH62NKQhZY=
+		xVVWzySXFXPlA7DUyYNcE449vj0=
 		</data>
 		<key>Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/KNCore.framework/KNCore</key>
 		<data>
-		NIwG1yiNB0gCu8Bj3VltP+7eVn0=
+		s+BL5kUwx8eS2Y6xrmhgYEHJzr0=
 		</data>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/KNPaymentModule.framework/KNPaymentModule</key>
 		<data>
-		EwQ0U4yeTLGPHkady9VghvnXGk4=
+		efHdPc4lz0w+q5HkmeRc5nk6g8E=
 		</data>
 		<key>Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/KNPrinterModule.framework/KNPrinterModule</key>
 		<data>
-		vnPWI5hlr+9GF1ohTtfnXl0Pz7E=
+		PPlcR4tRfW+zBBmn+zP5xHB75qw=
 		</data>
 		<key>Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+449aDq8QrcWRBRo6tupjfcksSyf7Dcpp4AAKasebJw=
+			CFDgfmKfAE5bMaFGvC0FxQ9E57rLF20IA+MaH+q7Kfs=
 			</data>
 		</dict>
 		<key>Frameworks/KNBluetoothModule.framework/_CodeSignature/CodeResources</key>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAGA19a3F98i/A+Oy05VxtxaZBZ0wXTj8/2GnvlG3QQ=
+			cXrHzMg9wqnW76KZnkuKf3dRO1YUAw5aBheXoLYLwX0=
 			</data>
 		</dict>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7uY6iSYi/4cZbvVGlCzkZctnCyBiUCnGO+Z6VFpGm9s=
+			cr8Bs96TUHzbqRPOgYz5mFdS8Dh67tPA2raPAq7C10g=
 			</data>
 		</dict>
 		<key>Frameworks/KNPaymentModule.framework/_CodeSignature/CodeResources</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1d1iqX5TtSYaJTeWfQ6y6hQZvGgol0sEMmxijH4Yc/o=
+			SCylzpa1Sg+b+0Gj9dTX1hDvjb9BaqQB5aSupi0jTAE=
 			</data>
 		</dict>
 		<key>Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>

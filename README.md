@@ -13,6 +13,11 @@ Modules:
 
 # ChangeLog
 
+## [2.0.1] 2022-02-21
+
+## Changed
+- Build library for distribution was disable
+
 ## [2.0.0] 2022-02-02
 
 ## Added
