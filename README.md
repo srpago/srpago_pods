@@ -21,6 +21,11 @@ Modules:
 
 # ChangeLog
 
+## [1.2.1] 2022-02-22
+
+## Removed
+- Unusable params in settings request
+
 ## [1.2.0] 2022-02-01
 
 ## Added
