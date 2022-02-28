@@ -13,7 +13,7 @@ public class KNStoreTransactionResultUseCase {
 }
 public class KNBaseReport : Swift.Encodable {
   public init()
-  public var user: Swift.String
+  public var email: Swift.String
   public var sdkVersion: Swift.String
   public var sdkBuild: Swift.String
   public var appBundle: Swift.String

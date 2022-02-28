@@ -88,7 +88,7 @@ public protocol YPSignatureDelegate : AnyObject {
 }
 extension KNPaymentModule.KNPaymentManager {
   final public func loginUser(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
-  final public func authenticateToken(completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
+  final public func authenticateToken(_ token: Swift.String)
   final public func getTicketFrom(transaction: KNCore.KNPaymentResult, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   final public func getTicketFrom(operation: KNCore.KNOperation, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   final public func getOperations(offset: Swift.Int, limit: Swift.Int, completion: @escaping ([KNCore.KNOperation]?) -> Swift.Void)
@@ -144,6 +144,7 @@ final public class KNPaymentManager {
   weak final public var readerDelegate: KNPaymentModule.KNReaderStateDelegate?
   weak final public var localStorage: KNCore.KNPersistanceRepository?
   public init()
+  final public func setupSignatureView(_ signatureViewData: KNCore.KNSignatureViewData)
   final public func loginAppConfig(_ config: KNCore.KNConfigurator)
   final public func initPayment(amount: Swift.String, reference: Swift.String?)
   final public func setTip(_ tip: Swift.String)

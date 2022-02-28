@@ -148,6 +148,7 @@ public class KNPeripheral {
   @objc deinit
 }
 public enum KNEnvironmentType : Swift.String {
+  case dev
   case sandbox
   case certification
   case fime
@@ -349,6 +350,16 @@ public class KNDateHelper {
   public static func getString(_ dateSelected: Foundation.Date, format: KNCore.KNDateFormat) -> Swift.String
   public static func getDate(_ dateSelected: Swift.String, format: KNCore.KNDateFormat) -> Foundation.Date?
   @objc deinit
+}
+public struct KNSignatureViewData {
+  public let orientation: UIKit.UIDeviceOrientation
+  public let waterMark: UIKit.UIImage?
+  public let mainColor: UIKit.UIColor
+  public let buttonColor: UIKit.UIColor
+  public let bottomColor: UIKit.UIColor
+  public let font: UIKit.UIFont?
+  public init()
+  public init(orientation: UIKit.UIDeviceOrientation, waterMark: UIKit.UIImage?, mainColor: UIKit.UIColor, buttonColor: UIKit.UIColor, bottomColor: UIKit.UIColor, font: UIKit.UIFont)
 }
 public struct KNMakePaymentResult : Swift.Codable {
   public let status: Swift.Bool
