@@ -13,6 +13,21 @@ Modules:
 
 # ChangeLog
 
+## [2.0.5] 2022-02-28
+
+## Added
+- Signature UI Configuration
+
+## [2.0.4] 2022-02-28
+
+## Fixed
+- Reader state was fixed when reader was linked from try to reconnect without previous descovery
+ 
+## [2.0.2] 2022-02-25
+
+## Fixed
+- Fix publish on app store
+
 ## [2.0.1] 2022-02-21
 
 ## Changed

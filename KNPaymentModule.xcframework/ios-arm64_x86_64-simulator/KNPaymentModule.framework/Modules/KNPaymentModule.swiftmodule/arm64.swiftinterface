@@ -141,7 +141,10 @@ public struct KNPaxDeviceInfo {
 final public class KNPaymentManager {
   final public var reader: KNPaymentModule.KNBaseReader?
   weak final public var delegate: KNCore.KNPaymentDelegate?
-  weak final public var readerDelegate: KNPaymentModule.KNReaderStateDelegate?
+  weak final public var readerDelegate: KNPaymentModule.KNReaderStateDelegate? {
+    get
+    set
+  }
   weak final public var localStorage: KNCore.KNPersistanceRepository?
   public init()
   final public func setupSignatureView(_ signatureViewData: KNCore.KNSignatureViewData)

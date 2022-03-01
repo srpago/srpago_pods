@@ -351,15 +351,57 @@ public class KNDateHelper {
   public static func getDate(_ dateSelected: Swift.String, format: KNCore.KNDateFormat) -> Foundation.Date?
   @objc deinit
 }
+public struct SignatureButtonViewData {
+  public enum ButtonType {
+    case clear
+    case accept
+    public static func == (a: KNCore.SignatureButtonViewData.ButtonType, b: KNCore.SignatureButtonViewData.ButtonType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let icon: UIKit.UIImage?
+  public let font: UIKit.UIFont
+  public let backgroundColor: UIKit.UIColor
+  public let textColor: UIKit.UIColor
+  public let borderWidth: CoreGraphics.CGFloat
+  public let disableBackgroundColor: UIKit.UIColor
+  public let disableTextColor: UIKit.UIColor
+  public init(icon: UIKit.UIImage?, font: UIKit.UIFont, backgroundColor: UIKit.UIColor, textColor: UIKit.UIColor, borderWidth: CoreGraphics.CGFloat, disableBackground: UIKit.UIColor, disableText: UIKit.UIColor)
+  public init(type: KNCore.SignatureButtonViewData.ButtonType)
+}
+public struct SignatureLabelViewData {
+  public enum LabelType {
+    case title
+    case tip
+    case signHere
+    case digitalSignature
+    public static func == (a: KNCore.SignatureLabelViewData.LabelType, b: KNCore.SignatureLabelViewData.LabelType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let textColor: UIKit.UIColor
+  public let font: UIKit.UIFont
+  public let alignment: UIKit.NSTextAlignment
+  public init(textColor: UIKit.UIColor, font: UIKit.UIFont, alignment: UIKit.NSTextAlignment)
+  public init(type: KNCore.SignatureLabelViewData.LabelType)
+}
 public struct KNSignatureViewData {
   public let orientation: UIKit.UIDeviceOrientation
   public let waterMark: UIKit.UIImage?
-  public let mainColor: UIKit.UIColor
-  public let buttonColor: UIKit.UIColor
+  public let headerColor: UIKit.UIColor
   public let bottomColor: UIKit.UIColor
-  public let font: UIKit.UIFont?
+  public let clearButton: KNCore.SignatureButtonViewData
+  public let acceptButton: KNCore.SignatureButtonViewData
+  public let totalAmount: KNCore.SignatureLabelViewData
+  public let signatureHere: KNCore.SignatureLabelViewData
+  public let signatureDigital: KNCore.SignatureLabelViewData
+  public let tipAmount: KNCore.SignatureLabelViewData
   public init()
-  public init(orientation: UIKit.UIDeviceOrientation, waterMark: UIKit.UIImage?, mainColor: UIKit.UIColor, buttonColor: UIKit.UIColor, bottomColor: UIKit.UIColor, font: UIKit.UIFont)
+  public init(orientation: UIKit.UIDeviceOrientation, waterMark: UIKit.UIImage?, headerColor: UIKit.UIColor, bottomColor: UIKit.UIColor, clearButton: KNCore.SignatureButtonViewData, acceptButton: KNCore.SignatureButtonViewData, totalAmount: KNCore.SignatureLabelViewData, signatureHere: KNCore.SignatureLabelViewData, signatureDigital: KNCore.SignatureLabelViewData, tipAmount: KNCore.SignatureLabelViewData)
 }
 public struct KNMakePaymentResult : Swift.Codable {
   public let status: Swift.Bool
@@ -559,6 +601,10 @@ extension KNCore.SendPrinterType : Swift.Hashable {}
 extension KNCore.KNReaderState : Swift.Equatable {}
 extension KNCore.KNReaderState : Swift.Hashable {}
 extension KNCore.KNReaderState : Swift.RawRepresentable {}
+extension KNCore.SignatureButtonViewData.ButtonType : Swift.Equatable {}
+extension KNCore.SignatureButtonViewData.ButtonType : Swift.Hashable {}
+extension KNCore.SignatureLabelViewData.LabelType : Swift.Equatable {}
+extension KNCore.SignatureLabelViewData.LabelType : Swift.Hashable {}
 extension KNCore.KNDateFormat : Swift.Equatable {}
 extension KNCore.KNDateFormat : Swift.Hashable {}
 extension KNCore.KNDateFormat : Swift.RawRepresentable {}
