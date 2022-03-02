@@ -1,7 +1,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "1.2.1"
+  sdk.version      = "1.2.2"
   sdk.summary      = "SDK de Sr.pago"
   sdk.description  = <<-DESC
     SDK de Señor pago para iOS
@@ -19,7 +19,7 @@ Pod::Spec.new do |sdk|
    }
   sdk.platform     = :ios, "11.0"
 
-  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => '1.2.1'}
+  sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git",:tag => '1.2.2'}
   sdk.default_subspec = 'Core'
 
     sdk.subspec 'Core' do |core|
