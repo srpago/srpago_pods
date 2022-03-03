@@ -10,6 +10,7 @@ import _Concurrency
 public class KNConnectionManager {
   public init(delegate: KNBluetoothModule.KNBluetoothDelegate)
   public init(delegate: KNBluetoothModule.KNBluetoothDelegate, printerDelegate: KNBluetoothModule.KNBluetoothPrinterDelegate)
+  public func stopScan()
   public func bluetoothPermissionState() -> KNCore.KNBluetoothPermissionState
   public func searchDevices(devices: [KNCore.KNConnectionReaderType]?)
   public func searchPrinters(printers: [KNCore.KNPrinter] = [KNPrinter.defaultPrinter()])

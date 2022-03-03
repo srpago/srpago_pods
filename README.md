@@ -13,6 +13,16 @@ Modules:
 
 # ChangeLog
 
+## [2.0.7] 2022-03-03
+
+## Changed
+- Signature UI Configuration
+
+## [2.0.6] 2022-03-02
+
+## Added
+- OTA Update
+
 ## [2.0.5] 2022-02-28
 
 ## Added

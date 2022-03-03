@@ -154,6 +154,7 @@ public enum KNEnvironmentType : Swift.String {
   case certification
   case fime
   case production
+  case staging
   public static func getEnvironment(_ string: Swift.String?) -> KNCore.KNEnvironmentType
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
