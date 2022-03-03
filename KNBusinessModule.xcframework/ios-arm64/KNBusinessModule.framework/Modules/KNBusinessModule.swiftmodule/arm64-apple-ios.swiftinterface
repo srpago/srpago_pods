@@ -85,9 +85,13 @@ public struct KNIFESettings : Swift.Codable {
 public struct KNContactless : Swift.Codable {
   public let active: Swift.Bool
   public let device: Swift.String
-  public init(active: Swift.Bool, device: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
+  public let lastFirmwareVersion: Swift.String?
+  public let urlDownloadFirmware: Swift.String?
+  public let lastConfigVersion: Swift.String?
+  public let urlDownloadConfig: Swift.String?
+  public let forceUpdate: Swift.Bool?
   public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public struct KNTrackingReader : Swift.Codable {
   public let log: Swift.Bool

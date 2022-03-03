@@ -5,6 +5,7 @@ import CoreBluetooth
 import Foundation
 @_exported import KNCore
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 public enum KNBluetoothPermissionState {
@@ -178,7 +179,6 @@ public enum KNPaymentState : Swift.String {
   case locationPermissionUnauthorized
   case typePan
   case retypePan
-  case sendingPayment
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -213,6 +213,11 @@ public class KNPersistanceModel : KNCore.KNPersistanceRepository {
   public func save(_ value: Swift.String, key: Swift.String)
   public func getValue(_ key: Swift.String) -> Swift.String?
   @objc deinit
+}
+public protocol KNUpdateOtaDelegate : AnyObject {
+  func onUpdateProgress(progress: Swift.Int)
+  func onUpdateSuccess()
+  func onUpdateError(error: KNCore.KNPaymentError)
 }
 public struct KNBluetoothReader : Swift.Identifiable {
   public var id: Swift.ObjectIdentifier
@@ -313,7 +318,7 @@ public enum KNReaderState : Swift.Int {
   }
 }
 public struct KNPaymentResult {
-  public var token: Swift.String
+  public var orderId: Swift.String
   public var method: Swift.String
   public var authorizationCode: Swift.String
   public var transactionId: Swift.String
@@ -536,7 +541,6 @@ public enum KNConnectionReaderType : Swift.Encodable, Swift.CaseIterable {
   }
 }
 public enum KNPaymentErrorType : Swift.Int {
-  case sdkNotInitialized
   case readerNotConnected
   case readerError
   case invalidAmount
@@ -545,9 +549,9 @@ public enum KNPaymentErrorType : Swift.Int {
   case tipsError
   case unauthorizedPermissions
   case errorBluetooth
-  case errorReversal
   case invalidPaymentError
   case unknown
+  case otaError
   public var string: Swift.String {
     get
   }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KNPaymentModule-Swift.h</key>
 		<data>
-		b+yWxHOseDmAVms5GqBl59R7YhM=
+		t4t9ttFCftzb4Jg5NwNLRsnqSS8=
 		</data>
 		<key>Headers/KNPaymentModule.h</key>
 		<data>
@@ -18,55 +18,55 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1hs4s43kIFMX6dRdGvBrPZE7vyA=
+		70+o13y1R/LMivo/jbq9SoCZZ24=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		u0xySxCGUYNxCvcNPrWtSiPM3iA=
+		ZLRBbdBUUhC0TErpavpTQk9bnEY=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pGd4H0a4hk2Rrnv0sDd2IavVVdw=
+		leEZN08dQK+kZUr7wkx6l0Zomxw=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		1hs4s43kIFMX6dRdGvBrPZE7vyA=
+		70+o13y1R/LMivo/jbq9SoCZZ24=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		u0xySxCGUYNxCvcNPrWtSiPM3iA=
+		ZLRBbdBUUhC0TErpavpTQk9bnEY=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		pGd4H0a4hk2Rrnv0sDd2IavVVdw=
+		leEZN08dQK+kZUr7wkx6l0Zomxw=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lyGjg3EzezeUJt3ftnV1b3TM+8Y=
+		R3fdJo91A9vUqg83Q0ZOGReXadw=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		t65534XF4bzic9B6kXLvR/y8C1Y=
+		hb12sgzQOruADYRyXd3NsNo0/Q0=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		O3C9ixzFaINvArOdHzkTXzbM4Tw=
+		iAoDE2voifaVhcElv4LWNf6jB7s=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		lyGjg3EzezeUJt3ftnV1b3TM+8Y=
+		R3fdJo91A9vUqg83Q0ZOGReXadw=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		t65534XF4bzic9B6kXLvR/y8C1Y=
+		hb12sgzQOruADYRyXd3NsNo0/Q0=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		O3C9ixzFaINvArOdHzkTXzbM4Tw=
+		iAoDE2voifaVhcElv4LWNf6jB7s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Gdy6/XqRZYxRq5HF7X+3VYjEXzE=
+		97U4crzkmUhEtHQ179vDhPQz0ys=
 		</data>
 		<key>PrivateHeaders/BBDeviceCAPK.h</key>
 		<data>
@@ -75,6 +75,14 @@
 		<key>PrivateHeaders/BBDeviceController.h</key>
 		<data>
 		HpwVUDIb9MWa4ggtN0QuuZWD9Yg=
+		</data>
+		<key>PrivateHeaders/BBDeviceOTAController.h</key>
+		<data>
+		nedcyElpwrBRO7LSIBzLWB1KZ3I=
+		</data>
+		<key>PrivateHeaders/BBDeviceSPoCController.h</key>
+		<data>
+		oYCbUNpogaljejj9ZI65aaca+HU=
 		</data>
 		<key>PrivateHeaders/BBDeviceVASMerchantConfig.h</key>
 		<data>
@@ -143,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/XfskBsvEnQHEMZdBh0Fy2pMAK5/XM8QLApT/UxeU/o=
+			eczT7JcQU5Sci/bn8Yh3tJCmszBPELplqsMYN5j9tbY=
 			</data>
 		</dict>
 		<key>Headers/KNPaymentModule.h</key>
@@ -157,91 +165,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t2K3pcU6mddABn7srOkS0wS9CNhSNvUNe7PwufWGZxE=
+			+vh9OfuOjunUo5x/ZB0SJdGhRoBrNrkoUR86+If5v/g=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/2Z41fjz0eKJaK0seRY/yZ0zHKnNG4r0Fjz8cVUIAY=
+			ad43aGwdWPncPIl4v2OObPC/LyUFZiPIffdizRLLoWk=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j5jKR/Tbq5QWhXLI2FPzC0+Te2MiwTSukXkaxqFbqfU=
+			ClpW9pNXlm/WRtF+3kjII2Rglm5S9kqYi3RFHsB2P+0=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t2K3pcU6mddABn7srOkS0wS9CNhSNvUNe7PwufWGZxE=
+			+vh9OfuOjunUo5x/ZB0SJdGhRoBrNrkoUR86+If5v/g=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/2Z41fjz0eKJaK0seRY/yZ0zHKnNG4r0Fjz8cVUIAY=
+			ad43aGwdWPncPIl4v2OObPC/LyUFZiPIffdizRLLoWk=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j5jKR/Tbq5QWhXLI2FPzC0+Te2MiwTSukXkaxqFbqfU=
+			ClpW9pNXlm/WRtF+3kjII2Rglm5S9kqYi3RFHsB2P+0=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xk6MSy9RUbxbJv1RGAjCtx/nO/TvcT2NcHGoGcf5/Wc=
+			4ENIwVQ/L0tJDrQ1E8Zbi8lxyJSn3jGa7YWA607bAm4=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HvNVr2hWSuA8CJ7pa+hiXAtToQ+SofDOScUmEUBXFA=
+			FkG0iP4e1llHrf3tDG0PrhEbkEEDftbniFCfWYLildk=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJLfMi8D4VKwDGYVqQZwFZrmtNBWi0E++V4L7i/qULM=
+			8Q+ObnGLSyJ6b3vWgWkrHRCgq8wl9iczceEIvhx4RcY=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xk6MSy9RUbxbJv1RGAjCtx/nO/TvcT2NcHGoGcf5/Wc=
+			4ENIwVQ/L0tJDrQ1E8Zbi8lxyJSn3jGa7YWA607bAm4=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HvNVr2hWSuA8CJ7pa+hiXAtToQ+SofDOScUmEUBXFA=
+			FkG0iP4e1llHrf3tDG0PrhEbkEEDftbniFCfWYLildk=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJLfMi8D4VKwDGYVqQZwFZrmtNBWi0E++V4L7i/qULM=
+			8Q+ObnGLSyJ6b3vWgWkrHRCgq8wl9iczceEIvhx4RcY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+gxqjY0X3EwkktSLn2Y3OuaZj9dtOnbSI9fnt8dLhBI=
+			mZQF8mrcvA2uKYGSdjxbikjbyYBH3YdXoun+Z2igkiQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/BBDeviceCAPK.h</key>
@@ -256,6 +264,20 @@
 			<key>hash2</key>
 			<data>
 			KPNKDC5BAKfmTcuZPCW1zjDJvTMvAsHM5q8Tav8lZC4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/BBDeviceOTAController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5T0ZyyTBcCWijTpd+9BPAJe5Gzm+J3XvPz3pJ9cqiPo=
+			</data>
+		</dict>
+		<key>PrivateHeaders/BBDeviceSPoCController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YZIdQhYRqsVB9y5pADj6j/E9yfmYkp+SvmuUYdgDedo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/BBDeviceVASMerchantConfig.h</key>

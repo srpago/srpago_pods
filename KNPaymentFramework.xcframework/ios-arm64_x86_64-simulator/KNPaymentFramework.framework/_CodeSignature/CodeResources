@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/KNCore.framework/KNCore</key>
 		<data>
-		VcTcZ31hQjctOfBFvOS+luCuNfY=
+		u7reS+AEiHJzBm3kv0Gc3qrluGU=
 		</data>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/KNPayment.framework/KNPayment</key>
 		<data>
-		2YQnoXwcwaPs+x3Psr6QvIetxTM=
+		3UOn56AHZobQVfpIfQFHrXOEEJQ=
 		</data>
 		<key>Frameworks/KNPayment.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/KNPrinterModule.framework/KNPrinterModule</key>
 		<data>
-		L7AEN7Y/wjN4TS1kWQMubwjk+wg=
+		8F1BrTxTGGU5hE+zwNJWIZyI/Os=
 		</data>
 		<key>Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vgZ699oLXw2uWxfkRzMbNZFjYujTeuzGovngOghpCKk=
+			TUK8Uh4BtWbIt8owfk51w3WXgMG1DzlsDvXzvvfIGNE=
 			</data>
 		</dict>
 		<key>Frameworks/KNCore.framework/_CodeSignature/CodeResources</key>
@@ -91,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sz5iaYRagGvAzcD1TXCxgIkdnH9R3gDYa1vEBeSOU80=
+			KICMCg11oUHrQAk3GnXy/4Hq/Gyao876i33GfmsUQUE=
 			</data>
 		</dict>
 		<key>Frameworks/KNPayment.framework/_CodeSignature/CodeResources</key>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LNjvqOzqCIcAeGH0Mw7pFd5Np6hpSEmL20nW10Jzv5g=
+			FUkfI5OK5od1ot2TR4SusVCmVO5EcbJOFLK0ZRXfFCo=
 			</data>
 		</dict>
 		<key>Frameworks/KNPrinterModule.framework/_CodeSignature/CodeResources</key>

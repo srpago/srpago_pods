@@ -9,6 +9,7 @@ framework module KNPaymentModule {
         header "NSData+Encryption.h"
         header "BTDeviceFinder.h"
         header "BBDeviceController.h"
+        header "BBDeviceOTAController.h"
         header "PaxEasyLinkController.h"
         header "MastercardSound.h"
         
@@ -32,6 +33,7 @@ framework module KNPaymentModule {
         header "NSData+Encryption.h"
         header "BTDeviceFinder.h"
         header "BBDeviceController.h"
+        header "BBDeviceOTAController.h"
         header "MastercardSound.h"
         
         header "BBDeviceVASMerchantConfig.h"

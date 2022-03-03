@@ -226,8 +226,16 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 @end
 
 
-@class NSString;
 @class NSNumber;
+@class NSString;
+
+@interface KNBbposReader (SWIFT_EXTENSION(KNPaymentModule)) <BBDeviceOTAControllerDelegate>
+- (void)onReturnOTAProgress:(float)percentage;
+- (void)onReturnRemoteConfigUpdateResult:(BBDeviceOTAResult)result responseMessage:(NSString * _Nullable)responseMessage;
+- (void)onReturnRemoteFirmwareUpdateResult:(BBDeviceOTAResult)result responseMessage:(NSString * _Nullable)responseMessage;
+@end
+
+
 
 @interface KNBbposReader (SWIFT_EXTENSION(KNPaymentModule)) <BBDeviceControllerDelegate>
 - (void)onBTReturnScanResults:(NSArray * _Nonnull)devices;
@@ -251,6 +259,24 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 - (void)onRequestPinEntry:(BBDevicePinEntrySource)pinEntrySource;
 - (void)onReturnBatchData:(NSString * _Nonnull)tlv;
 - (void)onReturnReversalData:(NSString * _Nonnull)tlv;
+@end
+
+
+SWIFT_CLASS("_TtC15KNPaymentModule17KNDownloadManager")
+@interface KNDownloadManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSURLSession;
+@class NSURLSessionDownloadTask;
+@class NSURL;
+@class NSURLSessionTask;
+
+@interface KNDownloadManager (SWIFT_EXTENSION(KNPaymentModule)) <NSURLSessionDownloadDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didFinishDownloadingToURL:(NSURL * _Nonnull)location;
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite;
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
 @end
 
 
