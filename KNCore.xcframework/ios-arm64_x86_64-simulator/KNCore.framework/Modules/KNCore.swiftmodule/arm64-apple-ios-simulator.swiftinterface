@@ -224,6 +224,7 @@ public struct KNBluetoothReader : Swift.Identifiable {
   public var id: Swift.ObjectIdentifier
   public var device: KNCore.KNPeripheral
   public var readerType: KNCore.KNConnectionReaderType
+  public var lastUpdate: Foundation.Date
   public init(id: Swift.ObjectIdentifier, device: KNCore.KNPeripheral, readerType: KNCore.KNConnectionReaderType)
   public init?(name: Swift.String, uuid: Swift.String)
   public typealias ID = Swift.ObjectIdentifier

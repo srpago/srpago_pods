@@ -18,51 +18,51 @@
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JbGkNjv/dEtkhsTZ3TX0ZXg7vLg=
+		WheY08ayWEYEusYJZuPapXYFvIE=
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+fzUQ7GnkvkrD8wAku9Ruv9Cdmg=
+		R90bWoh7+Q3P5fJG1Nfgrfcu+nY=
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ib67eFx3hl4RJ8eqJrja01+xpNM=
+		/YJJXzO1AnwL7os6OY1UBrK4oik=
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		JbGkNjv/dEtkhsTZ3TX0ZXg7vLg=
+		WheY08ayWEYEusYJZuPapXYFvIE=
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		+fzUQ7GnkvkrD8wAku9Ruv9Cdmg=
+		R90bWoh7+Q3P5fJG1Nfgrfcu+nY=
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Ib67eFx3hl4RJ8eqJrja01+xpNM=
+		/YJJXzO1AnwL7os6OY1UBrK4oik=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PH2xV3Mf0RXY5ybEGzCQvkLmoxA=
+		ORk6Ozd3Pb+/Ib79KbqVlnzboo0=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ll8W3NfQIJ9anqNUC6YnkGYQepQ=
+		aFOx/iVrnMGEe7hlcaHz9t454wQ=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hVDFfwB2WxczHGtH3ji0AHr0dGM=
+		KldOI8i4p/G10CXJpkv3BP77LZQ=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		PH2xV3Mf0RXY5ybEGzCQvkLmoxA=
+		ORk6Ozd3Pb+/Ib79KbqVlnzboo0=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ll8W3NfQIJ9anqNUC6YnkGYQepQ=
+		aFOx/iVrnMGEe7hlcaHz9t454wQ=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		hVDFfwB2WxczHGtH3ji0AHr0dGM=
+		KldOI8i4p/G10CXJpkv3BP77LZQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,84 +89,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7p2ad5YhLero1MDBrf9pT6xXdI/mNDCgNjka7gqs9Io=
+			fifaWzgT7HdJcRXa++TJprThHtK3DzaLTkKc7C5SSKU=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2I7PK9D0PxXvQAqNgyrhQsPcQnfRtl+QQL8vxe+CN7w=
+			ZRWf9SBEcOprtAS73K7oAmx0EH5bEZHSLEGisYoIME0=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Cr3636MDvnf86eDlAJpNMRFPevVHKX364lVRYhXWwk=
+			l/Ms5zDgcGa7OZl+wCRoj+8/ZnjL+Qcxi8xzgPxGCos=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7p2ad5YhLero1MDBrf9pT6xXdI/mNDCgNjka7gqs9Io=
+			fifaWzgT7HdJcRXa++TJprThHtK3DzaLTkKc7C5SSKU=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2I7PK9D0PxXvQAqNgyrhQsPcQnfRtl+QQL8vxe+CN7w=
+			ZRWf9SBEcOprtAS73K7oAmx0EH5bEZHSLEGisYoIME0=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Cr3636MDvnf86eDlAJpNMRFPevVHKX364lVRYhXWwk=
+			l/Ms5zDgcGa7OZl+wCRoj+8/ZnjL+Qcxi8xzgPxGCos=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lO3cq7dMTVSSEAsY2x/1d1gTouvxRdDn/ZExSdNCCkU=
+			n3b6UyYX5BTh42TYgFCflf4IRhcH658ru8zCpylr27o=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Z7Y6ci5tBfjdTm8Au62TbdQ0zkDgl7jq8R/SuWoxvM=
+			ejVUTlUeq+0T1LLzIImUaJ1EJ0qLbW/fOBotieRom7Y=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rzyZlgkPkF6vqItWG8oM2szYKhQei9uGWjpAPJ/eWyM=
+			ANJHeIOnkW3Q28X6b81O01oiBZ/A4HeRZcn/uzXOwfY=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lO3cq7dMTVSSEAsY2x/1d1gTouvxRdDn/ZExSdNCCkU=
+			n3b6UyYX5BTh42TYgFCflf4IRhcH658ru8zCpylr27o=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Z7Y6ci5tBfjdTm8Au62TbdQ0zkDgl7jq8R/SuWoxvM=
+			ejVUTlUeq+0T1LLzIImUaJ1EJ0qLbW/fOBotieRom7Y=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rzyZlgkPkF6vqItWG8oM2szYKhQei9uGWjpAPJ/eWyM=
+			ANJHeIOnkW3Q28X6b81O01oiBZ/A4HeRZcn/uzXOwfY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
