@@ -13,6 +13,15 @@ Modules:
 
 # ChangeLog
 
+## [2.0.9] 2022-03-08
+
+## Changed
+- Reader info was improved
+
+## Added
+- Validation of location enable
+
+
 ## [2.0.8] 2022-03-03
 
 ## Changed

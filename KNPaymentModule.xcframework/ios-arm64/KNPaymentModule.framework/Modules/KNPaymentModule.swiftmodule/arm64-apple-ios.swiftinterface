@@ -262,7 +262,7 @@ extension KNPaymentModule.KNDownloadManager : Foundation.URLSessionDownloadDeleg
 extension KNPaymentModule.KNPaymentManager {
   final public func connectReader(bluetooth: KNCore.KNBluetoothReader)
   final public func disconnectReader()
-  final public func getReaderInfo(readerInfo: @escaping (KNCore.KNReaderInfo?) -> Swift.Void, error: @escaping (KNCore.KNPaymentError?) -> Swift.Void)
+  final public func getReaderInfo(readerInfo: @escaping (KNCore.KNReaderInfo) -> Swift.Void, error: @escaping (KNCore.KNPaymentError) -> Swift.Void)
   final public func validateConnection() -> Swift.Bool
   final public func isRecognizedDevice() -> Swift.Bool
   final public func getUUIDDevice() -> Swift.String?

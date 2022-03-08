@@ -24,12 +24,13 @@ public protocol KNBluetoothReaderDelegate : AnyObject {
   public func configBluetoothReaderState(delegate: KNPayment.KNBluetoothReaderDelegate)
   public func configPrinter(delegate: KNCore.KNPrinterDelegate)
   public func searchDevices(_ devices: [KNCore.KNConnectionReaderType]?)
-  public func stopSearchDevives()
+  public func stopSearchDevices()
   public func connectReader(_ reader: KNCore.KNBluetoothReader)
+  public func canReconnect() -> Swift.Bool
   public func tryReconnect()
   public func disconnectReader()
   public func validateConnection() -> Swift.Bool
-  public func getReader(info: @escaping (KNCore.KNReaderInfo?) -> Swift.Void, error: @escaping (KNCore.KNPaymentError?) -> Swift.Void)
+  public func getReader(info: @escaping (KNCore.KNReaderInfo) -> Swift.Void, error: @escaping (KNCore.KNPaymentError) -> Swift.Void)
   public func searchPrinters(_ printers: [KNCore.KNPrinter]?)
   public func connectPrinter(printer: KNCore.KNPrinter) -> KNCore.KNPaymentError?
   public func createBluetooth(recipe: KNCore.KNRecipe) -> [Foundation.Data]?

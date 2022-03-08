@@ -368,6 +368,16 @@ public struct SignatureButtonViewData {
       get
     }
   }
+  public enum ButtonCornerRadius {
+    case rounded
+    case rect
+    case square
+    public static func == (a: KNCore.SignatureButtonViewData.ButtonCornerRadius, b: KNCore.SignatureButtonViewData.ButtonCornerRadius) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
   public let icon: UIKit.UIImage?
   public let font: UIKit.UIFont
   public let backgroundColor: UIKit.UIColor
@@ -375,7 +385,8 @@ public struct SignatureButtonViewData {
   public let borderWidth: CoreGraphics.CGFloat
   public let disableBackgroundColor: UIKit.UIColor
   public let disableTextColor: UIKit.UIColor
-  public init(icon: UIKit.UIImage?, font: UIKit.UIFont, backgroundColor: UIKit.UIColor, textColor: UIKit.UIColor, borderWidth: CoreGraphics.CGFloat, disableBackground: UIKit.UIColor, disableText: UIKit.UIColor)
+  public let corner: KNCore.SignatureButtonViewData.ButtonCornerRadius
+  public init(icon: UIKit.UIImage?, font: UIKit.UIFont, backgroundColor: UIKit.UIColor, textColor: UIKit.UIColor, borderWidth: CoreGraphics.CGFloat, disableBackground: UIKit.UIColor, disableText: UIKit.UIColor, corner: KNCore.SignatureButtonViewData.ButtonCornerRadius = .rounded)
   public init(type: KNCore.SignatureButtonViewData.ButtonType)
 }
 public struct SignatureLabelViewData {
@@ -609,6 +620,8 @@ extension KNCore.KNReaderState : Swift.Hashable {}
 extension KNCore.KNReaderState : Swift.RawRepresentable {}
 extension KNCore.SignatureButtonViewData.ButtonType : Swift.Equatable {}
 extension KNCore.SignatureButtonViewData.ButtonType : Swift.Hashable {}
+extension KNCore.SignatureButtonViewData.ButtonCornerRadius : Swift.Equatable {}
+extension KNCore.SignatureButtonViewData.ButtonCornerRadius : Swift.Hashable {}
 extension KNCore.SignatureLabelViewData.LabelType : Swift.Equatable {}
 extension KNCore.SignatureLabelViewData.LabelType : Swift.Hashable {}
 extension KNCore.KNDateFormat : Swift.Equatable {}
