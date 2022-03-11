@@ -13,6 +13,11 @@ Modules:
 
 # ChangeLog
 
+## [2.0.11] 2022-03-10
+
+## Changed
+- AppKey and AppSecret will be changed to optionals
+
 ## [2.0.10] 2022-03-08
 
 ## Removed
