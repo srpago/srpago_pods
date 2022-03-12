@@ -410,6 +410,7 @@ public struct SignatureLabelViewData {
 public struct KNSignatureViewData {
   public let orientation: UIKit.UIDeviceOrientation
   public let waterMark: UIKit.UIImage?
+  public let headerHeight: CoreGraphics.CGFloat
   public let headerColor: UIKit.UIColor
   public let bottomColor: UIKit.UIColor
   public let clearButton: KNCore.SignatureButtonViewData
@@ -419,7 +420,7 @@ public struct KNSignatureViewData {
   public let signatureDigital: KNCore.SignatureLabelViewData
   public let tipAmount: KNCore.SignatureLabelViewData
   public init()
-  public init(orientation: UIKit.UIDeviceOrientation, waterMark: UIKit.UIImage?, headerColor: UIKit.UIColor, bottomColor: UIKit.UIColor, clearButton: KNCore.SignatureButtonViewData, acceptButton: KNCore.SignatureButtonViewData, totalAmount: KNCore.SignatureLabelViewData, signatureHere: KNCore.SignatureLabelViewData, signatureDigital: KNCore.SignatureLabelViewData, tipAmount: KNCore.SignatureLabelViewData)
+  public init(orientation: UIKit.UIDeviceOrientation, waterMark: UIKit.UIImage?, headerHeight: CoreGraphics.CGFloat, headerColor: UIKit.UIColor, bottomColor: UIKit.UIColor, clearButton: KNCore.SignatureButtonViewData, acceptButton: KNCore.SignatureButtonViewData, totalAmount: KNCore.SignatureLabelViewData, signatureHere: KNCore.SignatureLabelViewData, signatureDigital: KNCore.SignatureLabelViewData, tipAmount: KNCore.SignatureLabelViewData)
 }
 public struct KNMakePaymentResult : Swift.Codable {
   public let status: Swift.Bool

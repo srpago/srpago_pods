@@ -13,6 +13,14 @@ Modules:
 
 # ChangeLog
 
+## [2.0.12] 2022-03-12
+
+## Changed
+- Signature header height can be configurated
+
+## Fixed
+- Double error thrown when configuration service has an error
+
 ## [2.0.11] 2022-03-10
 
 ## Changed

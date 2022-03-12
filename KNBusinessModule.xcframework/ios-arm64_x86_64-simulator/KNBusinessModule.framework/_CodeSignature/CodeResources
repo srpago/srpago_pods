@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l226BeyCP5Kz6Cu4cBe1Nt8u1Vw=
+		nmU62rCbA5HEAx3yozLefjfAy1g=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		l226BeyCP5Kz6Cu4cBe1Nt8u1Vw=
+		nmU62rCbA5HEAx3yozLefjfAy1g=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i6C3kfF75aKlzPZqbLPH0aXSqmY=
+		IJzMtu3+wyBaVdvkcRixMbSvJ2M=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		i6C3kfF75aKlzPZqbLPH0aXSqmY=
+		IJzMtu3+wyBaVdvkcRixMbSvJ2M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QZPHi6PymqA7DtAf2fBgKyGGqLM8tJf2v/3CQebc9Gk=
+			3gsbNYLbm2ER7CpwSxVS1r/HFLPRaFLOFai7/W/50Bs=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64.swiftdoc</key>
@@ -142,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QZPHi6PymqA7DtAf2fBgKyGGqLM8tJf2v/3CQebc9Gk=
+			3gsbNYLbm2ER7CpwSxVS1r/HFLPRaFLOFai7/W/50Bs=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -163,7 +163,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ImsgwTaABEbP2DkJ68Odhon3XalTDrA8FLJ7DHU+Hc=
+			BWW66BSnSFy5I/7mMuifXUSyqXdk54oDYw3obQEqc+I=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64.swiftdoc</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ImsgwTaABEbP2DkJ68Odhon3XalTDrA8FLJ7DHU+Hc=
+			BWW66BSnSFy5I/7mMuifXUSyqXdk54oDYw3obQEqc+I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
