@@ -13,6 +13,11 @@ Modules:
 
 # ChangeLog
 
+## [2.0.13] 2022-03-16
+
+## Changed
+- Build with swift 5.6
+
 ## [2.0.12] 2022-03-12
 
 ## Changed
