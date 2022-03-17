@@ -418,6 +418,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 - (void)sendtTicketWithOperationID:(NSString * _Nonnull)operationID mail:(NSString * _Nullable)mail phone:(NSString * _Nullable)phone success:(void (^ _Nonnull)(void))success error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)checkOTAUpdateWithIsUpdateNeeded:(void (^ _Nonnull)(BOOL))isUpdateNeeded;
 - (void)startOTAUpdate;
+- (void)cancelOTAUpdate;
 @end
 
 

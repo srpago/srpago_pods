@@ -286,6 +286,7 @@ extension ReaderModule.NewRelicLogger {
   @objc public func sendtTicket(operationID: Swift.String, mail: Swift.String?, phone: Swift.String?, success: @escaping () -> (), error: @escaping (Swift.Error) -> ())
   @objc public func checkOTAUpdate(isUpdateNeeded: @escaping (Swift.Bool) -> ())
   @objc public func startOTAUpdate()
+  @objc public func cancelOTAUpdate()
   @objc deinit
 }
 @objc public class ReceiptModel : ObjectiveC.NSObject, Swift.Codable {
@@ -321,6 +322,7 @@ extension ReaderModule.NewRelicLogger {
   weak public var downloadDelegate: ReaderModule.DownloadManagerDelegate?
   public func downloadFiles(downloadObjects: [ReaderModule.DowloadObject]?, downloadSuccesfull: @escaping (Swift.Bool) -> Swift.Void)
   public func deleteFiles()
+  public func cancelDownloads()
   @objc deinit
 }
 extension ReaderModule.DownloadManager : Foundation.URLSessionDownloadDelegate {
