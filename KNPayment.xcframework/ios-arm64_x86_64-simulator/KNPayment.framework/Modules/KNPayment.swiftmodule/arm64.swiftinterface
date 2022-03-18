@@ -9,19 +9,14 @@ import KNPaymentModule
 import KNPrinterModule
 import Swift
 import _Concurrency
-public protocol KNBluetoothReaderDelegate : AnyObject {
-  func onListReadersFound(devices: [KNCore.KNBluetoothReader])
-  func bluetooth(state: KNCore.KNBluetoothState)
-  func onReaderState(state: KNCore.KNReaderState)
-}
-@_hasMissingDesignatedInitializers public class KNPayment {
-  public class func shared() -> KNPayment.KNPayment
+public class KNPayment : KNPaymentModule.KNReaderStateDelegate, KNBluetoothModule.KNBluetoothDelegate {
+  public init()
   public func getPaymentsCoreVersion() -> Swift.String
   public func config(_ config: KNCore.KNConfigurator)
   public func configSignatureUI(_ viewData: KNCore.KNSignatureViewData)
   public func login(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
   public func authenticateToken(_ token: Swift.String)
-  public func configBluetoothReaderState(delegate: KNPayment.KNBluetoothReaderDelegate)
+  public func configBluetoothReaderState(delegate: KNCore.KNBluetoothReaderDelegate)
   public func configPrinter(delegate: KNCore.KNPrinterDelegate)
   public func searchDevices(_ devices: [KNCore.KNConnectionReaderType]?)
   public func stopSearchDevices()
@@ -48,12 +43,8 @@ public protocol KNBluetoothReaderDelegate : AnyObject {
   public func selectPayInOneExibition()
   public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
   public func startOtaUpdate(delegate: KNCore.KNUpdateOtaDelegate)
-  @objc deinit
-}
-extension KNPayment.KNPayment : KNPaymentModule.KNReaderStateDelegate {
   public func onReaderState(state: KNCore.KNReaderState)
-}
-extension KNPayment.KNPayment : KNBluetoothModule.KNBluetoothDelegate {
   public func bluetooth(state: KNCore.KNBluetoothState)
   public func onListReadersFound(devices: [KNCore.KNBluetoothReader])
+  @objc deinit
 }

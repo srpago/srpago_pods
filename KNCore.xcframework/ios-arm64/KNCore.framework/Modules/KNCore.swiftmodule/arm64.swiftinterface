@@ -458,6 +458,11 @@ public struct KNPrinter : Swift.Identifiable {
   public static func defaultPrinter() -> KNCore.KNPrinter
   public typealias ID = Foundation.UUID
 }
+public protocol KNBluetoothReaderDelegate : AnyObject {
+  func onListReadersFound(devices: [KNCore.KNBluetoothReader])
+  func bluetooth(state: KNCore.KNBluetoothState)
+  func onReaderState(state: KNCore.KNReaderState)
+}
 public struct KNConfigurator {
   public var appKey: Swift.String?
   public var appSecret: Swift.String?
