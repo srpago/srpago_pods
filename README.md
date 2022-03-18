@@ -13,6 +13,11 @@ Modules:
 
 # ChangeLog
 
+## [2.1.0] 2022-03-18
+
+## Changed
+- Singleton was removed from kNPayment
+
 ## [2.0.14] 2022-03-17
 
 ## Changed
