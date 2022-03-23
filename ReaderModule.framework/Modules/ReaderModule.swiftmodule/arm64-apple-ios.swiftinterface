@@ -15,6 +15,11 @@ import Swift
 import SystemConfiguration
 import UIKit
 import _Concurrency
+@objc public protocol UpdateOtaDelegate {
+  @objc func onUpdateProgress(progress: Swift.Int)
+  @objc func onUpdateSuccess()
+  @objc func onUpdateError(error: ReaderModule.OtaError)
+}
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class SearchReaderController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -32,12 +37,36 @@ extension ReaderModule.SearchReaderController : UIKit.UITableViewDelegate, UIKit
 @_hasMissingDesignatedInitializers @objc public class MonthlyPayment : ObjectiveC.NSObject {
   @objc deinit
 }
+public protocol DownloadManagerDelegate : AnyObject {
+  func onDownloadProgress(progress: Swift.Int)
+}
 public typealias updateLocationCompletion = (Swift.Double, Swift.Double) -> ()
 public typealias locationError = (Swift.Error) -> ()
 @objc @_inheritsConvenienceInitializers public class ReaderModuleServices : ObjectiveC.NSObject {
   public static func getAgentHeaders() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
+}
+@objc public class OtaError : ObjectiveC.NSObject {
+  @objc final public let code: Swift.Int
+  public init(type: ReaderModule.OtaErrorType)
+  @objc deinit
+}
+@objc public enum OtaErrorType : Swift.Int {
+  case lowBattery = 1
+  case noUpdate
+  case downloadFail
+  case badSetupFail
+  case errorCom
+  case genericError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension ReaderModule.ReaderModule : ReaderModule.DownloadManagerDelegate {
+  public func onDownloadProgress(progress: Swift.Int)
 }
 @objc public class ReaderInfo : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let readerType: Swift.Int
@@ -76,6 +105,40 @@ public typealias locationError = (Swift.Error) -> ()
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
+public struct DowloadObject {
+  public let nameVersion: Swift.String
+  public let downloadUrl: Swift.String
+  public let type: ReaderModule.DowloadObjectType
+}
+public enum DowloadObjectType : Swift.String {
+  case firmware
+  case config
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ProgressType : Swift.String {
+  case downloading
+  case installing
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct Contactless : Swift.Codable {
+  public let active: Swift.Bool
+  public let device: Swift.String
+  public let lastFirmwareVersion: Swift.String?
+  public let urlDownloadFirmware: Swift.String?
+  public let lastConfigVersion: Swift.String?
+  public let urlDownloadConfig: Swift.String?
+  public let forceUpdate: Swift.Bool?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
 public typealias CompletionResponse = (Foundation.Data) -> ()
 public typealias CompletionError = (Swift.Error) -> ()
 @_inheritsConvenienceInitializers @objc(BrandCardManager) public class BrandCardManager : ObjectiveC.NSObject {
@@ -102,6 +165,16 @@ public func print(_ items: Any..., separator: Swift.String = " ", terminator: Sw
   @objc public func startTransactionTime()
   @objc public func stopTransactionTime()
   @objc deinit
+}
+extension ReaderModule.ReaderModule : ReaderModule.ReaderManagerOTADelegate {
+  public func updateProgress(percent: Swift.Int)
+  public func updateSuccess()
+  public func updateError(error: ReaderModule.OtaError)
+}
+public protocol ReaderManagerOTADelegate : AnyObject {
+  func updateProgress(percent: Swift.Int)
+  func updateSuccess()
+  func updateError(error: ReaderModule.OtaError)
 }
 @objc public class NewRelicLoggerOptions : ObjectiveC.NSObject {
   @objc public init(sdkBuild: Swift.String)
@@ -193,6 +266,7 @@ extension ReaderModule.NewRelicLogger {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ReaderModule) public class ReaderModule : ObjectiveC.NSObject {
   @objc public static var shared: ReaderModule.ReaderModule
+  @objc weak public var otaDelegate: ReaderModule.UpdateOtaDelegate?
   @objc public static func setSandboxEnvironment(sandbox: Swift.Bool)
   @objc public func searchBluetoothReaders(devices: @escaping (([CoreBluetooth.CBPeripheral]) -> ()), error: @escaping ((Swift.Error) -> ()))
   @objc public func connectWith(device: CoreBluetooth.CBPeripheral)
@@ -210,6 +284,9 @@ extension ReaderModule.NewRelicLogger {
   @objc public func showPaymentController(_ from: UIKit.UIViewController, payment: ReaderModule.ReaderPayment, success: @escaping (ReaderModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> ())
   @objc public func paymentAddMSI(monthlyPayment: ReaderModule.MonthlyPayment?)
   @objc public func sendtTicket(operationID: Swift.String, mail: Swift.String?, phone: Swift.String?, success: @escaping () -> (), error: @escaping (Swift.Error) -> ())
+  @objc public func checkOTAUpdate(isUpdateNeeded: @escaping (Swift.Bool) -> ())
+  @objc public func startOTAUpdate()
+  @objc public func cancelOTAUpdate()
   @objc deinit
 }
 @objc public class ReceiptModel : ObjectiveC.NSObject, Swift.Codable {
@@ -239,6 +316,19 @@ extension ReaderModule.NewRelicLogger {
 @objc public class ReaderPayment : ObjectiveC.NSObject {
   @objc public init(amount: Swift.Float, reference: Swift.String, tip: Swift.Float)
   @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class DownloadManager : ObjectiveC.NSObject {
+  public static var shared: ReaderModule.DownloadManager
+  weak public var downloadDelegate: ReaderModule.DownloadManagerDelegate?
+  public func downloadFiles(downloadObjects: [ReaderModule.DowloadObject]?, downloadSuccesfull: @escaping (Swift.Bool) -> Swift.Void)
+  public func deleteFiles()
+  public func cancelDownloads()
+  @objc deinit
+}
+extension ReaderModule.DownloadManager : Foundation.URLSessionDownloadDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
 }
 public enum HTTPMethods : Swift.String {
   case options

@@ -21,6 +21,11 @@ Modules:
 
 # ChangeLog
 
+## [1.2.2] 2022-03-02
+
+## Added
+- OTA update supported in BBPOS readers
+
 ## [1.2.1] 2022-02-22
 
 ## Removed

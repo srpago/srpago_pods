@@ -80,3 +80,14 @@ public enum HTTPMethods : Swift.String {
   @objc override dynamic public init()
   @objc deinit
 }
+public struct Contactless : Swift.Codable {
+  public let active: Swift.Bool
+  public let device: Swift.String
+  public let lastFirmwareVersion: Swift.String?
+  public let urlDownloadFirmware: Swift.String?
+  public let lastConfigVersion: Swift.String?
+  public let urlDownloadConfig: Swift.String?
+  public let forceUpdate: Swift.Bool?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}

@@ -239,6 +239,24 @@ SWIFT_CLASS("_TtC12ReaderModule17ConnectionRequest")
 @end
 
 
+SWIFT_CLASS("_TtC12ReaderModule15DownloadManager")
+@interface DownloadManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSURLSession;
+@class NSURLSessionDownloadTask;
+@class NSURL;
+@class NSURLSessionTask;
+
+@interface DownloadManager (SWIFT_EXTENSION(ReaderModule)) <NSURLSessionDownloadDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didFinishDownloadingToURL:(NSURL * _Nonnull)location;
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite;
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
+@end
+
+
 SWIFT_CLASS("_TtC12ReaderModule15LocationService")
 @interface LocationService : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -320,6 +338,23 @@ SWIFT_CLASS("_TtC12ReaderModule21NewRelicLoggerOptions")
 @end
 
 
+SWIFT_CLASS("_TtC12ReaderModule8OtaError")
+@interface OtaError : NSObject
+@property (nonatomic, readonly) NSInteger code;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, OtaErrorType, open) {
+  OtaErrorTypeLowBattery = 1,
+  OtaErrorTypeNoUpdate = 2,
+  OtaErrorTypeDownloadFail = 3,
+  OtaErrorTypeBadSetupFail = 4,
+  OtaErrorTypeErrorCom = 5,
+  OtaErrorTypeGenericError = 6,
+};
+
+
 SWIFT_CLASS("_TtC12ReaderModule10ReaderInfo")
 @interface ReaderInfo : NSObject
 @property (nonatomic, readonly) NSInteger readerType;
@@ -350,6 +385,7 @@ SWIFT_CLASS("_TtC12ReaderModule10ReaderInfo")
 @property (nonatomic, readonly, copy) NSString * _Nullable productID;
 @end
 
+@protocol UpdateOtaDelegate;
 @class CBPeripheral;
 enum ReaderSate : NSInteger;
 @class ReaderPayment;
@@ -360,6 +396,7 @@ SWIFT_CLASS_NAMED("ReaderModule")
 @interface ReaderModule : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule * _Nonnull shared;)
 + (ReaderModule * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, weak) id <UpdateOtaDelegate> _Nullable otaDelegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)setSandboxEnvironmentWithSandbox:(BOOL)sandbox;
@@ -379,7 +416,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReaderModule
 - (void)showPaymentController:(UIViewController * _Nonnull)from payment:(ReaderPayment * _Nonnull)payment success:(void (^ _Nonnull)(ServerTransaction * _Nonnull))success error:(void (^ _Nonnull)(NSError * _Nonnull))error;
 - (void)paymentAddMSIWithMonthlyPayment:(MonthlyPayment * _Nullable)monthlyPayment;
 - (void)sendtTicketWithOperationID:(NSString * _Nonnull)operationID mail:(NSString * _Nullable)mail phone:(NSString * _Nullable)phone success:(void (^ _Nonnull)(void))success error:(void (^ _Nonnull)(NSError * _Nonnull))error;
+- (void)checkOTAUpdateWithIsUpdateNeeded:(void (^ _Nonnull)(BOOL))isUpdateNeeded;
+- (void)startOTAUpdate;
+- (void)cancelOTAUpdate;
 @end
+
+
+
 
 
 
@@ -484,6 +527,14 @@ SWIFT_CLASS("_TtC12ReaderModule11SrUtilities")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+SWIFT_PROTOCOL("_TtP12ReaderModule17UpdateOtaDelegate_")
+@protocol UpdateOtaDelegate
+- (void)onUpdateProgressWithProgress:(NSInteger)progress;
+- (void)onUpdateSuccess;
+- (void)onUpdateErrorWithError:(OtaError * _Nonnull)error;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
