@@ -8,7 +8,7 @@ import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
-public enum KNBluetoothPermissionState {
+@frozen public enum KNBluetoothPermissionState {
   case authorized
   case denied
   case notDetermined
@@ -126,7 +126,7 @@ public struct KNFeeDetails : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public enum KNBluetoothState {
+@frozen public enum KNBluetoothState {
   case bluetoothOn
   case bluetoothOff
   case unauthorizedPermissions
@@ -148,7 +148,7 @@ public class KNPeripheral {
   public init(name: Swift.String, identifier: Swift.String)
   @objc deinit
 }
-public enum KNEnvironmentType : Swift.String {
+@frozen public enum KNEnvironmentType : Swift.String {
   case dev
   case sandbox
   case certification
@@ -162,7 +162,7 @@ public enum KNEnvironmentType : Swift.String {
     get
   }
 }
-public enum KNPaymentState : Swift.String {
+@frozen public enum KNPaymentState : Swift.String {
   case startPayment
   case typeTip
   case retypeTip
@@ -186,7 +186,7 @@ public enum KNPaymentState : Swift.String {
     get
   }
 }
-public enum KNBrandType : Swift.String, Swift.Decodable {
+@frozen public enum KNBrandType : Swift.String, Swift.Decodable {
   case mastercard
   case visa
   case amex
@@ -209,7 +209,7 @@ public protocol KNPaymentDelegate : AnyObject {
 public class KNPersistanceModel : KNCore.KNPersistanceRepository {
   public init()
   public func saveUUIDReader(uuid: Swift.String, name: Swift.String)
-  public func retriveUUIDReader() -> (Swift.String, Swift.String)?
+  public func retriveUUIDReader() -> (uuid: Swift.String, name: Swift.String)?
   public func removeUUIDReader()
   public func save(_ value: Swift.String, key: Swift.String)
   public func getValue(_ key: Swift.String) -> Swift.String?
@@ -286,7 +286,7 @@ extension Foundation.Data {
   public func getBearerAuthentication() -> [Swift.String : Swift.String]
   @objc deinit
 }
-public enum SendPrinterType {
+@frozen public enum SendPrinterType {
   case sms
   case email
   public static func == (a: KNCore.SendPrinterType, b: KNCore.SendPrinterType) -> Swift.Bool
@@ -303,7 +303,7 @@ public struct KNPaymentMonth {
   public init(months: Swift.Int, rate: Swift.Float, amount: Swift.String, promotionId: Swift.Int)
   public init()
 }
-public enum KNReaderState : Swift.Int {
+@frozen public enum KNReaderState : Swift.Int {
   case onUnkwnowReader
   case onPowerButtonPressed
   case onBtDisconnected
@@ -359,7 +359,7 @@ public class KNDateHelper {
   @objc deinit
 }
 public struct SignatureButtonViewData {
-  public enum ButtonType {
+  @frozen public enum ButtonType {
     case clear
     case accept
     public static func == (a: KNCore.SignatureButtonViewData.ButtonType, b: KNCore.SignatureButtonViewData.ButtonType) -> Swift.Bool
@@ -368,7 +368,7 @@ public struct SignatureButtonViewData {
       get
     }
   }
-  public enum ButtonCornerRadius {
+  @frozen public enum ButtonCornerRadius {
     case rounded
     case rect
     case square
@@ -471,7 +471,7 @@ public struct KNConfigurator {
   public static func setEnvironment(_ environment: KNCore.KNEnvironmentType)
   public static func getEnvironment() -> KNCore.KNEnvironmentType
 }
-public enum KNDateFormat : Swift.String {
+@frozen public enum KNDateFormat : Swift.String {
   case HHmmss
   case yyyyMMdd
   case yyyyMMddTHHmmssz
@@ -509,12 +509,12 @@ public struct KNRecipe : Swift.Decodable, Swift.Equatable {
 }
 public protocol KNPersistanceRepository : AnyObject {
   func saveUUIDReader(uuid: Swift.String, name: Swift.String)
-  func retriveUUIDReader() -> (Swift.String, Swift.String)?
+  func retriveUUIDReader() -> (uuid: Swift.String, name: Swift.String)?
   func removeUUIDReader()
   func save(_ value: Swift.String, key: Swift.String)
   func getValue(_ key: Swift.String) -> Swift.String?
 }
-public enum ReversalType {
+@frozen public enum ReversalType {
   case reversal
   case refound
   public static func == (a: KNCore.ReversalType, b: KNCore.ReversalType) -> Swift.Bool
@@ -523,7 +523,7 @@ public enum ReversalType {
     get
   }
 }
-public enum LocalPersistanceCatalog : Swift.String {
+@frozen public enum LocalPersistanceCatalog : Swift.String {
   case readerIdentifier
   case readerName
   case currentEnvironment
@@ -541,7 +541,7 @@ public protocol KNPrinterDelegate : AnyObject {
   func printer(state: KNCore.KNBluetoothState)
   func printer(printerProgress: KNCore.KNPrinterProgress)
 }
-public enum KNConnectionReaderType : Swift.Encodable, Swift.CaseIterable {
+@frozen public enum KNConnectionReaderType : Swift.Encodable, Swift.CaseIterable {
   case paxD180
   case pinPadMini
   public var bluetoothDescription: Swift.String {
@@ -589,7 +589,7 @@ public enum KNPaymentErrorType : Swift.Int {
     get
   }
 }
-public enum KNAuthMethod : Swift.String, Swift.Decodable, Swift.Equatable {
+@frozen public enum KNAuthMethod : Swift.String, Swift.Decodable, Swift.Equatable {
   case contactless
   case nip
   case signature
@@ -600,7 +600,7 @@ public enum KNAuthMethod : Swift.String, Swift.Decodable, Swift.Equatable {
     get
   }
 }
-public enum KNPrinterProgress {
+@frozen public enum KNPrinterProgress {
   case started
   case inProgress
   case finished
@@ -617,42 +617,57 @@ public struct KNFeeDetail {
 }
 extension KNCore.KNBluetoothPermissionState : Swift.Equatable {}
 extension KNCore.KNBluetoothPermissionState : Swift.Hashable {}
+extension KNCore.KNBluetoothPermissionState : Swift.Sendable {}
 extension KNCore.KNBluetoothState : Swift.Equatable {}
 extension KNCore.KNBluetoothState : Swift.Hashable {}
+extension KNCore.KNBluetoothState : Swift.Sendable {}
 extension KNCore.KNEnvironmentType : Swift.Equatable {}
 extension KNCore.KNEnvironmentType : Swift.Hashable {}
 extension KNCore.KNEnvironmentType : Swift.RawRepresentable {}
+extension KNCore.KNEnvironmentType : Swift.Sendable {}
 extension KNCore.KNPaymentState : Swift.Equatable {}
 extension KNCore.KNPaymentState : Swift.Hashable {}
 extension KNCore.KNPaymentState : Swift.RawRepresentable {}
+extension KNCore.KNPaymentState : Swift.Sendable {}
 extension KNCore.KNBrandType : Swift.Equatable {}
 extension KNCore.KNBrandType : Swift.Hashable {}
 extension KNCore.KNBrandType : Swift.RawRepresentable {}
+extension KNCore.KNBrandType : Swift.Sendable {}
 extension KNCore.SendPrinterType : Swift.Equatable {}
 extension KNCore.SendPrinterType : Swift.Hashable {}
+extension KNCore.SendPrinterType : Swift.Sendable {}
 extension KNCore.KNReaderState : Swift.Equatable {}
 extension KNCore.KNReaderState : Swift.Hashable {}
 extension KNCore.KNReaderState : Swift.RawRepresentable {}
+extension KNCore.KNReaderState : Swift.Sendable {}
 extension KNCore.SignatureButtonViewData.ButtonType : Swift.Equatable {}
 extension KNCore.SignatureButtonViewData.ButtonType : Swift.Hashable {}
+extension KNCore.SignatureButtonViewData.ButtonType : Swift.Sendable {}
 extension KNCore.SignatureButtonViewData.ButtonCornerRadius : Swift.Equatable {}
 extension KNCore.SignatureButtonViewData.ButtonCornerRadius : Swift.Hashable {}
+extension KNCore.SignatureButtonViewData.ButtonCornerRadius : Swift.Sendable {}
 extension KNCore.SignatureLabelViewData.LabelType : Swift.Equatable {}
 extension KNCore.SignatureLabelViewData.LabelType : Swift.Hashable {}
 extension KNCore.KNDateFormat : Swift.Equatable {}
 extension KNCore.KNDateFormat : Swift.Hashable {}
 extension KNCore.KNDateFormat : Swift.RawRepresentable {}
+extension KNCore.KNDateFormat : Swift.Sendable {}
 extension KNCore.ReversalType : Swift.Equatable {}
 extension KNCore.ReversalType : Swift.Hashable {}
+extension KNCore.ReversalType : Swift.Sendable {}
 extension KNCore.LocalPersistanceCatalog : Swift.Equatable {}
 extension KNCore.LocalPersistanceCatalog : Swift.Hashable {}
 extension KNCore.LocalPersistanceCatalog : Swift.RawRepresentable {}
+extension KNCore.LocalPersistanceCatalog : Swift.Sendable {}
 extension KNCore.KNConnectionReaderType : Swift.Equatable {}
 extension KNCore.KNConnectionReaderType : Swift.Hashable {}
+extension KNCore.KNConnectionReaderType : Swift.Sendable {}
 extension KNCore.KNPaymentErrorType : Swift.Equatable {}
 extension KNCore.KNPaymentErrorType : Swift.Hashable {}
 extension KNCore.KNPaymentErrorType : Swift.RawRepresentable {}
 extension KNCore.KNAuthMethod : Swift.Hashable {}
 extension KNCore.KNAuthMethod : Swift.RawRepresentable {}
+extension KNCore.KNAuthMethod : Swift.Sendable {}
 extension KNCore.KNPrinterProgress : Swift.Equatable {}
 extension KNCore.KNPrinterProgress : Swift.Hashable {}
+extension KNCore.KNPrinterProgress : Swift.Sendable {}

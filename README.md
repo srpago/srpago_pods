@@ -13,6 +13,12 @@ Modules:
 
 # ChangeLog
 
+
+## [2.1.1] 2022-03-23
+
+## Bugfix
+- Error launched if turn off your reader when transaction was finished
+
 ## [2.1.0] 2022-03-18
 
 ## Changed
