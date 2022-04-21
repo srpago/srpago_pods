@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNPaymentModule
 import CoreGraphics
 import CoreLocation
@@ -157,6 +157,7 @@ final public class KNPaymentManager {
   final public func loginAppConfig(_ config: KNCore.KNConfigurator)
   final public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
   final public func startOtaUpdate()
+  final public func cancelOTAUpdate()
   final public func initPayment(amount: Swift.String, reference: Swift.String?)
   final public func setTip(_ tip: Swift.String)
   final public func setMonth(month: KNCore.KNPaymentMonth)
@@ -252,6 +253,7 @@ public protocol KNDownloadManagerDelegate : AnyObject {
   weak public var downloadDelegate: KNPaymentModule.KNDownloadManagerDelegate?
   public func downloadFiles(downloadObjects: [KNPaymentModule.KNDowloadObject]?, downloadSuccesfull: @escaping (Swift.Bool) -> Swift.Void)
   public func deleteFiles()
+  public func cancelDownloads()
   @objc deinit
 }
 extension KNPaymentModule.KNDownloadManager : Foundation.URLSessionDownloadDelegate {

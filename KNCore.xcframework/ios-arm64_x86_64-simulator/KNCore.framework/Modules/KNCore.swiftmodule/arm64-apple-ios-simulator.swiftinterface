@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNCore
 import CoreBluetooth
 import Foundation
@@ -180,6 +180,7 @@ public class KNPeripheral {
   case locationPermissionUnauthorized
   case typePan
   case retypePan
+  case tapOrInsertCard
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -503,7 +504,9 @@ public struct KNRecipe : Swift.Decodable, Swift.Equatable {
   public var signature: Swift.String?
   public var authNumber: Swift.String
   public var isOriginalTicket: Swift.Bool
-  public init(logo: Foundation.Data? = nil, businessName: Swift.String, address: Swift.String, phone: Swift.String, date: Swift.String, aid: Swift.String, arqc: Swift.String, authMethod: KNCore.KNAuthMethod, msiMonths: Swift.String, cardNumber: Swift.String, reference: Swift.String, cardHolder: Swift.String, cardType: KNCore.KNBrandType, afiliation: Swift.String, tipAmount: Swift.String, amount: Swift.String, totalAmount: Swift.String, signature: Swift.String? = nil, authNumber: Swift.String, isOriginalTicket: Swift.Bool)
+  public var cardMethodName: Swift.String?
+  public var cardMethodType: Swift.String?
+  public init(logo: Foundation.Data? = nil, businessName: Swift.String, address: Swift.String, phone: Swift.String, date: Swift.String, aid: Swift.String, arqc: Swift.String, authMethod: KNCore.KNAuthMethod, msiMonths: Swift.String, cardNumber: Swift.String, reference: Swift.String, cardHolder: Swift.String, cardType: KNCore.KNBrandType, afiliation: Swift.String, tipAmount: Swift.String, amount: Swift.String, totalAmount: Swift.String, signature: Swift.String? = nil, authNumber: Swift.String, isOriginalTicket: Swift.Bool, cardMethodName: Swift.String?, cardMethodType: Swift.String?)
   public static func == (a: KNCore.KNRecipe, b: KNCore.KNRecipe) -> Swift.Bool
   public init(from decoder: Swift.Decoder) throws
 }

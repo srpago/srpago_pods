@@ -14,6 +14,11 @@ Modules:
 # ChangeLog
 
 
+## [2.2.1] 2022-04-21
+
+## Added
+- OTA Update
+
 ## [2.1.1] 2022-03-23
 
 ## Bugfix

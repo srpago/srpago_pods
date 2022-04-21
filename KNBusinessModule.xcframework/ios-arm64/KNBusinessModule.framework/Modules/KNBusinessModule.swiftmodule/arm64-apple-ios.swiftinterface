@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNBusinessModule
 import CoreTelephony
 import Foundation
@@ -44,7 +44,6 @@ public struct KNPaymentSettingsResult : Swift.Codable {
   public let paymentMethods: KNBusinessModule.KNPaymmentMethods
   public let tip: KNBusinessModule.KNTipSettings
   public let reference: KNBusinessModule.KNReferenceSettings
-  public let ife: KNBusinessModule.KNIFESettings?
   public var isCertification: Swift.Bool?
   public var contactless: [KNBusinessModule.KNContactless]?
   public var trackingReader: KNBusinessModule.KNTrackingReader?
@@ -55,8 +54,8 @@ public struct KNMonthlyInstallments : Swift.Codable {
   public let enabled: Swift.Bool
   public let minAmount: Swift.String
   public let available: [Swift.String]
-  public let selected: [Swift.String]
-  public let selectedAmount: Swift.String
+  public let selected: [Swift.String]?
+  public let selectedAmount: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -72,13 +71,7 @@ public struct KNTipSettings : Swift.Codable {
 }
 public struct KNReferenceSettings : Swift.Codable {
   public let available: [Swift.String]
-  public let selected: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-public struct KNIFESettings : Swift.Codable {
-  public let enable: Swift.Bool
-  public let minSelectedAmount: Swift.Float
+  public let selected: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -312,6 +305,7 @@ public struct KNRecipeResult : Swift.Codable {
   public let transaction: Swift.String
   public let timestamp: Swift.String
   public let receipt: KNBusinessModule.Receipt
+  public let card: KNBusinessModule.Card?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -324,6 +318,13 @@ public struct KNRecipeResult : Swift.Codable {
   final public let phone: KNBusinessModule.ReceiptPhone?
   final public let address: KNBusinessModule.ReceiptAddress?
   public var isOriginalTicket: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class Card : ObjectiveC.NSObject, Swift.Codable {
+  final public let credit: Swift.Bool?
+  final public let label: Swift.String?
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
