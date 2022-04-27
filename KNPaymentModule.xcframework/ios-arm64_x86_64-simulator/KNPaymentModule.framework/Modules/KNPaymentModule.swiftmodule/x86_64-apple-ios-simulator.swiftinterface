@@ -94,6 +94,7 @@ public protocol YPSignatureDelegate : AnyObject {
 extension KNPaymentModule.KNPaymentManager {
   final public func loginUser(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
   final public func authenticateToken(_ token: Swift.String)
+  final public func getAccountInfo()
   final public func getTicketFrom(transaction: KNCore.KNPaymentResult, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   final public func getTicketFrom(operation: KNCore.KNOperation, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   final public func getOperations(offset: Swift.Int, limit: Swift.Int, completion: @escaping ([KNCore.KNOperation]?) -> Swift.Void)

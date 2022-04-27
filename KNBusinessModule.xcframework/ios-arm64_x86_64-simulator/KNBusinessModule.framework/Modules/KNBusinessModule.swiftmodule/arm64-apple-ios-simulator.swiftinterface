@@ -93,6 +93,11 @@ public struct KNTrackingReader : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public class KNAccountInfoUseCase {
+  public init()
+  public func invoke(result: @escaping (KNBusinessModule.KNAccountInfo?) -> Swift.Void)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class ConnectionType {
   public static func getConnectionType() -> Swift.String
   @objc deinit
@@ -106,6 +111,32 @@ public class KNSendOperationSMSUseCase {
   public init()
   public func invoke(sms: Swift.String, operationId: Swift.String, result: @escaping (KNBusinessModule.KNSendRecipe?) -> Swift.Void)
   @objc deinit
+}
+public typealias KNAccountInfo = (response: KNBusinessModule.KNAccountInfoResult?, error: Swift.Error?)
+public struct KNAccountInfoDomain : Swift.Codable {
+  public let success: Swift.Bool
+  public let message: Swift.String?
+  public let error: KNBusinessModule.KNAuthError?
+  public let result: KNBusinessModule.KNAccountInfoResult?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct KNAccountInfoResult : Swift.Codable {
+  public let id: Swift.Int
+  public let firstName: Swift.String
+  public let lastName: Swift.String?
+  public let surname: Swift.String?
+  public let email: Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct KNOperator : Swift.Codable {
+  public let id: Swift.Int
+  public let isOperator: Swift.Bool
+  public let email: Swift.String?
+  public let name: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public typealias KNServerTime = (response: KNBusinessModule.KNServerTimeResult?, error: Swift.Error?)
 public struct KNServerTimeResult : Swift.Codable {

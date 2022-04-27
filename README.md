@@ -13,11 +13,15 @@ Modules:
 
 # ChangeLog
 
+## [2.4.0] 2022-04-27
+
+## Added
+- Get user email when his SSO token was added
+
 ## [2.3.0] 2022-04-27
 
 ## Added
 - OTA improvements 
-- Get user email when his SSO token was added
 
 ## [2.2.1] 2022-04-21
 
