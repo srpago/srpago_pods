@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		17dcrjFW3cqZV5wrD7UJqlzLk5I=
+		8CuEqVbnTf+gIAXa2zoppI+OeAU=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M6O5jpWWhJwJ96UDe89geImmnDA=
+		zfrBWxFIXeJXMwq5wdvBKWzOj5k=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gtyfrqnrPmvFhHlE4FZN9ZSGy4Q=
+		sx8X+6R7AY3yX+Bnvj62LXu6LJk=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		30vLKnd//dovYf4zEQVVvYnctc0=
+		/URund9HxZUcTHPlNT05pIumW3Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCRdVhMeKvT6F9BvGaLkylmp+BZLhcIEPayXQD3Xyd4=
+			3IJ1yW7jAycthzsv35IvIGSmLnft6jJIGxT5y5XR38U=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LuFFoB4Ek4hQRcyaywrUz0UKNwnnPGd2NyOPim8Ds+k=
+			JC+ykTCmMlguzti8PWWUI67l5C6API8L0NacLUf84zM=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XCFSHoPM5EBfwu+REVqtBNypzCGt4zORDBu+qt2JZDI=
+			6jlWXVSFZv7ZxIFoosLsvfAmEvrcWj4CWAjeXDf5Z6c=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UswPn9NGt8CDGVNmNWwatGlH1TZVARaYovaBygSZFok=
+			rMsMAR7BC9dO4wsNZCttwfaBVRZrTj8TdyL8AjODduA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

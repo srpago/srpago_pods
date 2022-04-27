@@ -44,6 +44,7 @@ public class KNPayment : KNPaymentModule.KNReaderStateDelegate, KNBluetoothModul
   public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
   public func startOtaUpdate(delegate: KNCore.KNUpdateOtaDelegate)
   public func cancelOtaUpdate()
+  public func removeOtaDelegate()
   public func onReaderState(state: KNCore.KNReaderState)
   public func bluetooth(state: KNCore.KNBluetoothState)
   public func onListReadersFound(devices: [KNCore.KNBluetoothReader])

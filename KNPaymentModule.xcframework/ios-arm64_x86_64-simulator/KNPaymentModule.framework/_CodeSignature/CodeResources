@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bGv7DP7HbaYZGeTtU4SlrkTOZ9E=
+		F9pAH/wtiCaCCscpFsn32dfTIvc=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tWmns06OO+2/7n8le3deG05MAGU=
+		CWbOTN7EOX+aKXkV/EfswvIwMOc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lqq4DNorBHJlvx5WF9cFjNJ2QDeHvlZ68ui7gqBxjp0=
+			rn3pR5R3RTFMpRgYPhO6Yibmc/t4aZLD6qZaq53N9nQ=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ewSQPn7k6bf52KMtUTo5Swte5JhsCLPzksaZix+S4ZM=
+			Ieu+w6mhXsepry5eXbhh4ZsKi3YoBt46gIws0pNdV3k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
