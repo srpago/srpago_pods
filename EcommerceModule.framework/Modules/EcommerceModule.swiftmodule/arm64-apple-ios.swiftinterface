@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name EcommerceModule
 import CoreLocation
 import CoreTelephony
@@ -18,7 +18,7 @@ import _Concurrency
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class ServerTransaction : ObjectiveC.NSObject, Swift.Decodable {
-  required public convenience init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: Swift.Decoder) throws
   @objc deinit
 }
 public enum Cardtype : Swift.String {
@@ -73,10 +73,16 @@ public enum HTTPMethods : Swift.String {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(EcommerceModule) public class EcommerceModule : ObjectiveC.NSObject {
-  @objc public static var shared: EcommerceModule.EcommerceModule
+  @objc public static let shared: EcommerceModule.EcommerceModule
   @objc override dynamic public init()
   @objc public func getTokenFromCard(_ card: EcommerceModule.EcommerceCard, token: @escaping (Swift.String) -> (), error: @escaping (Swift.Error) -> ())
   @objc public func payWithToken(_ token: Swift.String, payment: EcommerceModule.EcommercePayment, success: @escaping (EcommerceModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> ())
   @objc public func showPaymentController(_ from: UIKit.UIViewController, payment: EcommerceModule.EcommercePayment, success: @escaping (EcommerceModule.ServerTransaction) -> (), error: @escaping (Swift.Error) -> ())
   @objc deinit
 }
+extension EcommerceModule.Cardtype : Swift.Equatable {}
+extension EcommerceModule.Cardtype : Swift.Hashable {}
+extension EcommerceModule.Cardtype : Swift.RawRepresentable {}
+extension EcommerceModule.HTTPMethods : Swift.Equatable {}
+extension EcommerceModule.HTTPMethods : Swift.Hashable {}
+extension EcommerceModule.HTTPMethods : Swift.RawRepresentable {}

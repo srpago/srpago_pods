@@ -7,7 +7,7 @@ Modules:
 
 ## Requirements
 
-- Xcode 12.5
+- Xcode 13
 - Swift 5
 - Minimum iOS 11 version supported
 - Cocoapods
@@ -20,6 +20,11 @@ Modules:
 | lottie-ios            | 3.2.3   |
 
 # ChangeLog
+
+## [1.3.0] 2022-05-05
+
+## Added
+- OTA update in background
 
 ## [1.2.2] 2022-03-02
 

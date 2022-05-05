@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ReaderModule
 import AVFoundation
 import AVKit
@@ -265,7 +265,7 @@ extension ReaderModule.NewRelicLogger {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ReaderModule) public class ReaderModule : ObjectiveC.NSObject {
-  @objc public static var shared: ReaderModule.ReaderModule
+  @objc public static let shared: ReaderModule.ReaderModule
   @objc weak public var otaDelegate: ReaderModule.UpdateOtaDelegate?
   @objc public static func setSandboxEnvironment(sandbox: Swift.Bool)
   @objc public func searchBluetoothReaders(devices: @escaping (([CoreBluetooth.CBPeripheral]) -> ()), error: @escaping ((Swift.Error) -> ()))
@@ -310,7 +310,7 @@ extension ReaderModule.NewRelicLogger {
   public func encode(to encoder: Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class ServerTransaction : ObjectiveC.NSObject, Swift.Decodable {
-  required public convenience init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: Swift.Decoder) throws
   @objc deinit
 }
 @objc public class ReaderPayment : ObjectiveC.NSObject {
@@ -318,7 +318,7 @@ extension ReaderModule.NewRelicLogger {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class DownloadManager : ObjectiveC.NSObject {
-  public static var shared: ReaderModule.DownloadManager
+  public static let shared: ReaderModule.DownloadManager
   weak public var downloadDelegate: ReaderModule.DownloadManagerDelegate?
   public func downloadFiles(downloadObjects: [ReaderModule.DowloadObject]?, downloadSuccesfull: @escaping (Swift.Bool) -> Swift.Void)
   public func deleteFiles()
@@ -364,7 +364,40 @@ public enum HTTPMethods : Swift.String {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationService : ObjectiveC.NSObject {
-  public static var shared: ReaderModule.LocationService
+  public static let shared: ReaderModule.LocationService
   public func getLocation(location: @escaping ReaderModule.updateLocationCompletion, error: @escaping ReaderModule.locationError)
   @objc deinit
 }
+extension ReaderModule.OtaErrorType : Swift.Equatable {}
+extension ReaderModule.OtaErrorType : Swift.Hashable {}
+extension ReaderModule.OtaErrorType : Swift.RawRepresentable {}
+extension ReaderModule.DowloadObjectType : Swift.Equatable {}
+extension ReaderModule.DowloadObjectType : Swift.Hashable {}
+extension ReaderModule.DowloadObjectType : Swift.RawRepresentable {}
+extension ReaderModule.ProgressType : Swift.Equatable {}
+extension ReaderModule.ProgressType : Swift.Hashable {}
+extension ReaderModule.ProgressType : Swift.RawRepresentable {}
+extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.ReaderTypes : Swift.RawRepresentable {}
+extension ReaderModule.NewRelicLogger.CardType : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.CardType : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.CardType : Swift.RawRepresentable {}
+extension ReaderModule.NewRelicLogger.Currency : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.Currency : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.Currency : Swift.RawRepresentable {}
+extension ReaderModule.NewRelicLogger.CardBrand : Swift.Equatable {}
+extension ReaderModule.NewRelicLogger.CardBrand : Swift.Hashable {}
+extension ReaderModule.NewRelicLogger.CardBrand : Swift.RawRepresentable {}
+extension ReaderModule.ReaderSate : Swift.Equatable {}
+extension ReaderModule.ReaderSate : Swift.Hashable {}
+extension ReaderModule.ReaderSate : Swift.RawRepresentable {}
+extension ReaderModule.ReaderType : Swift.Equatable {}
+extension ReaderModule.ReaderType : Swift.Hashable {}
+extension ReaderModule.ReaderType : Swift.RawRepresentable {}
+extension ReaderModule.ReadersDeprecated : Swift.Equatable {}
+extension ReaderModule.ReadersDeprecated : Swift.Hashable {}
+extension ReaderModule.ReadersDeprecated : Swift.RawRepresentable {}
+extension ReaderModule.HTTPMethods : Swift.Equatable {}
+extension ReaderModule.HTTPMethods : Swift.Hashable {}
+extension ReaderModule.HTTPMethods : Swift.RawRepresentable {}
