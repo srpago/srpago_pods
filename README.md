@@ -5,13 +5,19 @@ Modules:
 
 ## Requirements
 
-- Xcode 12.5
+- Xcode 13.*
 - Swift 5
 - Minimum iOS 11 version supported
 - Cocoapods
 - iPhones and iPads supported
 
 # ChangeLog
+
+## [2.5.0] 2022-05-13
+
+## Added
+- Demo integrated
+- 
 
 ## [2.4.0] 2022-04-27
 

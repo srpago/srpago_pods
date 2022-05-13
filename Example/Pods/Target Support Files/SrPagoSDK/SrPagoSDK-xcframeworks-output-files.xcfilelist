@@ -1,0 +1,7 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNCore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNPayment.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNBluetoothModule.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNPaymentModule.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNPrinterModule.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNAnalyticsPaymentModule.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNBusinessModule.framework

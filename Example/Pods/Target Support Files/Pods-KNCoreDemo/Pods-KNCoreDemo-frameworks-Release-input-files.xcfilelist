@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-KNCoreDemo/Pods-KNCoreDemo-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNCore.framework/KNCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNPayment.framework/KNPayment
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNBluetoothModule.framework/KNBluetoothModule
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNPaymentModule.framework/KNPaymentModule
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNPrinterModule.framework/KNPrinterModule
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNAnalyticsPaymentModule.framework/KNAnalyticsPaymentModule
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPagoSDK/KNBusinessModule.framework/KNBusinessModule

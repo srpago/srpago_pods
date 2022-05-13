@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0FA19A2799E0A4005D57F3 /* KNEnvironmentType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0FA1992799E0A4005D57F3 /* KNEnvironmentType+Extension.swift */; };
+		6B1AE99D271617C6002C10E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AE99C271617C6002C10E6 /* AppDelegate.swift */; };
+		6B1AE99F271617C6002C10E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AE99E271617C6002C10E6 /* SceneDelegate.swift */; };
+		6B1AE9A1271617C6002C10E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AE9A0271617C6002C10E6 /* ContentView.swift */; };
+		6B1AE9A3271617C7002C10E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1AE9A2271617C7002C10E6 /* Assets.xcassets */; };
+		6B1AE9A6271617C7002C10E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1AE9A5271617C7002C10E6 /* Preview Assets.xcassets */; };
+		6B1AE9A9271617C7002C10E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1AE9A7271617C7002C10E6 /* LaunchScreen.storyboard */; };
+		6B1AE9B627189933002C10E6 /* ListDevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AE9B527189933002C10E6 /* ListDevicesViewModel.swift */; };
+		6B1AE9BB27189969002C10E6 /* ListDevicesUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AE9BA27189969002C10E6 /* ListDevicesUIView.swift */; };
+		6B35D23527BEF00100536C19 /* Debug-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B35D23427BEF00100536C19 /* Debug-info.plist */; };
+		6B3E073727E58DDB00C930D2 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E073627E58DDB00C930D2 /* PaymentManager.swift */; };
+		6B634CD8275E61ED00C6996B /* KNConnectionReaderType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B634CD7275E61ED00C6996B /* KNConnectionReaderType+Extension.swift */; };
+		6B634CDA275EF9B100C6996B /* ArcsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B634CD9275EF9B100C6996B /* ArcsLoader.swift */; };
+		6B79772A27574B170016E963 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B79772927574B170016E963 /* MailView.swift */; };
+		6B94E300273DC80700A751E9 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E2FF273DC80700A751E9 /* ContentViewModel.swift */; };
+		6B94E302273E3E7100A751E9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B94E301273E3E7100A751E9 /* Colors.xcassets */; };
+		6B94E304273E42AE00A751E9 /* OperationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E303273E42AE00A751E9 /* OperationsView.swift */; };
+		6B94E306273E42D700A751E9 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E305273E42D700A751E9 /* PaymentView.swift */; };
+		6B94E308273EDA3C00A751E9 /* OperationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E307273EDA3C00A751E9 /* OperationsViewModel.swift */; };
+		6B94E30D273F69BF00A751E9 /* OperationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E30C273F69BF00A751E9 /* OperationCellView.swift */; };
+		6B94E310273FA51300A751E9 /* KNOperation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E30F273FA51300A751E9 /* KNOperation+Extension.swift */; };
+		6B94E312273FA55800A751E9 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E311273FA55800A751E9 /* Operation.swift */; };
+		6B94E316273FACC200A751E9 /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E315273FACC200A751E9 /* TextAlert.swift */; };
+		6B94E32427424EC700A751E9 /* AlertBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E32327424EC700A751E9 /* AlertBody.swift */; };
+		6B94E3292742560A00A751E9 /* MonthsWithoutFeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E3282742560A00A751E9 /* MonthsWithoutFeeView.swift */; };
+		6B94E32B2742561B00A751E9 /* MonthsWithoutFeeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E32A2742561B00A751E9 /* MonthsWithoutFeeCellView.swift */; };
+		6B94E3322742583400A751E9 /* TransactionWorkFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E3312742583400A751E9 /* TransactionWorkFlowView.swift */; };
+		6B94E33727425B6A00A751E9 /* TransactionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E33627425B6900A751E9 /* TransactionResultView.swift */; };
+		6B94E33A27425BCF00A751E9 /* MWFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E33927425BCF00A751E9 /* MWFModel.swift */; };
+		6B94E33C2742E31000A751E9 /* TransactionWorkFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E33B2742E31000A751E9 /* TransactionWorkFlowViewModel.swift */; };
+		6B94E33F2742FE2F00A751E9 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E33E2742FE2F00A751E9 /* ResultViewModel.swift */; };
+		6B94E343274498B900A751E9 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E342274498B900A751E9 /* PaymentViewModel.swift */; };
+		6B94E3472745A20A00A751E9 /* UIVIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E3462745A20A00A751E9 /* UIVIew+Extension.swift */; };
+		6BA8FE21276349420025DFFE /* PrinterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA8FE20276349420025DFFE /* PrinterModel.swift */; };
+		6BD4794B2735C5D1001C9800 /* ListDevicesViewModel+KNBluetoothReaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4794A2735C5D1001C9800 /* ListDevicesViewModel+KNBluetoothReaderDelegate.swift */; };
+		6BD604A627603085008B75A0 /* TransactionWorkFlowViewModel+KNPaymentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD604A527603085008B75A0 /* TransactionWorkFlowViewModel+KNPaymentDelegate.swift */; };
+		6BDA99DC278E573100B37D1C /* KNPaymentState+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA99DB278E573100B37D1C /* KNPaymentState+Extension.swift */; };
+		6BFB003A27CCBDB900BAD0B5 /* UISDKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB003927CCBDB900BAD0B5 /* UISDKConfiguration.swift */; };
+		6BFB003C27CCBE6B00BAD0B5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB003B27CCBE6B00BAD0B5 /* UIColor+Extension.swift */; };
+		6BFF0CAF277B871700F52631 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0CAE277B871700F52631 /* CurrencyTextField.swift */; };
+		8C653A99277D0A7500A649C6 /* TransactionTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C653A98277D0A7500A649C6 /* TransactionTipView.swift */; };
+		8CB7EC80275CD44F00091338 /* KNCoreDemoMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7EC7F275CD44F00091338 /* KNCoreDemoMenu.swift */; };
+		8CB7EC8A275D621500091338 /* KNCoreLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7EC89275D621500091338 /* KNCoreLoginView.swift */; };
+		982DA4B727C9515700E8EBF9 /* OTAUpdateViewModel+KNUpdateOtaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DA4B627C9515700E8EBF9 /* OTAUpdateViewModel+KNUpdateOtaDelegate.swift */; };
+		98C4A77E2805DF8E001ADA07 /* OTAUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C4A77D2805DF8E001ADA07 /* OTAUpdateView.swift */; };
+		98C4A7842805FF03001ADA07 /* OTAUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C4A7832805FF03001ADA07 /* OTAUpdateViewModel.swift */; };
+		F1C2D122272A1071009EE598 /* PrinterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2D121272A1071009EE598 /* PrinterListView.swift */; };
+		F1C2D125272A10BF009EE598 /* PrinterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2D124272A10BF009EE598 /* PrinterListViewModel.swift */; };
+		FB0B7D1145E84E273FADFE03 /* Pods_KNCoreDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252B1710002F92149AB393AB /* Pods_KNCoreDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B35D19E27BDBBDF00536C19 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02F61E9D092DDA3D514E3A5D /* Pods-KNCoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNCoreDemo.debug.xcconfig"; path = "Target Support Files/Pods-KNCoreDemo/Pods-KNCoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		252B1710002F92149AB393AB /* Pods_KNCoreDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNCoreDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0FA1992799E0A4005D57F3 /* KNEnvironmentType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KNEnvironmentType+Extension.swift"; sourceTree = "<group>"; };
+		6B1AE999271617C6002C10E6 /* KNCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1AE99C271617C6002C10E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B1AE99E271617C6002C10E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B1AE9A0271617C6002C10E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B1AE9A2271617C7002C10E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B1AE9A5271617C7002C10E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B1AE9A8271617C7002C10E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B1AE9AA271617C7002C10E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1AE9B527189933002C10E6 /* ListDevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDevicesViewModel.swift; sourceTree = "<group>"; };
+		6B1AE9BA27189969002C10E6 /* ListDevicesUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDevicesUIView.swift; sourceTree = "<group>"; };
+		6B35D23427BEF00100536C19 /* Debug-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Debug-info.plist"; sourceTree = "<group>"; };
+		6B3E073627E58DDB00C930D2 /* PaymentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		6B634CD7275E61ED00C6996B /* KNConnectionReaderType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KNConnectionReaderType+Extension.swift"; sourceTree = "<group>"; };
+		6B634CD9275EF9B100C6996B /* ArcsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcsLoader.swift; sourceTree = "<group>"; };
+		6B79772927574B170016E963 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		6B94E2FF273DC80700A751E9 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		6B94E301273E3E7100A751E9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		6B94E303273E42AE00A751E9 /* OperationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsView.swift; sourceTree = "<group>"; };
+		6B94E305273E42D700A751E9 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		6B94E307273EDA3C00A751E9 /* OperationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewModel.swift; sourceTree = "<group>"; };
+		6B94E30C273F69BF00A751E9 /* OperationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCellView.swift; sourceTree = "<group>"; };
+		6B94E30F273FA51300A751E9 /* KNOperation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KNOperation+Extension.swift"; sourceTree = "<group>"; };
+		6B94E311273FA55800A751E9 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		6B94E315273FACC200A751E9 /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
+		6B94E32327424EC700A751E9 /* AlertBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBody.swift; sourceTree = "<group>"; };
+		6B94E3282742560A00A751E9 /* MonthsWithoutFeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthsWithoutFeeView.swift; sourceTree = "<group>"; };
+		6B94E32A2742561B00A751E9 /* MonthsWithoutFeeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthsWithoutFeeCellView.swift; sourceTree = "<group>"; };
+		6B94E3312742583400A751E9 /* TransactionWorkFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionWorkFlowView.swift; sourceTree = "<group>"; };
+		6B94E33627425B6900A751E9 /* TransactionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResultView.swift; sourceTree = "<group>"; };
+		6B94E33927425BCF00A751E9 /* MWFModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWFModel.swift; sourceTree = "<group>"; };
+		6B94E33B2742E31000A751E9 /* TransactionWorkFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionWorkFlowViewModel.swift; sourceTree = "<group>"; };
+		6B94E33E2742FE2F00A751E9 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		6B94E342274498B900A751E9 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		6B94E3462745A20A00A751E9 /* UIVIew+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extension.swift"; sourceTree = "<group>"; };
+		6BA8FE20276349420025DFFE /* PrinterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterModel.swift; sourceTree = "<group>"; };
+		6BD4794A2735C5D1001C9800 /* ListDevicesViewModel+KNBluetoothReaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListDevicesViewModel+KNBluetoothReaderDelegate.swift"; sourceTree = "<group>"; };
+		6BD604A527603085008B75A0 /* TransactionWorkFlowViewModel+KNPaymentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionWorkFlowViewModel+KNPaymentDelegate.swift"; sourceTree = "<group>"; };
+		6BDA99DB278E573100B37D1C /* KNPaymentState+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KNPaymentState+Extension.swift"; sourceTree = "<group>"; };
+		6BFB003927CCBDB900BAD0B5 /* UISDKConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISDKConfiguration.swift; sourceTree = "<group>"; };
+		6BFB003B27CCBE6B00BAD0B5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		6BFF0CAE277B871700F52631 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		7E2E43A5F7D9455526A7C4BC /* Pods-KNCoreDemoDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNCoreDemoDebug.debug.xcconfig"; path = "Target Support Files/Pods-KNCoreDemoDebug/Pods-KNCoreDemoDebug.debug.xcconfig"; sourceTree = "<group>"; };
+		8C653A98277D0A7500A649C6 /* TransactionTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTipView.swift; sourceTree = "<group>"; };
+		8CB7EC7F275CD44F00091338 /* KNCoreDemoMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNCoreDemoMenu.swift; sourceTree = "<group>"; };
+		8CB7EC89275D621500091338 /* KNCoreLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNCoreLoginView.swift; sourceTree = "<group>"; };
+		982DA4B627C9515700E8EBF9 /* OTAUpdateViewModel+KNUpdateOtaDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTAUpdateViewModel+KNUpdateOtaDelegate.swift"; sourceTree = "<group>"; };
+		98C4A77D2805DF8E001ADA07 /* OTAUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTAUpdateView.swift; sourceTree = "<group>"; };
+		98C4A7832805FF03001ADA07 /* OTAUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTAUpdateViewModel.swift; sourceTree = "<group>"; };
+		A3E234C564CD6B7A85635914 /* Pods-KNCoreDemoDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNCoreDemoDebug.release.xcconfig"; path = "Target Support Files/Pods-KNCoreDemoDebug/Pods-KNCoreDemoDebug.release.xcconfig"; sourceTree = "<group>"; };
+		EBEAE7AA876071893C4D5CFE /* Pods_KNCoreDemoDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNCoreDemoDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE66B9641DE27FD5F8A65F3E /* Pods-KNCoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNCoreDemo.release.xcconfig"; path = "Target Support Files/Pods-KNCoreDemo/Pods-KNCoreDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F1C2D121272A1071009EE598 /* PrinterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterListView.swift; sourceTree = "<group>"; };
+		F1C2D124272A10BF009EE598 /* PrinterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B1AE996271617C6002C10E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0B7D1145E84E273FADFE03 /* Pods_KNCoreDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598ECB134B3084328EE522EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02F61E9D092DDA3D514E3A5D /* Pods-KNCoreDemo.debug.xcconfig */,
+				EE66B9641DE27FD5F8A65F3E /* Pods-KNCoreDemo.release.xcconfig */,
+				7E2E43A5F7D9455526A7C4BC /* Pods-KNCoreDemoDebug.debug.xcconfig */,
+				A3E234C564CD6B7A85635914 /* Pods-KNCoreDemoDebug.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B1AE990271617C6002C10E6 = {
+			isa = PBXGroup;
+			children = (
+				6B1AE99B271617C6002C10E6 /* KNCoreDemo */,
+				6B1AE99A271617C6002C10E6 /* Products */,
+				6B1AE9BD27189F9C002C10E6 /* Frameworks */,
+				598ECB134B3084328EE522EF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6B1AE99A271617C6002C10E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1AE999271617C6002C10E6 /* KNCoreDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B1AE99B271617C6002C10E6 /* KNCoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B35D15D27BD9A5D00536C19 /* Configuration */,
+				6B94E3202742432900A751E9 /* Model */,
+				6B94E313273FAB5A00A751E9 /* Utilities */,
+				6B1AE9BC27189974002C10E6 /* Resources */,
+				6B1AE9B727189938002C10E6 /* Features */,
+				6B1AE99C271617C6002C10E6 /* AppDelegate.swift */,
+				6B1AE99E271617C6002C10E6 /* SceneDelegate.swift */,
+				6B1AE9A7271617C7002C10E6 /* LaunchScreen.storyboard */,
+				6B1AE9AA271617C7002C10E6 /* Info.plist */,
+				6B35D23427BEF00100536C19 /* Debug-info.plist */,
+				6B1AE9A4271617C7002C10E6 /* Preview Content */,
+			);
+			path = KNCoreDemo;
+			sourceTree = "<group>";
+		};
+		6B1AE9A4271617C7002C10E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B1AE9A5271617C7002C10E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B1AE9B4271881D4002C10E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B1AE9B527189933002C10E6 /* ListDevicesViewModel.swift */,
+				6BD4794A2735C5D1001C9800 /* ListDevicesViewModel+KNBluetoothReaderDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B1AE9B727189938002C10E6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				98C4A77C2805DF38001ADA07 /* OtaUpdate */,
+				6B94E2FC273DC7D500A751E9 /* Main */,
+				6B94E2F5273DC6D900A751E9 /* Operations */,
+				6B94E2F4273DC6CB00A751E9 /* Payment */,
+				F1C2D11F272A1048009EE598 /* Printer */,
+				6B1AE9B827189941002C10E6 /* ListDevices */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6B1AE9B827189941002C10E6 /* ListDevices */ = {
+			isa = PBXGroup;
+			children = (
+				6B1AE9B92718994E002C10E6 /* View */,
+				6B1AE9B4271881D4002C10E6 /* ViewModel */,
+			);
+			path = ListDevices;
+			sourceTree = "<group>";
+		};
+		6B1AE9B92718994E002C10E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B1AE9BA27189969002C10E6 /* ListDevicesUIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B1AE9BC27189974002C10E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B1AE9A2271617C7002C10E6 /* Assets.xcassets */,
+				6B94E301273E3E7100A751E9 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B1AE9BD27189F9C002C10E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252B1710002F92149AB393AB /* Pods_KNCoreDemo.framework */,
+				EBEAE7AA876071893C4D5CFE /* Pods_KNCoreDemoDebug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B35D15D27BD9A5D00536C19 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6BFB003927CCBDB900BAD0B5 /* UISDKConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		6B94E2F4273DC6CB00A751E9 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E2F9273DC7B200A751E9 /* StartTransaction */,
+				6B94E32E2742580400A751E9 /* TransactionWorkFlow */,
+				6B94E3252742527F00A751E9 /* MWF */,
+				6B94E33327425B4000A751E9 /* TransactionResult */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		6B94E2F5273DC6D900A751E9 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E30E273FA50200A751E9 /* Models */,
+				6B94E2F8273DC70400A751E9 /* ViewModel */,
+				6B94E2F7273DC6FE00A751E9 /* View */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		6B94E2F7273DC6FE00A751E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E303273E42AE00A751E9 /* OperationsView.swift */,
+				6B94E30C273F69BF00A751E9 /* OperationCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B94E2F8273DC70400A751E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E307273EDA3C00A751E9 /* OperationsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B94E2F9273DC7B200A751E9 /* StartTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E2FB273DC7C800A751E9 /* ViewModel */,
+				6B94E2FA273DC7C400A751E9 /* View */,
+			);
+			path = StartTransaction;
+			sourceTree = "<group>";
+		};
+		6B94E2FA273DC7C400A751E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E305273E42D700A751E9 /* PaymentView.swift */,
+				6BFF0CAE277B871700F52631 /* CurrencyTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B94E2FB273DC7C800A751E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E342274498B900A751E9 /* PaymentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B94E2FC273DC7D500A751E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E2FE273DC7E500A751E9 /* ViewModel */,
+				6B94E2FD273DC7DF00A751E9 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6B94E2FD273DC7DF00A751E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B1AE9A0271617C6002C10E6 /* ContentView.swift */,
+				8CB7EC7F275CD44F00091338 /* KNCoreDemoMenu.swift */,
+				8CB7EC89275D621500091338 /* KNCoreLoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B94E2FE273DC7E500A751E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E2FF273DC80700A751E9 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B94E30E273FA50200A751E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E30F273FA51300A751E9 /* KNOperation+Extension.swift */,
+				6B94E311273FA55800A751E9 /* Operation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B94E313273FAB5A00A751E9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E315273FACC200A751E9 /* TextAlert.swift */,
+				6B94E3462745A20A00A751E9 /* UIVIew+Extension.swift */,
+				6B79772927574B170016E963 /* MailView.swift */,
+				6B634CD9275EF9B100C6996B /* ArcsLoader.swift */,
+				6BFB003B27CCBE6B00BAD0B5 /* UIColor+Extension.swift */,
+				6B3E073627E58DDB00C930D2 /* PaymentManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6B94E3202742432900A751E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B0FA1992799E0A4005D57F3 /* KNEnvironmentType+Extension.swift */,
+				6B94E32327424EC700A751E9 /* AlertBody.swift */,
+				6B634CD7275E61ED00C6996B /* KNConnectionReaderType+Extension.swift */,
+				6BDA99DB278E573100B37D1C /* KNPaymentState+Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B94E3252742527F00A751E9 /* MWF */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E33827425BB600A751E9 /* Model */,
+				6B94E326274255BC00A751E9 /* View */,
+			);
+			path = MWF;
+			sourceTree = "<group>";
+		};
+		6B94E326274255BC00A751E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E3282742560A00A751E9 /* MonthsWithoutFeeView.swift */,
+				6B94E32A2742561B00A751E9 /* MonthsWithoutFeeCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B94E32E2742580400A751E9 /* TransactionWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E32F2742581A00A751E9 /* ViewModel */,
+				6B94E3302742582100A751E9 /* View */,
+			);
+			path = TransactionWorkFlow;
+			sourceTree = "<group>";
+		};
+		6B94E32F2742581A00A751E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E33B2742E31000A751E9 /* TransactionWorkFlowViewModel.swift */,
+				6BD604A527603085008B75A0 /* TransactionWorkFlowViewModel+KNPaymentDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B94E3302742582100A751E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E3312742583400A751E9 /* TransactionWorkFlowView.swift */,
+				8C653A98277D0A7500A649C6 /* TransactionTipView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B94E33327425B4000A751E9 /* TransactionResult */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E33D2742FDEE00A751E9 /* Model */,
+				6B94E33427425B4F00A751E9 /* View */,
+			);
+			path = TransactionResult;
+			sourceTree = "<group>";
+		};
+		6B94E33427425B4F00A751E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E33627425B6900A751E9 /* TransactionResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B94E33827425BB600A751E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E33927425BCF00A751E9 /* MWFModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B94E33D2742FDEE00A751E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B94E33E2742FE2F00A751E9 /* ResultViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BA8FE1F2763492B0025DFFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BA8FE20276349420025DFFE /* PrinterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98C4A77C2805DF38001ADA07 /* OtaUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				98C4A7802805DFE8001ADA07 /* ViewModel */,
+				98C4A77F2805DFDC001ADA07 /* View */,
+			);
+			path = OtaUpdate;
+			sourceTree = "<group>";
+		};
+		98C4A77F2805DFDC001ADA07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98C4A77D2805DF8E001ADA07 /* OTAUpdateView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98C4A7802805DFE8001ADA07 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98C4A7832805FF03001ADA07 /* OTAUpdateViewModel.swift */,
+				982DA4B627C9515700E8EBF9 /* OTAUpdateViewModel+KNUpdateOtaDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1C2D11F272A1048009EE598 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				6BA8FE1F2763492B0025DFFE /* Model */,
+				F1C2D123272A10A8009EE598 /* ViewModel */,
+				F1C2D120272A1060009EE598 /* View */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		F1C2D120272A1060009EE598 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2D121272A1071009EE598 /* PrinterListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C2D123272A10A8009EE598 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2D124272A10BF009EE598 /* PrinterListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B1AE998271617C6002C10E6 /* KNCoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1AE9AD271617C7002C10E6 /* Build configuration list for PBXNativeTarget "KNCoreDemo" */;
+			buildPhases = (
+				AB663EB368F7E7418CB82099 /* [CP] Check Pods Manifest.lock */,
+				6B1AE9B0271617F9002C10E6 /* Swiftlint */,
+				6B1AE995271617C6002C10E6 /* Sources */,
+				6B1AE996271617C6002C10E6 /* Frameworks */,
+				6B1AE997271617C6002C10E6 /* Resources */,
+				6B35D19E27BDBBDF00536C19 /* Embed Frameworks */,
+				B528C1B4887B40562179EF94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNCoreDemo;
+			productName = KNCoreDemo;
+			productReference = 6B1AE999271617C6002C10E6 /* KNCoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B1AE991271617C6002C10E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6B1AE998271617C6002C10E6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B1AE994271617C6002C10E6 /* Build configuration list for PBXProject "KNCoreDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B1AE990271617C6002C10E6;
+			productRefGroup = 6B1AE99A271617C6002C10E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1AE998271617C6002C10E6 /* KNCoreDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B1AE997271617C6002C10E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B35D23527BEF00100536C19 /* Debug-info.plist in Resources */,
+				6B1AE9A9271617C7002C10E6 /* LaunchScreen.storyboard in Resources */,
+				6B94E302273E3E7100A751E9 /* Colors.xcassets in Resources */,
+				6B1AE9A6271617C7002C10E6 /* Preview Assets.xcassets in Resources */,
+				6B1AE9A3271617C7002C10E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B1AE9B0271617F9002C10E6 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  #swiftlint\n  echo \"test\"\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		AB663EB368F7E7418CB82099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KNCoreDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B528C1B4887B40562179EF94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KNCoreDemo/Pods-KNCoreDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KNCoreDemo/Pods-KNCoreDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KNCoreDemo/Pods-KNCoreDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B1AE995271617C6002C10E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B94E3292742560A00A751E9 /* MonthsWithoutFeeView.swift in Sources */,
+				6BDA99DC278E573100B37D1C /* KNPaymentState+Extension.swift in Sources */,
+				6B94E32427424EC700A751E9 /* AlertBody.swift in Sources */,
+				6B634CDA275EF9B100C6996B /* ArcsLoader.swift in Sources */,
+				6B94E33C2742E31000A751E9 /* TransactionWorkFlowViewModel.swift in Sources */,
+				6B1AE9B627189933002C10E6 /* ListDevicesViewModel.swift in Sources */,
+				6B94E308273EDA3C00A751E9 /* OperationsViewModel.swift in Sources */,
+				6BFF0CAF277B871700F52631 /* CurrencyTextField.swift in Sources */,
+				6B94E306273E42D700A751E9 /* PaymentView.swift in Sources */,
+				6BA8FE21276349420025DFFE /* PrinterModel.swift in Sources */,
+				6B94E3472745A20A00A751E9 /* UIVIew+Extension.swift in Sources */,
+				6B634CD8275E61ED00C6996B /* KNConnectionReaderType+Extension.swift in Sources */,
+				6B1AE99D271617C6002C10E6 /* AppDelegate.swift in Sources */,
+				6B94E316273FACC200A751E9 /* TextAlert.swift in Sources */,
+				6B94E304273E42AE00A751E9 /* OperationsView.swift in Sources */,
+				8C653A99277D0A7500A649C6 /* TransactionTipView.swift in Sources */,
+				6B1AE99F271617C6002C10E6 /* SceneDelegate.swift in Sources */,
+				6B94E33F2742FE2F00A751E9 /* ResultViewModel.swift in Sources */,
+				982DA4B727C9515700E8EBF9 /* OTAUpdateViewModel+KNUpdateOtaDelegate.swift in Sources */,
+				6B94E3322742583400A751E9 /* TransactionWorkFlowView.swift in Sources */,
+				6B94E343274498B900A751E9 /* PaymentViewModel.swift in Sources */,
+				6B94E300273DC80700A751E9 /* ContentViewModel.swift in Sources */,
+				6B94E33A27425BCF00A751E9 /* MWFModel.swift in Sources */,
+				F1C2D122272A1071009EE598 /* PrinterListView.swift in Sources */,
+				6B1AE9A1271617C6002C10E6 /* ContentView.swift in Sources */,
+				6BD604A627603085008B75A0 /* TransactionWorkFlowViewModel+KNPaymentDelegate.swift in Sources */,
+				6B79772A27574B170016E963 /* MailView.swift in Sources */,
+				6B94E30D273F69BF00A751E9 /* OperationCellView.swift in Sources */,
+				6B94E312273FA55800A751E9 /* Operation.swift in Sources */,
+				6B3E073727E58DDB00C930D2 /* PaymentManager.swift in Sources */,
+				8CB7EC8A275D621500091338 /* KNCoreLoginView.swift in Sources */,
+				6B94E310273FA51300A751E9 /* KNOperation+Extension.swift in Sources */,
+				98C4A77E2805DF8E001ADA07 /* OTAUpdateView.swift in Sources */,
+				98C4A7842805FF03001ADA07 /* OTAUpdateViewModel.swift in Sources */,
+				F1C2D125272A10BF009EE598 /* PrinterListViewModel.swift in Sources */,
+				6B94E32B2742561B00A751E9 /* MonthsWithoutFeeCellView.swift in Sources */,
+				6B1AE9BB27189969002C10E6 /* ListDevicesUIView.swift in Sources */,
+				6BD4794B2735C5D1001C9800 /* ListDevicesViewModel+KNBluetoothReaderDelegate.swift in Sources */,
+				6BFB003A27CCBDB900BAD0B5 /* UISDKConfiguration.swift in Sources */,
+				6B0FA19A2799E0A4005D57F3 /* KNEnvironmentType+Extension.swift in Sources */,
+				6B94E33727425B6A00A751E9 /* TransactionResultView.swift in Sources */,
+				8CB7EC80275CD44F00091338 /* KNCoreDemoMenu.swift in Sources */,
+				6BFB003C27CCBE6B00BAD0B5 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B1AE9A7271617C7002C10E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1AE9A8271617C7002C10E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B1AE9AB271617C7002C10E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B1AE9AC271617C7002C10E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B1AE9AE271617C7002C10E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F61E9D092DDA3D514E3A5D /* Pods-KNCoreDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = KNCoreDemo/KNCoreDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"KNCoreDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DPE4X2TAL;
+				ENABLE_BITCODE = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KNCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srpago.KNCoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6B1AE9AF271617C7002C10E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE66B9641DE27FD5F8A65F3E /* Pods-KNCoreDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = KNCoreDemo/KNCoreDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"KNCoreDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DPE4X2TAL;
+				ENABLE_BITCODE = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KNCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srpago.KNCoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B1AE994271617C6002C10E6 /* Build configuration list for PBXProject "KNCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1AE9AB271617C7002C10E6 /* Debug */,
+				6B1AE9AC271617C7002C10E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1AE9AD271617C7002C10E6 /* Build configuration list for PBXNativeTarget "KNCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1AE9AE271617C7002C10E6 /* Debug */,
+				6B1AE9AF271617C7002C10E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B1AE991271617C6002C10E6 /* Project object */;
+}

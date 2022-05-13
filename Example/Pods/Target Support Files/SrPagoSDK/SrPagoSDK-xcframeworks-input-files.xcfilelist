@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/SrPagoSDK/SrPagoSDK-xcframeworks.sh
+${PODS_ROOT}/../../KNCore.xcframework
+${PODS_ROOT}/../../KNPayment.xcframework
+${PODS_ROOT}/../../KNBluetoothModule.xcframework
+${PODS_ROOT}/../../KNPaymentModule.xcframework
+${PODS_ROOT}/../../KNPrinterModule.xcframework
+${PODS_ROOT}/../../KNAnalyticsPaymentModule.xcframework
+${PODS_ROOT}/../../KNBusinessModule.xcframework
