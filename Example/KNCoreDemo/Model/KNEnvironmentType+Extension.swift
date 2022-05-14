@@ -10,12 +10,7 @@ import KNCore
 extension KNEnvironmentType {
     
     func getCredentials() -> (user:String, password:String) {
-        switch self {
-        case .sandbox:
-            return (user:"fbustosr@srpago.com", password:"demo123123")
-        default:
-            return (user: "", password: "")
-        }
+        return (user: "", password: "")
     }
     
     func getKeys() -> (String, String) {
