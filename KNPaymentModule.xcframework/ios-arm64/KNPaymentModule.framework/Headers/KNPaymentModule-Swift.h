@@ -243,6 +243,7 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 
 
 
+
 @interface KNBbposReader (SWIFT_EXTENSION(KNPaymentModule)) <BBDeviceControllerDelegate>
 - (void)onBTReturnScanResults:(NSArray * _Nonnull)devices;
 - (void)onBTScanStopped;

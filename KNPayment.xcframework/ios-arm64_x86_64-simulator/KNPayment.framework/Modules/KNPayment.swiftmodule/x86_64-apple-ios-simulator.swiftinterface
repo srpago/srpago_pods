@@ -41,6 +41,7 @@ public class KNPayment : KNPaymentModule.KNReaderStateDelegate, KNBluetoothModul
   public func setTip(_ tip: Swift.Float)
   public func selectMonth(_ month: KNCore.KNPaymentMonth)
   public func selectPayInOneExibition()
+  public func cancelTransaction()
   public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
   public func startOtaUpdate(delegate: KNCore.KNUpdateOtaDelegate)
   public func cancelOtaUpdate()

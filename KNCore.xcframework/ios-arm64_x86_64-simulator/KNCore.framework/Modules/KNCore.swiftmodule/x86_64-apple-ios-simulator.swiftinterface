@@ -301,7 +301,8 @@ public struct KNPaymentMonth {
   public let rate: Swift.Float
   public let amount: Swift.String
   public let promotionId: Swift.Int
-  public init(months: Swift.Int, rate: Swift.Float, amount: Swift.String, promotionId: Swift.Int)
+  public let receivedAmount: Swift.Double
+  public init(months: Swift.Int, rate: Swift.Float, amount: Swift.String, promotionId: Swift.Int, totalAmount: Swift.Double)
   public init()
 }
 @frozen public enum KNReaderState : Swift.Int {
@@ -444,7 +445,9 @@ public struct KNMakePaymentResult : Swift.Codable {
 public struct KNPaymentError : Swift.Error {
   public let code: KNCore.KNPaymentErrorType
   public let errorLocalizedDescription: Swift.String?
-  public init(type: KNCore.KNPaymentErrorType, description: Swift.String? = nil)
+  public let trace: Swift.String?
+  public init(type: KNCore.KNPaymentErrorType, description: Swift.String? = nil, trace: Swift.String? = nil)
+  public static func traceError(_ file: Swift.String = #fileID, function: Swift.String = #function) -> Swift.String
 }
 public struct KNPrinter : Swift.Identifiable {
   public let id: Foundation.UUID
@@ -482,6 +485,9 @@ public struct KNConfigurator {
   public var rawValue: Swift.String {
     get
   }
+}
+extension Swift.Double {
+  public static var iva: Swift.Double
 }
 public struct KNRecipe : Swift.Decodable, Swift.Equatable {
   public var logo: Foundation.Data?

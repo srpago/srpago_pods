@@ -271,6 +271,7 @@ extension KNPaymentModule.KNPaymentManager {
   final public func isRecognizedDevice() -> Swift.Bool
   final public func getUUIDDevice() -> Swift.String?
   final public func reconnectReader()
+  final public func cancelTransaction()
 }
 extension KNPaymentModule.KNDowloadObjectType : Swift.Equatable {}
 extension KNPaymentModule.KNDowloadObjectType : Swift.Hashable {}

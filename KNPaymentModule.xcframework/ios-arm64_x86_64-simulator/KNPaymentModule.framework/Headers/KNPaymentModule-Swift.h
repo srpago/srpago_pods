@@ -245,6 +245,7 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 
 
 
+
 @interface KNBbposReader (SWIFT_EXTENSION(KNPaymentModule)) <BBDeviceControllerDelegate>
 - (void)onBTReturnScanResults:(NSArray * _Nonnull)devices;
 - (void)onBTScanStopped;
@@ -582,6 +583,7 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 - (void)onReturnRemoteConfigUpdateResult:(BBDeviceOTAResult)result responseMessage:(NSString * _Nullable)responseMessage;
 - (void)onReturnRemoteFirmwareUpdateResult:(BBDeviceOTAResult)result responseMessage:(NSString * _Nullable)responseMessage;
 @end
+
 
 
 
