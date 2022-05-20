@@ -391,10 +391,21 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
-## [2.5.0] 2022-05-13
+## [2.5.1] 2022-05-20
+
+### Added
+- Cancel transaction in BBPOS terminal if card discovery still in progress
+
+## [2.5.0] 2022-05-19
 
 ### Added
 - Demo integrated
+- Cancel transaction
+- Received amount in installments
+
+### Improves
+- Some warnings were solved
+- Analytics report for transaction error
 
 ### Changed
 - Readme was updated with SDK's documentation
