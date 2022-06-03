@@ -9,7 +9,7 @@ import KNPaymentModule
 import KNPrinterModule
 import Swift
 import _Concurrency
-public class KNPayment : KNPaymentModule.KNReaderStateDelegate, KNBluetoothModule.KNBluetoothDelegate {
+public class KNPayment {
   public init()
   public func getPaymentsCoreVersion() -> Swift.String
   public func config(_ config: KNCore.KNConfigurator)
@@ -46,8 +46,5 @@ public class KNPayment : KNPaymentModule.KNReaderStateDelegate, KNBluetoothModul
   public func startOtaUpdate(delegate: KNCore.KNUpdateOtaDelegate)
   public func cancelOtaUpdate()
   public func removeOtaDelegate()
-  public func onReaderState(state: KNCore.KNReaderState)
-  public func bluetooth(state: KNCore.KNBluetoothState)
-  public func onListReadersFound(devices: [KNCore.KNBluetoothReader])
   @objc deinit
 }

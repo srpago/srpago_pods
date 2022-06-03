@@ -126,7 +126,7 @@ public struct KNFeeDetails : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-@frozen public enum KNBluetoothState {
+@frozen public enum KNBluetoothState : Swift.String {
   case bluetoothOn
   case bluetoothOff
   case unauthorizedPermissions
@@ -134,9 +134,9 @@ public struct KNFeeDetails : Swift.Codable {
   case unsupported
   case unknow
   case resetting
-  public static func == (a: KNCore.KNBluetoothState, b: KNCore.KNBluetoothState) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -287,12 +287,12 @@ extension Foundation.Data {
   public func getBearerAuthentication() -> [Swift.String : Swift.String]
   @objc deinit
 }
-@frozen public enum SendPrinterType {
+@frozen public enum SendPrinterType : Swift.String {
   case sms
   case email
-  public static func == (a: KNCore.SendPrinterType, b: KNCore.SendPrinterType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -629,6 +629,7 @@ extension KNCore.KNBluetoothPermissionState : Swift.Hashable {}
 extension KNCore.KNBluetoothPermissionState : Swift.Sendable {}
 extension KNCore.KNBluetoothState : Swift.Equatable {}
 extension KNCore.KNBluetoothState : Swift.Hashable {}
+extension KNCore.KNBluetoothState : Swift.RawRepresentable {}
 extension KNCore.KNBluetoothState : Swift.Sendable {}
 extension KNCore.KNEnvironmentType : Swift.Equatable {}
 extension KNCore.KNEnvironmentType : Swift.Hashable {}
@@ -644,6 +645,7 @@ extension KNCore.KNBrandType : Swift.RawRepresentable {}
 extension KNCore.KNBrandType : Swift.Sendable {}
 extension KNCore.SendPrinterType : Swift.Equatable {}
 extension KNCore.SendPrinterType : Swift.Hashable {}
+extension KNCore.SendPrinterType : Swift.RawRepresentable {}
 extension KNCore.SendPrinterType : Swift.Sendable {}
 extension KNCore.KNReaderState : Swift.Equatable {}
 extension KNCore.KNReaderState : Swift.Hashable {}

@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNBusinessModule
 import CoreTelephony
 import Foundation
+import KNAnalyticsPaymentModule
 @_exported import KNBusinessModule
 import KNCore
 import Swift
@@ -296,7 +297,7 @@ public struct KNCash : Swift.Codable {
 }
 public class KNRecipeUseCase {
   public init()
-  public func invoke(operationId: Swift.String, result: @escaping (KNBusinessModule.KNRecipeResponse?) -> Swift.Void)
+  public func invoke(operationId: Swift.String, result: @escaping (KNBusinessModule.KNRecipeRes?) -> Swift.Void)
   @objc deinit
 }
 public enum KNNetworkMethods : Swift.String {
@@ -323,6 +324,7 @@ public class KNOperationsUseCase {
   public func invoke(offset: Swift.Int, limit: Swift.Int, result: @escaping (KNBusinessModule.KNOperations?) -> Swift.Void)
   @objc deinit
 }
+public typealias KNRecipeRes = (response: KNBusinessModule.KNRecipeResponse?, error: Swift.Error?)
 public struct KNRecipeResponse : Swift.Codable {
   public let success: Swift.Bool
   public let result: KNBusinessModule.KNRecipeResult?

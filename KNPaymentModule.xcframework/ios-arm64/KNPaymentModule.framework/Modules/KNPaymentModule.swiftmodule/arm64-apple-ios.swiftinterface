@@ -6,6 +6,7 @@ import CoreLocation
 import CoreTelephony
 import Foundation
 import KNAnalyticsPaymentModule
+import KNBluetoothModule
 import KNBusinessModule
 import KNCore
 @_exported import KNPaymentModule
@@ -16,6 +17,7 @@ import UIKit
 import _Concurrency
 extension KNPaymentModule.KNPaymentManager : KNPaymentModule.KNBaseReaderDelegate {
   final public func readerInfoUpdated(_ reader: KNCore.KNReaderInfo)
+  final public func onReaderState(state: KNCore.KNReaderState, trace: Swift.String)
   final public func onPaymentCurrentState(state: KNCore.KNPaymentState)
   final public func onPaymentError(error: KNCore.KNPaymentError)
   final public func requestPan(_ pan: Swift.String, tlv: [Swift.AnyHashable : Any])
@@ -133,9 +135,6 @@ extension Swift.String {
   @objc override dynamic public init()
   @objc deinit
 }
-public protocol KNReaderStateDelegate : AnyObject {
-  func onReaderState(state: KNCore.KNReaderState)
-}
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public func showNativeView()
 }
@@ -147,10 +146,7 @@ public struct KNPaxDeviceInfo {
 final public class KNPaymentManager {
   final public var reader: KNPaymentModule.KNBaseReader?
   weak final public var delegate: KNCore.KNPaymentDelegate?
-  weak final public var readerDelegate: KNPaymentModule.KNReaderStateDelegate? {
-    get
-    set
-  }
+  weak final public var bluetoothReaderDelegate: KNCore.KNBluetoothReaderDelegate?
   weak final public var localStorage: KNCore.KNPersistanceRepository?
   weak final public var otaDelegate: KNCore.KNUpdateOtaDelegate?
   public init()
@@ -162,6 +158,7 @@ final public class KNPaymentManager {
   final public func initPayment(amount: Swift.String, reference: Swift.String?)
   final public func setTip(_ tip: Swift.String)
   final public func setMonth(month: KNCore.KNPaymentMonth)
+  final public func cancelTransaction()
   @objc deinit
 }
 public struct KNMsr : Swift.Encodable {
@@ -185,6 +182,7 @@ public protocol KNBaseReaderOTADelegate : AnyObject {
 }
 public protocol KNBaseReaderDelegate : AnyObject {
   func readerInfoUpdated(_ reader: KNCore.KNReaderInfo)
+  func onReaderState(state: KNCore.KNReaderState, trace: Swift.String)
   func onPaymentCurrentState(state: KNCore.KNPaymentState)
   func onPaymentError(error: KNCore.KNPaymentError)
   func readerConnected(name: Swift.String, address: Swift.String)
@@ -271,7 +269,10 @@ extension KNPaymentModule.KNPaymentManager {
   final public func isRecognizedDevice() -> Swift.Bool
   final public func getUUIDDevice() -> Swift.String?
   final public func reconnectReader()
-  final public func cancelTransaction()
+}
+extension KNPaymentModule.KNPaymentManager : KNBluetoothModule.KNBluetoothDelegate {
+  final public func bluetooth(state: KNCore.KNBluetoothState)
+  final public func onListReadersFound(devices: [KNCore.KNBluetoothReader])
 }
 extension KNPaymentModule.KNDowloadObjectType : Swift.Equatable {}
 extension KNPaymentModule.KNDowloadObjectType : Swift.Hashable {}

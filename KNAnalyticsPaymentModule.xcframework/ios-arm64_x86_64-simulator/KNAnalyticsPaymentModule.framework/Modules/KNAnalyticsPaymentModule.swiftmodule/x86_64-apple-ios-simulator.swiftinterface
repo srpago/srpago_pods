@@ -72,6 +72,7 @@ public class KNBaseReport : Swift.Encodable {
   final public func clearStackTrace()
   final public func addTrace(_ trace: Swift.String, data: Swift.String? = nil)
   final public func getStackTrace() -> Swift.String
+  final public func addTraceApi(isSuccess: Swift.Bool, function: Swift.String = #function, errorDetail: Swift.String = "")
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class KNReaderReport : KNAnalyticsPaymentModule.KNBaseReport {
@@ -108,8 +109,16 @@ public class KNBaseReport : Swift.Encodable {
   public var isSupportedNfc: Swift.Bool?
   public var isUsbConnected: Swift.Bool?
   public var isCharging: Swift.Bool?
+  public var connectionTrace: Swift.String?
   override public func encode(to encoder: Swift.Encoder) throws
   override public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class KNConnectionTrace {
+  public static let shared: KNAnalyticsPaymentModule.KNConnectionTrace
+  final public func clearTrace()
+  final public func addTrace(_ trace: Swift.String, data: Swift.String? = nil)
+  final public func getTrace() -> Swift.String
   @objc deinit
 }
 public class KNStoreReaderUseCase {

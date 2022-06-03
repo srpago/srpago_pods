@@ -391,6 +391,15 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.5.2] 2022-06-02
+
+### Added
+- Cancel transaction in BBPOS terminal by payment state
+- Improve vinculation report
+
+### Bugfix
+- Reader vinculation 
+
 ## [2.5.1] 2022-05-20
 
 ### Added
