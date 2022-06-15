@@ -391,6 +391,11 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.6.0] 2022-06-15
+
+### Added
+- New OTA endpoint
+
 ## [2.5.2] 2022-06-02
 
 ### Added

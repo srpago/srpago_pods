@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Hc/yP3HMFmueh3MRjOp7fepleps=
+		FPP+5mW5lafivQz9n89tdEmVpvA=
 		</data>
 		<key>Headers/KNPrinterModule-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		S4ayj/oXsiiFLVrjZ/KTaUn531w=
+		al4XdjsSu3fy/R15exUGmY4P5T4=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ve21omf6z5VCCUTZIzzwhkGLGBg=
+		pTCgOAnXxbyi6Ie5PKncJZ0M0cs=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cPeNBA65ZMICP+MZZvFn90ikQ8k=
+		yOCxF0ewYz1h0QIisugOGx7DXLw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RaR0MbHEY5VBzD49W5W5qmr0IaooQVxoKxarE1Y95CU=
+			yyRH3ezoxJ8Ypmlr6mLiQPH8BYm+rrR5d97nSLxLNbc=
 			</data>
 		</dict>
 		<key>Headers/KNPrinterModule-Swift.h</key>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvjjn1k8PP7U8bhFgzIHaBbsnRIM+YP9sobkGK6dbW8=
+			u7RYFUa6sNwHzt91kQohzUK7nTUzogo1SIKDapE4NkQ=
 			</data>
 		</dict>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VxSRHxtEHRkoOHxMz6RSilJDLBJh1gmLRuU7z9SFvoM=
+			UZZsVRXeNCd6248DX7DUMg+vf5hTLIivzDhYlGuSX0E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

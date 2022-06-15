@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WxzFAygLHpGghcZRJB/XPzdiKT0=
+		iXi80y+IzrX+dyrhyWcvr6uOixk=
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zkaoU+l0luSYAXjE4tG2ni66zFk=
+		cREcIq2acEsMpiK5asvOOoBgI6A=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cy4avlqBGY70nCcenb2TTv37qXw=
+		yq22swPXwLPhfbnycJsb1x8CQNs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PJuiSwEn9lM86UL9vrwO0t0OH4LNHsi/y0uSNRMSSG8=
+			T5/k3O4Rm0FeP1TdnaVUCgVVT5F++C6UFG6qPZ8x7Lk=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Kik7ciOhn4+6TRc14/7cboLyusMiK+8mqXfgR7IwKM=
+			a+vLMisKEUsEYM+CezaxpzNs/kI0NwfVWCsc6ztCFvo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
