@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNBusinessModule
 import CoreTelephony
 import Foundation
@@ -28,6 +28,22 @@ public struct KNErrorDetail : Swift.Codable {
   public let issuerScriptData: Swift.String?
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
+}
+public enum KNNetworkError : Swift.String, Swift.Error {
+  case encodingFailed
+  case missingURL
+  case authenticationError
+  case badRequest
+  case outdated
+  case failed
+  case noData
+  case unableToDecode
+  case noNetworkAvailable
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public class KNAppLoginUseCase {
   public init()
@@ -445,6 +461,9 @@ public class KNThreadDispatcher {
   override public init(queue: Dispatch.DispatchQueue)
   @objc deinit
 }
+extension KNBusinessModule.KNNetworkError : Swift.Equatable {}
+extension KNBusinessModule.KNNetworkError : Swift.Hashable {}
+extension KNBusinessModule.KNNetworkError : Swift.RawRepresentable {}
 extension KNBusinessModule.KNNetworkMethods : Swift.Equatable {}
 extension KNBusinessModule.KNNetworkMethods : Swift.Hashable {}
 extension KNBusinessModule.KNNetworkMethods : Swift.RawRepresentable {}

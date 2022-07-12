@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		FPP+5mW5lafivQz9n89tdEmVpvA=
+		3h33R/PH+ooakYnJgo1NOoC4VP8=
 		</data>
 		<key>Headers/KNPrinterModule-Swift.h</key>
 		<data>
-		/uPCXt9jcOwQhOYFXRG30SBrDkE=
+		YAwkFxGhN/s/OkiA0lYG66EVPZE=
 		</data>
 		<key>Headers/KNPrinterModule.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		al4XdjsSu3fy/R15exUGmY4P5T4=
+		tCJwCB56tWkR0Q34Om1UGBSlOCk=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0Q4z+jK/rrRoqmQPFDKKprixTYI=
+		Af3YNKUDxw9syXNbEzSlMmZWJNI=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7mCot0Jk3kJkWH22tRyUibHkEes=
+		60i7Ub+mcoreVycu3a9bv7vtebQ=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pTCgOAnXxbyi6Ie5PKncJZ0M0cs=
+		K0wFCDKnOk1zw1VcquZT4yee81s=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		abaVPCM09Mk25MWZNKx5CYsGIjg=
+		Og+JdTvK7kewguSWvYKQ6JvtbzI=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GilPSDqrHEEVSUR5MDU3lIaIOEE=
+		3/vFWkaL1fSEaIJjtVjn3RaStrk=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yOCxF0ewYz1h0QIisugOGx7DXLw=
+		yeRuaZ8Qiep5ZpsTfV5P2tCD9Yk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yyRH3ezoxJ8Ypmlr6mLiQPH8BYm+rrR5d97nSLxLNbc=
+			y+iQwlihLVwfrWSTG2oSMN/Nqvi0/yiyaFphkqq5rkQ=
 			</data>
 		</dict>
 		<key>Headers/KNPrinterModule-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IUs4lzQ1+Sd/Rrk5iJj4mLsux0JkkbetTbT26P5RX0E=
+			dDeSm8k3LS3sUB7ETmIPMJZML1PFUYo2/fZFAojBxq8=
 			</data>
 		</dict>
 		<key>Headers/KNPrinterModule.h</key>
@@ -76,42 +76,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUYjqZInTrpY7YDdrdfer4M78UytJFMArqzV0X3R6Z8=
+			heEk57aZBCz8MREH7lY8cwH/5cUmyCGkNLX9yLjkM0w=
 			</data>
 		</dict>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NU9bHBxc25D65h78HlvNtyE39vexEBSNzF+0OfWVHkU=
+			fOLrZiyz9gZDGvnqyNUXRFWs64cYoFRtFIRhaulNAN4=
 			</data>
 		</dict>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u7RYFUa6sNwHzt91kQohzUK7nTUzogo1SIKDapE4NkQ=
+			NvSph7xXY0D1fGOu4KvYDsUYqHFLp4iDUapkidvmZ7o=
 			</data>
 		</dict>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyVKwmMRITCka/1yL/ElyQcxtYZlpMlnr2XxHrHYLK4=
+			m6AOoiHEKNqKjBLVnFkkPsqGlQDlUmxmcc6vvLsXRpw=
 			</data>
 		</dict>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iy0H+4mG000z1ytdbbn+aMpgHJYnTW59UE7TGXE4iwg=
+			egdjsnxlsonWauoLWZm+5PyCCoBAlR+h59OddaVrC88=
 			</data>
 		</dict>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UZZsVRXeNCd6248DX7DUMg+vf5hTLIivzDhYlGuSX0E=
+			s/RUeFbU8iYE+fzDkB3fqKziM1bNHIM8QmrqxZ5F/w0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
