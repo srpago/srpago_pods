@@ -391,6 +391,16 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.8.0] 2022-06-15
+
+### Added
+- Tip label in signature view
+
+## [2.7.0] 2022-06-15
+
+### Added
+- No internet connection was validated
+
 ## [2.6.0] 2022-06-15
 
 ### Added
