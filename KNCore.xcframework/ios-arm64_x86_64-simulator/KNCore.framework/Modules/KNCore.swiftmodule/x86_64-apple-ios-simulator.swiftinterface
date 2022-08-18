@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNCore
 import CoreBluetooth
 import Foundation
@@ -148,6 +148,19 @@ public class KNPeripheral {
   public init(name: Swift.String, identifier: Swift.String)
   @objc deinit
 }
+public enum KNOtaErrorDescription : Swift.String {
+  case lowBattery
+  case noUpdate
+  case downloadFail
+  case badSetupFail
+  case errorCom
+  case genericError
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @frozen public enum KNEnvironmentType : Swift.String {
   case dev
   case sandbox
@@ -206,6 +219,34 @@ public protocol KNPaymentDelegate : AnyObject {
   func onPaymentError(error: KNCore.KNPaymentError)
   func onMonthsAvailable(months: [KNCore.KNPaymentMonth])
   func onReaderInfo(reader: KNCore.KNReaderInfo)
+}
+public enum KNReaderErrorDescription : Swift.String {
+  case useIccCard
+  case noCard
+  case notIccCard
+  case badSwipe
+  case invalidCard
+  case transactionCanceled
+  case pinBlocked
+  case pinByPass
+  case blockedCard
+  case aplicationBlockedCard
+  case iccCardRemoved
+  case deviceError
+  case cardNotSupported
+  case pinNotEntered
+  case noEmvApps
+  case declinedCard
+  case timeout
+  case appBlocked
+  case panExceeded
+  case paymentUnauthorized
+  case readerDisconnected
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public class KNPersistanceModel : KNCore.KNPersistanceRepository {
   public init()
@@ -287,6 +328,17 @@ extension Foundation.Data {
   public func getBearerAuthentication() -> [Swift.String : Swift.String]
   @objc deinit
 }
+public enum KNReaderConnectionErrorDesc : Swift.String {
+  case cancelPairing
+  case readerDisconnected
+  case pairingTimeout
+  case firstPairingTimeout
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @frozen public enum SendPrinterType : Swift.String {
   case sms
   case email
@@ -305,19 +357,15 @@ public struct KNPaymentMonth {
   public init(months: Swift.Int, rate: Swift.Float, amount: Swift.String, promotionId: Swift.Int, totalAmount: Swift.Double)
   public init()
 }
-@frozen public enum KNReaderState : Swift.Int {
+@frozen public enum KNReaderState {
   case onUnkwnowReader
   case onPowerButtonPressed
   case onBtDisconnected
   case onBTConnected
   case onBTPairing
-  case onErrorPairing
+  case onBTFirstPairing
+  case onErrorPairing(error: KNCore.KNPaymentError)
   public var string: Swift.String {
-    get
-  }
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
     get
   }
 }
@@ -466,6 +514,23 @@ public protocol KNBluetoothReaderDelegate : AnyObject {
   func onListReadersFound(devices: [KNCore.KNBluetoothReader])
   func bluetooth(state: KNCore.KNBluetoothState)
   func onReaderState(state: KNCore.KNReaderState)
+}
+public enum KNPaymentErrorDescription : Swift.String {
+  case badAmount
+  case badReference
+  case comunicationError
+  case badTip
+  case errorGetMSI
+  case errorSecond
+  case errorNotFound
+  case transactionCanceled
+  case noPermissionLocation
+  case noInternetConnection
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct KNConfigurator {
   public var appKey: Swift.String?
@@ -632,6 +697,9 @@ extension KNCore.KNBluetoothState : Swift.Equatable {}
 extension KNCore.KNBluetoothState : Swift.Hashable {}
 extension KNCore.KNBluetoothState : Swift.RawRepresentable {}
 extension KNCore.KNBluetoothState : Swift.Sendable {}
+extension KNCore.KNOtaErrorDescription : Swift.Equatable {}
+extension KNCore.KNOtaErrorDescription : Swift.Hashable {}
+extension KNCore.KNOtaErrorDescription : Swift.RawRepresentable {}
 extension KNCore.KNEnvironmentType : Swift.Equatable {}
 extension KNCore.KNEnvironmentType : Swift.Hashable {}
 extension KNCore.KNEnvironmentType : Swift.RawRepresentable {}
@@ -644,13 +712,16 @@ extension KNCore.KNBrandType : Swift.Equatable {}
 extension KNCore.KNBrandType : Swift.Hashable {}
 extension KNCore.KNBrandType : Swift.RawRepresentable {}
 extension KNCore.KNBrandType : Swift.Sendable {}
+extension KNCore.KNReaderErrorDescription : Swift.Equatable {}
+extension KNCore.KNReaderErrorDescription : Swift.Hashable {}
+extension KNCore.KNReaderErrorDescription : Swift.RawRepresentable {}
+extension KNCore.KNReaderConnectionErrorDesc : Swift.Equatable {}
+extension KNCore.KNReaderConnectionErrorDesc : Swift.Hashable {}
+extension KNCore.KNReaderConnectionErrorDesc : Swift.RawRepresentable {}
 extension KNCore.SendPrinterType : Swift.Equatable {}
 extension KNCore.SendPrinterType : Swift.Hashable {}
 extension KNCore.SendPrinterType : Swift.RawRepresentable {}
 extension KNCore.SendPrinterType : Swift.Sendable {}
-extension KNCore.KNReaderState : Swift.Equatable {}
-extension KNCore.KNReaderState : Swift.Hashable {}
-extension KNCore.KNReaderState : Swift.RawRepresentable {}
 extension KNCore.KNReaderState : Swift.Sendable {}
 extension KNCore.SignatureButtonViewData.ButtonType : Swift.Equatable {}
 extension KNCore.SignatureButtonViewData.ButtonType : Swift.Hashable {}
@@ -660,6 +731,9 @@ extension KNCore.SignatureButtonViewData.ButtonCornerRadius : Swift.Hashable {}
 extension KNCore.SignatureButtonViewData.ButtonCornerRadius : Swift.Sendable {}
 extension KNCore.SignatureLabelViewData.LabelType : Swift.Equatable {}
 extension KNCore.SignatureLabelViewData.LabelType : Swift.Hashable {}
+extension KNCore.KNPaymentErrorDescription : Swift.Equatable {}
+extension KNCore.KNPaymentErrorDescription : Swift.Hashable {}
+extension KNCore.KNPaymentErrorDescription : Swift.RawRepresentable {}
 extension KNCore.KNDateFormat : Swift.Equatable {}
 extension KNCore.KNDateFormat : Swift.Hashable {}
 extension KNCore.KNDateFormat : Swift.RawRepresentable {}

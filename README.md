@@ -391,6 +391,11 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.9.0] 2022-08-18
+
+### Added
+- Vinculation improves and new states
+
 ## [2.8.0] 2022-06-15
 
 ### Added
