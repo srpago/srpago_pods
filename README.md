@@ -391,6 +391,14 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.10.0] 2022-09-15
+
+### Added
+- Adding cashPayment into monthly installments array to get dynamic comission
+
+### Changed
+- Some variables reported in NR analytics 
+
 ## [2.9.0] 2022-08-18
 
 ### Added

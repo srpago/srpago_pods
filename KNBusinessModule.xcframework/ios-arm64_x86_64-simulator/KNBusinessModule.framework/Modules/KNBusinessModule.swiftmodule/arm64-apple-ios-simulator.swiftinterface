@@ -395,6 +395,7 @@ public struct KNCash : Swift.Codable {
   public let variable: Swift.Float
   public let type: Swift.String
   public init(from decoder: Swift.Decoder) throws
+  public init(detail: Swift.String, variable: Swift.Float, type: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
 }
 public typealias KNOTAConfig = (response: KNBusinessModule.KNOTAConfigResult?, error: Swift.Error?)

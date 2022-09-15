@@ -1,7 +1,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "2.9.0"
+  sdk.version      = "2.10.0"
   sdk.summary      = "Payments SDK for Konfio and Sr.Pago"
   sdk.description  = <<-DESC
   Payment SDK with support for SrPago Readers:

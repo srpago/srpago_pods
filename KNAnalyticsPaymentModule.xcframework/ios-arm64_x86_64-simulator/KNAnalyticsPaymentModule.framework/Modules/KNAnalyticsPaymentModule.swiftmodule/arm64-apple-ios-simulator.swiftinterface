@@ -47,7 +47,7 @@ public class KNBaseReport : Swift.Encodable {
   public var transactionId: Swift.String?
   public var serverResponseTime: Swift.String?
   public var makePaymentFailReason: Swift.String?
-  public var TLVsTags: Swift.String
+  public var tlv: Swift.String
   public var cardBrand: Swift.String
   public var bin: Swift.String
   public var entryMode: Swift.String
