@@ -26,6 +26,7 @@ extension KNPaymentModule.KNPaymentManager : KNPaymentModule.KNBaseReaderDelegat
   final public func secondError()
   final public func secondSucess()
   final public func clearTransaction()
+  final public func onReaderTrace(trace: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers final public class KNBbposReader : KNPaymentModule.KNBaseReader {
   @objc override dynamic public init()
@@ -55,6 +56,7 @@ extension KNPaymentModule.KNBbposReader : KNPaymentModule.BBDeviceControllerDele
   @objc final public func onRequestPinEntry(pinEntrySource: KNPaymentModule.BBDevicePinEntrySource)
   @objc final public func onReturnBatchData(_ tlv: Swift.String)
   @objc final public func onReturnReversalData(_ tlv: Swift.String)
+  @objc final public func onReturnDebugLog(_ data: [Swift.AnyHashable : Any]?)
 }
 extension KNPaymentModule.KNBbposReader : KNPaymentModule.BBDeviceOTAControllerDelegate {
   @objc final public func onReturnOTAProgress(_ percentage: Swift.Float)
@@ -181,6 +183,9 @@ public protocol KNBaseReaderOTADelegate : AnyObject {
   func updateSuccess()
   func updateError(error: KNCore.KNPaymentError)
 }
+extension KNPaymentModule.KNPaymentManager {
+  final public func getUser(fees: @escaping ((KNCore.KNUserFees?) -> Swift.Void))
+}
 public protocol KNBaseReaderDelegate : AnyObject {
   func readerInfoUpdated(_ reader: KNCore.KNReaderInfo)
   func onReaderState(state: KNCore.KNReaderState, trace: Swift.String)
@@ -192,6 +197,7 @@ public protocol KNBaseReaderDelegate : AnyObject {
   func secondError()
   func secondSucess()
   func clearTransaction()
+  func onReaderTrace(trace: Swift.String)
 }
 public struct KNPaxCard {
   public let holderName: Swift.String

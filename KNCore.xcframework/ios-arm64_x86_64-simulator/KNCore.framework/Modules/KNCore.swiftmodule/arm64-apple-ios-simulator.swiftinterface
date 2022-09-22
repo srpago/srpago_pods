@@ -398,6 +398,12 @@ public struct KNPaymentResult {
   public var signature: Swift.String
   public init(paymentResult: KNCore.KNMakePaymentResult, reference: Swift.String = "", months: Swift.Int = 0, signature: Swift.String = "")
 }
+public struct KNUserFees {
+  public var debit: Swift.Float?
+  public var credit: Swift.Float?
+  public var amex: Swift.Float?
+  public init(debit: Swift.Float? = nil, credit: Swift.Float? = nil, amex: Swift.Float? = nil)
+}
 public class KNDateHelper {
   public init(date: Foundation.Date)
   public init(timeInterval: Foundation.TimeInterval)

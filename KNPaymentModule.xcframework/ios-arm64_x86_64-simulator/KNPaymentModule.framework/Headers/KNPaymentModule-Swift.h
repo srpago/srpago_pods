@@ -269,6 +269,7 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 - (void)onRequestPinEntry:(BBDevicePinEntrySource)pinEntrySource;
 - (void)onReturnBatchData:(NSString * _Nonnull)tlv;
 - (void)onReturnReversalData:(NSString * _Nonnull)tlv;
+- (void)onReturnDebugLog:(NSDictionary * _Nullable)data;
 @end
 
 
@@ -611,6 +612,7 @@ SWIFT_CLASS("_TtC15KNPaymentModule13KNBbposReader")
 - (void)onRequestPinEntry:(BBDevicePinEntrySource)pinEntrySource;
 - (void)onReturnBatchData:(NSString * _Nonnull)tlv;
 - (void)onReturnReversalData:(NSString * _Nonnull)tlv;
+- (void)onReturnDebugLog:(NSDictionary * _Nullable)data;
 @end
 
 

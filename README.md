@@ -391,6 +391,15 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+
+
+## [2.11.0] 2022-09-21
+
+### Added
+- Function to get user fees
+- New logs for terminals
+- Documentation macros
+
 ## [2.10.0] 2022-09-15
 
 ### Added
