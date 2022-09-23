@@ -391,6 +391,11 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.11.2] 2022-09-23
+
+### Fixed
+- Filled Commissions 
+
 ## [2.11.1] 2022-09-22
 
 ### Fixed
