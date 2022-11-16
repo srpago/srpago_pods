@@ -1,7 +1,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "2.11.3"
+  sdk.version      = "2.11.4"
   sdk.summary      = "Payments SDK for Konfio and Sr.Pago"
   sdk.description  = <<-DESC
   Payment SDK with support for SrPago Readers:
@@ -30,7 +30,7 @@ Pod::Spec.new do |sdk|
 
   sdk.source       = { :git => "https://github.com/srpago/srpago_pods.git", :tag => sdk.version.to_s }
 
-  sdk.vendored_frameworks = 'KNCore.xcframework', 'KNStrings.xcframeworks', 'KNPayment.xcframework', 'KNBluetoothModule.xcframework', 'KNPaymentModule.xcframework', 'KNPrinterModule.xcframework', 'KNAnalyticsPaymentModule.xcframework', 'KNBusinessModule.xcframework'
+  sdk.vendored_frameworks = 'KNCore.xcframework', 'KNStrings.xcframework', 'KNPayment.xcframework', 'KNBluetoothModule.xcframework', 'KNPaymentModule.xcframework', 'KNPrinterModule.xcframework', 'KNAnalyticsPaymentModule.xcframework', 'KNBusinessModule.xcframework'
   sdk.user_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS' => '"${PODS_XCFRAMEWORKS_BUILD_DIR}/'+"#{sdk.name}"+'"'
 }
