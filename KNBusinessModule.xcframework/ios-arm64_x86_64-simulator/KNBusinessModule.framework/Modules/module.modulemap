@@ -6,6 +6,6 @@ framework module KNBusinessModule {
 }
 
 module KNBusinessModule.Swift {
-    header "KNBusinessModule-Swift.h"
-    requires objc
+  header "KNBusinessModule-Swift.h"
+  requires objc
 }

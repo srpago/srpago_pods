@@ -6,6 +6,6 @@ framework module KNPayment {
 }
 
 module KNPayment.Swift {
-    header "KNPayment-Swift.h"
-    requires objc
+  header "KNPayment-Swift.h"
+  requires objc
 }

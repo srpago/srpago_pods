@@ -6,6 +6,6 @@ framework module KNBluetoothModule {
 }
 
 module KNBluetoothModule.Swift {
-    header "KNBluetoothModule-Swift.h"
-    requires objc
+  header "KNBluetoothModule-Swift.h"
+  requires objc
 }

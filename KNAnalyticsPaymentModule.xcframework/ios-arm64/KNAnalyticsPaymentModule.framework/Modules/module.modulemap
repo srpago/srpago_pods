@@ -6,6 +6,6 @@ framework module KNAnalyticsPaymentModule {
 }
 
 module KNAnalyticsPaymentModule.Swift {
-    header "KNAnalyticsPaymentModule-Swift.h"
-    requires objc
+  header "KNAnalyticsPaymentModule-Swift.h"
+  requires objc
 }

@@ -1,0 +1,290 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNStrings",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Buttons",
+        "printedName": "Buttons",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accept",
+            "printedName": "accept",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KNStrings7ButtonsO6acceptSSvpZ",
+            "mangledName": "$s9KNStrings7ButtonsO6acceptSSvpZ",
+            "moduleName": "KNStrings",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KNStrings7ButtonsO6acceptSSvgZ",
+                "mangledName": "$s9KNStrings7ButtonsO6acceptSSvgZ",
+                "moduleName": "KNStrings",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9KNStrings7ButtonsO",
+        "mangledName": "$s9KNStrings7ButtonsO",
+        "moduleName": "KNStrings",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNStrings",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNStrings",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Alerts",
+        "printedName": "Alerts",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accept",
+            "printedName": "accept",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KNStrings6AlertsO6acceptSSvpZ",
+            "mangledName": "$s9KNStrings6AlertsO6acceptSSvpZ",
+            "moduleName": "KNStrings",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KNStrings6AlertsO6acceptSSvgZ",
+                "mangledName": "$s9KNStrings6AlertsO6acceptSSvgZ",
+                "moduleName": "KNStrings",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9KNStrings6AlertsO",
+        "mangledName": "$s9KNStrings6AlertsO",
+        "moduleName": "KNStrings",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Core\/Buttons.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 12,
+      "value": "\"btn.accept\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 8,
+      "value": "\"Errors\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 7,
+      "value": "\"Login\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 14,
+      "value": "\"Placeholders\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 14,
+      "value": "\"Verification\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 9,
+      "value": "\"Buttons\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 8,
+      "value": "\"Labels\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 8,
+      "value": "\"Alerts\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 8,
+      "value": "\"Titles\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 8,
+      "value": "\"Errors\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 7,
+      "value": "\"Login\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 14,
+      "value": "\"Placeholders\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 14,
+      "value": "\"Verification\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 9,
+      "value": "\"Buttons\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 8,
+      "value": "\"Labels\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 8,
+      "value": "\"Alerts\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 8,
+      "value": "\"Titles\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Core\/Alerts.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 14,
+      "value": "\"alert.accept\""
+    }
+  ]
+}

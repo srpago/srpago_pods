@@ -6,6 +6,6 @@ framework module KNCore {
 }
 
 module KNCore.Swift {
-    header "KNCore-Swift.h"
-    requires objc
+  header "KNCore-Swift.h"
+  requires objc
 }

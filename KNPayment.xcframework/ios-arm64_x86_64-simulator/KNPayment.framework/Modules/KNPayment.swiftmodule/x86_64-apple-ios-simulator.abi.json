@@ -1,0 +1,1378 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNPayment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KNPaymentModule",
+        "printedName": "KNPaymentModule",
+        "declKind": "Import",
+        "moduleName": "KNPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "KNPrinterModule",
+        "printedName": "KNPrinterModule",
+        "declKind": "Import",
+        "moduleName": "KNPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "KNBluetoothModule",
+        "printedName": "KNBluetoothModule",
+        "declKind": "Import",
+        "moduleName": "KNPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNPayment"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KNPayment",
+        "printedName": "KNPayment",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KNPayment",
+                "printedName": "KNPayment.KNPayment",
+                "usr": "s:9KNPaymentAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9KNPaymentAACABycfc",
+            "mangledName": "$s9KNPaymentAACABycfc",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaymentsCoreVersion",
+            "printedName": "getPaymentsCoreVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC22getPaymentsCoreVersionSSyF",
+            "mangledName": "$s9KNPaymentAAC22getPaymentsCoreVersionSSyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNConfigurator",
+                "printedName": "KNCore.KNConfigurator",
+                "usr": "s:6KNCore14KNConfiguratorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC6configyy6KNCore14KNConfiguratorVF",
+            "mangledName": "$s9KNPaymentAAC6configyy6KNCore14KNConfiguratorVF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configSignatureUI",
+            "printedName": "configSignatureUI(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNSignatureViewData",
+                "printedName": "KNCore.KNSignatureViewData",
+                "usr": "s:6KNCore19KNSignatureViewDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC17configSignatureUIyy6KNCore19KNSignatureViewDataVF",
+            "mangledName": "$s9KNPaymentAAC17configSignatureUIyy6KNCore19KNSignatureViewDataVF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(user:password:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, KNCore.KNPaymentError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNPaymentError",
+                        "printedName": "KNCore.KNPaymentError",
+                        "usr": "s:6KNCore14KNPaymentErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC5login4user8password10completionySS_SSys6ResultOySb6KNCore0A5ErrorVGctF",
+            "mangledName": "$s9KNPaymentAAC5login4user8password10completionySS_SSys6ResultOySb6KNCore0A5ErrorVGctF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authenticateToken",
+            "printedName": "authenticateToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC17authenticateTokenyySSF",
+            "mangledName": "$s9KNPaymentAAC17authenticateTokenyySSF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configBluetoothReaderState",
+            "printedName": "configBluetoothReaderState(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothReaderDelegate",
+                "printedName": "KNCore.KNBluetoothReaderDelegate",
+                "usr": "s:6KNCore25KNBluetoothReaderDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC26configBluetoothReaderState8delegatey6KNCore011KNBluetoothD8Delegate_p_tF",
+            "mangledName": "$s9KNPaymentAAC26configBluetoothReaderState8delegatey6KNCore011KNBluetoothD8Delegate_p_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configPrinter",
+            "printedName": "configPrinter(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNPrinterDelegate",
+                "printedName": "KNCore.KNPrinterDelegate",
+                "usr": "s:6KNCore17KNPrinterDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC13configPrinter8delegatey6KNCore17KNPrinterDelegate_p_tF",
+            "mangledName": "$s9KNPaymentAAC13configPrinter8delegatey6KNCore17KNPrinterDelegate_p_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchDevices",
+            "printedName": "searchDevices(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KNCore.KNConnectionReaderType]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KNCore.KNConnectionReaderType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNConnectionReaderType",
+                        "printedName": "KNCore.KNConnectionReaderType",
+                        "usr": "s:6KNCore22KNConnectionReaderTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC13searchDevicesyySay6KNCore22KNConnectionReaderTypeOGSgF",
+            "mangledName": "$s9KNPaymentAAC13searchDevicesyySay6KNCore22KNConnectionReaderTypeOGSgF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopSearchDevices",
+            "printedName": "stopSearchDevices()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC17stopSearchDevicesyyF",
+            "mangledName": "$s9KNPaymentAAC17stopSearchDevicesyyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectReader",
+            "printedName": "connectReader(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothReader",
+                "printedName": "KNCore.KNBluetoothReader",
+                "usr": "s:6KNCore17KNBluetoothReaderV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC13connectReaderyy6KNCore011KNBluetoothC0VF",
+            "mangledName": "$s9KNPaymentAAC13connectReaderyy6KNCore011KNBluetoothC0VF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canReconnect",
+            "printedName": "canReconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC12canReconnectSbyF",
+            "mangledName": "$s9KNPaymentAAC12canReconnectSbyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tryReconnect",
+            "printedName": "tryReconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC12tryReconnectyyF",
+            "mangledName": "$s9KNPaymentAAC12tryReconnectyyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectReader",
+            "printedName": "disconnectReader()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC16disconnectReaderyyF",
+            "mangledName": "$s9KNPaymentAAC16disconnectReaderyyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateConnection",
+            "printedName": "validateConnection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC18validateConnectionSbyF",
+            "mangledName": "$s9KNPaymentAAC18validateConnectionSbyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getReader",
+            "printedName": "getReader(info:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KNCore.KNReaderInfo) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNReaderInfo",
+                    "printedName": "KNCore.KNReaderInfo",
+                    "usr": "s:6KNCore12KNReaderInfoV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KNCore.KNPaymentError) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPaymentError",
+                    "printedName": "KNCore.KNPaymentError",
+                    "usr": "s:6KNCore14KNPaymentErrorV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC9getReader4info5erroryy6KNCore12KNReaderInfoVc_yAF0A5ErrorVctF",
+            "mangledName": "$s9KNPaymentAAC9getReader4info5erroryy6KNCore12KNReaderInfoVc_yAF0A5ErrorVctF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchPrinters",
+            "printedName": "searchPrinters(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KNCore.KNPrinter]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KNCore.KNPrinter]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNPrinter",
+                        "printedName": "KNCore.KNPrinter",
+                        "usr": "s:6KNCore9KNPrinterV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC14searchPrintersyySay6KNCore9KNPrinterVGSgF",
+            "mangledName": "$s9KNPaymentAAC14searchPrintersyySay6KNCore9KNPrinterVGSgF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectPrinter",
+            "printedName": "connectPrinter(printer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KNCore.KNPaymentError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPaymentError",
+                    "printedName": "KNCore.KNPaymentError",
+                    "usr": "s:6KNCore14KNPaymentErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNPrinter",
+                "printedName": "KNCore.KNPrinter",
+                "usr": "s:6KNCore9KNPrinterV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC14connectPrinter7printer6KNCore0A5ErrorVSgAE9KNPrinterV_tF",
+            "mangledName": "$s9KNPaymentAAC14connectPrinter7printer6KNCore0A5ErrorVSgAE9KNPrinterV_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createBluetooth",
+            "printedName": "createBluetooth(recipe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.Data]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNRecipe",
+                "printedName": "KNCore.KNRecipe",
+                "usr": "s:6KNCore8KNRecipeV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC15createBluetooth6recipeSay10Foundation4DataVGSg6KNCore8KNRecipeV_tF",
+            "mangledName": "$s9KNPaymentAAC15createBluetooth6recipeSay10Foundation4DataVGSg6KNCore8KNRecipeV_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printRecipeByBluetooth",
+            "printedName": "printRecipeByBluetooth(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KNCore.KNPaymentError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPaymentError",
+                    "printedName": "KNCore.KNPaymentError",
+                    "usr": "s:6KNCore14KNPaymentErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC22printRecipeByBluetooth4data6KNCore0A5ErrorVSgSay10Foundation4DataVG_tF",
+            "mangledName": "$s9KNPaymentAAC22printRecipeByBluetooth4data6KNCore0A5ErrorVSgSay10Foundation4DataVG_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createWifi",
+            "printedName": "createWifi(recipe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.Data]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNRecipe",
+                "printedName": "KNCore.KNRecipe",
+                "usr": "s:6KNCore8KNRecipeV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC10createWifi6recipeSay10Foundation4DataVGSg6KNCore8KNRecipeV_tF",
+            "mangledName": "$s9KNPaymentAAC10createWifi6recipeSay10Foundation4DataVGSg6KNCore8KNRecipeV_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printRecipeByWifi",
+            "printedName": "printRecipeByWifi(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC17printRecipeByWifi4dataySay10Foundation4DataVG_tF",
+            "mangledName": "$s9KNPaymentAAC17printRecipeByWifi4dataySay10Foundation4DataVG_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTicketFrom",
+            "printedName": "getTicketFrom(transaction:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNPaymentResult",
+                "printedName": "KNCore.KNPaymentResult",
+                "usr": "s:6KNCore15KNPaymentResultV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNRecipe",
+                        "printedName": "KNCore.KNRecipe",
+                        "usr": "s:6KNCore8KNRecipeV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNPaymentError",
+                        "printedName": "KNCore.KNPaymentError",
+                        "usr": "s:6KNCore14KNPaymentErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC13getTicketFrom11transaction10completiony6KNCore0A6ResultV_ys0H0OyAF8KNRecipeVAF0A5ErrorVGctF",
+            "mangledName": "$s9KNPaymentAAC13getTicketFrom11transaction10completiony6KNCore0A6ResultV_ys0H0OyAF8KNRecipeVAF0A5ErrorVGctF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTicketFrom",
+            "printedName": "getTicketFrom(operation:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNOperation",
+                "printedName": "KNCore.KNOperation",
+                "usr": "s:6KNCore11KNOperationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNRecipe",
+                        "printedName": "KNCore.KNRecipe",
+                        "usr": "s:6KNCore8KNRecipeV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNPaymentError",
+                        "printedName": "KNCore.KNPaymentError",
+                        "usr": "s:6KNCore14KNPaymentErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC13getTicketFrom9operation10completiony6KNCore11KNOperationV_ys6ResultOyAF8KNRecipeVAF0A5ErrorVGctF",
+            "mangledName": "$s9KNPaymentAAC13getTicketFrom9operation10completiony6KNCore11KNOperationV_ys6ResultOyAF8KNRecipeVAF0A5ErrorVGctF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makePayment",
+            "printedName": "makePayment(amount:reference:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNPaymentDelegate",
+                "printedName": "KNCore.KNPaymentDelegate",
+                "usr": "s:6KNCore17KNPaymentDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC11makePayment6amount9reference8delegateySS_SSSg6KNCore0A8Delegate_ptF",
+            "mangledName": "$s9KNPaymentAAC11makePayment6amount9reference8delegateySS_SSSg6KNCore0A8Delegate_ptF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeRefund",
+            "printedName": "makeRefund(transactionId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC10makeRefund13transactionId10completionySS_ySSSgctF",
+            "mangledName": "$s9KNPaymentAAC10makeRefund13transactionId10completionySS_ySSSgctF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendTicketBy",
+            "printedName": "sendTicketBy(transactionId:type:destination:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SendPrinterType",
+                "printedName": "KNCore.SendPrinterType",
+                "usr": "s:6KNCore15SendPrinterTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC12sendTicketBy13transactionId4type11destination10completionySS_6KNCore15SendPrinterTypeOSSySbctF",
+            "mangledName": "$s9KNPaymentAAC12sendTicketBy13transactionId4type11destination10completionySS_6KNCore15SendPrinterTypeOSSySbctF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTransactions",
+            "printedName": "getTransactions(offset:limit:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([KNCore.KNOperation]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[KNCore.KNOperation]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[KNCore.KNOperation]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KNOperation",
+                            "printedName": "KNCore.KNOperation",
+                            "usr": "s:6KNCore11KNOperationV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC15getTransactions6offset5limit10completionySi_SiySay6KNCore11KNOperationVGSgctF",
+            "mangledName": "$s9KNPaymentAAC15getTransactions6offset5limit10completionySi_SiySay6KNCore11KNOperationVGSgctF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTip",
+            "printedName": "setTip(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC6setTipyySfF",
+            "mangledName": "$s9KNPaymentAAC6setTipyySfF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "selectMonth",
+            "printedName": "selectMonth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNPaymentMonth",
+                "printedName": "KNCore.KNPaymentMonth",
+                "usr": "s:6KNCore14KNPaymentMonthV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC11selectMonthyy6KNCore0aC0VF",
+            "mangledName": "$s9KNPaymentAAC11selectMonthyy6KNCore0aC0VF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "selectPayInOneExibition",
+            "printedName": "selectPayInOneExibition()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC23selectPayInOneExibitionyyF",
+            "mangledName": "$s9KNPaymentAAC23selectPayInOneExibitionyyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelTransaction",
+            "printedName": "cancelTransaction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC17cancelTransactionyyF",
+            "mangledName": "$s9KNPaymentAAC17cancelTransactionyyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkOtaUpdate",
+            "printedName": "checkOtaUpdate(needUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC14checkOtaUpdate04needD0yySbc_tF",
+            "mangledName": "$s9KNPaymentAAC14checkOtaUpdate04needD0yySbc_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startOtaUpdate",
+            "printedName": "startOtaUpdate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNUpdateOtaDelegate",
+                "printedName": "KNCore.KNUpdateOtaDelegate",
+                "usr": "s:6KNCore19KNUpdateOtaDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC14startOtaUpdate8delegatey6KNCore08KNUpdateC8Delegate_p_tF",
+            "mangledName": "$s9KNPaymentAAC14startOtaUpdate8delegatey6KNCore08KNUpdateC8Delegate_p_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelOtaUpdate",
+            "printedName": "cancelOtaUpdate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC15cancelOtaUpdateyyF",
+            "mangledName": "$s9KNPaymentAAC15cancelOtaUpdateyyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeOtaDelegate",
+            "printedName": "removeOtaDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC17removeOtaDelegateyyF",
+            "mangledName": "$s9KNPaymentAAC17removeOtaDelegateyyF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUser",
+            "printedName": "getUser(fees:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KNCore.KNUserFees?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KNCore.KNUserFees?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNUserFees",
+                        "printedName": "KNCore.KNUserFees",
+                        "usr": "s:6KNCore10KNUserFeesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KNPaymentAAC7getUser4feesyy6KNCore10KNUserFeesVSgc_tF",
+            "mangledName": "$s9KNPaymentAAC7getUser4feesyy6KNCore10KNUserFeesVSgc_tF",
+            "moduleName": "KNPayment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9KNPaymentAAC",
+        "mangledName": "$s9KNPaymentAAC",
+        "moduleName": "KNPayment",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

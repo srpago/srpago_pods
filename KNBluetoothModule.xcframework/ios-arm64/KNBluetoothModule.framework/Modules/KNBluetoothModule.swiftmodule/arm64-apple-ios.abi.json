@@ -1,0 +1,806 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KNConnectionManager",
+        "printedName": "KNConnectionManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KNConnectionManager",
+                "printedName": "KNBluetoothModule.KNConnectionManager",
+                "usr": "s:17KNBluetoothModule19KNConnectionManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothDelegate",
+                "printedName": "KNBluetoothModule.KNBluetoothDelegate",
+                "usr": "s:17KNBluetoothModule0A8DelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC8delegateAcA0A8Delegate_p_tcfc",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC8delegateAcA0A8Delegate_p_tcfc",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(delegate:printerDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KNConnectionManager",
+                "printedName": "KNBluetoothModule.KNConnectionManager",
+                "usr": "s:17KNBluetoothModule19KNConnectionManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothDelegate",
+                "printedName": "KNBluetoothModule.KNBluetoothDelegate",
+                "usr": "s:17KNBluetoothModule0A8DelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothPrinterDelegate",
+                "printedName": "KNBluetoothModule.KNBluetoothPrinterDelegate",
+                "usr": "s:17KNBluetoothModule0A15PrinterDelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC8delegate15printerDelegateAcA0aG0_p_AA0a7PrinterG0_ptcfc",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC8delegate15printerDelegateAcA0aG0_p_AA0a7PrinterG0_ptcfc",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScan",
+            "printedName": "stopScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC8stopScanyyF",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC8stopScanyyF",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bluetoothPermissionState",
+            "printedName": "bluetoothPermissionState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothPermissionState",
+                "printedName": "KNCore.KNBluetoothPermissionState",
+                "usr": "s:6KNCore26KNBluetoothPermissionStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC24bluetoothPermissionState6KNCore0afG0OyF",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC24bluetoothPermissionState6KNCore0afG0OyF",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchDevices",
+            "printedName": "searchDevices(devices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KNCore.KNConnectionReaderType]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KNCore.KNConnectionReaderType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KNConnectionReaderType",
+                        "printedName": "KNCore.KNConnectionReaderType",
+                        "usr": "s:6KNCore22KNConnectionReaderTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC13searchDevices7devicesySay6KNCore0C10ReaderTypeOGSg_tF",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC13searchDevices7devicesySay6KNCore0C10ReaderTypeOGSg_tF",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchPrinters",
+            "printedName": "searchPrinters(printers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[KNCore.KNPrinter]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPrinter",
+                    "printedName": "KNCore.KNPrinter",
+                    "usr": "s:6KNCore9KNPrinterV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC14searchPrinters8printersySay6KNCore9KNPrinterVG_tF",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC14searchPrinters8printersySay6KNCore9KNPrinterVG_tF",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(printer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KNCore.KNPaymentError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPaymentError",
+                    "printedName": "KNCore.KNPaymentError",
+                    "usr": "s:6KNCore14KNPaymentErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNPrinter",
+                "printedName": "KNCore.KNPrinter",
+                "usr": "s:6KNCore9KNPrinterV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC7connect7printer6KNCore14KNPaymentErrorVSgAF9KNPrinterV_tF",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC7connect7printer6KNCore14KNPaymentErrorVSgAF9KNPrinterV_tF",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printData",
+            "printedName": "printData(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KNCore.KNPaymentError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPaymentError",
+                    "printedName": "KNCore.KNPaymentError",
+                    "usr": "s:6KNCore14KNPaymentErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule19KNConnectionManagerC9printData4data6KNCore14KNPaymentErrorVSg10Foundation0F0V_tF",
+            "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC9printData4data6KNCore14KNPaymentErrorVSg10Foundation0F0V_tF",
+            "moduleName": "KNBluetoothModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KNBluetoothModule19KNConnectionManagerC",
+        "mangledName": "$s17KNBluetoothModule19KNConnectionManagerC",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KNBluetoothPermissionsHelper",
+        "printedName": "KNBluetoothPermissionsHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "verifyBluetoothAccess",
+            "printedName": "verifyBluetoothAccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothPermissionState",
+                "printedName": "KNCore.KNBluetoothPermissionState",
+                "usr": "s:6KNCore26KNBluetoothPermissionStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule0A17PermissionsHelperC21verifyBluetoothAccess6KNCore0A15PermissionStateOyFZ",
+            "mangledName": "$s17KNBluetoothModule0A17PermissionsHelperC21verifyBluetoothAccess6KNCore0A15PermissionStateOyFZ",
+            "moduleName": "KNBluetoothModule",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KNBluetoothModule0A17PermissionsHelperC",
+        "mangledName": "$s17KNBluetoothModule0A17PermissionsHelperC",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KNBluetoothPrinterDelegate",
+        "printedName": "KNBluetoothPrinterDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printer",
+            "printedName": "printer(_:connected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNPrinter",
+                "printedName": "KNCore.KNPrinter",
+                "usr": "s:6KNCore9KNPrinterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule0A15PrinterDelegateP7printer_9connectedy6KNCore9KNPrinterV_SbtF",
+            "mangledName": "$s17KNBluetoothModule0A15PrinterDelegateP7printer_9connectedy6KNCore9KNPrinterV_SbtF",
+            "moduleName": "KNBluetoothModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : KNBluetoothModule.KNBluetoothPrinterDelegate>",
+            "sugared_genericSig": "<Self where Self : KNBluetoothModule.KNBluetoothPrinterDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17KNBluetoothModule0A15PrinterDelegateP",
+        "mangledName": "$s17KNBluetoothModule0A15PrinterDelegateP",
+        "moduleName": "KNBluetoothModule",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KNBluetoothDelegate",
+        "printedName": "KNBluetoothDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onListReadersFound",
+            "printedName": "onListReadersFound(devices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[KNCore.KNBluetoothReader]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNBluetoothReader",
+                    "printedName": "KNCore.KNBluetoothReader",
+                    "usr": "s:6KNCore17KNBluetoothReaderV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule0A8DelegateP18onListReadersFound7devicesySay6KNCore0A6ReaderVG_tF",
+            "mangledName": "$s17KNBluetoothModule0A8DelegateP18onListReadersFound7devicesySay6KNCore0A6ReaderVG_tF",
+            "moduleName": "KNBluetoothModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : KNBluetoothModule.KNBluetoothDelegate>",
+            "sugared_genericSig": "<Self where Self : KNBluetoothModule.KNBluetoothDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onListPrintersFound",
+            "printedName": "onListPrintersFound(devices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[KNCore.KNPrinter]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPrinter",
+                    "printedName": "KNCore.KNPrinter",
+                    "usr": "s:6KNCore9KNPrinterV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule0A8DelegateP19onListPrintersFound7devicesySay6KNCore9KNPrinterVG_tF",
+            "mangledName": "$s17KNBluetoothModule0A8DelegateP19onListPrintersFound7devicesySay6KNCore9KNPrinterVG_tF",
+            "moduleName": "KNBluetoothModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : KNBluetoothModule.KNBluetoothDelegate>",
+            "sugared_genericSig": "<Self where Self : KNBluetoothModule.KNBluetoothDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bluetooth",
+            "printedName": "bluetooth(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KNBluetoothState",
+                "printedName": "KNCore.KNBluetoothState",
+                "usr": "s:6KNCore16KNBluetoothStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule0A8DelegateP9bluetooth5statey6KNCore0A5StateO_tF",
+            "mangledName": "$s17KNBluetoothModule0A8DelegateP9bluetooth5statey6KNCore0A5StateO_tF",
+            "moduleName": "KNBluetoothModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : KNBluetoothModule.KNBluetoothDelegate>",
+            "sugared_genericSig": "<Self where Self : KNBluetoothModule.KNBluetoothDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onListReadersFound",
+            "printedName": "onListReadersFound(devices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[KNCore.KNBluetoothReader]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNBluetoothReader",
+                    "printedName": "KNCore.KNBluetoothReader",
+                    "usr": "s:6KNCore17KNBluetoothReaderV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule0A8DelegatePAAE18onListReadersFound7devicesySay6KNCore0A6ReaderVG_tF",
+            "mangledName": "$s17KNBluetoothModule0A8DelegatePAAE18onListReadersFound7devicesySay6KNCore0A6ReaderVG_tF",
+            "moduleName": "KNBluetoothModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : KNBluetoothModule.KNBluetoothDelegate>",
+            "sugared_genericSig": "<Self where Self : KNBluetoothModule.KNBluetoothDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onListPrintersFound",
+            "printedName": "onListPrintersFound(devices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[KNCore.KNPrinter]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KNPrinter",
+                    "printedName": "KNCore.KNPrinter",
+                    "usr": "s:6KNCore9KNPrinterV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KNBluetoothModule0A8DelegatePAAE19onListPrintersFound7devicesySay6KNCore9KNPrinterVG_tF",
+            "mangledName": "$s17KNBluetoothModule0A8DelegatePAAE19onListPrintersFound7devicesySay6KNCore9KNPrinterVG_tF",
+            "moduleName": "KNBluetoothModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : KNBluetoothModule.KNBluetoothDelegate>",
+            "sugared_genericSig": "<Self where Self : KNBluetoothModule.KNBluetoothDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17KNBluetoothModule0A8DelegateP",
+        "mangledName": "$s17KNBluetoothModule0A8DelegateP",
+        "moduleName": "KNBluetoothModule",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KNBluetoothModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "kind": "Array",
+      "offset": 410,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "kind": "Array",
+      "offset": 470,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNBaseConnectionBluetooth.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 25,
+      "value": "\"KNBluetoothModule.KNBaseConnectionBluetooth\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "kind": "Array",
+      "offset": 405,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "kind": "Array",
+      "offset": 457,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 34,
+      "value": "\"KNBluetoothModule.KNPrinterConnectionBluetoothHelper\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 16,
+      "value": "\"KNBluetoothModule.KNPrinterManager\""
+    }
+  ]
+}

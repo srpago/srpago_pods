@@ -6,6 +6,6 @@ framework module KNPrinterModule {
 }
 
 module KNPrinterModule.Swift {
-    header "KNPrinterModule-Swift.h"
-    requires objc
+  header "KNPrinterModule-Swift.h"
+  requires objc
 }

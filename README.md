@@ -391,6 +391,14 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.11.3] 2022-11-15
+
+### Changed
+- Xcode 14 Support
+
+### Fixed
+- Filled Commissions 
+
 ## [2.11.2] 2022-09-23
 
 ### Fixed

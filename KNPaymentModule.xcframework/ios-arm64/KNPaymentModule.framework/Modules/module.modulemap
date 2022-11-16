@@ -10,20 +10,10 @@ framework module KNPaymentModule {
         header "BTDeviceFinder.h"
         header "BBDeviceController.h"
         header "BBDeviceOTAController.h"
-        header "PaxEasyLinkController.h"
         header "MastercardSound.h"
         
         header "BBDeviceVASMerchantConfig.h"
         header "BBDeviceCAPK.h"
-        header "PaxEasyLinkConst.h"
-        header "PaxEasyLinkProtocol.h"
-        header "PaxReportResponse.h"
-        header "PaxEasyLinkStatusCode.h"
-        header "PaxKeyInfo.h"
-        header "PaxKcvInfo.h"
-        header "PaxTikInfo.h"
-        header "CAPK.h"
-        header "VASMerchantConfig.h"
         
         export *
     }
@@ -44,6 +34,6 @@ framework module KNPaymentModule {
 }
 
 module KNPaymentModule.Swift {
-    header "KNPaymentModule-Swift.h"
-    requires objc
+  header "KNPaymentModule-Swift.h"
+  requires objc
 }
