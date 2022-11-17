@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2x4qA/TIECswys29Q8aFXBUtfBY=
+		bQ4PjNxLIySSEVXzmpvzjs5eQPs=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RufWBVUE/DxNiTUa9nNsdDeQplE=
+		P0pG0rzGQp7NMUpodVesCB0WWMw=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VZzQ5dp4zahjiaP9zx92n0TDUp0=
+		LTomQrGmU8lN3hAkRSFwJmGLujA=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MuKbpguL19tb7OgmrphNgDwMZ04=
+		Gd0xxVpOCQwp/CH3NewyZNhDdxI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z8Z+B/Uk5IR5JGpOBAzV3+Swam3zlYSH3F5KgcPwFKk=
+			d1B5ALNlWyiZktEyfCkbEPZr3HzIcheE6gAiGDXetDo=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3QQAtcoBJHG3qYW7u/qxjMz1qVxcjhNX/3znTxbu0HA=
+			au4W3ur5ajFFBYPkpBPjLr3vkKko+CkcsWpahhRABUE=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3yiRvKiGlyXMiupGoBTua400+f+FjSTQBRy4oDUT1+0=
+			nC0K83m1tx4h55G1+1M/kqn+7YRXAzB40KPJJsZX/GA=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HTcghWgpsMjepZIK2uMmibk1FsML2fypH5lF1KUUXGM=
+			cBzOPSvl+EZWb9meGQ33JkMqIQZDU/NUC6ctgiUJhJk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

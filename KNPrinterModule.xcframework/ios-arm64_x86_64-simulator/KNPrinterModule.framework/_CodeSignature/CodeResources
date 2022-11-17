@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GpmORlIHbI8jNxLT3O5nObKf1H0=
+		3SxSox6LOhuzuUlVQekD576NfTU=
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		23gRslspAGN0960uuLgKPQEyXCQ=
+		dfMoBi3bJJlshHJ1ta6kKQeuVFY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OpfVfnm4uTva08p5o0DBewx7V1ztIxzV0wLcz+yeUR4=
+			5+Xv0pPvJO8EeLe1emO+0+9Vz2HWqW9aexzRAqygjHw=
 			</data>
 		</dict>
 		<key>Modules/KNPrinterModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UkBRibi8xD7LlSlTqwY0asXO80YS41Gpa9QQktqYgLw=
+			3SAotzZytsGrbOF4XVacqBai9xOruaubpW6tdXCpYc0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

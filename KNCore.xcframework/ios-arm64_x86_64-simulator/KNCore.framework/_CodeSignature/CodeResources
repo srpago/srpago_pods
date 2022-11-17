@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KNCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		C6zt1gruu8CZO00Bi8kNbnXuoA0=
+		edYRTJ4ZDmwsv0iSNoiTw7d0Xx8=
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gJ5jXJFaeXxhg75wfSpm+CqZkb8=
+		dyFnkxvmz2SAkKbcVlcO+E5Gzvc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S8ATDPi/b6vAU74A69c0XoRhHqG6svk4d9QJYmwLr80=
+			ZkHnevt27272cDufo5IDa1p23g3zMiSxl13e+U87WAY=
 			</data>
 		</dict>
 		<key>Modules/KNCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pg0WEFjgTXkRE38uXnH7NNdm6giM5CeqTVxnO4boUvg=
+			7BL2Cci9YsAJrvVvCw1C/D4Ol4RU0MlZAHYBaPtiWzs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

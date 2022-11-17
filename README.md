@@ -391,10 +391,24 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.12.0] 2022-11-17
+
+### Added
+- Certification PROSA 2022
+- Installments commision now include taxes
+
+## [2.11.4] 2022-11-15
+
+### Fixed
+- KNString reference
+
 ## [2.11.3] 2022-11-15
 
 ### Changed
 - Xcode 14 Support
+
+### Deleted
+- Support for PAX reader
 
 ### Fixed
 - Filled Commissions 
