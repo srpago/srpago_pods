@@ -9491,308 +9491,308 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "StringLiteral",
-      "offset": 388,
+      "offset": 384,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 481,
+      "offset": 477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 683,
+      "offset": 671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 731,
+      "offset": 719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 777,
+      "offset": 765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 816,
+      "offset": 804,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 852,
+      "offset": 840,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 893,
+      "offset": 881,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 929,
+      "offset": 917,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 9826,
+      "offset": 9710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 414,
+      "offset": 402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 615,
+      "offset": 599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 703,
       "length": 13,
       "value": "\"Firma aquí\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 751,
       "length": 13,
       "value": "\"Gotham-Bold\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 788,
+      "offset": 772,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 951,
+      "offset": 931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1035,
       "length": 20,
       "value": "\"Firma digitalizada\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 1090,
       "length": 13,
       "value": "\"Gotham-Bold\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1131,
+      "offset": 1111,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1326,
+      "offset": 1302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1551,
+      "offset": 1519,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1754,
+      "offset": 1718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1794,
+      "offset": 1758,
       "length": 13,
       "value": "\"Gotham-Book\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1815,
+      "offset": 1779,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1840,
+      "offset": 1804,
       "length": 20,
       "value": "\"Firma digitalizada\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2044,
+      "offset": 2000,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2245,
+      "offset": 2197,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2285,
+      "offset": 2237,
       "length": 13,
       "value": "\"Gotham-Bold\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2306,
+      "offset": 2258,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2345,
+      "offset": 2297,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2391,
+      "offset": 2343,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2426,
+      "offset": 2378,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2595,
+      "offset": 2543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2648,
+      "offset": 2596,
       "length": 13,
       "value": "\"Gotham-Book\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2669,
+      "offset": 2617,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 2645,
       "length": 8,
       "value": "\"Borrar\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2938,
+      "offset": 2882,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2935,
       "length": 13,
       "value": "\"Gotham-Book\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3012,
+      "offset": 2956,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3040,
+      "offset": 2984,
       "length": 11,
       "value": "\"Continuar\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3471,
+      "offset": 3411,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3554,
+      "offset": 3494,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3590,
+      "offset": 3530,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNSignatureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3846,
+      "offset": 3782,
       "length": 15,
       "value": "\"WaterMarlCell\""
     },
@@ -9806,42 +9806,42 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/PanEntry\/UI\/KNPanAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 264,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/YPDrawSignatureView.swift",
       "kind": "FloatLiteral",
-      "offset": 1019,
+      "offset": 1011,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/YPDrawSignatureView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1896,
+      "offset": 1872,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/YPDrawSignatureView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1934,
+      "offset": 1910,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/YPDrawSignatureView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4399,
+      "offset": 4287,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/YPDrawSignatureView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4884,
+      "offset": 4768,
       "length": 1,
       "value": "1"
     },
@@ -9932,378 +9932,378 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/Utils\/String+Subscript.swift",
       "kind": "BooleanLiteral",
-      "offset": 306,
+      "offset": 298,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/Utils\/String+Subscript.swift",
       "kind": "StringLiteral",
-      "offset": 329,
+      "offset": 321,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/Utils\/String+Subscript.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 345,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 508,
+      "offset": 504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 544,
+      "offset": 540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 576,
+      "offset": 572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 638,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "StringLiteral",
-      "offset": 687,
+      "offset": 679,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 718,
+      "offset": 710,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 751,
+      "offset": 743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 781,
+      "offset": 773,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 212,
+      "offset": 208,
       "length": 170,
       "value": "[0x01, 0x01, 0x01, 0x02, 0x01, 0x11, 0x01, 0x12, 0x01, 0x17, 0x01, 0x18, 0x01, 0x19, 0x01, 0x20, 0x01, 0x24, 0x01, 0x26, 0x01, 0x27]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 463,
+      "offset": 455,
       "length": 24,
       "value": "[0x02, 0x16, 0x01, 0x01]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 523,
+      "offset": 515,
       "length": 24,
       "value": "[0x02, 0x14, 0x01, 0x03]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 586,
+      "offset": 578,
       "length": 24,
       "value": "[0x02, 0x14, 0x01, 0x07]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 649,
+      "offset": 641,
       "length": 24,
       "value": "[0x02, 0x15, 0x01, 0x02]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 711,
+      "offset": 703,
       "length": 24,
       "value": "[0x02, 0x16, 0x01, 0x01]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 776,
+      "offset": 768,
       "length": 48,
       "value": "[0x02, 0x02, 0x01, 0x02, 0x02, 0x03, 0x01, 0x03]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 866,
+      "offset": 858,
       "length": 48,
       "value": "[0x02, 0x05, 0x01, 0x00, 0x02, 0x06, 0x01, 0x00]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 956,
+      "offset": 948,
       "length": 24,
       "value": "[0x02, 0x07, 0x01, 0x00]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1043,
+      "offset": 1031,
       "length": 12,
       "value": "[0x9F, 0x02]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1092,
+      "offset": 1080,
       "length": 6,
       "value": "[0x9C]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1138,
+      "offset": 1126,
       "length": 12,
       "value": "[0x5F, 0x2A]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1194,
+      "offset": 1182,
       "length": 12,
       "value": "[0x5F, 0x36]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1243,
+      "offset": 1231,
       "length": 6,
       "value": "[0x9A]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1286,
+      "offset": 1274,
       "length": 12,
       "value": "[0x9F, 0x21]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1356,
+      "offset": 1340,
       "length": 12,
       "value": "[0x03, 0x01]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1409,
+      "offset": 1393,
       "length": 12,
       "value": "[0x03, 0x02]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 1461,
+      "offset": 1445,
       "length": 1633,
       "value": "[0x57, 0x4F, 0x5A, 0x95, 0x9F, 0x02, 0x9F, 0x26, 0x9F, 0x27, 0x9A, 0x9C, 0x9F, 0x1A, 0x82, 0x84, 0x5F, 0x2A, 0x9F, 0x34, 0x9F, 0x09, 0x9F, 0x1E, 0x9F, 0x33, 0x5F, 0x34, 0x9F, 0x35, 0x9F, 0x36, 0x9F, 0x37, 0x9F, 0x10, 0x5F, 0x24, 0x5F, 0x20, 0x9B, 0x9F, 0x12, 0x50, 0x9F, 0x17, 0x9F, 0x0D, 0x9F, 0x0E, 0x9F, 0x0F, 0x9F, 0x5A, 0x9F, 0x6C, 0x9F, 0x6E]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3134,
+      "offset": 3118,
       "length": 12,
       "value": "[0x03, 0x03]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3180,
+      "offset": 3164,
       "length": 12,
       "value": "[0x03, 0x04]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3226,
+      "offset": 3210,
       "length": 12,
       "value": "[0x03, 0x05]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3272,
+      "offset": 3256,
       "length": 12,
       "value": "[0x03, 0x06]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3360,
+      "offset": 3340,
       "length": 12,
       "value": "[0x03, 0x08]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3418,
+      "offset": 3398,
       "length": 6,
       "value": "[0x8A]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3466,
+      "offset": 3446,
       "length": 6,
       "value": "[0x89]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3520,
+      "offset": 3500,
       "length": 276,
       "value": "[0x30, 0x31, 0x32, 0x33, 0x34, 0x35]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 3849,
+      "offset": 3829,
       "length": 301,
       "value": "[0x00, 0x00, 0x00, 0x00, 0x00, 0x00]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 4194,
+      "offset": 4170,
       "length": 6,
       "value": "[0x91]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 4242,
+      "offset": 4218,
       "length": 6,
       "value": "[0x71]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 4290,
+      "offset": 4266,
       "length": 6,
       "value": "[0x72]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 4344,
+      "offset": 4320,
       "length": 6,
       "value": "[0x91]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
-      "offset": 4381,
+      "offset": 4357,
       "length": 12,
       "value": "[0x9F, 0x27]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "IntegerLiteral",
-      "offset": 4433,
+      "offset": 4409,
       "length": 4,
       "value": "4011"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 576,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 857,
+      "offset": 883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 943,
+      "offset": 960,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 972,
+      "offset": 989,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1002,
+      "offset": 1019,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1056,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1073,
+      "offset": 1090,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1146,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1346,
+      "offset": 1363,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "StringLiteral",
-      "offset": 1380,
+      "offset": 1397,
       "length": 2,
       "value": "\"\""
     },
@@ -10590,161 +10590,161 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNMsr.swift",
       "kind": "StringLiteral",
-      "offset": 296,
+      "offset": 288,
       "length": 7,
       "value": "\"msr_1\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNMsr.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 316,
       "length": 7,
       "value": "\"msr_2\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNMsr.swift",
       "kind": "StringLiteral",
-      "offset": 352,
+      "offset": 344,
       "length": 7,
       "value": "\"msr_3\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNMsr.swift",
       "kind": "StringLiteral",
-      "offset": 296,
+      "offset": 288,
       "length": 7,
       "value": "\"msr_1\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNMsr.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 316,
       "length": 7,
       "value": "\"msr_2\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNMsr.swift",
       "kind": "StringLiteral",
-      "offset": 352,
+      "offset": 344,
       "length": 7,
       "value": "\"msr_3\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager+AnalyticsReport.swift",
       "kind": "StringLiteral",
-      "offset": 442,
+      "offset": 438,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNWaterMarkCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 344,
+      "offset": 340,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/UI\/Signature\/UI\/KNWaterMarkCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 432,
+      "offset": 428,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNGenericBin.swift",
       "kind": "StringLiteral",
-      "offset": 180,
+      "offset": 176,
       "length": 8,
       "value": "\"491089\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNGenericBin.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 203,
       "length": 8,
       "value": "\"549949\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNGenericBin.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 228,
       "length": 8,
       "value": "\"376672\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNGenericBin.swift",
       "kind": "StringLiteral",
-      "offset": 180,
+      "offset": 176,
       "length": 8,
       "value": "\"491089\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNGenericBin.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 203,
       "length": 8,
       "value": "\"549949\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNGenericBin.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 228,
       "length": 8,
       "value": "\"376672\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/Utils\/KNEMVUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 7413,
+      "offset": 7601,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNCardInfo.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 507,
       "length": 9,
       "value": "\"zipcode\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNCardInfo.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 573,
       "length": 23,
       "value": "\"authentication_method\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNCardInfo.swift",
       "kind": "StringLiteral",
-      "offset": 649,
+      "offset": 641,
       "length": 13,
       "value": "\"holder_name\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNCardInfo.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 507,
       "length": 9,
       "value": "\"zipcode\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNCardInfo.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 573,
       "length": 23,
       "value": "\"authentication_method\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNCardInfo.swift",
       "kind": "StringLiteral",
-      "offset": 649,
+      "offset": 641,
       "length": 13,
       "value": "\"holder_name\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/Helpers\/KNDownloadManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 470,
+      "offset": 462,
       "length": 1,
       "value": "0"
     }

@@ -391,6 +391,11 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.13.0] 2022-12-16
+
+### Changed
+- Endpoints consume were improved
+
 ## [2.12.0] 2022-11-17
 
 ### Added

@@ -1265,12 +1265,12 @@
                 "kind": "TypeNominal",
                 "name": "KNAppLoginUseCase",
                 "printedName": "KNBusinessModule.KNAppLoginUseCase",
-                "usr": "s:16KNBusinessModule17KNAppLoginUseCaseC"
+                "usr": "s:16KNBusinessModule17KNAppLoginUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule17KNAppLoginUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule17KNAppLoginUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule17KNAppLoginUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule17KNAppLoginUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -1350,8 +1350,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule17KNAppLoginUseCaseC6invoke6appKey6resultySS_yAA11KNTokenInfoVSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule17KNAppLoginUseCaseC6invoke6appKey6resultySS_yAA11KNTokenInfoVSg8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule17KNAppLoginUseCaseV6invoke6appKey6resultySS_yAA11KNTokenInfoVSg8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule17KNAppLoginUseCaseV6invoke6appKey6resultySS_yAA11KNTokenInfoVSg8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -1359,9 +1359,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule17KNAppLoginUseCaseC",
-        "mangledName": "$s16KNBusinessModule17KNAppLoginUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule17KNAppLoginUseCaseV",
+        "mangledName": "$s16KNBusinessModule17KNAppLoginUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -1408,12 +1408,12 @@
                 "kind": "TypeNominal",
                 "name": "KNMakeReversalUseCase",
                 "printedName": "KNBusinessModule.KNMakeReversalUseCase",
-                "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseC"
+                "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule21KNMakeReversalUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule21KNMakeReversalUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -1499,8 +1499,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseC6invoke13transactionID12reversalType6resultySS_6KNCore0dK0OySSSg8response_AA14KNBackendErrorVSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule21KNMakeReversalUseCaseC6invoke13transactionID12reversalType6resultySS_6KNCore0dK0OySSSg8response_AA14KNBackendErrorVSg5errortSgctF",
+            "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseV6invoke13transactionID12reversalType6resultySS_6KNCore0dK0OySSSg8response_AA14KNBackendErrorVSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule21KNMakeReversalUseCaseV6invoke13transactionID12reversalType6resultySS_6KNCore0dK0OySSSg8response_AA14KNBackendErrorVSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -1508,9 +1508,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseC",
-        "mangledName": "$s16KNBusinessModule21KNMakeReversalUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule21KNMakeReversalUseCaseV",
+        "mangledName": "$s16KNBusinessModule21KNMakeReversalUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -2072,6 +2072,116 @@
                 "declKind": "Accessor",
                 "usr": "s:16KNBusinessModule23KNPaymentSettingsResultV14trackingReaderAA010KNTrackingG0VSgvM",
                 "mangledName": "$s16KNBusinessModule23KNPaymentSettingsResultV14trackingReaderAA010KNTrackingG0VSgvM",
+                "moduleName": "KNBusinessModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentDate",
+            "printedName": "currentDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvp",
+            "mangledName": "$s16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvp",
+            "moduleName": "KNBusinessModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvg",
+                "mangledName": "$s16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvg",
+                "moduleName": "KNBusinessModule",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvs",
+                "mangledName": "$s16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvs",
+                "moduleName": "KNBusinessModule",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvM",
+                "mangledName": "$s16KNBusinessModule23KNPaymentSettingsResultV11currentDateSSSgvM",
                 "moduleName": "KNBusinessModule",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3677,12 +3787,12 @@
                 "kind": "TypeNominal",
                 "name": "KNAccountInfoUseCase",
                 "printedName": "KNBusinessModule.KNAccountInfoUseCase",
-                "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseC"
+                "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule20KNAccountInfoUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule20KNAccountInfoUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -3756,8 +3866,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseC6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
-            "mangledName": "$s16KNBusinessModule20KNAccountInfoUseCaseC6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
+            "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseV6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
+            "mangledName": "$s16KNBusinessModule20KNAccountInfoUseCaseV6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -3765,9 +3875,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseC",
-        "mangledName": "$s16KNBusinessModule20KNAccountInfoUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule20KNAccountInfoUseCaseV",
+        "mangledName": "$s16KNBusinessModule20KNAccountInfoUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -3859,12 +3969,12 @@
                 "kind": "TypeNominal",
                 "name": "KNPartialPromortionUseCase",
                 "printedName": "KNBusinessModule.KNPartialPromortionUseCase",
-                "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseC"
+                "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule26KNPartialPromortionUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule26KNPartialPromortionUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -3950,8 +4060,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseC6invoke13binCardNumber6amount6resultySS_SfyAA17KNPromotionResultVSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule26KNPartialPromortionUseCaseC6invoke13binCardNumber6amount6resultySS_SfyAA17KNPromotionResultVSg8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseV6invoke13binCardNumber6amount6resultySS_SfyAA17KNPromotionResultVSg8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule26KNPartialPromortionUseCaseV6invoke13binCardNumber6amount6resultySS_SfyAA17KNPromotionResultVSg8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -3959,9 +4069,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseC",
-        "mangledName": "$s16KNBusinessModule26KNPartialPromortionUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule26KNPartialPromortionUseCaseV",
+        "mangledName": "$s16KNBusinessModule26KNPartialPromortionUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -3991,12 +4101,12 @@
                 "kind": "TypeNominal",
                 "name": "KNSendOperationSMSUseCase",
                 "printedName": "KNBusinessModule.KNSendOperationSMSUseCase",
-                "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseC"
+                "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule25KNSendOperationSMSUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule25KNSendOperationSMSUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -4082,8 +4192,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseC6invoke3sms11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule25KNSendOperationSMSUseCaseC6invoke3sms11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseV6invoke3sms11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule25KNSendOperationSMSUseCaseV6invoke3sms11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -4091,9 +4201,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseC",
-        "mangledName": "$s16KNBusinessModule25KNSendOperationSMSUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule25KNSendOperationSMSUseCaseV",
+        "mangledName": "$s16KNBusinessModule25KNSendOperationSMSUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -5342,7 +5452,8 @@
         "mangledName": "$s16KNBusinessModule17ReachabilityErrorO",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -6735,157 +6846,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KNServerTimeResult",
-        "printedName": "KNServerTimeResult",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "currentDate",
-            "printedName": "currentDate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16KNBusinessModule18KNServerTimeResultV11currentDateSSSgvp",
-            "mangledName": "$s16KNBusinessModule18KNServerTimeResultV11currentDateSSSgvp",
-            "moduleName": "KNBusinessModule",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16KNBusinessModule18KNServerTimeResultV11currentDateSSSgvg",
-                "mangledName": "$s16KNBusinessModule18KNServerTimeResultV11currentDateSSSgvg",
-                "moduleName": "KNBusinessModule",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KNServerTimeResult",
-                "printedName": "KNBusinessModule.KNServerTimeResult",
-                "usr": "s:16KNBusinessModule18KNServerTimeResultV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule18KNServerTimeResultV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s16KNBusinessModule18KNServerTimeResultV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "KNBusinessModule",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KNBusinessModule18KNServerTimeResultV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s16KNBusinessModule18KNServerTimeResultV6encode2toys7Encoder_p_tKF",
-            "moduleName": "KNBusinessModule",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:16KNBusinessModule18KNServerTimeResultV",
-        "mangledName": "$s16KNBusinessModule18KNServerTimeResultV",
-        "moduleName": "KNBusinessModule",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KNBusinessModule",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "KNPrinterUseCase",
         "printedName": "KNPrinterUseCase",
         "children": [
@@ -6907,8 +6867,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule16KNPrinterUseCaseC6invoke5tokenySS_tF",
-            "mangledName": "$s16KNBusinessModule16KNPrinterUseCaseC6invoke5tokenySS_tF",
+            "usr": "s:16KNBusinessModule16KNPrinterUseCaseV6invoke5tokenySS_tF",
+            "mangledName": "$s16KNBusinessModule16KNPrinterUseCaseV6invoke5tokenySS_tF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -6916,136 +6876,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule16KNPrinterUseCaseC",
-        "mangledName": "$s16KNBusinessModule16KNPrinterUseCaseC",
-        "moduleName": "KNBusinessModule",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KNBusinessModule",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "KNServerTimeUseCase",
-        "printedName": "KNServerTimeUseCase",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KNServerTimeUseCase",
-                "printedName": "KNBusinessModule.KNServerTimeUseCase",
-                "usr": "s:16KNBusinessModule19KNServerTimeUseCaseC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule19KNServerTimeUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule19KNServerTimeUseCaseCACycfc",
-            "moduleName": "KNBusinessModule",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "invoke",
-            "printedName": "invoke(readerType:result:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "((response: KNBusinessModule.KNServerTimeResult?, error: Swift.Error?)?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(response: KNBusinessModule.KNServerTimeResult?, error: Swift.Error?)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(response: KNBusinessModule.KNServerTimeResult?, error: Swift.Error?)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "KNBusinessModule.KNServerTimeResult?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "KNServerTimeResult",
-                                "printedName": "KNBusinessModule.KNServerTimeResult",
-                                "usr": "s:16KNBusinessModule18KNServerTimeResultV"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.Error?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Error",
-                                "printedName": "Swift.Error",
-                                "usr": "s:s5ErrorP"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KNBusinessModule19KNServerTimeUseCaseC6invoke10readerType6resultySi_yAA0cD6ResultVSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule19KNServerTimeUseCaseC6invoke10readerType6resultySi_yAA0cD6ResultVSg8response_s5Error_pSg5errortSgctF",
-            "moduleName": "KNBusinessModule",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule19KNServerTimeUseCaseC",
-        "mangledName": "$s16KNBusinessModule19KNServerTimeUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule16KNPrinterUseCaseV",
+        "mangledName": "$s16KNBusinessModule16KNPrinterUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -7082,12 +6915,12 @@
                 "kind": "TypeNominal",
                 "name": "KNMakePaymentUseCase",
                 "printedName": "KNBusinessModule.KNMakePaymentUseCase",
-                "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseC"
+                "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule20KNMakePaymentUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule20KNMakePaymentUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -7180,8 +7013,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseC6invoke7payment6resultySDySSypG_y6KNCore0cD6ResultVSg8response_AA16TransactionErrorVSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule20KNMakePaymentUseCaseC6invoke7payment6resultySDySSypG_y6KNCore0cD6ResultVSg8response_AA16TransactionErrorVSg5errortSgctF",
+            "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseV6invoke7payment6resultySDySSypG_y6KNCore0cD6ResultVSg8response_AA16TransactionErrorVSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule20KNMakePaymentUseCaseV6invoke7payment6resultySDySSypG_y6KNCore0cD6ResultVSg8response_AA16TransactionErrorVSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -7189,9 +7022,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseC",
-        "mangledName": "$s16KNBusinessModule20KNMakePaymentUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule20KNMakePaymentUseCaseV",
+        "mangledName": "$s16KNBusinessModule20KNMakePaymentUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -7221,12 +7054,12 @@
                 "kind": "TypeNominal",
                 "name": "KNPaymentSettingsUseCase",
                 "printedName": "KNBusinessModule.KNPaymentSettingsUseCase",
-                "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseC"
+                "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule24KNPaymentSettingsUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule24KNPaymentSettingsUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -7300,8 +7133,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseC6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
-            "mangledName": "$s16KNBusinessModule24KNPaymentSettingsUseCaseC6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
+            "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseV6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
+            "mangledName": "$s16KNBusinessModule24KNPaymentSettingsUseCaseV6invoke6resultyyAA0cD6ResultVSg8response_s5Error_pSg5errortSgc_tF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -7309,9 +7142,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseC",
-        "mangledName": "$s16KNBusinessModule24KNPaymentSettingsUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule24KNPaymentSettingsUseCaseV",
+        "mangledName": "$s16KNBusinessModule24KNPaymentSettingsUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -7326,6 +7159,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "KNCore",
+        "printedName": "KNCore",
+        "declKind": "Import",
+        "moduleName": "KNBusinessModule"
       },
       {
         "kind": "Import",
@@ -7351,12 +7191,12 @@
                 "kind": "TypeNominal",
                 "name": "KNSendOperationEmailUseCase",
                 "printedName": "KNBusinessModule.KNSendOperationEmailUseCase",
-                "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseC"
+                "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule27KNSendOperationEmailUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule27KNSendOperationEmailUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -7442,8 +7282,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseC6invoke5email11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule27KNSendOperationEmailUseCaseC6invoke5email11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseV6invoke5email11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule27KNSendOperationEmailUseCaseV6invoke5email11operationId6resultySS_SSySbSg8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -7451,9 +7291,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseC",
-        "mangledName": "$s16KNBusinessModule27KNSendOperationEmailUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule27KNSendOperationEmailUseCaseV",
+        "mangledName": "$s16KNBusinessModule27KNSendOperationEmailUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -8811,12 +8651,12 @@
                 "kind": "TypeNominal",
                 "name": "KNOTAConfigUseCase",
                 "printedName": "KNBusinessModule.KNOTAConfigUseCase",
-                "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseC"
+                "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule18KNOTAConfigUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule18KNOTAConfigUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -8896,8 +8736,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseC6invoke10deviceType6resulty6KNCore018KNConnectionReaderH0O_yAA0C6ResultVSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule18KNOTAConfigUseCaseC6invoke10deviceType6resulty6KNCore018KNConnectionReaderH0O_yAA0C6ResultVSg8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseV6invoke10deviceType6resulty6KNCore018KNConnectionReaderH0O_yAA0C6ResultVSg8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule18KNOTAConfigUseCaseV6invoke10deviceType6resulty6KNCore018KNConnectionReaderH0O_yAA0C6ResultVSg8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -8905,9 +8745,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseC",
-        "mangledName": "$s16KNBusinessModule18KNOTAConfigUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule18KNOTAConfigUseCaseV",
+        "mangledName": "$s16KNBusinessModule18KNOTAConfigUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -10955,12 +10795,12 @@
                 "kind": "TypeNominal",
                 "name": "KNUserLoginUseCase",
                 "printedName": "KNBusinessModule.KNUserLoginUseCase",
-                "usr": "s:16KNBusinessModule18KNUserLoginUseCaseC"
+                "usr": "s:16KNBusinessModule18KNUserLoginUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule18KNUserLoginUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule18KNUserLoginUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule18KNUserLoginUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule18KNUserLoginUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -11060,8 +10900,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule18KNUserLoginUseCaseC6invoke4user8password6resultySS_SSyAA0C4InfoVSg8response_AA07KNTokenK0VSg10connections5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule18KNUserLoginUseCaseC6invoke4user8password6resultySS_SSyAA0C4InfoVSg8response_AA07KNTokenK0VSg10connections5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule18KNUserLoginUseCaseV6invoke4user8password6resultySS_SSyAA0C4InfoVSg8response_AA07KNTokenK0VSg10connections5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule18KNUserLoginUseCaseV6invoke4user8password6resultySS_SSyAA0C4InfoVSg8response_AA07KNTokenK0VSg10connections5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -11069,9 +10909,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule18KNUserLoginUseCaseC",
-        "mangledName": "$s16KNBusinessModule18KNUserLoginUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule18KNUserLoginUseCaseV",
+        "mangledName": "$s16KNBusinessModule18KNUserLoginUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -12647,12 +12487,12 @@
                 "kind": "TypeNominal",
                 "name": "KNRecipeUseCase",
                 "printedName": "KNBusinessModule.KNRecipeUseCase",
-                "usr": "s:16KNBusinessModule15KNRecipeUseCaseC"
+                "usr": "s:16KNBusinessModule15KNRecipeUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule15KNRecipeUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule15KNRecipeUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule15KNRecipeUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule15KNRecipeUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -12732,8 +12572,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule15KNRecipeUseCaseC6invoke11operationId6resultySS_yAA0C8ResponseVSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule15KNRecipeUseCaseC6invoke11operationId6resultySS_yAA0C8ResponseVSg8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule15KNRecipeUseCaseV6invoke11operationId6resultySS_yAA0C8ResponseVSg8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule15KNRecipeUseCaseV6invoke11operationId6resultySS_yAA0C8ResponseVSg8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -12741,9 +12581,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule15KNRecipeUseCaseC",
-        "mangledName": "$s16KNBusinessModule15KNRecipeUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule15KNRecipeUseCaseV",
+        "mangledName": "$s16KNBusinessModule15KNRecipeUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -13123,12 +12963,12 @@
                 "kind": "TypeNominal",
                 "name": "KNOperationsUseCase",
                 "printedName": "KNBusinessModule.KNOperationsUseCase",
-                "usr": "s:16KNBusinessModule19KNOperationsUseCaseC"
+                "usr": "s:16KNBusinessModule19KNOperationsUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule19KNOperationsUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule19KNOperationsUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule19KNOperationsUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule19KNOperationsUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -13222,8 +13062,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule19KNOperationsUseCaseC6invoke6offset5limit6resultySi_SiySay6KNCore11KNOperationVGSg8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule19KNOperationsUseCaseC6invoke6offset5limit6resultySi_SiySay6KNCore11KNOperationVGSg8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule19KNOperationsUseCaseV6invoke6offset5limit6resultySi_SiySay6KNCore11KNOperationVGSg8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule19KNOperationsUseCaseV6invoke6offset5limit6resultySi_SiySay6KNCore11KNOperationVGSg8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -13231,9 +13071,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule19KNOperationsUseCaseC",
-        "mangledName": "$s16KNBusinessModule19KNOperationsUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule19KNOperationsUseCaseV",
+        "mangledName": "$s16KNBusinessModule19KNOperationsUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -16445,12 +16285,12 @@
                 "kind": "TypeNominal",
                 "name": "KNUploadSignUseCase",
                 "printedName": "KNBusinessModule.KNUploadSignUseCase",
-                "usr": "s:16KNBusinessModule19KNUploadSignUseCaseC"
+                "usr": "s:16KNBusinessModule19KNUploadSignUseCaseV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KNBusinessModule19KNUploadSignUseCaseCACycfc",
-            "mangledName": "$s16KNBusinessModule19KNUploadSignUseCaseCACycfc",
+            "usr": "s:16KNBusinessModule19KNUploadSignUseCaseVACycfc",
+            "mangledName": "$s16KNBusinessModule19KNUploadSignUseCaseVACycfc",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -16535,8 +16375,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KNBusinessModule19KNUploadSignUseCaseC6invoke4body6resultySDySSypG_ySb8response_s5Error_pSg5errortSgctF",
-            "mangledName": "$s16KNBusinessModule19KNUploadSignUseCaseC6invoke4body6resultySDySSypG_ySb8response_s5Error_pSg5errortSgctF",
+            "usr": "s:16KNBusinessModule19KNUploadSignUseCaseV6invoke4body6resultySDySSypG_ySb8response_s5Error_pSg5errortSgctF",
+            "mangledName": "$s16KNBusinessModule19KNUploadSignUseCaseV6invoke4body6resultySDySSypG_ySb8response_s5Error_pSg5errortSgctF",
             "moduleName": "KNBusinessModule",
             "declAttributes": [
               "AccessControl"
@@ -16544,9 +16384,9 @@
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:16KNBusinessModule19KNUploadSignUseCaseC",
-        "mangledName": "$s16KNBusinessModule19KNUploadSignUseCaseC",
+        "declKind": "Struct",
+        "usr": "s:16KNBusinessModule19KNUploadSignUseCaseV",
+        "mangledName": "$s16KNBusinessModule19KNUploadSignUseCaseV",
         "moduleName": "KNBusinessModule",
         "declAttributes": [
           "AccessControl"
@@ -17732,126 +17572,126 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 216,
+      "offset": 204,
       "length": 18,
       "value": "\"TransactionStart\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 281,
+      "offset": 269,
       "length": 15,
       "value": "\"DeviceStartup\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 346,
+      "offset": 334,
       "length": 18,
       "value": "\"DeviceStartupEnd\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 399,
       "length": 21,
       "value": "\"TransactionResponse\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 465,
       "length": 24,
       "value": "\"TransactionResponseEnd\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 541,
+      "offset": 529,
       "length": 19,
       "value": "\"TransactionFinish\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAccountInfoDomain.swift",
       "kind": "StringLiteral",
-      "offset": 856,
+      "offset": 843,
       "length": 10,
       "value": "\"operator\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAccountInfoDomain.swift",
       "kind": "StringLiteral",
-      "offset": 856,
+      "offset": 843,
       "length": 10,
       "value": "\"operator\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
-      "offset": 553,
+      "offset": 586,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 714,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 1954,
+      "offset": 2001,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 3046,
+      "offset": 3085,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 3157,
+      "offset": 3196,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNOperationsDomain.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1576,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNOperationsDomain.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1576,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
-      "offset": 1221,
+      "offset": 1197,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
-      "offset": 1221,
+      "offset": 1197,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
-      "offset": 1221,
+      "offset": 1197,
       "length": 7,
       "value": "1"
     },
@@ -17935,7 +17775,7 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1153,
+      "offset": 1145,
       "length": 14,
       "value": "\"KNBusinessModule.ReceiptAddress\""
     }

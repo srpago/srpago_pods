@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNBusinessModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreTelephony
@@ -48,15 +48,13 @@ public enum KNNetworkError : Swift.String, Swift.Error {
     get
   }
 }
-public class KNAppLoginUseCase {
+public struct KNAppLoginUseCase {
   public init()
   public func invoke(appKey: Swift.String, result: @escaping (KNBusinessModule.KNAuth?) -> Swift.Void)
-  @objc deinit
 }
-public class KNMakeReversalUseCase {
+public struct KNMakeReversalUseCase {
   public init()
   public func invoke(transactionID: Swift.String, reversalType: KNCore.ReversalType, result: @escaping (KNBusinessModule.KNReversal?) -> Swift.Void)
-  @objc deinit
 }
 public typealias KNPaymentSettings = (response: KNBusinessModule.KNPaymentSettingsResult?, error: Swift.Error?)
 public struct KNPaymentSettingsResult : Swift.Codable {
@@ -67,6 +65,7 @@ public struct KNPaymentSettingsResult : Swift.Codable {
   public var isCertification: Swift.Bool?
   public var contactless: [KNBusinessModule.KNContactless]?
   public var trackingReader: KNBusinessModule.KNTrackingReader?
+  public var currentDate: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -113,24 +112,21 @@ public struct KNTrackingReader : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public class KNAccountInfoUseCase {
+public struct KNAccountInfoUseCase {
   public init()
   public func invoke(result: @escaping (KNBusinessModule.KNAccountInfo?) -> Swift.Void)
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ConnectionType {
   public static func getConnectionType() -> Swift.String
   @objc deinit
 }
-public class KNPartialPromortionUseCase {
+public struct KNPartialPromortionUseCase {
   public init()
   public func invoke(binCardNumber: Swift.String, amount: Swift.Float, result: @escaping (KNBusinessModule.KNPartialPromotion?) -> Swift.Void)
-  @objc deinit
 }
-public class KNSendOperationSMSUseCase {
+public struct KNSendOperationSMSUseCase {
   public init()
   public func invoke(sms: Swift.String, operationId: Swift.String, result: @escaping (KNBusinessModule.KNSendRecipe?) -> Swift.Void)
-  @objc deinit
 }
 public typealias KNAccountInfo = (response: KNBusinessModule.KNAccountInfoResult?, error: Swift.Error?)
 public struct KNAccountInfoDomain : Swift.Codable {
@@ -166,13 +162,13 @@ public enum ReachabilityError : Swift.Error {
   case unableToGetFlags(Swift.Int32)
 }
 @available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
-public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+public let reachabilityChangedNotification: Foundation.NSNotification.Name
 extension Foundation.NSNotification.Name {
   public static let reachabilityChanged: Foundation.Notification.Name
 }
 public class Reachability {
-  public typealias NetworkReachable = (KNBusinessModule.Reachability) -> ()
-  public typealias NetworkUnreachable = (KNBusinessModule.Reachability) -> ()
+  public typealias NetworkReachable = (KNBusinessModule.Reachability) -> Swift.Void
+  public typealias NetworkUnreachable = (KNBusinessModule.Reachability) -> Swift.Void
   @available(*, unavailable, renamed: "Connection")
   public enum NetworkStatus : Swift.CustomStringConvertible {
     case notReachable, reachableViaWiFi, reachableViaWWAN
@@ -239,35 +235,20 @@ extension KNBusinessModule.Reachability {
     get
   }
 }
-public typealias KNServerTime = (response: KNBusinessModule.KNServerTimeResult?, error: Swift.Error?)
-public struct KNServerTimeResult : Swift.Codable {
-  public let currentDate: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers public class KNPrinterUseCase {
+public struct KNPrinterUseCase {
   public func invoke(token: Swift.String)
-  @objc deinit
 }
-public class KNServerTimeUseCase {
-  public init()
-  public func invoke(readerType: Swift.Int, result: @escaping (KNBusinessModule.KNServerTime?) -> Swift.Void)
-  @objc deinit
-}
-public class KNMakePaymentUseCase {
+public struct KNMakePaymentUseCase {
   public init()
   public func invoke(payment: [Swift.String : Any], result: @escaping (KNBusinessModule.KNMakePayment?) -> Swift.Void)
-  @objc deinit
 }
-public class KNPaymentSettingsUseCase {
+public struct KNPaymentSettingsUseCase {
   public init()
   public func invoke(result: @escaping (KNBusinessModule.KNPaymentSettings?) -> Swift.Void)
-  @objc deinit
 }
-public class KNSendOperationEmailUseCase {
+public struct KNSendOperationEmailUseCase {
   public init()
   public func invoke(email: Swift.String, operationId: Swift.String, result: @escaping (KNBusinessModule.KNSendRecipe?) -> Swift.Void)
-  @objc deinit
 }
 public typealias KNOperations = (response: [KNCore.KNOperation]?, error: Swift.Error?)
 public struct KNOperationsResult : Swift.Codable {
@@ -297,10 +278,9 @@ public struct KNMovementCard : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
-public class KNOTAConfigUseCase {
+public struct KNOTAConfigUseCase {
   public init()
   public func invoke(deviceType: KNCore.KNConnectionReaderType, result: @escaping (KNBusinessModule.KNOTAConfig?) -> Swift.Void)
-  @objc deinit
 }
 public typealias KNAuth = (response: KNBusinessModule.KNTokenInfo?, error: Swift.Error?)
 public struct KNAuthDomain : Swift.Codable {
@@ -364,10 +344,9 @@ public struct KNBackendError : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public class KNUserLoginUseCase {
+public struct KNUserLoginUseCase {
   public init()
   public func invoke(user: Swift.String, password: Swift.String, result: @escaping (KNBusinessModule.KNAuthInfo?) -> Swift.Void)
-  @objc deinit
 }
 public typealias KNPartialPromotion = (response: KNBusinessModule.KNPromotionResult?, error: Swift.Error?)
 public struct KNPromotionResult : Swift.Codable {
@@ -414,10 +393,9 @@ public struct KNOTAConfigResult : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public class KNRecipeUseCase {
+public struct KNRecipeUseCase {
   public init()
   public func invoke(operationId: Swift.String, result: @escaping (KNBusinessModule.KNRecipeRes?) -> Swift.Void)
-  @objc deinit
 }
 public enum KNNetworkMethods : Swift.String {
   case get
@@ -438,10 +416,9 @@ extension Swift.String : Swift.Error {
     get
   }
 }
-public class KNOperationsUseCase {
+public struct KNOperationsUseCase {
   public init()
   public func invoke(offset: Swift.Int, limit: Swift.Int, result: @escaping (KNBusinessModule.KNOperations?) -> Swift.Void)
-  @objc deinit
 }
 public typealias KNRecipeRes = (response: KNBusinessModule.KNRecipeResponse?, error: Swift.Error?)
 public struct KNRecipeResponse : Swift.Codable {
@@ -522,10 +499,9 @@ public struct KNSignResult : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public class KNUploadSignUseCase {
+public struct KNUploadSignUseCase {
   public init()
   public func invoke(body: [Swift.String : Any], result: @escaping (KNBusinessModule.KNSign?) -> Swift.Void)
-  @objc deinit
 }
 public class KNThreadDispatcher {
   final public let queue: Dispatch.DispatchQueue

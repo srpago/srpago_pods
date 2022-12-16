@@ -643,7 +643,8 @@
             "mangledName": "$s9KNPaymentAAC15createBluetooth6recipeSay10Foundation4DataVGSg6KNCore8KNRecipeV_tF",
             "moduleName": "KNPayment",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1368,7 +1369,8 @@
         "mangledName": "$s9KNPaymentAAC",
         "moduleName": "KNPayment",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       }
     ],

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreBluetooth
@@ -331,6 +331,10 @@ extension Foundation.Data {
   public func getBearerAuthentication() -> [Swift.String : Swift.String]
   @objc deinit
 }
+public struct KNHeaderResponse {
+  public var date: Swift.String
+  public init(date: Swift.String = "")
+}
 public enum KNReaderConnectionErrorDesc : Swift.String {
   case cancelPairing
   case readerDisconnected
@@ -415,6 +419,7 @@ public class KNDateHelper {
   public func getDate(format: Swift.String = "yyyy-MM-dd") -> Swift.String
   public static func getString(_ dateSelected: Foundation.Date, format: KNCore.KNDateFormat) -> Swift.String
   public static func getDate(_ dateSelected: Swift.String, format: KNCore.KNDateFormat) -> Foundation.Date?
+  public static func stringDate(from serverTime: Swift.String, format: KNCore.KNDateFormat) -> Swift.String
   @objc deinit
 }
 public struct SignatureButtonViewData {
@@ -565,6 +570,8 @@ public struct KNConfigurator {
   case yyyyMMdd
   case yyyyMMddTHHmmssz
   case MMddyyyyHHmm
+  case yyyyMMddHHmmss
+  case yyMMddHHmmss
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

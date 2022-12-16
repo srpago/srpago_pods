@@ -1054,8 +1054,8 @@
                 "children": [
                   {
                     "kind": "Var",
-                    "name": "l0",
-                    "printedName": "l0",
+                    "name": "scalel0",
+                    "printedName": "scalel0",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1085,14 +1085,14 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l0yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l0yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel0yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel0yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
                     "kind": "Var",
-                    "name": "l1",
-                    "printedName": "l1",
+                    "name": "scalel1",
+                    "printedName": "scalel1",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1122,14 +1122,14 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l1yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l1yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel1yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel1yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
                     "kind": "Var",
-                    "name": "l2",
-                    "printedName": "l2",
+                    "name": "scalel2",
+                    "printedName": "scalel2",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1159,14 +1159,14 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l2yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l2yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel2yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel2yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
                     "kind": "Var",
-                    "name": "l3",
-                    "printedName": "l3",
+                    "name": "scalel3",
+                    "printedName": "scalel3",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1196,14 +1196,14 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l3yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l3yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel3yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel3yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
                     "kind": "Var",
-                    "name": "l4",
-                    "printedName": "l4",
+                    "name": "scalel4",
+                    "printedName": "scalel4",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1233,14 +1233,14 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l4yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l4yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel4yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel4yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
                     "kind": "Var",
-                    "name": "l5",
-                    "printedName": "l5",
+                    "name": "scalel5",
+                    "printedName": "scalel5",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1270,14 +1270,14 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l5yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l5yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel5yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel5yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
                     "kind": "Var",
-                    "name": "l6",
-                    "printedName": "l6",
+                    "name": "scalel6",
+                    "printedName": "scalel6",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1307,14 +1307,14 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l6yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l6yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel6yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel6yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
                     "kind": "Var",
-                    "name": "l7",
-                    "printedName": "l7",
+                    "name": "scalel7",
+                    "printedName": "scalel7",
                     "children": [
                       {
                         "kind": "TypeFunc",
@@ -1344,8 +1344,8 @@
                       }
                     ],
                     "declKind": "EnumElement",
-                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l7yA2GmF",
-                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO2l7yA2GmF",
+                    "usr": "s:15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel7yA2GmF",
+                    "mangledName": "$s15KNPrinterModule4TextV19PredefinedAttributeO10ScaleLevelO7scalel7yA2GmF",
                     "moduleName": "KNPrinterModule"
                   },
                   {
@@ -5805,7 +5805,8 @@
         "mangledName": "$s15KNPrinterModule12DummyPrinterC",
         "moduleName": "KNPrinterModule",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -6190,8 +6191,7 @@
             "static": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
+              "HasStorage"
             ],
             "isFromExtension": true,
             "hasStorage": true,
@@ -6314,9 +6314,6 @@
             "mangledName": "$s15KNPrinterModule5BlockV2qryACSSFZ",
             "moduleName": "KNPrinterModule",
             "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -6343,9 +6340,6 @@
             "mangledName": "$s15KNPrinterModule5BlockV5titleyACSSFZ",
             "moduleName": "KNPrinterModule",
             "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -6372,9 +6366,6 @@
             "mangledName": "$s15KNPrinterModule5BlockV9plainTextyACSSFZ",
             "moduleName": "KNPrinterModule",
             "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -6433,9 +6424,6 @@
             "mangledName": "$s15KNPrinterModule5BlockV8keyValue0D05valueACSS_SStFZ",
             "moduleName": "KNPrinterModule",
             "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -6458,8 +6446,7 @@
             "static": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
+              "HasStorage"
             ],
             "isFromExtension": true,
             "hasStorage": true,
@@ -6570,9 +6557,6 @@
             "mangledName": "$s15KNPrinterModule5BlockV5image_10attributesAcA5Image_p_AA06TicketF0V19PredefinedAttributeOdtFZ",
             "moduleName": "KNPrinterModule",
             "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -7005,16 +6989,6 @@
             "usr": "s:SH",
             "mangledName": "$sSH"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KNPrinterModule",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -8686,399 +8660,532 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "Array",
-      "offset": 1136,
+      "offset": 1064,
       "length": 8,
       "value": "[27, 64]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 1257,
+      "offset": 1181,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 1588,
+      "offset": 1505,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 2951,
+      "offset": 2843,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 2981,
+      "offset": 2873,
       "length": 2,
       "value": "49"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 3012,
+      "offset": 2904,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 3041,
+      "offset": 2933,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 2951,
+      "offset": 2843,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 2981,
+      "offset": 2873,
       "length": 2,
       "value": "49"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 3012,
+      "offset": 2904,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 3041,
+      "offset": 2933,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 2951,
+      "offset": 2843,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 2981,
+      "offset": 2873,
       "length": 2,
       "value": "49"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 3012,
+      "offset": 2904,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 3041,
+      "offset": 2933,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/ESC_POSCommand.swift",
       "kind": "IntegerLiteral",
-      "offset": 3380,
+      "offset": 3334,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 898,
+      "offset": 861,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 925,
+      "offset": 893,
       "length": 4,
       "value": "0x11"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 952,
+      "offset": 925,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 979,
+      "offset": 957,
       "length": 4,
       "value": "0x33"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 989,
       "length": 4,
       "value": "0x44"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1033,
+      "offset": 1021,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1060,
+      "offset": 1053,
       "length": 4,
       "value": "0x66"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1087,
+      "offset": 1085,
       "length": 4,
       "value": "0x77"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 898,
+      "offset": 861,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 925,
+      "offset": 893,
       "length": 4,
       "value": "0x11"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 952,
+      "offset": 925,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 979,
+      "offset": 957,
       "length": 4,
       "value": "0x33"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 989,
       "length": 4,
       "value": "0x44"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1033,
+      "offset": 1021,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1060,
+      "offset": 1053,
       "length": 4,
       "value": "0x66"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1087,
+      "offset": 1085,
       "length": 4,
       "value": "0x77"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 898,
+      "offset": 861,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 925,
+      "offset": 893,
       "length": 4,
       "value": "0x11"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 952,
+      "offset": 925,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 979,
+      "offset": 957,
       "length": 4,
       "value": "0x33"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 989,
       "length": 4,
       "value": "0x44"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1033,
+      "offset": 1021,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1060,
+      "offset": 1053,
       "length": 4,
       "value": "0x66"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 1087,
+      "offset": 1085,
       "length": 4,
       "value": "0x77"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 2342,
+      "offset": 2325,
       "length": 3,
       "value": "384"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Text.swift",
       "kind": "IntegerLiteral",
-      "offset": 2366,
+      "offset": 2349,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/KNPrinterModule\/KNPrinterWrapper.swift",
       "kind": "Array",
-      "offset": 934,
+      "offset": 918,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/KNPrinterModule\/KNPrinterWrapper.swift",
       "kind": "Array",
-      "offset": 986,
+      "offset": 970,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/KNPrinterModule\/KNPrinterWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 496,
       "length": 16,
       "value": "\"KNPrinterModule.KNPrinterWrapper\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6243,
+      "offset": 5912,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6255,
+      "offset": 5924,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6264,
+      "offset": 5933,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6274,
+      "offset": 5943,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6316,
+      "offset": 5985,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6326,
+      "offset": 5995,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6337,
+      "offset": 6006,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6347,
+      "offset": 6016,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6389,
+      "offset": 6058,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6399,
+      "offset": 6068,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6408,
+      "offset": 6077,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6420,
+      "offset": 6089,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6131,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6143,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6154,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6166,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6208,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6218,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6237,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6279,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6300,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6312,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6354,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6366,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6387,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6429,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6439,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6450,
       "length": 3,
       "value": "255"
     },
@@ -9092,161 +9199,28 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6474,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6485,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6497,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6539,
+      "offset": 6504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6549,
+      "offset": 6514,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6558,
+      "offset": 6523,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 6568,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6610,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6622,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6631,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6643,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6685,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6697,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6708,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6718,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6760,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6770,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6781,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6793,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6835,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6845,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6854,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6864,
+      "offset": 6533,
       "length": 1,
       "value": "0"
     },
@@ -9260,35 +9234,35 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Hardware\/Bluetooth\/BluetoothCentralManagerDelegate.swift",
       "kind": "Dictionary",
-      "offset": 1236,
+      "offset": 1263,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Hardware\/Bluetooth\/BluetoothPrinterManager.swift",
       "kind": "Array",
-      "offset": 1747,
+      "offset": 1774,
       "length": 40,
       "value": "[\"E7810A71-73AE-499D-8C15-FAA9AEF0C3F2\"]"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Hardware\/Bluetooth\/BluetoothPrinterManager.swift",
       "kind": "StringLiteral",
-      "offset": 1930,
+      "offset": 1957,
       "length": 24,
       "value": "\"com.kevin.gong.printer\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/KNPrinterModule\/Utils\/KNBluetoothTicketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 7694,
+      "offset": 7964,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/KNPrinterModule\/Utils\/KNBluetoothTicketHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 7711,
+      "offset": 7981,
       "length": 3,
       "value": "450"
     },
@@ -9302,14 +9276,14 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Ticket.swift",
       "kind": "IntegerLiteral",
-      "offset": 206,
+      "offset": 202,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Ticket\/Ticket.swift",
       "kind": "IntegerLiteral",
-      "offset": 248,
+      "offset": 244,
       "length": 1,
       "value": "0"
     },
@@ -9323,7 +9297,7 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPrinterModule\/Sources\/Printer\/Hardware\/Bluetooth\/BluetoothPeripheralDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 718,
+      "offset": 786,
       "length": 4,
       "value": "true"
     }

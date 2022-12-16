@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNPrinterModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreBluetooth
@@ -49,14 +49,14 @@ public struct Text : KNPrinterModule.BlockDataProvider {
 extension KNPrinterModule.Text {
   public enum PredefinedAttribute : KNPrinterModule.Attribute {
     public enum ScaleLevel : Swift.UInt8 {
-      case l0
-      case l1
-      case l2
-      case l3
-      case l4
-      case l5
-      case l6
-      case l7
+      case scalel0
+      case scalel1
+      case scalel2
+      case scalel3
+      case scalel4
+      case scalel5
+      case scalel6
+      case scalel7
       public init?(rawValue: Swift.UInt8)
       public typealias RawValue = Swift.UInt8
       public var rawValue: Swift.UInt8 {
