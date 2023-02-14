@@ -6,6 +6,6 @@ framework module EcommerceModule {
 }
 
 module EcommerceModule.Swift {
-    header "EcommerceModule-Swift.h"
-    requires objc
+  header "EcommerceModule-Swift.h"
+  requires objc
 }

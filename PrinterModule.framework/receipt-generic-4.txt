@@ -1,0 +1,4 @@
+/S
+REFERENCIA /H%s
+/S
+TARJETA %s /H**** **** **** %s

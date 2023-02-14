@@ -1,0 +1,13 @@
+/PageCode
+
+/C
+__________________________
+/BC
+/F1
+FIRMA DEL CLIENTE/N
+
+/L
+%s
+/S
+AUTORIZACION /H%s
+

@@ -1,0 +1,10 @@
+/PageCode
+
+/C
+/F1
+/C
+%s
+/C
+%s
+/C
+TEL: %s

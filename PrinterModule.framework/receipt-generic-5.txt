@@ -1,0 +1,9 @@
+/S
+AID /H%s
+/S
+ARQC /H%s
+/S
+ISO /H00 APROBADO
+/S
+MESES SIN INTERESES /H%s
+

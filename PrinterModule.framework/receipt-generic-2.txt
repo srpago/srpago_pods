@@ -1,0 +1,13 @@
+/C
+FECHA: %s HORA: %s
+
+
+/B
+/F2
+/S
+MONTO     /H%s
+/S
+PROPINA   /H%s
+
+/S
+TOTAL     /H%s

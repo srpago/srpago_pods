@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name PrinterModule
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreBluetooth
+import Foundation
+@_exported import PrinterModule
+import PrinterPrivate
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc public class TicketPrinter : ObjectiveC.NSObject {
+  @objc public init(storeName: Swift.String, operatorName: Swift.String, address: Swift.String, phone: Swift.String, date: Swift.String, time: Swift.String, amount: Swift.String, tip: Swift.String, total: Swift.String, cardHolder: Swift.String, authNumber: Swift.String, reference: Swift.String, cardType: Swift.String, cardNumber: Swift.String, AID: Swift.String, ARQC: Swift.String, afiliation: Swift.String, isCopy: Swift.Bool, signature: Swift.String, authMethod: Swift.String, msiMonths: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class PrinterViewController : UIKit.UIViewController, UIKit.UIPrintInteractionControllerDelegate {
+  @objc @_Concurrency.MainActor(unsafe) public var sourceView: UIKit.UIView?
+  @objc @_Concurrency.MainActor(unsafe) public init(ticketInfo: PrinterModule.TicketPrinter)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc public func printInteractionControllerDidDismissPrinterOptions(_ printInteractionController: UIKit.UIPrintInteractionController)
+  @objc deinit
+}

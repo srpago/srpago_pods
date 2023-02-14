@@ -6,6 +6,6 @@ framework module ReaderModule {
 }
 
 module ReaderModule.Swift {
-    header "ReaderModule-Swift.h"
-    requires objc
+  header "ReaderModule-Swift.h"
+  requires objc
 }

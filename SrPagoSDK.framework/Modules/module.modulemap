@@ -6,6 +6,6 @@ framework module SrPagoSDK {
 }
 
 module SrPagoSDK.Swift {
-    header "SrPagoSDK-Swift.h"
-    requires objc
+  header "SrPagoSDK-Swift.h"
+  requires objc
 }

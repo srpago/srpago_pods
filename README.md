@@ -21,6 +21,13 @@ Modules:
 
 # ChangeLog
 
+## [1.4.0] 2023-02-14
+
+## Changed
+- Application credetials now are included in sdk initialization
+
+# ChangeLog
+
 ## [1.3.0] 2022-05-05
 
 ## Added

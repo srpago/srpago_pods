@@ -1,0 +1,58 @@
+/C
+/LOGO
+
+/F1
+/C
+%s
+/C
+%s
+/C
+TEL: %s
+/C
+FECHA: %s HORA: %s
+
+/B
+/F2
+/S
+MONTO       $ /H%s
+/S
+PROPINA     $ /H%s
+
+/S
+TOTAL       $ /H%s
+
+
+
+/C
+__________________________
+/BC
+/F1
+FIRMA DEL CLIENTE/N
+
+/L
+%s
+/S
+AUTORIZACION /H%s
+/S
+REFERENCIA /H%s
+/S
+TARJETA %s /H**** **** **** %s
+/S
+AID /H%s
+/S
+ARQC /H%s
+/S
+ISO /H00 APROBADO
+/C
+POR ESTE PAGARE ME OBLIGO A PAGAR INCONDICIONALMENTE A LA ORDEN DEL EMISOR DE LA TARJETA, EL IMPORTE ESPECIFICADO
+/N
+
+
+%s
+
+
+
+
+
+
+/E
