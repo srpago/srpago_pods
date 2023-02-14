@@ -391,6 +391,14 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.14.0] 2023-02-14
+
+### Changed
+- The function to initialize the payment now allows to include the orderId of your payment for the implementation of third parties
+
+### Added
+- Improved automatic refund report.
+
 ## [2.13.0] 2022-12-16
 
 ### Changed

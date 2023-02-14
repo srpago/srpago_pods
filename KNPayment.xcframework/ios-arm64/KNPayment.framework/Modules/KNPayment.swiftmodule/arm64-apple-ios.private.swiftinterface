@@ -36,7 +36,7 @@ public class KNPayment {
   public func printRecipeByWifi(data: [Foundation.Data])
   public func getTicketFrom(transaction: KNCore.KNPaymentResult, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   public func getTicketFrom(operation: KNCore.KNOperation, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
-  public func makePayment(amount: Swift.String, reference: Swift.String?, delegate: KNCore.KNPaymentDelegate)
+  public func makePayment(amount: Swift.String, reference: Swift.String?, orderReferenceId: Swift.String? = nil, delegate: KNCore.KNPaymentDelegate)
   public func makeRefund(transactionId: Swift.String, completion: @escaping (Swift.String?) -> Swift.Void)
   public func sendTicketBy(transactionId: Swift.String, type: KNCore.SendPrinterType, destination: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
   public func getTransactions(offset: Swift.Int, limit: Swift.Int, completion: @escaping ([KNCore.KNOperation]?) -> Swift.Void)

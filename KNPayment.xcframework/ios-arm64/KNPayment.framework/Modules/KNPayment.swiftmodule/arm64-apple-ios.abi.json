@@ -891,7 +891,7 @@
           {
             "kind": "Function",
             "name": "makePayment",
-            "printedName": "makePayment(amount:reference:delegate:)",
+            "printedName": "makePayment(amount:reference:orderReferenceId:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -920,14 +920,29 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "KNPaymentDelegate",
                 "printedName": "KNCore.KNPaymentDelegate",
                 "usr": "s:6KNCore17KNPaymentDelegateP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KNPaymentAAC11makePayment6amount9reference8delegateySS_SSSg6KNCore0A8Delegate_ptF",
-            "mangledName": "$s9KNPaymentAAC11makePayment6amount9reference8delegateySS_SSSg6KNCore0A8Delegate_ptF",
+            "usr": "s:9KNPaymentAAC11makePayment6amount9reference16orderReferenceId8delegateySS_SSSgAH6KNCore0A8Delegate_ptF",
+            "mangledName": "$s9KNPaymentAAC11makePayment6amount9reference16orderReferenceId8delegateySS_SSSgAH6KNCore0A8Delegate_ptF",
             "moduleName": "KNPayment",
             "declAttributes": [
               "AccessControl",

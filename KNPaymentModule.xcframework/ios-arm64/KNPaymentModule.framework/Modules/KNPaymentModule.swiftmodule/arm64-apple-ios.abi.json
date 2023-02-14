@@ -53,6 +53,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNPaymentModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "KNAnalyticsPaymentModule",
         "printedName": "KNAnalyticsPaymentModule",
         "declKind": "Import",
@@ -3469,7 +3479,7 @@
           {
             "kind": "Function",
             "name": "initPayment",
-            "printedName": "initPayment(amount:reference:)",
+            "printedName": "initPayment(amount:reference:orderReferenceId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3495,11 +3505,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15KNPaymentModule0A7ManagerC11initPayment6amount9referenceySS_SSSgtF",
-            "mangledName": "$s15KNPaymentModule0A7ManagerC11initPayment6amount9referenceySS_SSSgtF",
+            "usr": "s:15KNPaymentModule0A7ManagerC11initPayment6amount9reference16orderReferenceIdySS_SSSgAHtF",
+            "mangledName": "$s15KNPaymentModule0A7ManagerC11initPayment6amount9reference16orderReferenceIdySS_SSSgAHtF",
             "moduleName": "KNPaymentModule",
             "declAttributes": [
               "Final",
@@ -5667,6 +5691,16 @@
         "printedName": "KNCore",
         "declKind": "Import",
         "moduleName": "KNPaymentModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNPaymentModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -9489,6 +9523,62 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 6,
+      "value": "\"None\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 14,
+      "value": "\"EMV Declined\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 9,
+      "value": "\"No Card\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 7,
+      "value": "\"Other\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 6,
+      "value": "\"None\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 14,
+      "value": "\"EMV Declined\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 9,
+      "value": "\"No Card\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNReversalState.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 7,
+      "value": "\"Other\""
+    },
+    {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "StringLiteral",
       "offset": 384,
@@ -10007,6 +10097,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BaseReader\/KNBaseReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Entities\/KNPaxTags.swift",
       "kind": "Array",
       "offset": 208,
@@ -10247,35 +10344,28 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 883,
+      "offset": 917,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 960,
+      "offset": 994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 989,
+      "offset": 1023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1019,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1056,
+      "offset": 1053,
       "length": 1,
       "value": "0"
     },
@@ -10288,22 +10378,29 @@
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1124,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1180,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1363,
+      "offset": 1397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/PaymentManager\/KNPaymentManager.swift",
       "kind": "StringLiteral",
-      "offset": 1397,
+      "offset": 1431,
       "length": 2,
       "value": "\"\""
     },
@@ -10429,6 +10526,20 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNTagsEMV.swift",
       "kind": "StringLiteral",
+      "offset": 749,
+      "length": 6,
+      "value": "\"9F10\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNTagsEMV.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 4,
+      "value": "\"9B\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNTagsEMV.swift",
+      "kind": "StringLiteral",
       "offset": 169,
       "length": 4,
       "value": "\"70\""
@@ -10544,6 +10655,20 @@
       "offset": 711,
       "length": 4,
       "value": "\"50\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNTagsEMV.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 6,
+      "value": "\"9F10\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNTagsEMV.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 4,
+      "value": "\"9B\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/Models\/Enums\/KNPaxCardStatus.swift",
@@ -10695,7 +10820,7 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/KNPaymentModule\/Utils\/KNEMVUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 7601,
+      "offset": 8643,
       "length": 1,
       "value": "2"
     },

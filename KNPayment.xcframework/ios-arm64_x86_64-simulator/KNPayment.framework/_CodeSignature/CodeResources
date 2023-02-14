@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6r71eSK8kTnDs2lAtlDBsocCT9Y=
+		B8IO+WHuj8VZRQOofAGg/4bpL4M=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AeXPMVNJSIwkSxYmBmfKddhwE8E=
+		2D1sUvwdwwzl2OlIkwHTfPi1G5M=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		q1xl2JGV1cC5mE/pP/aj7OyOhek=
+		A4XUdKcLV9+7bLpKjBrAaMpx/HA=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AeXPMVNJSIwkSxYmBmfKddhwE8E=
+		2D1sUvwdwwzl2OlIkwHTfPi1G5M=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		07bMZDWax72Xawn+Gp1KqEYrY0s=
+		UIpcO08MdaW0QE6ab1bssDl9WvQ=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6r71eSK8kTnDs2lAtlDBsocCT9Y=
+		B8IO+WHuj8VZRQOofAGg/4bpL4M=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kRXun/dTsqTlh4L5HdG/jvfQWHU=
+		kE7aUzSZM7Fvv0bS7f2ESEH4cOg=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/DRrIn0GywVVjhmmJzRN0YgU5Kg=
+		oynTabaoWBKOu58jcYWwwPZxLNo=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kRXun/dTsqTlh4L5HdG/jvfQWHU=
+		kE7aUzSZM7Fvv0bS7f2ESEH4cOg=
 		</data>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5I43LWMO2VTeqgyWq9H7yloX7OY=
+		aAmh262FBD+rQwFIIgyq79IEoXY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TG3FW0ikYQ7AHnGAKK4mnRAO1T5FV5hoMOSwSGIx4xA=
+			koHTeyyHyalrD1s1PkWU6LF46dgOrEwGCOnsU0avbB8=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CC99svwTTsFpGF/4dZgoC1e9defLHs53cnW+FkQosiQ=
+			gPQjnejMatGc3SsLJfnWqc/5mrZyVZQEKgXSYlBn3JQ=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8jAKx2ZF7rgnCmE8Exli2sYpWLw84CCoMP8LR7hy27s=
+			WkX0uJQ04UEQro0kNvjfW+2YLiVX+UsWckreFc0lxTs=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CC99svwTTsFpGF/4dZgoC1e9defLHs53cnW+FkQosiQ=
+			gPQjnejMatGc3SsLJfnWqc/5mrZyVZQEKgXSYlBn3JQ=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0tuub5toDvTdzTwR7VpOVzVmB8sNGmjG9M7G2eb1tO4=
+			Un5ZwZHodYt5C+Zcx8GAsa2On98EOU2hkVr814jxZ/s=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TG3FW0ikYQ7AHnGAKK4mnRAO1T5FV5hoMOSwSGIx4xA=
+			koHTeyyHyalrD1s1PkWU6LF46dgOrEwGCOnsU0avbB8=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VA2bZGlUSbyNM2178l2vZv/6x2fxMtyX2z4MRfPtmGo=
+			Yn/tu3ObGLCoRZzLIq+5qEJgfBGjaCC2PzCy4DMTEVY=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Omjin5o4g5/y1u1OM1dcmSl1PhlO/pyN4LxQxizZXNQ=
+			hhx3Z+Uk0AQ710LFywoBgoxuGfXCXalijvtcjetQdZU=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VA2bZGlUSbyNM2178l2vZv/6x2fxMtyX2z4MRfPtmGo=
+			Yn/tu3ObGLCoRZzLIq+5qEJgfBGjaCC2PzCy4DMTEVY=
 			</data>
 		</dict>
 		<key>Modules/KNPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			46JewQsi5O13ss6e6KMsemkOMKc7azDXGnsF0Yimk4A=
+			O33oR6J7RGR5RM45TAdaDB9XaTvWhH39PbCoMKAdaF0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

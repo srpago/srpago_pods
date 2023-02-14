@@ -2898,6 +2898,226 @@
           },
           {
             "kind": "Var",
+            "name": "reversalJustify",
+            "printedName": "reversalJustify",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvp",
+            "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvp",
+            "moduleName": "KNAnalyticsPaymentModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvg",
+                "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvg",
+                "moduleName": "KNAnalyticsPaymentModule",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvs",
+                "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvs",
+                "moduleName": "KNAnalyticsPaymentModule",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvM",
+                "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC15reversalJustifySSSgvM",
+                "moduleName": "KNAnalyticsPaymentModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reversalCase",
+            "printedName": "reversalCase",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvp",
+            "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvp",
+            "moduleName": "KNAnalyticsPaymentModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvg",
+                "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvg",
+                "moduleName": "KNAnalyticsPaymentModule",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvs",
+                "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvs",
+                "moduleName": "KNAnalyticsPaymentModule",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvM",
+                "mangledName": "$s24KNAnalyticsPaymentModule19KNTransactionReportC12reversalCaseSSSgvM",
+                "moduleName": "KNAnalyticsPaymentModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "tlv",
             "printedName": "tlv",
             "children": [
@@ -8815,98 +9035,98 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 850,
+      "offset": 927,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 997,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 1035,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1007,
+      "offset": 1084,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1152,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1118,
+      "offset": 1195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1238,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1206,
+      "offset": 1283,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1253,
+      "offset": 1330,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1292,
+      "offset": 1369,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1345,
+      "offset": 1422,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "BooleanLiteral",
-      "offset": 1380,
+      "offset": 1457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNAnalyticsPaymentModule\/KNAnalyticsPaymentModule\/Models\/KNTransactionReport.swift",
       "kind": "StringLiteral",
-      "offset": 1490,
+      "offset": 1567,
       "length": 2,
       "value": "\"\""
     },

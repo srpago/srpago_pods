@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		anZjpUVL/jh7UswlcVKymr/lq5E=
+		6GGvgM5cho6yWzVNDDLaXJM7Naw=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		irAwZvfjaiC3MPhHvpZzmlHxk9c=
+		WaDD4jzYX2nFA02yi1H2NnWabl4=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		tXjN+pp2Y/VPKX1wnrmjWu3V0r0=
+		CawMFbUrCbzoQOOTQH9ufcsCB6s=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		irAwZvfjaiC3MPhHvpZzmlHxk9c=
+		WaDD4jzYX2nFA02yi1H2NnWabl4=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PEeKzct8sA5FEAXpvMl2kjZMCpQ=
+		AdPkV/fF8nQRoO3nfxUcpfAoFv0=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		anZjpUVL/jh7UswlcVKymr/lq5E=
+		6GGvgM5cho6yWzVNDDLaXJM7Naw=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		i5BNjaWxSVjn9DqHJCavMBqqE/o=
+		svgRHgHAO1FClUhsKP+UiBKByhs=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xNSbVy9uaX/bD2ovD2g+KvzukNA=
+		sHCzyWpghGuMEKro7xBT6l/4XUY=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		i5BNjaWxSVjn9DqHJCavMBqqE/o=
+		svgRHgHAO1FClUhsKP+UiBKByhs=
 		</data>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wCP80FAtz2btBV8OWySpN8cBKXw=
+		HBauBJzc5Di89K9c6mg2Vgk6es4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,70 +125,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSEOlalsC5DY4KWp671DVyYxfoqMpOQgqde4OkUvPjU=
+			ofPduuWxdPQqR53/2fafxUBS5iiRGtwer2BCezChkX0=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XPysQG6FVeR92BYBKl6emfugT42VmQR6FBEvN27mYe0=
+			BmDayLFoJCSc/pbdv03/9WtSIp/T5sMvDq2tsyyQOD4=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZTMevT5r89pGEz4k0aV1rCwxwUGX/fKLtTQajtBnjdw=
+			/yI6reMhFLbj+KU852udcNcJARreVxD4Bn1xWXOj4FY=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XPysQG6FVeR92BYBKl6emfugT42VmQR6FBEvN27mYe0=
+			BmDayLFoJCSc/pbdv03/9WtSIp/T5sMvDq2tsyyQOD4=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IPc6DRsywvWV+SHYyEtc3CudZ8khrZ7z3xPIygS1rDY=
+			dl4c0DSR1oMfN+EQZjRZe+M78sMg/3ateOPeERr9MV0=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSEOlalsC5DY4KWp671DVyYxfoqMpOQgqde4OkUvPjU=
+			ofPduuWxdPQqR53/2fafxUBS5iiRGtwer2BCezChkX0=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3F47++5a1XLf4V/8KMLnVRWgiB1e7QbIByQeu/yJEE=
+			/6r8TKECqQuB66EJrkEaK61kHawuyF3scdAmvGrIKok=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			elhvCn8ZAD6T8x5VnUDilbXRg16/AJEWHlo4AsgFd0A=
+			mLKBwXEi+Y9sA/H91/cutUCsrzSfW8SIdIDCz7wVlGo=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3F47++5a1XLf4V/8KMLnVRWgiB1e7QbIByQeu/yJEE=
+			/6r8TKECqQuB66EJrkEaK61kHawuyF3scdAmvGrIKok=
 			</data>
 		</dict>
 		<key>Modules/KNPaymentModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vlLKnrklwq6WdZdgTj7GXALu+HTANuj9FG4iaPMYpPE=
+			9ZhtN60QMcHltQ3pcnxudc44W0pk4hTKT+OYxSYYwH0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

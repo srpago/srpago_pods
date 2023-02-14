@@ -1,7 +1,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "2.13.0"
+  sdk.version      = "2.14.0"
   sdk.summary      = "Payments SDK for Konfio and Sr.Pago"
   sdk.description  = <<-DESC
   Payment SDK with support for SrPago Readers:
@@ -13,11 +13,12 @@ Pod::Spec.new do |sdk|
   - Send tickets for your transactions
   - See transaction's history
   - Made refound for previous transactions
+  - Consult basic commissions for your user
                    DESC
 
   sdk.homepage     = "https://srpago.com"
 
-  sdk.license      = { :type => "MIT", :text => "© 2022 Konfio" }
+  sdk.license      = { :type => "MIT", :text => "© 2023 Konfio" }
 
   sdk.authors      = {
     'Luis Fernando Bustos Ramírez' => 'luis.bustos@konfio.mx',

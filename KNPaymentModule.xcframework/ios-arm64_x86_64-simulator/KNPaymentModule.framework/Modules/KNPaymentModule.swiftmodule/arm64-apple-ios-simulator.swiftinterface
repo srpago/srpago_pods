@@ -161,7 +161,7 @@ final public class KNPaymentManager {
   final public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
   final public func startOtaUpdate()
   final public func cancelOTAUpdate()
-  final public func initPayment(amount: Swift.String, reference: Swift.String?)
+  final public func initPayment(amount: Swift.String, reference: Swift.String?, orderReferenceId: Swift.String?)
   final public func setTip(_ tip: Swift.String)
   final public func setMonth(month: KNCore.KNPaymentMonth)
   final public func cancelTransaction()
