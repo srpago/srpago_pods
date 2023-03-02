@@ -186,6 +186,7 @@ public protocol KNBaseReaderOTADelegate : AnyObject {
   func updateSuccess()
   func updateError(error: KNCore.KNPaymentError)
 }
+#warning("@Fer: Split this clase into as many as needed, and change his name by KNReaderHelper")
 extension KNPaymentModule.KNPaymentManager {
   final public func getUser(fees: @escaping ((KNCore.KNUserFees?) -> Swift.Void))
 }

@@ -391,6 +391,11 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.15.0] 2023-03-02
+
+### Added
+- Improved automatic refund report.
+
 ## [2.14.0] 2023-02-14
 
 ### Changed

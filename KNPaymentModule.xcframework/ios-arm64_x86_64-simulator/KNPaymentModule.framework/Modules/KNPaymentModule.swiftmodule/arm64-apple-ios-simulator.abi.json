@@ -6895,6 +6895,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNPaymentModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "KNCore",
         "printedName": "KNCore",
         "declKind": "Import",
@@ -9644,7 +9654,7 @@
     {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNPaymentModule\/BbposReader\/KNBbposReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 9710,
+      "offset": 8790,
       "length": 5,
       "value": "false"
     },
