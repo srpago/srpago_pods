@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNPrinterModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreBluetooth
@@ -43,7 +43,7 @@ public enum KNBluetoothPermissionState {
   }
 }
 public struct Text : KNPrinterModule.BlockDataProvider {
-  public init(_ content: Swift.String, attributes: [KNPrinterModule.Attribute]? = nil)
+  public init(_ content: Swift.String, attributes: [any KNPrinterModule.Attribute]? = nil)
   public func data(using encoding: Swift.String.Encoding) -> Foundation.Data
 }
 extension KNPrinterModule.Text {
@@ -79,15 +79,15 @@ extension KNPrinterModule.Text {
 }
 extension KNPrinterModule.Text {
   public static func title(_ content: Swift.String) -> KNPrinterModule.Text
-  public static func keyValue(printDensity: Swift.Int = 384, fontDensity: Swift.Int = 12, key: Swift.String, value: Swift.String, attributes: [KNPrinterModule.Attribute]? = nil) -> KNPrinterModule.Text
+  public static func keyValue(printDensity: Swift.Int = 384, fontDensity: Swift.Int = 12, key: Swift.String, value: Swift.String, attributes: [any KNPrinterModule.Attribute]? = nil) -> KNPrinterModule.Text
 }
 @objc final public class KNPrinterWrapper : ObjectiveC.NSObject {
   final public var printers: [KNCore.KNPrinter] {
     get
   }
   final public var printerConnected: KNCore.KNPrinter?
-  weak final public var delegate: KNCore.KNPrinterDelegate?
-  public init(delegate: KNCore.KNPrinterDelegate? = nil)
+  weak final public var delegate: (any KNCore.KNPrinterDelegate)?
+  public init(delegate: (any KNCore.KNPrinterDelegate)? = nil)
   final public func startScan(printersAvailable: [KNCore.KNPrinter] = [KNPrinter.defaultPrinter()])
   final public func connect(printer: KNCore.KNPrinter) -> KNCore.KNPaymentError?
   final public func printTicket(data: [Foundation.Data]) -> KNCore.KNPaymentError?
@@ -180,12 +180,12 @@ extension KNPrinterModule.BluetoothPrinterManager {
   public static var specifiedCharacteristics: Swift.Set<Swift.String>?
 }
 public class BluetoothPrinterManager {
-  weak public var delegate: KNPrinterModule.PrinterManagerDelegate?
+  weak public var delegate: (any KNPrinterModule.PrinterManagerDelegate)?
   public var errorReport: ((KNPrinterModule.PError) -> Swift.Void)?
   public var nearbyPrinters: [KNPrinterModule.BluetoothPrinter] {
     get
   }
-  public init(delegate: KNPrinterModule.PrinterManagerDelegate? = nil)
+  public init(delegate: (any KNPrinterModule.PrinterManagerDelegate)? = nil)
   public func startScan() -> KNPrinterModule.PError?
   public func stopScan()
   public func connect(_ printer: KNPrinterModule.BluetoothPrinter)
@@ -194,7 +194,7 @@ public class BluetoothPrinterManager {
   public var canPrint: Swift.Bool {
     get
   }
-  public func print(_ content: KNPrinterModule.ESCPOSCommandsCreator, encoding: Swift.String.Encoding = String.GBEncoding.GB180302000, completeBlock: ((KNPrinterModule.PError?) -> Swift.Void)? = nil)
+  public func print(_ content: any KNPrinterModule.ESCPOSCommandsCreator, encoding: Swift.String.Encoding = String.GBEncoding.GB180302000, completeBlock: ((KNPrinterModule.PError?) -> Swift.Void)? = nil)
   @objc deinit
 }
 public class KNPdfTicketHelper : KNPrinterModule.KNTicketProtocol {
@@ -213,7 +213,7 @@ public class KNBluetoothTicketHelper : KNPrinterModule.KNTicketProtocol {
 }
 public class DummyPrinter {
   public init()
-  public func print(_ value: KNPrinterModule.ESCPOSCommandsCreator)
+  public func print(_ value: any KNPrinterModule.ESCPOSCommandsCreator)
   @objc deinit
 }
 public protocol ESCPOSCommandsCreator {
@@ -231,7 +231,7 @@ public protocol Attribute {
 }
 public struct Block : KNPrinterModule.Printable {
   public static var defaultFeedPoints: Swift.UInt8
-  public init(_ dataProvider: KNPrinterModule.BlockDataProvider, feedPoints: Swift.UInt8 = Block.defaultFeedPoints)
+  public init(_ dataProvider: any KNPrinterModule.BlockDataProvider, feedPoints: Swift.UInt8 = Block.defaultFeedPoints)
   public func data(using encoding: Swift.String.Encoding) -> Foundation.Data
 }
 extension KNPrinterModule.Block {
@@ -243,7 +243,7 @@ extension KNPrinterModule.Block {
   public static func text(_ text: KNPrinterModule.Text) -> KNPrinterModule.Block
   public static func keyValue(key: Swift.String, value: Swift.String) -> KNPrinterModule.Block
   public static var dividing: KNPrinterModule.Block
-  public static func image(_ im: KNPrinterModule.Image, attributes: KNPrinterModule.TicketImage.PredefinedAttribute...) -> KNPrinterModule.Block
+  public static func image(_ im: any KNPrinterModule.Image, attributes: KNPrinterModule.TicketImage.PredefinedAttribute...) -> KNPrinterModule.Block
 }
 public enum KNPrinterBluetoothState {
   case bluetoothOn
@@ -267,7 +267,7 @@ public struct Ticket {
   public func data(using encoding: Swift.String.Encoding) -> [Foundation.Data]
 }
 public struct TicketImage : KNPrinterModule.BlockDataProvider {
-  public init(_ image: KNPrinterModule.Image, attributes: [KNPrinterModule.Attribute]? = nil)
+  public init(_ image: any KNPrinterModule.Image, attributes: [any KNPrinterModule.Attribute]? = nil)
   public func data(using encoding: Swift.String.Encoding) -> Foundation.Data
 }
 extension KNPrinterModule.TicketImage {

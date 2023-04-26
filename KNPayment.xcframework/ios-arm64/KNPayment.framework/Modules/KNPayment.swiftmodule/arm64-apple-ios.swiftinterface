@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNPayment
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -18,8 +18,8 @@ public class KNPayment {
   public func configSignatureUI(_ viewData: KNCore.KNSignatureViewData)
   public func login(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
   public func authenticateToken(_ token: Swift.String)
-  public func configBluetoothReaderState(delegate: KNCore.KNBluetoothReaderDelegate)
-  public func configPrinter(delegate: KNCore.KNPrinterDelegate)
+  public func configBluetoothReaderState(delegate: any KNCore.KNBluetoothReaderDelegate)
+  public func configPrinter(delegate: any KNCore.KNPrinterDelegate)
   public func searchDevices(_ devices: [KNCore.KNConnectionReaderType]?)
   public func stopSearchDevices()
   public func connectReader(_ reader: KNCore.KNBluetoothReader)
@@ -36,7 +36,7 @@ public class KNPayment {
   public func printRecipeByWifi(data: [Foundation.Data])
   public func getTicketFrom(transaction: KNCore.KNPaymentResult, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
   public func getTicketFrom(operation: KNCore.KNOperation, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
-  public func makePayment(amount: Swift.String, reference: Swift.String?, orderReferenceId: Swift.String? = nil, delegate: KNCore.KNPaymentDelegate)
+  public func makePayment(amount: Swift.String, reference: Swift.String?, orderReferenceId: Swift.String? = nil, delegate: any KNCore.KNPaymentDelegate)
   public func makeRefund(transactionId: Swift.String, completion: @escaping (Swift.String?) -> Swift.Void)
   public func sendTicketBy(transactionId: Swift.String, type: KNCore.SendPrinterType, destination: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
   public func getTransactions(offset: Swift.Int, limit: Swift.Int, completion: @escaping ([KNCore.KNOperation]?) -> Swift.Void)
@@ -45,7 +45,7 @@ public class KNPayment {
   public func selectPayInOneExibition()
   public func cancelTransaction()
   public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
-  public func startOtaUpdate(delegate: KNCore.KNUpdateOtaDelegate)
+  public func startOtaUpdate(delegate: any KNCore.KNUpdateOtaDelegate)
   public func cancelOtaUpdate()
   public func removeOtaDelegate()
   public func getUser(fees: @escaping ((KNCore.KNUserFees?) -> Swift.Void))

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNBusinessModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreTelephony
@@ -18,8 +18,8 @@ public struct TransactionError : Swift.Codable {
   public let description: Swift.String
   public let message: Swift.String
   public let detail: KNBusinessModule.KNErrorDetail?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNErrorDetail : Swift.Codable {
   public let code: Swift.String
@@ -28,8 +28,8 @@ public struct KNErrorDetail : Swift.Codable {
   public let issuerAuthenticationData: Swift.String?
   public let tag8a: Swift.String?
   public let issuerScriptData: Swift.String?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum KNNetworkError : Swift.String, Swift.Error {
   case encodingFailed
@@ -56,7 +56,7 @@ public struct KNMakeReversalUseCase {
   public init()
   public func invoke(transactionID: Swift.String, reversalType: KNCore.ReversalType, result: @escaping (KNBusinessModule.KNReversal?) -> Swift.Void)
 }
-public typealias KNPaymentSettings = (response: KNBusinessModule.KNPaymentSettingsResult?, error: Swift.Error?)
+public typealias KNPaymentSettings = (response: KNBusinessModule.KNPaymentSettingsResult?, error: (any Swift.Error)?)
 public struct KNPaymentSettingsResult : Swift.Codable {
   public let monthlyInstallments: KNBusinessModule.KNMonthlyInstallments
   public let paymentMethods: KNBusinessModule.KNPaymmentMethods
@@ -66,8 +66,8 @@ public struct KNPaymentSettingsResult : Swift.Codable {
   public var contactless: [KNBusinessModule.KNContactless]?
   public var trackingReader: KNBusinessModule.KNTrackingReader?
   public var currentDate: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNMonthlyInstallments : Swift.Codable {
   public let enabled: Swift.Bool
@@ -75,24 +75,24 @@ public struct KNMonthlyInstallments : Swift.Codable {
   public let available: [Swift.String]
   public let selected: [Swift.String]?
   public let selectedAmount: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNPaymmentMethods : Swift.Codable {
   public let swipe: Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNTipSettings : Swift.Codable {
   public let enabled: Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNReferenceSettings : Swift.Codable {
   public let available: [Swift.String]
   public let selected: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNContactless : Swift.Codable {
   public let active: Swift.Bool
@@ -102,15 +102,15 @@ public struct KNContactless : Swift.Codable {
   public let lastConfigVersion: Swift.String?
   public let urlDownloadConfig: Swift.String?
   public let forceUpdate: Swift.Bool?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct KNTrackingReader : Swift.Codable {
   public let log: Swift.Bool
   public let isRefund: Swift.Bool
   public init(log: Swift.Bool, isRefund: Swift.Bool)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNAccountInfoUseCase {
   public init()
@@ -128,14 +128,14 @@ public struct KNSendOperationSMSUseCase {
   public init()
   public func invoke(sms: Swift.String, operationId: Swift.String, result: @escaping (KNBusinessModule.KNSendRecipe?) -> Swift.Void)
 }
-public typealias KNAccountInfo = (response: KNBusinessModule.KNAccountInfoResult?, error: Swift.Error?)
+public typealias KNAccountInfo = (response: KNBusinessModule.KNAccountInfoResult?, error: (any Swift.Error)?)
 public struct KNAccountInfoDomain : Swift.Codable {
   public let success: Swift.Bool
   public let message: Swift.String?
   public let error: KNBusinessModule.KNAuthError?
   public let result: KNBusinessModule.KNAccountInfoResult?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNAccountInfoResult : Swift.Codable {
   public let id: Swift.Int
@@ -143,16 +143,16 @@ public struct KNAccountInfoResult : Swift.Codable {
   public let lastName: Swift.String?
   public let surname: Swift.String?
   public let email: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNOperator : Swift.Codable {
   public let id: Swift.Int
   public let isOperator: Swift.Bool
   public let email: Swift.String?
   public let name: Swift.String?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum ReachabilityError : Swift.Error {
   case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
@@ -250,10 +250,10 @@ public struct KNSendOperationEmailUseCase {
   public init()
   public func invoke(email: Swift.String, operationId: Swift.String, result: @escaping (KNBusinessModule.KNSendRecipe?) -> Swift.Void)
 }
-public typealias KNOperations = (response: [KNCore.KNOperation]?, error: Swift.Error?)
+public typealias KNOperations = (response: [KNCore.KNOperation]?, error: (any Swift.Error)?)
 public struct KNOperationsResult : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNMovementCard : Swift.Codable {
   public let number: Swift.String?
@@ -275,34 +275,34 @@ public struct KNMovementCard : Swift.Codable {
   public let tCharacter: Swift.String?
   public let startCardNumber: Swift.String?
   public let endCardNumber: Swift.String?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct KNOTAConfigUseCase {
   public init()
   public func invoke(deviceType: KNCore.KNConnectionReaderType, result: @escaping (KNBusinessModule.KNOTAConfig?) -> Swift.Void)
 }
-public typealias KNAuth = (response: KNBusinessModule.KNTokenInfo?, error: Swift.Error?)
+public typealias KNAuth = (response: KNBusinessModule.KNTokenInfo?, error: (any Swift.Error)?)
 public struct KNAuthDomain : Swift.Codable {
   public let success: Swift.Bool
   public let connection: KNBusinessModule.KNTokenInfo?
   public let error: KNBusinessModule.KNAuthError?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNTokenInfo : Swift.Codable {
   public let expires: Swift.String
   public let token: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNAuthError : Swift.Codable {
   public let code: Swift.String
   public let message: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public typealias KNAuthInfo = (response: KNBusinessModule.KNUserInfo?, connection: KNBusinessModule.KNTokenInfo?, error: Swift.Error?)
+public typealias KNAuthInfo = (response: KNBusinessModule.KNUserInfo?, connection: KNBusinessModule.KNTokenInfo?, error: (any Swift.Error)?)
 public struct KNUserInfo : Swift.Codable {
   public let fullProfile: Swift.Bool
   public let verifiedEmail: Swift.Bool
@@ -310,14 +310,14 @@ public struct KNUserInfo : Swift.Codable {
   public let fullname: Swift.String
   public let email: Swift.String
   public let phone: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNResponseError : Swift.Codable {
   public let code: Swift.Int
   public let message: Swift.String
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias KNReversal = (response: Swift.String?, error: KNBusinessModule.KNBackendError?)
 public struct KNReversalDomain : Swift.Codable {
@@ -325,62 +325,62 @@ public struct KNReversalDomain : Swift.Codable {
   public let result: KNBusinessModule.KNReversalResult?
   public let message: Swift.String?
   public let error: KNBusinessModule.KNBackendError?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNReversalResult : Swift.Codable {
   public let token: Swift.String
   public let status: Swift.Bool
   public let method: Swift.String
   public let card: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNBackendError : Swift.Codable {
   public let code: Swift.String?
   public let message: Swift.String?
   public let description: Swift.String?
   public let httpCode: Swift.Int?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNUserLoginUseCase {
   public init()
   public func invoke(user: Swift.String, password: Swift.String, result: @escaping (KNBusinessModule.KNAuthInfo?) -> Swift.Void)
 }
-public typealias KNPartialPromotion = (response: KNBusinessModule.KNPromotionResult?, error: Swift.Error?)
+public typealias KNPartialPromotion = (response: KNBusinessModule.KNPromotionResult?, error: (any Swift.Error)?)
 public struct KNPromotionResult : Swift.Codable {
   public let binInfo: KNBusinessModule.KNBinInfo?
   public let cash: KNBusinessModule.KNCash
   public let promotions: [KNBusinessModule.KNPromotion]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNPromotion : Swift.Codable {
   public let months: Swift.Int
   public let amount: Swift.String
   public let promotionId: Swift.Int
   public let rate: Swift.Float
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNBinInfo : Swift.Codable {
   public let bankName: Swift.String
   public let cardBrand: Swift.String
   public let cardType: Swift.String
   public let countryCode: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNCash : Swift.Codable {
   public let detail: Swift.String
   public let variable: Swift.Float
   public let type: Swift.String
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init(detail: Swift.String, variable: Swift.Float, type: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
-public typealias KNOTAConfig = (response: KNBusinessModule.KNOTAConfigResult?, error: Swift.Error?)
+public typealias KNOTAConfig = (response: KNBusinessModule.KNOTAConfigResult?, error: (any Swift.Error)?)
 public struct KNOTAConfigResult : Swift.Codable {
   public let device: Swift.String
   public let active: Swift.Bool
@@ -390,8 +390,8 @@ public struct KNOTAConfigResult : Swift.Codable {
   public let configDownloadUrl: Swift.String?
   public let contactless: Swift.Bool
   public let forceUpdate: Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNRecipeUseCase {
   public init()
@@ -420,14 +420,14 @@ public struct KNOperationsUseCase {
   public init()
   public func invoke(offset: Swift.Int, limit: Swift.Int, result: @escaping (KNBusinessModule.KNOperations?) -> Swift.Void)
 }
-public typealias KNRecipeRes = (response: KNBusinessModule.KNRecipeResponse?, error: Swift.Error?)
+public typealias KNRecipeRes = (response: KNBusinessModule.KNRecipeResponse?, error: (any Swift.Error)?)
 public struct KNRecipeResponse : Swift.Codable {
   public let success: Swift.Bool
   public let result: KNBusinessModule.KNRecipeResult?
   public let message: Swift.String?
   public let error: KNBusinessModule.KNAuthError?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNRecipeResult : Swift.Codable {
   public let user: Swift.String
@@ -435,8 +435,8 @@ public struct KNRecipeResult : Swift.Codable {
   public let timestamp: Swift.String
   public let receipt: KNBusinessModule.Receipt
   public let card: KNBusinessModule.Card?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class Receipt : ObjectiveC.NSObject, Swift.Codable {
   final public let businessName: Swift.String
@@ -448,23 +448,23 @@ public struct KNRecipeResult : Swift.Codable {
   final public let address: KNBusinessModule.ReceiptAddress?
   public var isOriginalTicket: Swift.Bool?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class Card : ObjectiveC.NSObject, Swift.Codable {
   final public let credit: Swift.Bool?
   final public let label: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class ReceiptPhone : ObjectiveC.NSObject, Swift.Codable {
   final public let label: Swift.String?
   final public let number: Swift.String?
   final public let ext: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class ReceiptAddress : ObjectiveC.NSObject, Swift.Codable {
   final public let street: Swift.String?
@@ -474,30 +474,30 @@ public struct KNRecipeResult : Swift.Codable {
   final public let zipCode: Swift.String?
   final public let city: Swift.String?
   final public let country: Swift.String?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
-public typealias KNSendRecipe = (response: Swift.Bool?, error: Swift.Error?)
+public typealias KNSendRecipe = (response: Swift.Bool?, error: (any Swift.Error)?)
 public struct KNSendRecipeDomain : Swift.Codable {
   public let success: Swift.Bool
   public let message: Swift.String?
   public let error: KNBusinessModule.KNAuthError?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public typealias KNSign = (response: Swift.Bool, error: Swift.Error?)
+public typealias KNSign = (response: Swift.Bool, error: (any Swift.Error)?)
 public struct KNSignDomain : Swift.Codable {
   public let success: Swift.Bool
   public let result: KNBusinessModule.KNSignResult?
   public let message: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNSignResult : Swift.Codable {
   public let success: Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNUploadSignUseCase {
   public init()

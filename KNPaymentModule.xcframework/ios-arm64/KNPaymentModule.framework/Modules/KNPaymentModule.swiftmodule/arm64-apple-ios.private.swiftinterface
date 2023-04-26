@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNPaymentModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreGraphics
@@ -67,7 +67,7 @@ extension KNPaymentModule.KNBbposReader : KNPaymentModule.BBDeviceOTAControllerD
   @objc final public func onReturnRemoteFirmwareUpdate(_ result: KNPaymentModule.BBDeviceOTAResult, responseMessage: Swift.String?)
 }
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) final public class YPDrawSignatureView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) weak final public var delegate: KNPaymentModule.YPSignatureDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any KNPaymentModule.YPSignatureDelegate)?
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var strokeWidth: CoreFoundation.CGFloat {
     @objc get
     @objc set
@@ -151,10 +151,10 @@ public struct KNPaxDeviceInfo {
 }
 final public class KNPaymentManager {
   final public var reader: KNPaymentModule.KNBaseReader?
-  weak final public var delegate: KNCore.KNPaymentDelegate?
-  weak final public var bluetoothReaderDelegate: KNCore.KNBluetoothReaderDelegate?
-  weak final public var localStorage: KNCore.KNPersistanceRepository?
-  weak final public var otaDelegate: KNCore.KNUpdateOtaDelegate?
+  weak final public var delegate: (any KNCore.KNPaymentDelegate)?
+  weak final public var bluetoothReaderDelegate: (any KNCore.KNBluetoothReaderDelegate)?
+  weak final public var localStorage: (any KNCore.KNPersistanceRepository)?
+  weak final public var otaDelegate: (any KNCore.KNUpdateOtaDelegate)?
   public init()
   final public func setupSignatureView(_ signatureViewData: KNCore.KNSignatureViewData)
   final public func loginAppConfig(_ config: KNCore.KNConfigurator)
@@ -168,7 +168,7 @@ final public class KNPaymentManager {
   @objc deinit
 }
 public struct KNMsr : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension KNPaymentModule.KNPaymentManager : KNPaymentModule.KNDownloadManagerDelegate {
   final public func onDownloadProgress(progress: Swift.Int)
@@ -179,7 +179,7 @@ public struct KNPaxSwipeData {
   public let track2: Swift.String?
 }
 public struct KNReaderCardInfo : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol KNBaseReaderOTADelegate : AnyObject {
   func updateProgress(percent: Swift.Int)
@@ -254,14 +254,14 @@ public enum KNProgressType : Swift.String {
   }
 }
 public struct KNCardInfo : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol KNDownloadManagerDelegate : AnyObject {
   func onDownloadProgress(progress: Swift.Int)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class KNDownloadManager : ObjectiveC.NSObject {
   public static let shared: KNPaymentModule.KNDownloadManager
-  weak public var downloadDelegate: KNPaymentModule.KNDownloadManagerDelegate?
+  weak public var downloadDelegate: (any KNPaymentModule.KNDownloadManagerDelegate)?
   public func downloadFiles(downloadObjects: [KNPaymentModule.KNDowloadObject]?, downloadSuccesfull: @escaping (Swift.Bool) -> Swift.Void)
   public func deleteFiles()
   public func cancelDownloads()
@@ -270,7 +270,7 @@ public protocol KNDownloadManagerDelegate : AnyObject {
 extension KNPaymentModule.KNDownloadManager : Foundation.URLSessionDownloadDelegate {
   @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
   @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
-  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
 }
 extension KNPaymentModule.KNPaymentManager {
   final public func connectReader(bluetooth: KNCore.KNBluetoothReader)

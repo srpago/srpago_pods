@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KNBusinessModule-Swift.h</key>
 		<data>
-		q7WJD1LnmjfOvRAYM1yJPXB+IMI=
+		6nHpZQA18iJLWC4cDWOJOqKSgGU=
 		</data>
 		<key>Headers/KNBusinessModule.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aPNufMoJvgJsvMLh8+TlFyEML7I=
+		vfi1Aa59mSS56kxkHqX4J6LNHgM=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ignTkmpQmnHJi4U7EcKUk3CzpB0=
+		MTIae0J76HL8hfuHKEaJF8FFF4E=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bbzbxSaj0LQlxeAzLMNg9JckJDY=
+		mpSz6Ntb+HfsfLkMvCTlnkPZs/A=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fkFk66H6H85Mxhd4sR3bNCxU01U=
+		6DzDIX5WjcGJFbDyw6gOndZUMLY=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bbzbxSaj0LQlxeAzLMNg9JckJDY=
+		mpSz6Ntb+HfsfLkMvCTlnkPZs/A=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EMpBsPWuhyBnXBZ0VAE022jc/Vw=
+		cGtWwracMqnV3K5dBMHxkhiH4gk=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ignTkmpQmnHJi4U7EcKUk3CzpB0=
+		MTIae0J76HL8hfuHKEaJF8FFF4E=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mcSmsFXWQMC3G5u1GWSHNoWfrQQ=
+		nrXulSE+rIZ2Hc2bwobMzQ/SMzQ=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9GBmXKD5L6xf8441EUfCID2mP9U=
+		od2QIICfbq4vptjAkAWUp1F0rac=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mcSmsFXWQMC3G5u1GWSHNoWfrQQ=
+		nrXulSE+rIZ2Hc2bwobMzQ/SMzQ=
 		</data>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LQpxTKYdwLFIMWLODxDDcsB6pLU=
+		PrBeAhH3Y36rZqVH4eIbBFSGBDo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vM7AYINO8Ye/3smoOHX+eHyZlYKyzg0sCwCt0dBshYg=
+			DYIF25WUcGWVXf/XzSzGznztIBETTDtu/ekLGqgkbgU=
 			</data>
 		</dict>
 		<key>Headers/KNBusinessModule.h</key>
@@ -99,70 +99,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o38sJmlWbqeo8hqyMvwESS4LR3bifFyjT2gIB6V4Hno=
+			bAf164OCyA7RRZMeMzWh1HH2zpSGWvv10MtAJJl6s8U=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sFXh2kplT52tRA4eDIhU/xY7DLzsYFv0GCC0LdWsooM=
+			AKdTtD1EbYTBVwS7BeCUBqqUZ34O9XvikL+IVMn/Fus=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NkcnT+o5VtB6Q+Pq2DwVNNWw6YP0M9HR2s6f6Z+D7xI=
+			vHkA0Ftwn+br5JJo/uDWOrVhtRlbTLZgcAPy1yaL+Ys=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sFXh2kplT52tRA4eDIhU/xY7DLzsYFv0GCC0LdWsooM=
+			AKdTtD1EbYTBVwS7BeCUBqqUZ34O9XvikL+IVMn/Fus=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQWgpmkMZieRCBbT2U++3m3yhKmKMqDhPScLbkjtK/8=
+			K9ceT4mARdiHoKPUm7Dn0F3tLq82v2GVZPNgtBbIfUs=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o38sJmlWbqeo8hqyMvwESS4LR3bifFyjT2gIB6V4Hno=
+			bAf164OCyA7RRZMeMzWh1HH2zpSGWvv10MtAJJl6s8U=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbAwiaX+LkRoPvDrUgzhiNMVHUzZsZTU2UaTEb9K2Ok=
+			l5kMalBBlDEB/glYEPIcB2KEtLXNtsyfmUuARevzVeQ=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kkfiya2RteVc2HQe/xTYjMEMg0kAhOPMOfNpUdT9dHY=
+			bKU6MNlxmmFGSBJFI65FNe65gE+51cfqez2xMBawdLM=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbAwiaX+LkRoPvDrUgzhiNMVHUzZsZTU2UaTEb9K2Ok=
+			l5kMalBBlDEB/glYEPIcB2KEtLXNtsyfmUuARevzVeQ=
 			</data>
 		</dict>
 		<key>Modules/KNBusinessModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			apsWGZXVm1Qgyyr4yJV7uUkyhOCWfONWHpjl2Iccjqc=
+			PJxEdIj63zpvDRJo41QOHPGEwB2Ihfuqmub1qFTL/F8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

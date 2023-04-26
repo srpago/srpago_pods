@@ -280,6 +280,34 @@
       "value": "\"Titles\""
     },
     {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 22,
+      "value": "\"com.srpago.KNStrings\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Core\/Alerts.swift",
       "kind": "StringLiteral",
       "offset": 148,

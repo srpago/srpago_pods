@@ -391,6 +391,11 @@ Or use our [demo project](Example/) as reference
 
 # ChangeLog
 
+## [2.16.0] 2023-04-26
+
+### Added
+- Order Id reported in analytics
+
 ## [2.15.0] 2023-03-02
 
 ### Added

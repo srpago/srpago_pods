@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreBluetooth
@@ -38,25 +38,25 @@ public struct KNRecipeTransaction : Swift.Codable {
   public let transaction: Swift.String
   public let transactionType: Swift.String?
   public let url: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Amount : Swift.Codable {
   public let amount: Swift.String
   public let currency: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Origin : Swift.Codable {
   public let location: KNCore.Location
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Location : Swift.Codable {
   public let latitude: Swift.Double
   public let longitude: Swift.Double
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct RecipeCard : Swift.Codable {
   public let credit: Swift.Bool?
@@ -67,8 +67,8 @@ public struct RecipeCard : Swift.Codable {
   public let type: Swift.String
   public let noSignature: Swift.Bool?
   public let authenticationMethod: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNOperation : Swift.Codable {
   public let user: Swift.String
@@ -92,41 +92,41 @@ public struct KNOperation : Swift.Codable {
   public let arqc: Swift.String?
   public let monthlyInstallments: Swift.Int?
   public let hasDevolution: Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNReference : Swift.Codable {
   public let number: Swift.String
   public let description: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class KNMovementTotal : ObjectiveC.NSObject, Swift.Codable {
   final public let amount: Swift.String
   final public let currency: Swift.String?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct KNOrigin : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNLocation : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNCard : Swift.Codable {
   public let holderName: Swift.String
   public let type: Swift.String
   public let number: Swift.String
   public let authenticationMethod: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct KNFeeDetails : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @frozen public enum KNBluetoothState : Swift.String {
   case bluetoothOn
@@ -312,7 +312,7 @@ public struct KNReaderInfo : Swift.Encodable {
   public var termAppVer: Swift.String
   public var termOsVer: Swift.String
   public init(readerTypeConnection: KNCore.KNConnectionReaderType, batteryPercentage: Swift.Int, firmwareVersion: Swift.String, hardwareVersion: Swift.String, uid: Swift.String, serialNumber: Swift.String, emvKeyProfileID: Swift.String? = nil, defaultLanguage: Swift.String? = nil, pinKeyProfileID: Swift.String? = nil, firmwareID: Swift.String? = nil, bootloaderVersion: Swift.String? = nil, terminalSettingVersion: Swift.String? = nil, vendorID: Swift.String? = nil, bID: Swift.String? = nil, macKeyProfileID: Swift.String? = nil, pinKsn: Swift.String? = nil, macKsn: Swift.String? = nil, supportedLanguages: Swift.String? = nil, batteryLevel: Swift.String? = nil, deviceSettingVersion: Swift.String? = nil, sdkVersion: Swift.String? = nil, trackKeyProfileID: Swift.String? = nil, emvKsn: Swift.String? = nil, formatID: Swift.String? = nil, trackKsn: Swift.String? = nil, productID: Swift.String? = nil, isSupportedTrack1: Swift.Bool? = nil, isSupportedTrack2: Swift.Bool? = nil, isSupportedTrack3: Swift.Bool? = nil, isSupportedNfc: Swift.Bool? = nil, isUsbConnected: Swift.Bool? = nil, isCharging: Swift.Bool? = nil, readerType: Swift.String, termAppName: Swift.String, termAppVer: Swift.String, termOsVer: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension Foundation.Data {
   public var prettyPrintedJSONString: Foundation.NSString? {
@@ -501,8 +501,8 @@ public struct KNMakePaymentResult : Swift.Codable {
   public let issuerAuthenticationData: Swift.String?
   public let issuerScriptData: Swift.String?
   public let tag8a: Swift.String?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct KNPaymentError : Swift.Error {
   public let code: KNCore.KNPaymentErrorType
@@ -606,7 +606,7 @@ public struct KNRecipe : Swift.Decodable, Swift.Equatable {
   public var cardMethodType: Swift.String?
   public init(logo: Foundation.Data? = nil, businessName: Swift.String, address: Swift.String, phone: Swift.String, date: Swift.String, aid: Swift.String, arqc: Swift.String, authMethod: KNCore.KNAuthMethod, msiMonths: Swift.String, cardNumber: Swift.String, reference: Swift.String, cardHolder: Swift.String, cardType: KNCore.KNBrandType, afiliation: Swift.String, tipAmount: Swift.String, amount: Swift.String, totalAmount: Swift.String, signature: Swift.String? = nil, authNumber: Swift.String, isOriginalTicket: Swift.Bool, cardMethodName: Swift.String?, cardMethodType: Swift.String?)
   public static func == (a: KNCore.KNRecipe, b: KNCore.KNRecipe) -> Swift.Bool
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol KNPersistanceRepository : AnyObject {
   func saveUUIDReader(uuid: Swift.String, name: Swift.String)
@@ -663,7 +663,7 @@ public protocol KNPrinterDelegate : AnyObject {
   public static var allCases: [KNCore.KNConnectionReaderType] {
     get
   }
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
