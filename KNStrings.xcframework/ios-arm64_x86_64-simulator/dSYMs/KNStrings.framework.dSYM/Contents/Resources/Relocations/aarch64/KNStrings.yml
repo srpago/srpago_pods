@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/software/Library/Developer/Xcode/DerivedData/KNPaymentModule-cmkdvtlslokhswbgdcajabrozjtp/Build/Intermediates.noindex/ArchiveIntermediates/KNStrings/InstallationBuildProductsLocation/Library/Frameworks/KNStrings.framework/KNStrings'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x2E6ED, size: 0x8, addend: 0x0, symName: _KNStringsVersionString, symObjAddr: 0x0, symBinAddr: 0x3CF0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x2E722, size: 0x8, addend: 0x0, symName: _KNStringsVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3D20, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x2E75F, size: 0x8, addend: 0x0, symName: '_$s9KNStrings7ButtonsO6accept_WZ', symObjAddr: 0x0, symBinAddr: 0x2B28, symSize: 0xE8 }
+  - { offsetInCU: 0x4B, offset: 0x2E783, size: 0x8, addend: 0x0, symName: '_$s9KNStrings7ButtonsO6acceptSSvpZ', symObjAddr: 0x160, symBinAddr: 0x80C8, symSize: 0x0 }
+  - { offsetInCU: 0x86, offset: 0x2E7BE, size: 0x8, addend: 0x0, symName: '_$s9KNStrings7ButtonsO6accept_WZ', symObjAddr: 0x0, symBinAddr: 0x2B28, symSize: 0xE8 }
+  - { offsetInCU: 0xFD, offset: 0x2E835, size: 0x8, addend: 0x0, symName: '_$s9KNStrings7ButtonsO6acceptSSvgZ', symObjAddr: 0xE8, symBinAddr: 0x2C10, symSize: 0x5C }
+  - { offsetInCU: 0x136, offset: 0x2E86E, size: 0x8, addend: 0x0, symName: '_$s9KNStrings7ButtonsOMa', symObjAddr: 0x144, symBinAddr: 0x2C6C, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x2E976, size: 0x8, addend: 0x0, symName: '_$s9KNStrings6AlertsO6accept_WZ', symObjAddr: 0x0, symBinAddr: 0x2C7C, symSize: 0xE8 }
+  - { offsetInCU: 0x4B, offset: 0x2E99A, size: 0x8, addend: 0x0, symName: '_$s9KNStrings6AlertsO6acceptSSvpZ', symObjAddr: 0x158, symBinAddr: 0x80E0, symSize: 0x0 }
+  - { offsetInCU: 0x86, offset: 0x2E9D5, size: 0x8, addend: 0x0, symName: '_$s9KNStrings6AlertsO6accept_WZ', symObjAddr: 0x0, symBinAddr: 0x2C7C, symSize: 0xE8 }
+  - { offsetInCU: 0xFD, offset: 0x2EA4C, size: 0x8, addend: 0x0, symName: '_$s9KNStrings6AlertsO6acceptSSvgZ', symObjAddr: 0xE8, symBinAddr: 0x2D64, symSize: 0x5C }
+  - { offsetInCU: 0x136, offset: 0x2EA85, size: 0x8, addend: 0x0, symName: '_$s9KNStrings6AlertsOMa', symObjAddr: 0x144, symBinAddr: 0x2DC0, symSize: 0x10 }
+...

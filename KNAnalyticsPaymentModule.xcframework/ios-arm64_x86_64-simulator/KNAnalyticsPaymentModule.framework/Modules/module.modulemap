@@ -1,0 +1,11 @@
+framework module KNAnalyticsPaymentModule {
+  umbrella header "KNAnalyticsPaymentModule.h"
+  export *
+
+  module * { export * }
+}
+
+module KNAnalyticsPaymentModule.Swift {
+  header "KNAnalyticsPaymentModule-Swift.h"
+  requires objc
+}

@@ -1,0 +1,45 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/software/Library/Developer/Xcode/DerivedData/KNPaymentModule-cmkdvtlslokhswbgdcajabrozjtp/Build/Intermediates.noindex/ArchiveIntermediates/KNPayment/InstallationBuildProductsLocation/Library/Frameworks/KNPayment.framework/KNPayment'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x573B9, size: 0x8, addend: 0x0, symName: _KNPaymentVersionString, symObjAddr: 0x0, symBinAddr: 0x7920, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x573EE, size: 0x8, addend: 0x0, symName: _KNPaymentVersionNumber, symObjAddr: 0x30, symBinAddr: 0x7950, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x57453, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAACABycfC', symObjAddr: 0x0, symBinAddr: 0x49F0, symSize: 0x30 }
+  - { offsetInCU: 0x6D, offset: 0x57471, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAACABycfc', symObjAddr: 0x30, symBinAddr: 0x4A20, symSize: 0xD0 }
+  - { offsetInCU: 0xBE, offset: 0x574C2, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC22getPaymentsCoreVersionSSyF', symObjAddr: 0x100, symBinAddr: 0x4AF0, symSize: 0x30 }
+  - { offsetInCU: 0x107, offset: 0x5750B, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC5login4user8password10completionySS_SSys6ResultOySb6KNCore0A5ErrorVGctF', symObjAddr: 0x170, symBinAddr: 0x4B60, symSize: 0x80 }
+  - { offsetInCU: 0x184, offset: 0x57588, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC17authenticateTokenyySSF', symObjAddr: 0x1F0, symBinAddr: 0x4BE0, symSize: 0x50 }
+  - { offsetInCU: 0x20B, offset: 0x5760F, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC26configBluetoothReaderState8delegatey6KNCore011KNBluetoothD8Delegate_p_tF', symObjAddr: 0x240, symBinAddr: 0x4C30, symSize: 0xC0 }
+  - { offsetInCU: 0x2DC, offset: 0x576E0, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC13configPrinter8delegatey6KNCore17KNPrinterDelegate_p_tF', symObjAddr: 0x300, symBinAddr: 0x4CF0, symSize: 0x50 }
+  - { offsetInCU: 0x36C, offset: 0x57770, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC13searchDevicesyySay6KNCore22KNConnectionReaderTypeOGSgF', symObjAddr: 0x350, symBinAddr: 0x4D40, symSize: 0x40 }
+  - { offsetInCU: 0x3C9, offset: 0x577CD, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC17stopSearchDevicesyyF', symObjAddr: 0x390, symBinAddr: 0x4D80, symSize: 0x40 }
+  - { offsetInCU: 0x416, offset: 0x5781A, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC13connectReaderyy6KNCore011KNBluetoothC0VF', symObjAddr: 0x3D0, symBinAddr: 0x4DC0, symSize: 0x2E0 }
+  - { offsetInCU: 0x4D9, offset: 0x578DD, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC12canReconnectSbyF', symObjAddr: 0xA20, symBinAddr: 0x5410, symSize: 0x70 }
+  - { offsetInCU: 0x57B, offset: 0x5797F, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC12tryReconnectyyF', symObjAddr: 0xA90, symBinAddr: 0x5480, symSize: 0x90 }
+  - { offsetInCU: 0x630, offset: 0x57A34, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC16disconnectReaderyyF', symObjAddr: 0xB20, symBinAddr: 0x5510, symSize: 0x90 }
+  - { offsetInCU: 0x682, offset: 0x57A86, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC18validateConnectionSbyF', symObjAddr: 0xBB0, symBinAddr: 0x55A0, symSize: 0x40 }
+  - { offsetInCU: 0x6BF, offset: 0x57AC3, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC9getReader4info5erroryy6KNCore12KNReaderInfoVc_yAF0A5ErrorVctF', symObjAddr: 0xBF0, symBinAddr: 0x55E0, symSize: 0xE0 }
+  - { offsetInCU: 0x74A, offset: 0x57B4E, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC14searchPrintersyySay6KNCore9KNPrinterVGSgF', symObjAddr: 0xCF0, symBinAddr: 0x56E0, symSize: 0xE0 }
+  - { offsetInCU: 0x7FE, offset: 0x57C02, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC14connectPrinter7printer6KNCore0A5ErrorVSgAE9KNPrinterV_tF', symObjAddr: 0xDD0, symBinAddr: 0x57C0, symSize: 0x70 }
+  - { offsetInCU: 0x85B, offset: 0x57C5F, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC22printRecipeByBluetooth4data6KNCore0A5ErrorVSgSay10Foundation4DataVG_tF', symObjAddr: 0xE60, symBinAddr: 0x5850, symSize: 0x70 }
+  - { offsetInCU: 0x8B8, offset: 0x57CBC, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC17printRecipeByWifi4dataySay10Foundation4DataVG_tF', symObjAddr: 0xF80, symBinAddr: 0x5970, symSize: 0x50 }
+  - { offsetInCU: 0x915, offset: 0x57D19, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC11makePayment6amount9reference16orderReferenceId8delegateySS_SSSgAH6KNCore0A8Delegate_ptF', symObjAddr: 0x1070, symBinAddr: 0x5A60, symSize: 0xD0 }
+  - { offsetInCU: 0x9B7, offset: 0x57DBB, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC10makeRefund13transactionId10completionySS_ySSSgctF', symObjAddr: 0x1140, symBinAddr: 0x5B30, symSize: 0x70 }
+  - { offsetInCU: 0xA24, offset: 0x57E28, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC12sendTicketBy13transactionId4type11destination10completionySS_6KNCore15SendPrinterTypeOSSySbctF', symObjAddr: 0x11B0, symBinAddr: 0x5BA0, symSize: 0x90 }
+  - { offsetInCU: 0xAB1, offset: 0x57EB5, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC15getTransactions6offset5limit10completionySi_SiySay6KNCore11KNOperationVGSgctF', symObjAddr: 0x1240, symBinAddr: 0x5C30, symSize: 0x70 }
+  - { offsetInCU: 0xB2E, offset: 0x57F32, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC6setTipyySfF', symObjAddr: 0x12B0, symBinAddr: 0x5CA0, symSize: 0x90 }
+  - { offsetInCU: 0xBB5, offset: 0x57FB9, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC23selectPayInOneExibitionyyF', symObjAddr: 0x13B0, symBinAddr: 0x5DA0, symSize: 0x70 }
+  - { offsetInCU: 0xC2E, offset: 0x58032, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC14startOtaUpdate8delegatey6KNCore08KNUpdateC8Delegate_p_tF', symObjAddr: 0x14A0, symBinAddr: 0x5E90, symSize: 0x70 }
+  - { offsetInCU: 0xCA5, offset: 0x580A9, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC17removeOtaDelegateyyF', symObjAddr: 0x1560, symBinAddr: 0x5F50, symSize: 0x40 }
+  - { offsetInCU: 0xCF5, offset: 0x580F9, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAACfd', symObjAddr: 0x1680, symBinAddr: 0x6070, symSize: 0x30 }
+  - { offsetInCU: 0xD30, offset: 0x58134, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAACfD', symObjAddr: 0x16B0, symBinAddr: 0x60A0, symSize: 0x40 }
+  - { offsetInCU: 0xD74, offset: 0x58178, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0x6B0, symBinAddr: 0x50A0, symSize: 0x30 }
+  - { offsetInCU: 0xD88, offset: 0x5818C, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC13connectReaderyy6KNCore011KNBluetoothC0VFyyYbcfU_TA', symObjAddr: 0x770, symBinAddr: 0x5160, symSize: 0x190 }
+  - { offsetInCU: 0xE61, offset: 0x58265, size: 0x8, addend: 0x0, symName: '_$sIegh_IeyBh_TR', symObjAddr: 0x900, symBinAddr: 0x52F0, symSize: 0x30 }
+  - { offsetInCU: 0xE79, offset: 0x5827D, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x930, symBinAddr: 0x5320, symSize: 0x20 }
+  - { offsetInCU: 0xE8D, offset: 0x58291, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x950, symBinAddr: 0x5340, symSize: 0x10 }
+  - { offsetInCU: 0xEA1, offset: 0x582A5, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x960, symBinAddr: 0x5350, symSize: 0x40 }
+  - { offsetInCU: 0xEB5, offset: 0x582B9, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGMa', symObjAddr: 0x9D0, symBinAddr: 0x53C0, symSize: 0x50 }
+  - { offsetInCU: 0xEDF, offset: 0x582E3, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAAC14checkOtaUpdate04needD0yySbc_tFySbcfU_TA', symObjAddr: 0x1480, symBinAddr: 0x5E70, symSize: 0x20 }
+  - { offsetInCU: 0xF1B, offset: 0x5831F, size: 0x8, addend: 0x0, symName: '_$s9KNPaymentAACMa', symObjAddr: 0x16F0, symBinAddr: 0x60E0, symSize: 0x20 }
+...

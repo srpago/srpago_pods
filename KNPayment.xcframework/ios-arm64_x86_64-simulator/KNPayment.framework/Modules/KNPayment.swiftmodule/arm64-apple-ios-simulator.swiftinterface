@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNPayment
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import KNBluetoothModule
+import KNCore
+@_exported import KNPayment
+import KNPaymentModule
+import KNPrinterModule
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class KNPayment {
+  public init()
+  public func getPaymentsCoreVersion() -> Swift.String
+  public func config(_ config: KNCore.KNConfigurator)
+  public func configSignatureUI(_ viewData: KNCore.KNSignatureViewData)
+  public func login(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
+  public func authenticateToken(_ token: Swift.String)
+  public func configBluetoothReaderState(delegate: any KNCore.KNBluetoothReaderDelegate)
+  public func configPrinter(delegate: any KNCore.KNPrinterDelegate)
+  public func searchDevices(_ devices: [KNCore.KNConnectionReaderType]?)
+  public func stopSearchDevices()
+  public func connectReader(_ reader: KNCore.KNBluetoothReader)
+  public func canReconnect() -> Swift.Bool
+  public func tryReconnect()
+  public func disconnectReader()
+  public func validateConnection() -> Swift.Bool
+  public func getReader(info: @escaping (KNCore.KNReaderInfo) -> Swift.Void, error: @escaping (KNCore.KNPaymentError) -> Swift.Void)
+  public func searchPrinters(_ printers: [KNCore.KNPrinter]?)
+  public func connectPrinter(printer: KNCore.KNPrinter) -> KNCore.KNPaymentError?
+  public func createBluetooth(recipe: KNCore.KNRecipe) -> [Foundation.Data]?
+  public func printRecipeByBluetooth(data: [Foundation.Data]) -> KNCore.KNPaymentError?
+  public func createWifi(recipe: KNCore.KNRecipe) -> [Foundation.Data]?
+  public func printRecipeByWifi(data: [Foundation.Data])
+  public func getTicketFrom(transaction: KNCore.KNPaymentResult, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
+  public func getTicketFrom(operation: KNCore.KNOperation, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
+  public func makePayment(amount: Swift.String, reference: Swift.String?, orderReferenceId: Swift.String? = nil, delegate: any KNCore.KNPaymentDelegate)
+  public func makeRefund(transactionId: Swift.String, completion: @escaping (Swift.String?) -> Swift.Void)
+  public func sendTicketBy(transactionId: Swift.String, type: KNCore.SendPrinterType, destination: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func getTransactions(offset: Swift.Int, limit: Swift.Int, completion: @escaping ([KNCore.KNOperation]?) -> Swift.Void)
+  public func setTip(_ tip: Swift.Float)
+  public func selectMonth(_ month: KNCore.KNPaymentMonth)
+  public func selectPayInOneExibition()
+  public func cancelTransaction()
+  public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
+  public func startOtaUpdate(delegate: any KNCore.KNUpdateOtaDelegate)
+  public func cancelOtaUpdate()
+  public func removeOtaDelegate()
+  public func getUser(fees: @escaping ((KNCore.KNUserFees?) -> Swift.Void))
+  @objc deinit
+}

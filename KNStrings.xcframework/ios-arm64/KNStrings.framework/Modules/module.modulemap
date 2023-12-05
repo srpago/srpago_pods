@@ -1,0 +1,11 @@
+framework module KNStrings {
+  umbrella header "KNStrings.h"
+  export *
+
+  module * { export * }
+}
+
+module KNStrings.Swift {
+  header "KNStrings-Swift.h"
+  requires objc
+}

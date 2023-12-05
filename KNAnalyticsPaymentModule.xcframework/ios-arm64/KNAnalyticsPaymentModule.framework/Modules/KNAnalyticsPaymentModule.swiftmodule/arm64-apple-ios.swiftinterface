@@ -1,0 +1,133 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNAnalyticsPaymentModule
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import KNAnalyticsPaymentModule
+import KNCore
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct KNStoreTransactionResultUseCase {
+  public init(environment: KNCore.KNEnvironmentType = .production)
+  public func invoke(report: KNAnalyticsPaymentModule.KNTransactionReport, result: @escaping (Swift.Bool?) -> Swift.Void)
+}
+public class KNBaseReport : Swift.Encodable {
+  public init()
+  public var email: Swift.String
+  public var sdkVersion: Swift.String
+  public var sdkBuild: Swift.String
+  public var appBundle: Swift.String
+  public var appVersion: Swift.String
+  public var appBuild: Swift.String
+  public var appName: Swift.String
+  public var deviceManufacturer: Swift.String
+  public var deviceModel: Swift.String
+  public var osVersion: Swift.String
+  public var deviceId: Swift.String
+  public var osName: Swift.String
+  public var firmwareName: Swift.String
+  public var firmwareTermVersion: Swift.String
+  public var firmwareOsVersion: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers public class KNTransactionReport : KNAnalyticsPaymentModule.KNBaseReport {
+  public var latitude: Swift.String
+  public var longitude: Swift.String
+  public var amount: Swift.String
+  public var tip: Swift.String
+  public var total: Swift.String
+  public var currency: Swift.String
+  public var commision: Swift.String
+  public var msi: Swift.String
+  public var reference: Swift.String
+  public var transactionTime: Swift.Double?
+  public var paymentType: Swift.String
+  public var orderId: Swift.String
+  public var status: Swift.String
+  public var transactionId: Swift.String?
+  public var serverResponseTime: Swift.Double?
+  public var makePaymentFailReason: Swift.String?
+  public var emvSecondGenerate: Swift.String?
+  public var reversalJustify: Swift.String?
+  public var reversalCase: Swift.String?
+  public var tlv: Swift.String
+  public var cardBrand: Swift.String
+  public var bin: Swift.String
+  public var entryMode: Swift.String
+  public var authenticationMethod: Swift.String
+  public var readerBatteryPercentage: Swift.String
+  public var readerFirmware: Swift.String
+  public var readerHardware: Swift.String
+  public var readerIsCharging: Swift.String
+  public var readerSerialNumber: Swift.String
+  public var readerType: Swift.String
+  public var stackTrace: Swift.String
+  public var isRefund: Swift.Bool
+  public var connectionBandWidth: Swift.String?
+  public var connectionType: Swift.String
+  public var carrier: Swift.String?
+  override public func encode(to encoder: any Swift.Encoder) throws
+  override public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class KNStackTrace {
+  public static let shared: KNAnalyticsPaymentModule.KNStackTrace
+  final public func clearStackTrace()
+  final public func addTrace(_ trace: Swift.String, data: Swift.String? = nil)
+  final public func getStackTrace() -> Swift.String
+  final public func addTraceApi(isSuccess: Swift.Bool, function: Swift.String = #function, errorDetail: Swift.String = "")
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class KNReaderReport : KNAnalyticsPaymentModule.KNBaseReport {
+  public var readerType: Swift.String
+  public var batteryPercentage: Swift.Int
+  public var batteryLevel: Swift.String?
+  public var firmwareVersion: Swift.String
+  public var hardwareVersion: Swift.String
+  public var readerConnected: Swift.String
+  public var uid: Swift.String?
+  public var serialNumber: Swift.String?
+  public var emvKeyProfileID: Swift.String?
+  public var defaultLanguage: Swift.String?
+  public var pinKeyProfileID: Swift.String?
+  public var firmwareID: Swift.String?
+  public var bootloaderVersion: Swift.String?
+  public var terminalSettingVersion: Swift.String?
+  public var vendorID: Swift.String?
+  public var bID: Swift.String?
+  public var macKeyProfileID: Swift.String?
+  public var pinKsn: Swift.String?
+  public var macKsn: Swift.String?
+  public var supportedLanguages: Swift.String?
+  public var deviceSettingVersion: Swift.String?
+  public var readerSdkVersion: Swift.String?
+  public var trackKeyProfileID: Swift.String?
+  public var emvKsn: Swift.String?
+  public var formatID: Swift.String?
+  public var trackKsn: Swift.String?
+  public var productID: Swift.String?
+  public var isSupportedTrack1: Swift.Bool?
+  public var isSupportedTrack2: Swift.Bool?
+  public var isSupportedTrack3: Swift.Bool?
+  public var isSupportedNfc: Swift.Bool?
+  public var isUsbConnected: Swift.Bool?
+  public var isCharging: Swift.Bool?
+  public var connectionTrace: Swift.String?
+  override public func encode(to encoder: any Swift.Encoder) throws
+  override public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class KNConnectionTrace {
+  public static let shared: KNAnalyticsPaymentModule.KNConnectionTrace
+  final public func clearTrace()
+  final public func addTrace(_ trace: Swift.String, data: Swift.String? = nil)
+  final public func getTrace() -> Swift.String
+  @objc deinit
+}
+public struct KNStoreReaderUseCase {
+  public init(environment: KNCore.KNEnvironmentType = .production)
+  public func invoke(report: KNAnalyticsPaymentModule.KNReaderReport, result: @escaping (Swift.Bool?) -> Swift.Void)
+}

@@ -1,0 +1,295 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KNPaymentModule
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreGraphics
+import CoreLocation
+import CoreTelephony
+import Foundation
+import KNAnalyticsPaymentModule
+import KNBluetoothModule
+import KNBusinessModule
+import KNCore
+@_exported import KNPaymentModule
+import KNStrings
+import KNPaymentModule.ReadersPrivate
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension KNPaymentModule.KNPaymentManager : KNPaymentModule.KNBaseReaderDelegate {
+  final public func readerInfoUpdated(_ reader: KNCore.KNReaderInfo)
+  final public func onReaderState(state: KNCore.KNReaderState, trace: Swift.String)
+  final public func onPaymentCurrentState(state: KNCore.KNPaymentState)
+  final public func onPaymentError(error: KNCore.KNPaymentError)
+  final public func requestPan(_ pan: Swift.String, tlv: [Swift.AnyHashable : Any])
+  final public func requestSelectApplication(_ apps: [Swift.String])
+  final public func readerConnected(name: Swift.String, address: Swift.String)
+  final public func sendReaderCardInfo(cardInfo: KNPaymentModule.KNReaderCardInfo)
+  final public func secondError()
+  final public func secondSucess()
+  final public func clearTransaction()
+  final public func onReaderTrace(trace: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers final public class KNBbposReader : KNPaymentModule.KNBaseReader {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension KNPaymentModule.KNBbposReader : KNPaymentModule.BBDeviceControllerDelegate {
+  @objc final public func onBTReturnScanResults(_ devices: [Any])
+  @objc final public func onBTScanStopped()
+  @objc final public func onBTScanTimeout()
+  @objc final public func onBTConnected(_ connectedDevice: ObjectiveC.NSObject)
+  @objc final public func onBTDisconnected()
+  @objc final public func onPowerButtonPressed()
+  @objc final public func onPowerDown()
+  final public func onBTConnectTimeout()
+  @objc final public func onReturnDeviceInfo(_ deviceInfo: [Swift.AnyHashable : Any])
+  @objc final public func onError(errorType: KNPaymentModule.BBDeviceErrorType, errorMessage: Swift.String)
+  @objc final public func onBTRequestPairing()
+  @objc final public func onRequestSetAmount()
+  @objc final public func onRequestTerminalTime()
+  @objc final public func onRequestSelectApplication(_ applicationArray: [Any])
+  @objc final public func onRequestFinalConfirm()
+  @objc final public func onWaitingForCard(checkCardMode: KNPaymentModule.BBDeviceCheckCardMode)
+  @objc final public func onReturnCancelCheckCardResult(_ isSuccess: Swift.Bool)
+  @objc final public func onReturnCheckCardResult(result: KNPaymentModule.BBDeviceCheckCardResult, cardData: [Swift.AnyHashable : Any])
+  @objc final public func onReturnTransactionResult(result: KNPaymentModule.BBDeviceTransactionResult)
+  @objc final public func onRequestOnlineProcess(_ tlv: Swift.String)
+  @objc final public func onRequestPinEntry(pinEntrySource: KNPaymentModule.BBDevicePinEntrySource)
+  @objc final public func onReturnBatchData(_ tlv: Swift.String)
+  @objc final public func onReturnReversalData(_ tlv: Swift.String)
+  @objc final public func onReturnDebugLog(_ data: [Swift.AnyHashable : Any]?)
+}
+extension KNPaymentModule.KNBbposReader : KNPaymentModule.BBDeviceOTAControllerDelegate {
+  @objc final public func onReturnOTAProgress(_ percentage: Swift.Float)
+  @objc final public func onReturnRemoteConfigUpdate(_ result: KNPaymentModule.BBDeviceOTAResult, responseMessage: Swift.String?)
+  @objc final public func onReturnRemoteFirmwareUpdate(_ result: KNPaymentModule.BBDeviceOTAResult, responseMessage: Swift.String?)
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) final public class YPDrawSignatureView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any KNPaymentModule.YPSignatureDelegate)?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var strokeWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var strokeColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @available(*, deprecated, renamed: "backgroundColor")
+  @IBInspectable @_Concurrency.MainActor(unsafe) final public var signatureBackgroundColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public var doesContainSignature: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override final public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) final public func clear()
+  @_Concurrency.MainActor(unsafe) final public func getSignature(scale: CoreFoundation.CGFloat = 1) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) final public func getCroppedSignature(scale: CoreFoundation.CGFloat = 1) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) final public func getPDFSignature() -> Foundation.Data?
+  @objc deinit
+}
+public protocol YPSignatureDelegate : AnyObject {
+  func didStart(_ view: KNPaymentModule.YPDrawSignatureView)
+}
+extension KNPaymentModule.KNPaymentManager {
+  final public func loginUser(user: Swift.String, password: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, KNCore.KNPaymentError>) -> Swift.Void)
+  final public func authenticateToken(_ token: Swift.String)
+  final public func getAccountInfo()
+  final public func makeRefund(transactionId: Swift.String, reversalType: KNCore.ReversalType, completion: @escaping (Swift.String?) -> Swift.Void)
+  final public func getTicketFrom(transaction: KNCore.KNPaymentResult, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
+  final public func getTicketFrom(operation: KNCore.KNOperation, completion: @escaping (Swift.Result<KNCore.KNRecipe, KNCore.KNPaymentError>) -> Swift.Void)
+  final public func getOperations(offset: Swift.Int, limit: Swift.Int, completion: @escaping ([KNCore.KNOperation]?) -> Swift.Void)
+  final public func sendOperation(id: Swift.String, for type: KNCore.SendPrinterType, destination: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+}
+extension Swift.String {
+  public subscript(value: Swift.Int) -> Swift.Character {
+    get
+  }
+  public func toHexEncodedString(uppercase: Swift.Bool = true, prefix: Swift.String = "", separator: Swift.String = "") -> Swift.String
+}
+extension Swift.String {
+  public subscript(value: Foundation.NSRange) -> Swift.Substring {
+    get
+  }
+}
+extension Swift.String {
+  public subscript(value: Swift.CountableClosedRange<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.CountableRange<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.PartialRangeUpTo<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.PartialRangeThrough<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.PartialRangeFrom<Swift.Int>) -> Swift.Substring {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class KNBaseReader : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public func showNativeView()
+}
+public struct KNPaxDeviceInfo {
+  public let fullTlv: Swift.String?
+  public let deviceInfo: KNCore.KNReaderInfo?
+  public let serialNumber: Swift.String?
+}
+final public class KNPaymentManager {
+  final public var reader: KNPaymentModule.KNBaseReader?
+  weak final public var delegate: (any KNCore.KNPaymentDelegate)?
+  weak final public var bluetoothReaderDelegate: (any KNCore.KNBluetoothReaderDelegate)?
+  weak final public var localStorage: (any KNCore.KNPersistanceRepository)?
+  weak final public var otaDelegate: (any KNCore.KNUpdateOtaDelegate)?
+  public init()
+  final public func setupSignatureView(_ signatureViewData: KNCore.KNSignatureViewData)
+  final public func loginAppConfig(_ config: KNCore.KNConfigurator)
+  final public func checkOtaUpdate(needUpdate: @escaping ((Swift.Bool) -> Swift.Void))
+  final public func startOtaUpdate()
+  final public func cancelOTAUpdate()
+  final public func initPayment(amount: Swift.String, reference: Swift.String?, orderReferenceId: Swift.String?)
+  final public func setTip(_ tip: Swift.String)
+  final public func setMonth(month: KNCore.KNPaymentMonth)
+  final public func cancelTransaction()
+  @objc deinit
+}
+public struct KNMsr : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension KNPaymentModule.KNPaymentManager : KNPaymentModule.KNDownloadManagerDelegate {
+  final public func onDownloadProgress(progress: Swift.Int)
+}
+public struct KNPaxSwipeData {
+  public let fullTLV: Swift.String
+  public let track1: Swift.String?
+  public let track2: Swift.String?
+}
+public struct KNReaderCardInfo : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol KNBaseReaderOTADelegate : AnyObject {
+  func updateProgress(percent: Swift.Int)
+  func updateSuccess()
+  func updateError(error: KNCore.KNPaymentError)
+}
+#warning("@Fer: Split this clase into as many as needed, and change his name by KNReaderHelper")
+extension KNPaymentModule.KNPaymentManager {
+  final public func getUser(fees: @escaping ((KNCore.KNUserFees?) -> Swift.Void))
+}
+public protocol KNBaseReaderDelegate : AnyObject {
+  func readerInfoUpdated(_ reader: KNCore.KNReaderInfo)
+  func onReaderState(state: KNCore.KNReaderState, trace: Swift.String)
+  func onPaymentCurrentState(state: KNCore.KNPaymentState)
+  func onPaymentError(error: KNCore.KNPaymentError)
+  func readerConnected(name: Swift.String, address: Swift.String)
+  func sendReaderCardInfo(cardInfo: KNPaymentModule.KNReaderCardInfo)
+  func requestPan(_ pan: Swift.String, tlv: [Swift.AnyHashable : Any])
+  func requestSelectApplication(_ apps: [Swift.String])
+  func secondError()
+  func secondSucess()
+  func clearTransaction()
+  func onReaderTrace(trace: Swift.String)
+}
+public struct KNPaxCard {
+  public let holderName: Swift.String
+  public let cardNumber: Swift.String
+  public let expirationMonth: Swift.String
+  public let expirationYear: Swift.String
+  public let msr1: Swift.String
+  public let msr2: Swift.String
+}
+public struct KNSecondData {
+  public let scriptData: Swift.String?
+  public let success: Swift.Bool
+  public let authCode: Swift.String?
+  public let emv: Swift.String?
+  public let respCode: Swift.String
+  public let error: KNCore.KNPaymentError?
+}
+extension Swift.StringProtocol {
+  public var hexaToDecimal: Swift.Int {
+    get
+  }
+}
+extension KNPaymentModule.KNPaymentManager : KNPaymentModule.KNBaseReaderOTADelegate {
+  final public func updateProgress(percent: Swift.Int)
+  final public func updateSuccess()
+  final public func updateError(error: KNCore.KNPaymentError)
+}
+public struct KNDowloadObject {
+  public let nameVersion: Swift.String
+  public let downloadUrl: Swift.String
+  public let type: KNPaymentModule.KNDowloadObjectType
+}
+public enum KNDowloadObjectType : Swift.String {
+  case firmware
+  case config
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum KNProgressType : Swift.String {
+  case downloading
+  case installing
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct KNCardInfo : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol KNDownloadManagerDelegate : AnyObject {
+  func onDownloadProgress(progress: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class KNDownloadManager : ObjectiveC.NSObject {
+  public static let shared: KNPaymentModule.KNDownloadManager
+  weak public var downloadDelegate: (any KNPaymentModule.KNDownloadManagerDelegate)?
+  public func downloadFiles(downloadObjects: [KNPaymentModule.KNDowloadObject]?, downloadSuccesfull: @escaping (Swift.Bool) -> Swift.Void)
+  public func deleteFiles()
+  public func cancelDownloads()
+  @objc deinit
+}
+extension KNPaymentModule.KNDownloadManager : Foundation.URLSessionDownloadDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+}
+extension KNPaymentModule.KNPaymentManager {
+  final public func connectReader(bluetooth: KNCore.KNBluetoothReader)
+  final public func disconnectReader()
+  final public func stopPairing()
+  final public func getReaderInfo(readerInfo: @escaping (KNCore.KNReaderInfo) -> Swift.Void, error: @escaping (KNCore.KNPaymentError) -> Swift.Void)
+  final public func validateConnection() -> Swift.Bool
+  final public func isRecognizedDevice() -> Swift.Bool
+  final public func getUUIDDevice() -> Swift.String?
+  final public func reconnectReader()
+}
+extension KNPaymentModule.KNPaymentManager : KNBluetoothModule.KNBluetoothDelegate {
+  final public func bluetooth(state: KNCore.KNBluetoothState)
+  final public func onListReadersFound(devices: [KNCore.KNBluetoothReader])
+}
+extension KNPaymentModule.KNDowloadObjectType : Swift.Equatable {}
+extension KNPaymentModule.KNDowloadObjectType : Swift.Hashable {}
+extension KNPaymentModule.KNDowloadObjectType : Swift.RawRepresentable {}
+extension KNPaymentModule.KNProgressType : Swift.Equatable {}
+extension KNPaymentModule.KNProgressType : Swift.Hashable {}
+extension KNPaymentModule.KNProgressType : Swift.RawRepresentable {}

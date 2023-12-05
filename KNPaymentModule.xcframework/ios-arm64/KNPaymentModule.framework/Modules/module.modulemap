@@ -1,0 +1,39 @@
+framework module KNPaymentModule {
+    umbrella header "KNPaymentModule.h"
+
+    export *
+    module * { export * }
+
+    module ReadersPrivate {
+        header "RSA.h"
+        header "NSData+Encryption.h"
+        header "BTDeviceFinder.h"
+        header "BBDeviceController.h"
+        header "BBDeviceOTAController.h"
+        header "MastercardSound.h"
+        
+        header "BBDeviceVASMerchantConfig.h"
+        header "BBDeviceCAPK.h"
+        
+        export *
+    }
+    
+    module ReadersSimulatorPrivate {
+        header "RSA.h"
+        header "NSData+Encryption.h"
+        header "BTDeviceFinder.h"
+        header "BBDeviceController.h"
+        header "BBDeviceOTAController.h"
+        header "MastercardSound.h"
+        
+        header "BBDeviceVASMerchantConfig.h"
+        header "BBDeviceCAPK.h"
+        
+        export *
+    }
+}
+
+module KNPaymentModule.Swift {
+  header "KNPaymentModule-Swift.h"
+  requires objc
+}
