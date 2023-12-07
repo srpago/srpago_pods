@@ -27292,33 +27292,19 @@
         "usr": "s:10Foundation4DataV",
         "mangledName": "$s10Foundation4DataV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
         "declAttributes": [
-          "Frozen"
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
         ],
         "isExternal": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -27711,24 +27697,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -27751,6 +27738,27 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
           },
           {
             "kind": "Conformance",
@@ -28342,6 +28350,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -28364,10 +28379,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "VectorArithmetic",
-            "printedName": "VectorArithmetic",
-            "usr": "s:7SwiftUI16VectorArithmeticP",
-            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       }
@@ -28376,2135 +28406,2156 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Extensions\/String+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Extensions\/String+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 275,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNOperation.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNOperation.swift",
       "kind": "StringLiteral",
       "offset": 1591,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNOperation.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNOperation.swift",
       "kind": "StringLiteral",
       "offset": 1025,
       "length": 15,
       "value": "\"KNCore.KNMovementTotal\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 15,
       "value": "\"Batería baja\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 35,
       "value": "\"No hay actualizaciones pendientes\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 33,
       "value": "\"Error en la descarga de archivo\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 25,
       "value": "\"Error de configuración\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 24,
       "value": "\"Error de comunicación\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 452,
       "length": 28,
       "value": "\"Error en la actualización\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 15,
       "value": "\"Batería baja\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 35,
       "value": "\"No hay actualizaciones pendientes\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 33,
       "value": "\"Error en la descarga de archivo\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 25,
       "value": "\"Error de configuración\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 24,
       "value": "\"Error de comunicación\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNOtaErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 452,
       "length": 28,
       "value": "\"Error en la actualización\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 5,
       "value": "\"dev\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 9,
       "value": "\"sandbox\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 15,
       "value": "\"certification\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 6,
       "value": "\"fime\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNEnvironmentType.swift",
       "kind": "StringLiteral",
       "offset": 589,
       "length": 9,
       "value": "\"staging\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 316,
       "length": 6,
       "value": "\"MAST\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 6,
       "value": "\"VISA\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 6,
       "value": "\"AMEX\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 6,
       "value": "\"CRNT\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 316,
       "length": 6,
       "value": "\"MAST\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 6,
       "value": "\"VISA\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 6,
       "value": "\"AMEX\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 6,
       "value": "\"CRNT\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNBrandType.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 56,
       "value": "\"Esta tarjeta tiene chip, insertála de manera correcta\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 32,
       "value": "\"No se detectó ninguna tarjeta\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 64,
       "value": "\"No se detectó el chip de la tarjeta, ingrésala correctamente\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 46,
       "value": "\"No se pudo leer la tarjeta, intenta de nuevo\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 18,
       "value": "\"Tarjeta invalida\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 24,
       "value": "\"Transacción cancelada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 34,
       "value": "\"Tarjeta declinada, NIP bloqueado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 680,
       "length": 43,
       "value": "\"Tarjeta declinada, PinByPass no soportado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 19,
       "value": "\"Tarjeta bloqueada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 23,
       "value": "\"Aplicación bloqueada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 850,
       "length": 82,
       "value": "\"Transacción interrumpida, se ha retirado la tarjeta antes de finalizar el cobro\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 103,
       "value": "\"Hubo un error con el lector, si el comportamiento persiste, favor de contactar a atención a clientes\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1088,
       "length": 47,
       "value": "\"No se pudo leer el chip, tarjeta no soportada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1161,
       "length": 42,
       "value": "\"Tarjeta declinada, no se ingresó el NIP\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 22,
       "value": "\"Tarjeta no soportada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1272,
       "length": 19,
       "value": "\"Tarjeta declinada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 52,
       "value": "\"Se agotó el tiempo de espera, vuelve a intentarlo\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1386,
       "length": 116,
       "value": "\"Uno de tus métodos de pago se encuentra bloqueado. Comunícate con tu banco para que te brinden más información\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1526,
       "length": 31,
       "value": "\"Límite de intentos excedidos\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1589,
       "length": 27,
       "value": "\"Error al realizar el pago\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1647,
       "length": 60,
       "value": "\"No se pudo conectar al lector, intenta cargar la batería.\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 56,
       "value": "\"Esta tarjeta tiene chip, insertála de manera correcta\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 32,
       "value": "\"No se detectó ninguna tarjeta\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 64,
       "value": "\"No se detectó el chip de la tarjeta, ingrésala correctamente\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 46,
       "value": "\"No se pudo leer la tarjeta, intenta de nuevo\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 18,
       "value": "\"Tarjeta invalida\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 24,
       "value": "\"Transacción cancelada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 34,
       "value": "\"Tarjeta declinada, NIP bloqueado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 680,
       "length": 43,
       "value": "\"Tarjeta declinada, PinByPass no soportado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 19,
       "value": "\"Tarjeta bloqueada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 23,
       "value": "\"Aplicación bloqueada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 850,
       "length": 82,
       "value": "\"Transacción interrumpida, se ha retirado la tarjeta antes de finalizar el cobro\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 103,
       "value": "\"Hubo un error con el lector, si el comportamiento persiste, favor de contactar a atención a clientes\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1088,
       "length": 47,
       "value": "\"No se pudo leer el chip, tarjeta no soportada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1161,
       "length": 42,
       "value": "\"Tarjeta declinada, no se ingresó el NIP\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 22,
       "value": "\"Tarjeta no soportada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1272,
       "length": 19,
       "value": "\"Tarjeta declinada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 52,
       "value": "\"Se agotó el tiempo de espera, vuelve a intentarlo\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1386,
       "length": 116,
       "value": "\"Uno de tus métodos de pago se encuentra bloqueado. Comunícate con tu banco para que te brinden más información\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1526,
       "length": 31,
       "value": "\"Límite de intentos excedidos\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1589,
       "length": 27,
       "value": "\"Error al realizar el pago\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 1647,
       "length": 60,
       "value": "\"No se pudo conectar al lector, intenta cargar la batería.\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Extensions\/Data+Extension.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Extensions\/Data+Extension.swift",
       "kind": "Array",
       "offset": 261,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 32,
       "value": "\"https:\/\/dev-api.srpago.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 546,
       "length": 36,
       "value": "\"https:\/\/sandbox-api.srpago.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 33,
       "value": "\"https:\/\/cert-api.srpago.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 702,
       "length": 33,
       "value": "\"https:\/\/fime-api.srpago.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 780,
       "length": 28,
       "value": "\"https:\/\/api.srpago.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 850,
       "length": 32,
       "value": "\"https:\/\/stg-api.srpago.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 1193,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 1739,
       "length": 20,
       "value": "\"AuthorizationToken\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "Dictionary",
       "offset": 1797,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 1941,
       "length": 20,
       "value": "\"AuthorizationToken\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 1963,
       "length": 21,
       "value": "\"Bearer \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "StringLiteral",
       "offset": 1983,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNUrlManager.swift",
       "kind": "Dictionary",
       "offset": 2011,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNHeaderResponse.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNHeaderResponse.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 43,
       "value": "\"Inténtalo de nuevo y selecciona Vincular\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 60,
       "value": "\"No se pudo conectar al lector, intenta cargar la batería.\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 68,
       "value": "\"Verifica que tu terminal esté encendida y con la batería cargada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 76,
       "value": "\"Inténtalo de nuevo y asegúrate de apretar el botón verde de tu terminal\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 43,
       "value": "\"Inténtalo de nuevo y selecciona Vincular\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 60,
       "value": "\"No se pudo conectar al lector, intenta cargar la batería.\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 68,
       "value": "\"Verifica que tu terminal esté encendida y con la batería cargada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNReaderConnectionErrorDesc.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 76,
       "value": "\"Inténtalo de nuevo y asegúrate de apretar el botón verde de tu terminal\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
       "kind": "IntegerLiteral",
-      "offset": 602,
+      "offset": 616,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "kind": "FloatLiteral",
+      "offset": 623,
+      "length": 4,
+      "value": "1.16"
+    },
+    {
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
       "kind": "IntegerLiteral",
-      "offset": 715,
+      "offset": 639,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 691,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
       "kind": "IntegerLiteral",
-      "offset": 737,
+      "offset": 713,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 737,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
       "kind": "IntegerLiteral",
-      "offset": 791,
+      "offset": 767,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentMonth.swift",
       "kind": "FloatLiteral",
-      "offset": 823,
+      "offset": 799,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 20,
       "value": "\"Lector desconocido\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
       "kind": "StringLiteral",
       "offset": 508,
       "length": 16,
       "value": "\"Lector apagado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
       "kind": "StringLiteral",
       "offset": 564,
       "length": 21,
       "value": "\"Lector desconectado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 18,
       "value": "\"Lector conectado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
       "kind": "StringLiteral",
       "offset": 675,
       "length": 26,
       "value": "\"Conectando con el lector\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 42,
       "value": "\"Conectando por primera vez con el lector\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNReaderState.swift",
       "kind": "StringLiteral",
       "offset": 923,
       "length": 19,
       "value": "\"Error al vincular\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 178,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "BooleanLiteral",
       "offset": 460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 693,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 731,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 768,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 807,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 847,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 912,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 1020,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 1060,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1110,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1196,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1245,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "BooleanLiteral",
       "offset": 1290,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1342,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1394,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1451,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1493,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "Array",
       "offset": 1544,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "BooleanLiteral",
       "offset": 1587,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1636,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1712,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1730,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1753,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1971,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 2038,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 2327,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 2479,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 2532,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 2641,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 2711,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 3025,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 3075,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 3149,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 3258,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "FloatLiteral",
       "offset": 3338,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 3493,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 3524,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
       "kind": "StringLiteral",
       "offset": 1130,
       "length": 10,
       "value": "\"HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
       "kind": "StringLiteral",
       "offset": 1480,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
       "kind": "StringLiteral",
       "offset": 3113,
       "length": 21,
       "value": "\"America\/Mexico_City\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
       "kind": "StringLiteral",
       "offset": 3262,
       "length": 7,
       "value": "\"en_US\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
       "kind": "StringLiteral",
       "offset": 3447,
       "length": 21,
       "value": "\"America\/Mexico_City\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
       "kind": "StringLiteral",
       "offset": 3524,
       "length": 7,
       "value": "\"en_US\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Utils\/KNDateHelper.swift",
       "kind": "StringLiteral",
       "offset": 3671,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
       "kind": "IntegerLiteral",
       "offset": 1408,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
       "kind": "IntegerLiteral",
       "offset": 1591,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
       "kind": "IntegerLiteral",
       "offset": 1814,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
       "kind": "IntegerLiteral",
       "offset": 2489,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/ViewModel\/KNSignatureViewData.swift",
       "kind": "IntegerLiteral",
       "offset": 3185,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1195,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1661,
       "length": 19,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1679,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNMakePaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 1729,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 23,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
       "kind": "StringLiteral",
       "offset": 728,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 13,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentError.swift",
       "kind": "StringLiteral",
       "offset": 790,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "BooleanLiteral",
       "offset": 372,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "StringLiteral",
       "offset": 989,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "StringLiteral",
       "offset": 1019,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "StringLiteral",
       "offset": 1168,
       "length": 19,
       "value": "\"BlueTooth Printer\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "StringLiteral",
       "offset": 1222,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "StringLiteral",
       "offset": 1264,
       "length": 38,
       "value": "\"BEF8D6C9-9C21-4C9E-B632-BD58C1009F9F\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "StringLiteral",
       "offset": 1335,
       "length": 38,
       "value": "\"E7810A71-73AE-499D-8C15-FAA9AEF0C3F2\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPrinter.swift",
       "kind": "BooleanLiteral",
       "offset": 1406,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 56,
       "value": "\"El monto mínimo para realizar un pago es de $1.00 MXN\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 64,
       "value": "\"La referencia no debe tener una longitud mayor a 20 caracteres\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 39,
       "value": "\"Ha ocurrido un error de comunicación\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 39,
       "value": "\"La propina puede ser máximo del 30 %\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 108,
       "value": "\"No se pudo obtener la promoción de meses sin intereses, desea pagar de contado o cancelar esta operación\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 671,
       "length": 20,
       "value": "\"Pago no autorizado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 37,
       "value": "\"El lector no se encuentra conectado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 24,
       "value": "\"Transacción cancelada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 42,
       "value": "\"Permisos de localización no autorizados\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 918,
       "length": 26,
       "value": "\"Sin conexión a internet\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 978,
       "length": 126,
       "value": "\"Ocurrió un error en la transacción. Favor de revisar el historial de movimientos para asegurar que el cargo no se realizó\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 56,
       "value": "\"El monto mínimo para realizar un pago es de $1.00 MXN\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 64,
       "value": "\"La referencia no debe tener una longitud mayor a 20 caracteres\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 39,
       "value": "\"Ha ocurrido un error de comunicación\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 39,
       "value": "\"La propina puede ser máximo del 30 %\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 108,
       "value": "\"No se pudo obtener la promoción de meses sin intereses, desea pagar de contado o cancelar esta operación\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 671,
       "length": 20,
       "value": "\"Pago no autorizado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 37,
       "value": "\"El lector no se encuentra conectado\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 24,
       "value": "\"Transacción cancelada\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 42,
       "value": "\"Permisos de localización no autorizados\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 918,
       "length": 26,
       "value": "\"Sin conexión a internet\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/ErrorDescriptions\/KNPaymentErrorDescription.swift",
       "kind": "StringLiteral",
       "offset": 978,
       "length": 126,
       "value": "\"Ocurrió un error en la transacción. Favor de revisar el historial de movimientos para asegurar que el cargo no se realizó\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNNumericBase.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 10,
       "value": "\"HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 24,
       "value": "\"yyyy-MM-dd'T'HH:mm:ssz\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 18,
       "value": "\"MM-dd-yyyy HH:mm\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 343,
       "length": 16,
       "value": "\"yyyyMMddHHmmss\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 14,
       "value": "\"yyMMddHHmmss\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 10,
       "value": "\"HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 24,
       "value": "\"yyyy-MM-dd'T'HH:mm:ssz\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 18,
       "value": "\"MM-dd-yyyy HH:mm\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 343,
       "length": 16,
       "value": "\"yyyyMMddHHmmss\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNDateFormat.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 14,
       "value": "\"yyMMddHHmmss\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Extensions\/Double+Extension.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Extensions\/Double+Extension.swift",
       "kind": "FloatLiteral",
       "offset": 167,
       "length": 4,
       "value": "0.16"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Extensions\/Double+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 18,
       "value": "\"ReaderIdentifier\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 12,
       "value": "\"ReaderName\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 20,
       "value": "\"CurrentEnvironment\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 13,
       "value": "\"CurrentUser\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 21,
       "value": "\"CurrentUserPassword\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 18,
       "value": "\"ReaderIdentifier\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 12,
       "value": "\"ReaderName\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 20,
       "value": "\"CurrentEnvironment\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 13,
       "value": "\"CurrentUser\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/LocalPersistanceCatalog.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 21,
       "value": "\"CurrentUserPassword\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 5,
       "value": "\"WPC\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 17,
       "value": "\"bbpos_wisepad_q\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
       "kind": "StringLiteral",
       "offset": 777,
       "length": 14,
       "value": "\"PIN_PAD_MINI\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNConnectionReaderType.swift",
       "kind": "IntegerLiteral",
       "offset": 955,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 228,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 19,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 9,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 23,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 375,
       "length": 14,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 19,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 7,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 8,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 23,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 22,
       "value": "\"READER_NOT_CONNECTED\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 14,
       "value": "\"READER_ERROR\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 691,
       "length": 16,
       "value": "\"INVALID_AMOUNT\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 750,
       "length": 22,
       "value": "\"TRANSACTION_CANCELED\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 808,
       "length": 15,
       "value": "\"SERVICE_ERROR\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 856,
       "length": 12,
       "value": "\"TIPS_ERROR\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 915,
       "length": 26,
       "value": "\"UNAUTHORIZED_PERMISSIONS\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 979,
       "length": 17,
       "value": "\"ERROR_BLUETOOTH\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 1039,
       "length": 24,
       "value": "\"INVALID_PAYMENT_METHOD\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 1094,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 18,
       "value": "\"UPDATE_OTA_ERROR\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "StringLiteral",
       "offset": 1200,
       "length": 27,
       "value": "\"INTERNET_CONNECTION_ERROR\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 228,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 19,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 9,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 23,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 375,
       "length": 14,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 19,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 7,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 8,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 23,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 228,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 19,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 9,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 23,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 375,
       "length": 14,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 19,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 7,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 8,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Model\/KNPaymentErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 23,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 13,
       "value": "\"contactless\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 5,
       "value": "\"nip\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 11,
       "value": "\"signature\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 15,
       "value": "\"pin_signature\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 13,
       "value": "\"contactless\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 5,
       "value": "\"nip\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 11,
       "value": "\"signature\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNCore\/KNCore\/Enums\/KNAuthMethod.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 15,

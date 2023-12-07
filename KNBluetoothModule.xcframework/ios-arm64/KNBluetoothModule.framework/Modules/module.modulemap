@@ -1,7 +1,7 @@
 framework module KNBluetoothModule {
   umbrella header "KNBluetoothModule.h"
-
   export *
+
   module * { export * }
 }
 

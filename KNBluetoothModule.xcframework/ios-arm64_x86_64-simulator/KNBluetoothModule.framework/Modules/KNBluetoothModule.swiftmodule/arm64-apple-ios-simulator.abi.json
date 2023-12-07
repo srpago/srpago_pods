@@ -754,126 +754,126 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "Array",
       "offset": 404,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "Array",
       "offset": 464,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 871,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 979,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 1058,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "Array",
       "offset": 2201,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "Array",
       "offset": 2232,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNReaderConnectionBluetoothHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 2379,
       "length": 2,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNBaseConnectionBluetooth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNBaseConnectionBluetooth.swift",
       "kind": "BooleanLiteral",
       "offset": 850,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNBaseConnectionBluetooth.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNBaseConnectionBluetooth.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 25,
       "value": "\"KNBluetoothModule.KNBaseConnectionBluetooth\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
       "kind": "Array",
       "offset": 401,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
       "kind": "Array",
       "offset": 453,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 2240,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 3289,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 34,
       "value": "\"KNBluetoothModule.KNPrinterConnectionBluetoothHelper\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 5067,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterConnectionBluetoothHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 5138,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBluetoothModule\/KNBluetoothModule\/Bluetooth\/KNPrinterManager.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 16,

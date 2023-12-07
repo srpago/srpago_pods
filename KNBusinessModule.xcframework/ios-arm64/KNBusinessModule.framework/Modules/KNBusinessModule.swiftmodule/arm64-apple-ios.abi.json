@@ -3774,6 +3774,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBusinessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "KNAccountInfoUseCase",
         "printedName": "KNAccountInfoUseCase",
@@ -16413,6 +16423,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KNBusinessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "KNThreadDispatcher",
         "printedName": "KNThreadDispatcher",
@@ -17556,1407 +17576,1407 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNMakePaymentDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNMakePaymentDomain.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 12,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNMakePaymentDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNMakePaymentDomain.swift",
       "kind": "StringLiteral",
       "offset": 1041,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNMakePaymentDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNMakePaymentDomain.swift",
       "kind": "StringLiteral",
       "offset": 1200,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 29,
       "value": "\"com.srpago.KNBusinessModule\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 508,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 16,
       "value": "\"KNNetworkError\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 616,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "BooleanLiteral",
       "offset": 284,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "BooleanLiteral",
       "offset": 345,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "Dictionary",
       "offset": 723,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 743,
       "length": 14,
       "value": "\"X-User-Agent\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 34,
       "value": "\"⛅️ \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 6,
       "value": "\" ⛅️\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 4298,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 4338,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5015,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5021,
       "length": 3,
       "value": "499"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5163,
       "length": 3,
       "value": "501"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5169,
       "length": 3,
       "value": "599"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5302,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5537,
       "length": 15,
       "value": "\"x-app-request\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5618,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6122,
       "length": 51,
       "value": "\"PrettyJson: \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6169,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6172,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6440,
       "length": 64,
       "value": "\"could not find key \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6466,
       "length": 2,
       "value": "\" in JSON: \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6503,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6694,
       "length": 66,
       "value": "\"could not find type \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6722,
       "length": 2,
       "value": "\" in JSON: \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6759,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6949,
       "length": 69,
       "value": "\"type mismatch for type \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 6980,
       "length": 2,
       "value": "\" in JSON: \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 7017,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 7198,
       "length": 65,
       "value": "\"data found to be corrupted in JSON: \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 7262,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 7414,
       "length": 97,
       "value": "\"Error in read(from:ofType:) domain= \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 7466,
       "length": 1,
       "value": "\", description= \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/KNNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 7510,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNMakeReversalUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNMakeReversalUseCase.swift",
       "kind": "StringLiteral",
       "offset": 929,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNMakeReversalUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNMakeReversalUseCase.swift",
       "kind": "IntegerLiteral",
       "offset": 991,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 17,
       "value": "\"operations\/send\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 7,
       "value": "\"email\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
       "kind": "StringLiteral",
       "offset": 1503,
       "length": 17,
       "value": "\"operations\/send\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
       "kind": "StringLiteral",
       "offset": 1624,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository+Operations.swift",
       "kind": "StringLiteral",
       "offset": 1643,
       "length": 7,
       "value": "\"phone\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
       "kind": "StringLiteral",
       "offset": 1957,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
       "kind": "StringLiteral",
       "offset": 2163,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
       "kind": "StringLiteral",
       "offset": 2549,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPaymentSettingsDomain.swift",
       "kind": "BooleanLiteral",
       "offset": 2717,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 18,
       "value": "\"TransactionStart\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 15,
       "value": "\"DeviceStartup\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
       "offset": 334,
       "length": 18,
       "value": "\"DeviceStartupEnd\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 21,
       "value": "\"TransactionResponse\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
       "offset": 465,
       "length": 24,
       "value": "\"TransactionResponseEnd\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkConstants.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 19,
       "value": "\"TransactionFinish\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 16,
       "value": "\"www.google.com\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 13,
       "value": "\"NO INTERNET\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1057,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1252,
       "length": 6,
       "value": "\"GPRS\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1324,
       "length": 6,
       "value": "\"EDGE\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1398,
       "length": 4,
       "value": "\"2G\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1467,
       "length": 4,
       "value": "\"4G\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1535,
       "length": 4,
       "value": "\"5G\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1580,
       "length": 4,
       "value": "\"3G\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1754,
       "length": 6,
       "value": "\"GPRS\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1826,
       "length": 6,
       "value": "\"EDGE\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1900,
       "length": 4,
       "value": "\"2G\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 1969,
       "length": 4,
       "value": "\"4G\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 2014,
       "length": 4,
       "value": "\"3G\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 2118,
       "length": 10,
       "value": "\"CELLULAR\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 2191,
       "length": 6,
       "value": "\"WIFI\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/ConnectionType.swift",
       "kind": "StringLiteral",
       "offset": 2248,
       "length": 13,
       "value": "\"NO INTERNET\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationSMSUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationSMSUseCase.swift",
       "kind": "BooleanLiteral",
       "offset": 609,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationSMSUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationSMSUseCase.swift",
       "kind": "BooleanLiteral",
       "offset": 750,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAccountInfoDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAccountInfoDomain.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 10,
       "value": "\"operator\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAccountInfoDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAccountInfoDomain.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 10,
       "value": "\"operator\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1190,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1290,
       "length": 15,
       "value": "\"No Connection\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1543,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1585,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1630,
       "length": 15,
       "value": "\"No Connection\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 2001,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 2472,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 2486,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3124,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3196,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3884,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 4009,
       "length": 25,
       "value": "\"sdk.srpago.reachability\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "IntegerLiteral",
       "offset": 6373,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 7380,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 7973,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 8045,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 8859,
       "length": 19,
       "value": "\"unavailable flags\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 11889,
       "length": 3,
       "value": "\"W\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 11895,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 11940,
       "length": 3,
       "value": "\"R\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 11946,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12000,
       "length": 3,
       "value": "\"c\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12006,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12061,
       "length": 3,
       "value": "\"t\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12067,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12123,
       "length": 3,
       "value": "\"i\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12129,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12184,
       "length": 3,
       "value": "\"C\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12190,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12244,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12250,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12298,
       "length": 3,
       "value": "\"l\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12304,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12346,
       "length": 3,
       "value": "\"d\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12352,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12372,
       "length": 75,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12381,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12389,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12398,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12406,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12414,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12422,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12430,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12438,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 12446,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNMakePaymentUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNMakePaymentUseCase.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationEmailUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationEmailUseCase.swift",
       "kind": "BooleanLiteral",
       "offset": 615,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationEmailUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNSendOperationEmailUseCase.swift",
       "kind": "BooleanLiteral",
       "offset": 756,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNOperationsDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNOperationsDomain.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 3,
       "value": "\"t\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNOperationsDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNOperationsDomain.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 3,
       "value": "\"t\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
       "offset": 1197,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
       "offset": 1197,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
       "offset": 1197,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
       "offset": 1454,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNAuthDomain.swift",
       "kind": "IntegerLiteral",
       "offset": 1710,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPartialPromotionDomain.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentRepository\/Model\/KNPartialPromotionDomain.swift",
       "kind": "FloatLiteral",
-      "offset": 1633,
+      "offset": 1624,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Model\/KNNetworkModel.swift",
       "kind": "IntegerLiteral",
       "offset": 1034,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 24,
       "value": "\"auth\/login\/application\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 669,
       "length": 20,
       "value": "\"application_bundle\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 1559,
       "length": 15,
       "value": "\"auth\/login-my\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 1610,
       "length": 10,
       "value": "\"username\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 1628,
       "length": 10,
       "value": "\"password\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 2448,
       "length": 14,
       "value": "\"account\/info\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 3327,
       "length": 54,
       "value": "\"partial-payment\/promotion\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 3370,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 3380,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 4231,
       "length": 26,
       "value": "\"account\/payment\/settings\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 5183,
       "length": 64,
       "value": "\"ota\/device-configurations\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 5246,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 6039,
       "length": 14,
       "value": "\"payment\/card\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "IntegerLiteral",
       "offset": 6275,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 6867,
       "length": 17,
       "value": "\"PaymentResponse\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 7877,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 8497,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 8582,
       "length": 9,
       "value": "\"\/system\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 8643,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 8710,
       "length": 60,
       "value": "\"operations\/apply-reversal\/\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 8753,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 8769,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "IntegerLiteral",
       "offset": 8976,
       "length": 5,
       "value": "30000"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 9826,
       "length": 44,
       "value": "\"operations?limit=\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 9852,
       "length": 1,
       "value": "\"&offset=\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 9869,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 10674,
       "length": 19,
       "value": "\"payment\/signature\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPaymentDataRepository\/KNPaymentDataRepository.swift",
       "kind": "BooleanLiteral",
       "offset": 11220,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 8,
       "value": "\"recipe\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 589,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 8,
       "value": "\"config\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterDataRepository\/KNPrinterDataRepository.swift",
       "kind": "IntegerLiteral",
       "offset": 615,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
       "kind": "StringLiteral",
       "offset": 2084,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
       "kind": "StringLiteral",
       "offset": 2379,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
       "kind": "StringLiteral",
       "offset": 2648,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNPrinterRepository\/Model\/KNRecipeResponse.swift",
       "kind": "StringLiteral",
       "offset": 1145,
       "length": 14,
       "value": "\"KNBusinessModule.ReceiptAddress\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 10,
       "value": "\"APP_NAME\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 597,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "FloatLiteral",
       "offset": 709,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 35,
       "value": "\"{\"agent\":\"%@ %@\/%@ %@ %.01f\"}\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/KNNetworkManager\/Utils\/KNNetworkUtils.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNUploadSignUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNUploadSignUseCase.swift",
       "kind": "BooleanLiteral",
       "offset": 525,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNUploadSignUseCase.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNBusinessModule\/KNBusinessModule\/UseCases\/KNUploadSignUseCase.swift",
       "kind": "BooleanLiteral",
       "offset": 665,
       "length": 5,

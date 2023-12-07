@@ -1,7 +1,7 @@
 framework module KNBusinessModule {
   umbrella header "KNBusinessModule.h"
-
   export *
+
   module * { export * }
 }
 

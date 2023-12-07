@@ -161,154 +161,154 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Core\/Buttons.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Core\/Buttons.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 12,
       "value": "\"btn.accept\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 8,
       "value": "\"Errors\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 7,
       "value": "\"Login\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 14,
       "value": "\"Placeholders\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 14,
       "value": "\"Verification\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 9,
       "value": "\"Buttons\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 8,
       "value": "\"Labels\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 8,
       "value": "\"Alerts\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 8,
       "value": "\"Titles\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 8,
       "value": "\"Errors\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 7,
       "value": "\"Login\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 14,
       "value": "\"Placeholders\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 14,
       "value": "\"Verification\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 9,
       "value": "\"Buttons\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 8,
       "value": "\"Labels\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 8,
       "value": "\"Alerts\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 8,
       "value": "\"Titles\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 22,
       "value": "\"com.srpago.KNStrings\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Extension\/Strings+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fercho\/Development\/SrPago\/payments-core-module-ios\/KNStrings\/KNStrings\/Core\/Alerts.swift",
+      "filePath": "\/Users\/software\/Desktop\/ios\/payments-core-module-ios\/KNStrings\/KNStrings\/Core\/Alerts.swift",
       "kind": "StringLiteral",
       "offset": 148,
       "length": 14,

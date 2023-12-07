@@ -1,7 +1,7 @@
 framework module KNStrings {
   umbrella header "KNStrings.h"
-
   export *
+
   module * { export * }
 }
 

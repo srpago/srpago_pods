@@ -1,7 +1,7 @@
 framework module KNPayment {
   umbrella header "KNPayment.h"
-
   export *
+
   module * { export * }
 }
 

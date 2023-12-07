@@ -1,7 +1,7 @@
 framework module KNCore {
   umbrella header "KNCore.h"
-
   export *
+
   module * { export * }
 }
 

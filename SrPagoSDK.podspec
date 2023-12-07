@@ -1,7 +1,7 @@
 Pod::Spec.new do |sdk|
 
   sdk.name         = "SrPagoSDK"
-  sdk.version      = "2.16.0"
+  sdk.version      = "2.17.0"
   sdk.summary      = "Payments SDK for Konfio and Sr.Pago"
   sdk.description  = <<-DESC
   Payment SDK with support for SrPago Readers:
@@ -24,7 +24,8 @@ Pod::Spec.new do |sdk|
     'Luis Fernando Bustos Ramírez' => 'luis.bustos@konfio.mx',
     'Martín González Escamilla' => 'martin.gonzalez@konfio.mx',
     'Jorge Mejía Mulhia' => 'jorge.mejia@konfio.mx',
-    'Luis Genaro Arvizu Vega' => 'luis.arvizu@konfio.mx'
+    'Luis Genaro Arvizu Vega' => 'luis.arvizu@konfio.mx',
+    'Jesús Perea Villegas' => 'jesus.perea@konfio.mx'
    }
 
   sdk.ios.deployment_target = '11.0'

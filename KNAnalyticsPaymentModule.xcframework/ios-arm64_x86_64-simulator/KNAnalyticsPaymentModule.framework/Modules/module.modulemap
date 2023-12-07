@@ -1,7 +1,7 @@
 framework module KNAnalyticsPaymentModule {
   umbrella header "KNAnalyticsPaymentModule.h"
-
   export *
+
   module * { export * }
 }
 
